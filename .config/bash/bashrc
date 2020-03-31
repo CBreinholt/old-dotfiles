@@ -1,0 +1,27 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+PS1='[\u@\h \W]\$ '
+
+# Use neovim for vim if present.
+command -v nvim > /dev/null && alias vim="nvim"
+#alias vim="vim -u $HOME/.config/vim/vimrc"
+
+# Colorize commands when possible.
+alias ls="ls -h --color=auto"
+alias grep="grep --color=auto"
+alias diff="diff --color=auto"
+
+# Verbosity and settings that you pretty much just always are going to want.
+alias cp="cp -iv"
+alias mv="mv -iv"
+alias rm="rm -iv"
+alias mkdir="mkdir -pv"
+alias lsl="ls -l"
+alias lsa="ls -lAX"
+
+# For managing the dotfiles.git repo of all config files in $HOME
+#alias dotfiles='/usr/bin/git --git-dir=$HOME/dev/config/dotfiles.git/ --work-tree=$HOME/.config/'

@@ -1,0 +1,500 @@
+ls
+lsa
+edit.sh
+ln -sv ~/dev/archive/scripts/sh/edit.sh edit2
+lsa
+cd ~
+edit2
+lsa
+edit2
+edit
+rm bin/edit
+mv bin/edit2 bin/edit
+clear
+edit
+lsa
+ln -sv ~/dev/scripts/sh/edit.sh test
+lsa
+test
+test
+exit
+lsa
+./test
+mv test bin/test
+tets
+test
+exit
+test
+test
+cd bin
+lsa
+test
+exit
+edit
+test
+exit
+test
+./test
+exec test
+lsa
+./bin/test
+test
+lsa bin
+rm bin/test
+lsa
+lsa
+lsa bin
+rm bin/edit
+edit
+test
+exit
+edit
+exit
+test
+test
+lsa
+lsa bin
+clear
+lsa
+vim .config/bash/bashrc
+vim .profile
+lsa
+mkdir .local/bin
+lsa
+rm bin
+rmdir bin
+clear
+lsa
+lsl 
+lsl doc
+vim /etc/xdg/user-dirs.defaults
+sudo vim /etc/xdg/user-dirs.defaults
+clear
+lsa
+pkill Xorg
+startx
+exit
+update_localbin
+update_localbin
+update_localbin
+update_localbin
+update_localbin
+update_localbin
+update_localbin
+update_localbin
+update_localbin
+update_localbin
+update_localbin
+update_localbin
+update_localbin
+update_localbin
+update_localbin
+update_localbin
+update_localbin
+update_localbin
+lsa
+lsa .local/bin
+update_localbin
+update_localbin
+exit
+lsa ~/.local/bin
+lsa ~/.local/bin
+edit
+exit
+lsa
+exit
+exit
+lsa
+exit
+lsa ~/dev/scripts/sh
+lsa ~/dev/
+cd dev
+clear
+lsa
+ls config
+ls config
+lsa
+cd config
+lsa
+clear
+lsa
+mkdir .config
+lsa
+mv * .config/
+lsa
+lsa
+clear
+lsa
+clear
+pwd lsa
+pwd
+lsa
+lsa
+cd ~
+lsa
+rm .config
+clear
+cd ~/dev/
+lsa
+mv config dotfiles
+lsa
+cd dotfiles
+lsa
+ln -sv .config ~/config
+lsa
+cd ~
+lsa
+mv config .config
+lsa
+cd .config
+clear
+lsa
+cd dev
+lsa
+lsa dotfiles
+clear
+cd ~
+ln ~/dev/dotfiles/.config ~/.config
+ln -sv ~/dev/dotfiles/.config ~/.config
+lsa
+rm .config
+ln -sv ~/dev/dotfiles/.config ~/.config
+rm -rf .config22
+clear
+lsa
+lsa .config22
+rm .profile .xinitrc
+ln -sv ~/dev/dotfiles/.profile ~/
+lsa
+ln -sv ~/dev/dotfiles/.xinitrc ~/
+lsa
+mv .local .local2
+lsa
+lsa
+ln ~/dev/dotfiles/.local ~/
+ln -sv ~/dev/dotfiles/.local ~/
+clear
+lsa
+rm .local2
+rm .local2 -rf
+clear
+lsa
+sudo rm .local2 -rf
+clear
+lsa
+pkill Xorg
+clear
+lsa
+startx
+exit
+clear
+lsa
+reboot
+lsa
+lsa
+exit
+lsa
+$XDG_USER
+$XDG_USER_CONFIG_HOME
+$XDG_CONFIG_HOME
+$XDG_HOME
+echo $XDG_RUNTIME_DIR
+echo $XDG_CONFIG_HOME
+exit
+man cp
+exit
+lsa
+cp .cache dev/dotfiles/ -r
+cp .cache dev/dotfiles/ -a --quiet
+cp .cache dev/dotfiles/ -a
+cp .cache dev/dotfiles/ -aI
+cp .cache dev/dotfiles/ -ai
+cp .cache dev/dotfiles/ -a
+cp .cache dev/dotfiles/ -ar
+clear
+lsa
+mv .cache .cache2
+lsa
+ln -sv ~/dev/dotfiles/.cache ~/
+lsa
+clear
+pkill Xorg
+clear
+lsa
+lsa
+cp -r .cache/lsa .pki
+clear
+lsa
+lsa .pki
+lsa .pki/nssdb
+lsa ~/dev/dotfiles/
+clear
+find nss /
+find / -name nss
+find / -path nss
+clear
+lsa
+echo $XDG_VTNR
+echo $XDG_HOME
+echo $XDG_HOME_DIR
+echo $XDG_CONFIG_HOME
+echo $XDG_DATA_HOME
+echo $XDG_CONFIG
+echo $XDG_CONFIG_DIR
+echo $XDG_CONFIG_HOME
+echo $CONFIG
+echo $CONFIG_HOME
+echo $CONFIG_DIR
+lsa /lib
+lsa /usr/lib
+lsa /usr/lib/sysctl.d
+lsa /usr/lib/systemd/
+lsa /usr/lib/systemd/ | grep nss
+lsa /usr/lib/systemd | grep nss
+lsa /usr/lib | grep nss
+sudo vim /usr/lib/libnss_files.so
+sudo vim /usr/lib/libnss_files2.31.so
+sudo vim /usr/lib/libnss_files-2.31.so
+sudo vim /usr/lib/libnsssysinit.so
+sudo find nsssysinit
+sudo find / -name nsssysinit
+sudo find / -name nsssys
+sudo find / nsssys
+sudo find / | grep sys
+sudo find / | grep sysinit
+clear
+sudo find / | grep sysinit
+sudo find / | grep nss
+vim /etc/ssl/openssl.cnf
+vim /etc/
+vim /etc/nsswitch.conf
+vim /etc/nscd.conf
+vim /etc/xdg/nvim/sysinit.vim
+vim /etc/xdg/autostart/a
+vim /etc/xdg/autostart/autorandr.desktop
+vim /etc/xdg/autostart/at-spi-dbus-bus.desktop
+vim /etc/xdg/user-dirs.conf
+vim /etc/xdg/user-dirs.defaults
+vim .config/user-dirs.dirs
+clear
+clear
+xdg-user-dir
+xdg-user-dirs-update
+lsa
+$XDG_CONFIG_HOM
+vim .config/user-dirs.dirs
+sudo xdg-user-dirs-update
+lsa
+clear
+lsa
+rm .local2 -rf
+lsa
+rm -rf .config22
+clear
+lsa
+startx
+exit
+$XDG_DATA_HOME
+echo $XDG_DATA_HOME
+exit
+env
+exit
+echo $XDG_DATA_DIRS
+echo $XDG_DATA_DIR
+echo $XDG_CONFIG_DIRS
+echo $DIRSTACK
+echo $DIRSTACK/
+echo $USER
+lsa /usr/local
+lsa /usr/local/bin/
+lsa /usr/local/etc/
+lsa /usr/local/games
+lsa /usr/local/include
+lsa /usr/local/lib/
+lsa /usr/local/man
+lsa /usr/local/sbin
+lsa /usr/local/share
+lsa /usr/local/src
+clear
+cd ..
+lsa
+chmod
+chmod --help
+groups
+chmod 700 -R --preserve-root ~/chris
+chmod 700 -R --preserve-root /home/chris
+lsa
+cd ~
+lsa
+clear
+lsa
+rm .pki
+rm -r .pki
+clear
+lsa
+rm -rf .pki
+rm -rf .pki
+lsa
+sudo rm -rf .pki
+clear
+lsa
+lsa .cache
+lsa .cache/
+vim ~/.profile
+pkill Xorg
+$XDG_CONFIG_HOME
+echo $XDG_CONFIG_HOME
+echo $XDG_DATA_DIRS
+sudo echo $XDG_DATA_HOME
+sudo echo $XDG_DATA_DIRS
+systemctl status
+systemctl status | grep xdg
+systemctl | grep xdg
+systemctl
+env
+lsa /run/
+lsa /run/initctl
+lsa /run/initctl/
+lsa /run/user/1000/
+lsa /run/user/1000/dbus-1/services/
+lsa /run/user/1000/dbus-1/services
+lsa /run/user/1000/dbus-1/
+lsa /run/user/1000/inaccessible
+sudo lsa /run/user/1000/inaccessible
+sudo ls /run/user/1000/inaccessible
+sudo ls /run/user/1000/inaccessible -laXH
+sudo lsa /run/user/1000/inaccessible
+sudo ls -laXH /run/user/1000/inaccessible
+sudo ls -laXH /run/user/1000/inaccessible/dir
+sudo ls -laXH /run/user/1000/inaccessible/blk
+sudo ls -laXH /run/user/1000/pulse
+sudo ls -laXH /run/user/1000/gnupg/
+sudo ls -laXH /run/user/1000/systemd/notify 
+sudo ls -laXH /run/user/1000/systemd/notify vim /etc/xattr.conf
+sudo vim /etc/xattr.conf
+sudo vim /etc/xdg/user-dirs.conf
+sudo vim /etc/xdg/user-dirs.defaults
+lsa
+clear
+lsa
+lsa .config
+clear
+lsa
+lsa .config
+lsa .config/
+vim .config/user-dirs.dirs
+echo $XDG_SESSION_CLASS
+echo $XDG_SEAT
+echo $XDG_SESSION_TYPE
+echo $XDG_SESSION_ID 
+echo $XDG_RUNTIME_DIR
+echo $XDG_VTNR
+clear
+lsa
+rm .cache2 -r
+rm .cache2 -rI
+clear
+lsa
+startx
+exit
+lsa
+rm .pki -rf
+lsa
+exit
+lsa
+$XDG_CACHE_HOME
+echo $XDG_CACHE_HOME
+lsa /
+lsa /sys
+lsa /usr
+lsa /usr/src
+lsa /usr/share
+vim /lib/libnss3.so
+vim /lib/systemd/import-pubring.gpg
+vim /lib/systemd/user/dirmngr.service
+vim /lib/systemd/user/dirmngr.socket
+vim /lib/systemd/user/paths.target
+vim /lib/systemd/user/xdg-user-dirs-update.service
+vim /lib/sysctl.d/50-default.conf 
+vim /lib/sysctl.d/10-arch.conf
+vim /lib/sysctl.d/50-coredump.conf
+vim /lib/sysctl.d/50-pid-max.conf
+vim /lib/chromium/chromium
+vim /lib/chromium/resources.pak
+find nss
+find / | grep nss
+sudo find / | grep nss
+sudo find / | grep nsssys
+clear
+sudo find / | grep nsssys
+sudo find / | grep nss
+vim /usr/lib/systemd/system/nss-lookup.target
+vim /usr/lib/systemd/system/nss-user-lookup.target
+vim /etc/ssl/openssl.cnf
+sudo find / | grep nss
+sudo find / | grep nss | less
+vim /usr/bin/nss-config
+vim /usr/bin/chromium
+vim /usr/bin/systool
+vim /usr/bin/sysctl
+vim /usr/include/nss.h
+echo $IFS
+echo $PPID
+vim /usr/include/nss/nss.h
+clear
+lsa
+top
+htop
+pkill urxvt
+vim /usr/share/mime/application/pkix-pkipath.xml
+vim /usr/share/mime/globs
+vim /usr/share/mime/globs2
+vim /usr/include/nss/pk11pub.h
+vim /usr/share/mime/application/pkix-pkipath.xml
+vim /usr/include/gnutls//pkcs11.h
+vim /usr/include/gnutls/x509.h
+vim /usr/include/nss/nssutil.h
+lsa
+lsa .pki
+lsa .pki/nssdb/pkcs11.txt
+less .pki/nssdb/pkcs11.txt
+clear
+mv .pki .local/share/pki
+lsa
+lsa
+exit
+find ~/.pki -type f | xargs cat
+find ~/.pki -type f | xargs cat | grep slot
+find ~/.pki -type f | xargs cat
+find ~/.pki -type f -exec cat {} \;
+find ~/.pki -type f -exec cat {} | grep "slot" \;
+find ~/.pki -type f -exec cat {} + grep "slot" \;
+find ~/.pki -type f -exec 'cat {} | grep "slot"' \;
+find ~/.pki -type f -exec cat {} \; | grep slot
+find ~/.pki -type f -exec cat {} \; + grep {} \;
+find ~/.pki -type f -exec grep {} \;
+find ~/.pki -type f -exec grep {} 'slot' \;
+find ~/.pki -type f -exec grep 'slot' {} \;
+find ~/.pki -type f -exec grep 'pki' {} \;
+clear
+find / -type f -exec grep 'pki' {} \;
+find ~/.pki -type f -exec grep 'slot' {} && echo {} \;
+find ~/.pki -type f -exec "grep 'slot' {} && echo {}" \;
+find ~/.pki -type f -exec "grep 'slot' {} && echo '{}'" \;
+find ~/.pki -type f -exec "grep 'slot' {} && echo {}" \;
+find ~/.pki -type f -exec "grep 'slot' {} && echo" \;
+find ~/.pki -type f -exec grep 'slot' {} \;
+find ~/.pki -type f -exec grep 'slot' {} + echo {} \;
+find ~/.pki -type f -exec grep 'slot' {} + echo \;
+find ~/.pki -type f -exec grep -l 'slot' {} \;
+find / -type f -exec grep -l 'slot' {} \;
+find / -type f -exec grep -l '^slot' {} \;
+find / -type f -exec grep -l '*.pki' {} \;
+sudo find / -type f -exec grep -l '*.pki' {} \;
+sudo find / -type f -exec grep -l '\.pki' {} \;
+sudo find / -type f -exec grep -l 'NSS_USER_PATH' {} \;
+clear
+pkill Xorg
+lsa
+startx
+exit
