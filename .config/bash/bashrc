@@ -12,6 +12,8 @@ command -v nvim > /dev/null && alias vim="nvim"
 
 # Colorize commands when possible.
 alias ls="ls -h --color=auto"
+alias lsl="ls -hl"
+alias lsa="ls -hlAX"
 alias grep="grep --color=auto"
 alias diff="diff --color=auto"
 
@@ -20,8 +22,6 @@ alias cp="cp -iv"
 alias mv="mv -iv"
 alias rm="rm -iv"
 alias mkdir="mkdir -pv"
-alias lsl="ls -l"
-alias lsa="ls -lAX"
 
 # For managing the dotfiles.git repo of all config files in $HOME
-#alias dotfiles='/usr/bin/git --git-dir=$HOME/dev/config/dotfiles.git/ --work-tree=$HOME/.config/'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/dev/dotfiles/.git --work-tree=$HOME/ $@'
