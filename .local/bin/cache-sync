@@ -1,0 +1,100 @@
+#!/bin/sh
+
+# Exit upon any errors, invalid files, or unidentified vars
+set -efu
+_state=1
+_dir=$HOME
+
+# Get the parameters to the function
+while test $# -gt 0; do
+	case "$1" in
+        -d)
+            shift
+            if test $# -gt 0; then
+                _dir=$1
+            else
+                echo -e "No dir specified"
+                exit 1
+            fi
+            shift
+            ;;
+        --directory*)
+            _dir=$(echo -e $1 | sed -e 's/^[^=]*=//g')
+            shift
+            ;;
+		--start)
+            _state=0
+            shift
+            ;;
+        --stop)
+            _state=2
+            shift
+            ;;
+        *)
+            break
+            ;;
+    esac
+done
+
+# Set the variables from parameters
+_link="$(echo -e "$_dir" | grep -Eo '[^/]+/?$' | sed 's/\///g')"
+_cache="/dev/shm/cache/$USER/$_link"
+_backup="$_dir.backup"
+
+# Write the tmpfs cache to disk, over write the backup folder
+function _sync() {
+    echo -e " :: syncing cache"
+    if [ ! -r $_cache ]; then
+        mkdir -pm 0700 $_cache
+        echo -e "\t==> cache initialized at $_cache"
+    fi
+    if [ "$(readlink $_dir)" != "$_cache" ]; then
+        mv $_dir $_backup
+        ln -s $_cache $_dir
+        echo -e "\t==> coppied $_dir to $_cache"
+    fi
+    if [ -e $_dir/.unpacked ]; then
+    	rsync -a --delete --exclude .unpacked $_dir/ $_backup/
+        echo -e "\t==> wrote $_cache to $_backup"
+    else
+    	rsync -a $_backup/ $_dir/
+    	touch $_dir/.unpacked
+        echo -e "\t==> wrote $_backup to $_cache"
+    fi
+}
+
+# Create the directories in tmpfs if they dont exist
+case "$_state" in
+    0) # Mount cache
+        if [ -z "$(findmnt /dev/shm/cache)" ]; then
+            echo -e " :: mounting cache to /dev/shm/cache"
+        	mount /dev/shm/cache
+            #_sync
+        else
+            echo -e " * cache is already mounted"
+            _sync
+        fi
+        ;;
+    1) # Sync cache
+        if [ -n "$(findmnt /dev/shm/cache)" ]; then
+            _sync
+        else
+            echo -e "* cashe not mounted! run with --start"
+        fi
+        ;;
+    2) # Unmount cache
+        if [ -n "$(findmnt /dev/shm/cache)" ]; then
+            _sync
+            echo -e " :: moving everything to original location"
+            rm -rf $_dir
+            mv $_backup $_dir
+        	umount /dev/shm/cache
+            echo -e " :: unmounting /dev/shm/cache"
+        else
+            echo -e " * already unmounted!"
+        fi
+        ;;
+    *)
+        break
+        ;;
+esac
