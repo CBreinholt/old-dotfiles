@@ -32,6 +32,9 @@ call plug#end()
 	set number relativenumber
 	set noshowmode
 	set nocompatible
+	set tabstop=4
+	set shiftwidth=4
+	set expandtab
 	filetype plugin on
 	syntax on
 
@@ -55,9 +58,9 @@ call plug#end()
 	autocmd BufWritePre * %s/\s\+$//e
 
 " Turns off highlighting on the bits of code that are changed, so the line that is changed is highlighted but the actual text that has changed stands out on the line and is readable.
-"if &diff
-	"highlight! link DiffText MatchParen
-"endif
+if &diff
+	highlight! link DiffText MatchParen
+endif
 
 " Colorscheme options:
 	"let g:airline_theme='nord'
