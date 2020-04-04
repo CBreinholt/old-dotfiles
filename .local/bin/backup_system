@@ -1,0 +1,17 @@
+#! /bin/bash
+
+if [ $1 ]; then dest="$(echo $1 | sed 's/[^a-zA-z]*$/\//')"; else dest=$PWD; fi
+if [ $2 ]; then	name="$2"; else name="backup_image"; fi
+
+dir="$dest$name"
+echo "==>  Creating $dir"
+mkdir -p $dir/{root,boot,home}
+
+echo "==>  Saving / to $dir/root"
+rsync -aHAXS --info=progress2 --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/swapfile","/boot/*","/home/*","/lost+found"} / $dir/root
+
+echo "==>  Saving / to $dir/boot"
+rsync -aHAXS --info=progress2 /boot $dir/boot
+
+echo "==>  Saving / to $dir/home"
+rsync -aHAXS --info=progress2 /home $dir/home

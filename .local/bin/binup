@@ -1,7 +1,0 @@
-#!/bin/bash
-
-src="$HOME/dev/scripts/sh/*"
-for file in $src; do
-	dest="$HOME/.local/bin/$(echo $file | sed 's/.*\///g' | sed 's/\.sh//g')"
-	cp $file $dest
-done

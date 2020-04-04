@@ -1,6 +1,7 @@
 #!/bin/sh
 
 src="$HOME/dev/bin/*"
+rm $HOME/.local/bin/*
 for file in $src; do
 	dest="$HOME/.local/bin/$(echo $file | sed 's/.*\///g' | sed 's/\.sh//g')"
 	cp $file $dest

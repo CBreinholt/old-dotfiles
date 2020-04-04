@@ -15,7 +15,7 @@ case "$1" in
 		dir="$HOME/.config/Xresources";;
 	"xinit")
 		dir="$HOME/.xinitrc";;
-	"prof")
+	"profile")
 		dir="$HOME/.profile";;
 	*)
 		exit;;

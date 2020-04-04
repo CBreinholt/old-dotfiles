@@ -2,8 +2,8 @@
 
 # Exit upon any errors, invalid files, or unidentified vars
 set -efu
-_state=1
-_dir=$HOME
+_state=0
+_dir="${XDG_CACHE_HOME:-$HOME/.cache}"
 
 # Get the parameters to the function
 while test $# -gt 0; do
@@ -22,12 +22,11 @@ while test $# -gt 0; do
             _dir=$(echo -e $1 | sed -e 's/^[^=]*=//g')
             shift
             ;;
-		--start)
-            _state=0
-            shift
-            ;;
-        --stop)
-            _state=2
+        --stop*)
+            _state=1
+            if [ "$(echo -e $1 | sed -e 's/^[^=]*=//g')" == "now" ]; then
+                _state=2
+            fi
             shift
             ;;
         *)
@@ -36,65 +35,50 @@ while test $# -gt 0; do
     esac
 done
 
-# Set the variables from parameters
-_link="$(echo -e "$_dir" | grep -Eo '[^/]+/?$' | sed 's/\///g')"
-_cache="/dev/shm/cache/$USER/$_link"
-_backup="$_dir.backup"
-
-# Write the tmpfs cache to disk, over write the backup folder
+# Move the cache to tmpfs, keep there until _stop is called
 function _sync() {
-    echo -e " :: syncing cache"
+    echo -e " :: syncing cache data..."
     if [ ! -r $_cache ]; then
-        mkdir -pm 0700 $_cache
-        echo -e "\t==> cache initialized at $_cache"
+        mkdir -p -m 0700 $_cache
+        echo -e "\t==> created $_cache"
     fi
     if [ "$(readlink $_dir)" != "$_cache" ]; then
-        mv $_dir $_backup
+        mv $_dir $_copy
         ln -s $_cache $_dir
-        echo -e "\t==> coppied $_dir to $_cache"
+        echo -e "\t==> created backup at $_copy"
     fi
     if [ -e $_dir/.unpacked ]; then
-    	rsync -a --delete --exclude .unpacked $_dir/ $_backup/
-        echo -e "\t==> wrote $_cache to $_backup"
+        rsync -a --delete --exclude .unpacked $_dir/ $_copy/
+        echo -e "\t==> wrote $_cache to $_copy"
     else
-    	rsync -a $_backup/ $_dir/
-    	touch $_dir/.unpacked
-        echo -e "\t==> wrote $_backup to $_cache"
+        rsync -a $_copy/ $_dir/
+        touch $_dir/.unpacked
+        echo -e "\t==> wrote $_copy to $_cache"
     fi
 }
 
-# Create the directories in tmpfs if they dont exist
+# Return the cache to disk and delete from tmpfs
+function _stop {
+    echo -e " :: moving cache back to disk..."
+    if [ "$(readlink $_dir)" == "$_cache" ]; then
+        rm -rf $_dir
+        echo -e "\t==> removed link to $_cache"
+        mv $_copy $_dir
+        echo -e "\t==> restored cache to original state"
+        rm -rf $_cache
+        echo -e "\t==> restored tmpfs to original state"
+    else
+        echo -e "* dir not stored at $_cache"
+    fi
+}
+
+# Run program
+_link="$(echo -e "$_dir" | grep -Eo '[^/]+/?$' | sed 's/\///g')"
+_cache="/dev/shm/$USER/$_link"
+_copy="$_dir.backup"
 case "$_state" in
-    0) # Mount cache
-        if [ -z "$(findmnt /dev/shm/cache)" ]; then
-            echo -e " :: mounting cache to /dev/shm/cache"
-        	mount /dev/shm/cache
-            #_sync
-        else
-            echo -e " * cache is already mounted"
-            _sync
-        fi
-        ;;
-    1) # Sync cache
-        if [ -n "$(findmnt /dev/shm/cache)" ]; then
-            _sync
-        else
-            echo -e "* cashe not mounted! run with --start"
-        fi
-        ;;
-    2) # Unmount cache
-        if [ -n "$(findmnt /dev/shm/cache)" ]; then
-            _sync
-            echo -e " :: moving everything to original location"
-            rm -rf $_dir
-            mv $_backup $_dir
-        	umount /dev/shm/cache
-            echo -e " :: unmounting /dev/shm/cache"
-        else
-            echo -e " * already unmounted!"
-        fi
-        ;;
-    *)
-        break
-        ;;
+    0) _sync ;;
+    1) _sync; _stop ;;
+    2) _stop ;;
+    *) break ;;
 esac
