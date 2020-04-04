@@ -10,15 +10,15 @@ endif
 " Plugin list:
 call plug#begin('~/.config/nvim/plugged')
 Plug 'arcticicestudio/nord-vim'
-"Plug 'preservim/nerdtree'
-"Plug 'preservim/nerdcommenter'
-"Plug 'tpope/vim-surround'
+Plug 'preservim/nerdtree'
+Plug 'preservim/nerdcommenter'
+Plug 'tpope/vim-surround'
 "Plug 'vim-airline/vim-airline'
-"Plug 'PotatoesMaster/i3-vim-syntax'
-"Plug 'jiangmiao/auto-pairs'
-"Plug 'junegunn/goyo.vim'
+Plug 'PotatoesMaster/i3-vim-syntax'
+Plug 'jiangmiao/auto-pairs'
+Plug 'junegunn/goyo.vim'
 "Plug 'junegunn/limelight.vim'
-"Plug 'itchyny/lightline.vim'
+Plug 'itchyny/lightline.vim'
 call plug#end()
 
 " Some basics:
@@ -45,9 +45,9 @@ call plug#end()
 	autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " Goyo plugin makes text more readable when writing prose:
-	"map <leader>f :Goyo \| set linebreak<CR>
-	"let g:limelight_conceal_ctermfg = 240
-	"let g:limelight_default_coefficient = 0.7
+	map <leader>f :Goyo \| set linebreak<CR>
+	let g:limelight_conceal_ctermfg = 240
+	let g:limelight_default_coefficient = 0.7
 	"autocmd! User GoyoEnter Limelight
 	"autocmd! User GoyoLeave Limelight!
 
@@ -63,9 +63,7 @@ if &diff
 endif
 
 " Colorscheme options:
-	"let g:airline_theme='nord'
-	"let g:airline_powerline_fonts = 1
-	"let g:airline_symbols_ascii = 1
+    let g:lightline = { 'colorscheme': 'nord' }
 	let g:nord_uniform_status_lines = 1
 	let g:nord_cursor_line_number_background = 1
 	let g:nord_bold = 1

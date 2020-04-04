@@ -25,3 +25,12 @@ alias mkdir="mkdir -pv"
 
 # For managing the dotfiles.git repo of all config files in $HOME
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dev/dotfiles/.git --work-tree=$HOME/ $@'
+
+# Testing color
+#if [ "$TERM" = "rxvt-unicode-256color" ]; then
+#    _SEDCMD='s/.*\*color\([0-9]\{1,\}\).*#\([0-9a-fA-F]\{6\}\).*/\1 \2/p'
+#    for i in $(sed -n "$_SEDCMD" $XRESOURCES| awk '$1 < 16 {printf "\\e]P%X%s", $1, $2}'); do
+#        echo -en "$i"
+#    done
+#    clear
+#fi
