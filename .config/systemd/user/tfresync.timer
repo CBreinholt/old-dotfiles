@@ -1,0 +1,6 @@
+[Unit]
+Description=Timer for tfsync 1Hour
+PartOf=tfresync.service tfsync.service
+
+[Timer]
+OnUnitActiveSec=1h

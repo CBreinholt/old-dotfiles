@@ -1,0 +1,13 @@
+[Unit]
+Description=TMPFS-Sync
+Wants=local-fs.target
+Wants=tfresync.service
+
+[Install]
+WantedBy=default.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/home/chris/.local/bin/tfsync sync
+ExecStop=/home/chris/.local/bin/tfsync unsync

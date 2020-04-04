@@ -1,0 +1,12 @@
+[Unit]
+Description=Timed resync
+After=tfsync.service
+Wants=tfresync.timer
+PartOf=tfsync.service
+
+[Service]
+Type=oneshot
+ExecStart=/home/chris/.local/bin/tfsync resync
+
+[Install]
+WantedBy=default.target
