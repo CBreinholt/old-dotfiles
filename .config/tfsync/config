@@ -1,0 +1,7 @@
+#
+# tfsync.conf
+#
+#WHATTOSYNC=("/home/chris/dev/working/tfsync/test")
+WHATTOSYNC=("${XDG_CACHE_HOME:-"$HOME/.cache"}")
+VOLATILE="/tmp"
+BACKUP_LIMIT=2
