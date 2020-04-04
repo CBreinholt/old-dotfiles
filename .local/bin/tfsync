@@ -1,0 +1,443 @@
+#!/bin/sh
+#
+# tfsync.sh
+
+BLD="\e[01m"
+RED="\e[01;31m"
+GRN="\e[01;32m"
+BLU="\e[01;34m"
+NRM="\e[00m"
+
+PN="tfsync"
+VERS="1.0"
+TFS_CONF="${XDG_CONFIG_HOME:-"/$HOME/.config"}/tfsync/config"
+TFS_DAEM="${XDG_RUNTIME_HOME:-"/run/user/$UID"}/tfsync"
+CONFIG_FILE=${CONFIG_FILE:-"$TFS_CONF"}
+DAEMON_FILE=${DAEMON_FILE:-"$TFS_DAEM"}
+
+# Setup check TFS_CONF
+if [[ -f "$TFS_CONF" ]]; then
+    if [[ ! -f "$DAEMON_FILE" ]]; then
+        # do nothing if tfs is currently running, otherwise
+        # make sure only comments and variables/arrays are defined to prevent
+        # problems
+        if egrep -qv "^$|^\s*['\")#]|^[^ ]*=[^;]*" "$CONFIG_FILE"; then
+            # found text that isn't a blank line, comment, or variable present so exit
+            echo -e " ${RED}ERROR:${NRM}${BLD} Syntax error(s) detected in ${BLU}$CONFIG_FILE${NRM}"
+            echo -e "${NRM}${BLD}Line number: offending comment${NRM}"
+            egrep -vn "^$|^\s*['\")#]|^[^ ]*=[^;]*" "$CONFIG_FILE"
+            exit 1
+        fi
+    fi
+    . "$CONFIG_FILE"
+else
+    echo -e " ${BLD}Cannot find $CONFIG_FILE so bailing.${NRM}"
+    echo -e " ${BLD}Reinstall package to use tmp-file-sync.${NRM}"
+    exit 1
+fi
+
+# if tfs is active, source the snapshot of TFS_CONF preferentially
+if [[ -f "${DAEMON_FILE}.conf" ]]; then
+    unset WHATTOSYNC USE_BACKUPS VOLATILE
+    CONFIG_FILE="${DAEMON_FILE}.conf"
+    . "$CONFIG_FILE"
+fi
+
+# define default number of crash-recovery snapshots to save if the user did not
+# and check that it is an integer if user did define it
+if [[ -z "$BACKUP_LIMIT" ]]; then
+    BACKUP_LIMIT=5
+else
+    if [[ "$BACKUP_LIMIT" =~ ^[0-9]+$ ]]; then
+        # correctly setup
+        /bin/true
+    else
+        echo -e " ${RED}ERROR:${NRM}${BLD} Bad value for BACKUP_LIMIT detected!${NRM}"
+        exit 1
+    fi
+fi
+
+# saving current extended pattern matching setting
+previous_extglob_setting=$(shopt -p extglob)
+
+# ensuring pattern matching is enabled
+shopt -s extglob
+
+# removing any trailing slash(es) from the list of directories to sync
+WHATTOSYNC=("${WHATTOSYNC[@]%%+(/)}")
+VOLATILE="${VOLATILE%%+(/)}"
+
+# setting everything back
+$previous_extglob_setting
+unset previous_extglob_setting
+
+[[ -z "$VOLATILE" ]] && VOLATILE=/tmp
+
+# bail if $VOLATILE isn't tmpfs
+df -T "$VOLATILE" | grep -m 1 -q tmpfs || { echo "$VOLATILE is not tmpsfs so running tfs is pointless. Aborting." >&2; exit 1; }
+
+# since the default for this one is a yes, need to force a null value to yes
+[[ -z "${USE_BACKUPS,,}" ]] && USE_BACKUPS="yes"
+
+case "${USE_BACKUPS,,}" in
+    y|yes|true|t|on|1|enabled|enable|use)
+        CRRE=1
+        ;;
+    *)
+        CRRE=0
+        ;;
+esac
+
+# get distro name
+# first try os-release
+if [[ -f /etc/os-release ]]; then
+    source /etc/os-release
+    if [[ -n "$PRETTY_NAME" ]]; then
+        distro="$PRETTY_NAME"
+    elif [[ -n "$NAME" ]]; then
+        distro="$NAME"
+    fi
+else
+    # if not os-release try issue
+    if [[ -n $(sed 's| \\.*$||' /etc/issue | head -n 1) ]]; then
+        distro="$(sed 's| \\.*$||' /etc/issue | head -n 1)"
+    else
+        # fuck it
+        distro=
+    fi
+fi
+
+header() {
+    echo
+    [[ -z "$distro" ]] && echo -e "  ${BLD}${BLU}tmp-file-sync v${VERS}${NRM}" || echo -e "  ${BLD}${BLU}tmp-file-sync v${VERS}${NRM}${BLD}${BLU} on $distro${NRM}"
+    echo
+}
+
+dep_check() {
+    # Function is used to insure all dependencies are installed
+    command -v rsync >/dev/null 2>&1 || { echo "I require rsync but it's not installed. Aborting." >&2; exit 1; }
+    command -v awk >/dev/null 2>&1 || { echo "I require awk but it's not installed. Aborting." >&2; exit 1; }
+}
+
+config_check() {
+    # nothing to do if these are empty
+    if [[ -z "${WHATTOSYNC[0]}" ]]; then
+        echo -e " ${BLD}Must define at least one directory in ${NRM}${BLU}$CONFIG_FILE${NRM}"
+        exit 1
+    fi
+
+    # make sure the user defined real dirs
+    for DIR in "${WHATTOSYNC[@]}"; do
+        if [[ ! -d "$DIR" ]]; then
+            [[ ${DIR##*/} == .* ]] && BACKUP="${DIR%/*}/${DIR##*/}-backup_tfs" || BACKUP="${DIR%/*}/.${DIR##*/}-backup_tfs"
+            if [[ ! -d "$BACKUP" ]]; then
+                echo -e "${BLD}Bad entry in your WHATTOSYNC array detected:${NRM}"
+                echo -e " ${BLD}${RED}$DIR${NRM}"
+                echo -e "${BLD}Edit ${BLU}$CONFIG_FILE${NRM}${BLD} correcting the mistake and try again.${NRM}"
+                exit 1
+            fi
+        fi
+    done
+}
+
+root_check() {
+    # we call this to ensure that only the root user is calling the
+    # function why care? both the sync and unsync functions require
+    # root access to $DAEMON_FILE Running as unprivileged user will
+    # fuck up the sync process resulting in unhappy users
+
+    if [[ $EUID -ne 0 ]]; then
+        echo -e " ${BLD}This function must be called as root!${NRM}" 1>&2
+        exit 1
+    fi
+}
+
+ungraceful_state_check() {
+    # if the machine was ungracefully shutdown then the backup will be
+    # on the filesystem and the link to tmpfs will be on the filesystem
+    # but the contents will be empty we need to simply remove the link
+    # and rotate the backup into place
+    local DIR USER BACKUP TMP
+    for DIR in "${WHATTOSYNC[@]}"; do
+        # did user define a real dir
+        # this is the hdd bound backup in case of power failure
+        [[ ${DIR##*/} == .* ]] && BACKUP="${DIR%/*}/${DIR##*/}-backup_tfs" || BACKUP="${DIR%/*}/.${DIR##*/}-backup_tfs"
+        if [[ -d "$BACKUP" ]]; then
+            USER=$(stat -c %U "$BACKUP")
+        else
+            USER=$(stat -c %U "$DIR")
+        fi
+        TMP="$VOLATILE/tfs-$USER$DIR"
+
+        if [[ -e "$TMP"/.flagged ]]; then
+            # all is well so continue
+            return
+        else
+            NOW=$(date +%Y%m%d_%H%M%S)
+            if [[ -h "$DIR" ]]; then
+                echo -e "${BLD}${RED}Ungraceful state detected for $DIR so fixing${NRM}"
+                unlink "$DIR"
+            fi
+
+            if [[ -d "$BACKUP" ]]; then
+                # always snapshot the most recent dir...
+                BACKUP_TIME=$(stat "$BACKUP" | grep Change | awk '{ print $2,$3 }')
+
+                if [[ $CRRE -eq 1 ]]; then
+                    opts="-a --reflink=auto"
+                    cp $opts "$TARGETTOKEEP" "$BACKUP-crashrecovery-$NOW"
+                fi
+
+                mv --no-target-directory "$TARGETTOKEEP" "$DIR"
+                rm -rf "$BACKUP"
+
+                if [[ $CRRE -eq 1 ]]; then
+                    opts="-a --reflink=auto"
+                    cp $opts "$BACKUP" "$BACKUP-crashrecovery-$NOW"
+                    mv --no-target-directory "$BACKUP" "$DIR"
+                fi
+            fi
+        fi
+    done
+}
+
+cleanup() {
+    local DIR USER GROUP BACKUP TMP
+    for DIR in "${WHATTOSYNC[@]}"; do
+        # this is the hdd bound backup in case of power failure
+        [[ ${DIR##*/} == .* ]] && BACKUP="${DIR%/*}/${DIR##*/}-backup_tfs" || BACKUP="${DIR%/*}/.${DIR##*/}-backup_tfs"
+        USER=$(stat -c %U "$DIR")
+        GROUP=$(id -g "$USER")
+        TMP="$VOLATILE/tfs-$USER$DIR"
+        UPPER="$VOLATILE/tfs-$USER$DIR-rw"
+        WORK="$VOLATILE/.tfs-$USER$DIR"
+        CRASHArr=( $(find "${BACKUP%/*}" -type d -name '*crashrecovery*' 2>/dev/null|sort -r) )
+
+        if [[ ${#CRASHArr[@]} -gt 0 ]]; then
+            echo -e "${BLD}Deleting ${#CRASHArr[@]} crashrecovery dir(s) for sync target ${BLU}$DIR${NRM}"
+            for backup in "${CRASHArr[@]}"; do
+                echo -e "${BLD}${RED} $backup${NRM}"
+                rm -rf "$backup"
+            done
+            unset CRASHArr
+        else
+            echo -e "${BLD}Found no crashrecovery dirs for: ${BLU}$DIR${NRM}${BLD}${NRM}"
+        fi
+        echo
+    done
+}
+
+enforce() {
+    local DIR BACKUP
+    for DIR in "${WHATTOSYNC[@]}"; do
+        # this is the hdd bound backup in case of power failure
+        [[ ${DIR##*/} == .* ]] && BACKUP="${DIR%/*}/${DIR##*/}-backup_tfs" || BACKUP="${DIR%/*}/.${DIR##*/}-backup_tfs"
+        CRASHArr=( $(find "${BACKUP%/*}" -type d -name '*crashrecovery*' 2>/dev/null|sort -r) )
+
+        if [[ ${#CRASHArr[@]} -gt $BACKUP_LIMIT ]]; then
+            for remove in "${CRASHArr[@]:-$BACKUP_LIMIT}"; do
+                rm -rf "$remove"
+            done
+        fi
+        unset CRASHArr
+    done
+}
+
+do_sync() {
+    touch "$DAEMON_FILE"
+
+  # make a snapshot of TFS_CONF and redefine its location to tmpfs while
+  # tfs is running to keep any edits made to the live TFS_CONF from
+  # potentially orphaning the tmpfs copies thus preserving the data
+  [[ ! -f "${DAEMON_FILE}.conf" ]] && cp "$CONFIG_FILE" "${DAEMON_FILE}.conf"
+
+  # sync to tmpfs and back again
+  local DIR USER GROUP BACKUP TMP
+  for DIR in "${WHATTOSYNC[@]}"; do
+      # this is the hdd bound backup in case of power failure
+      [[ ${DIR##*/} == .* ]] && BACKUP="${DIR%/*}/${DIR##*/}-backup_tfs" || BACKUP="${DIR%/*}/.${DIR##*/}-backup_tfs"
+      USER=$(stat -c %U "$DIR")
+      GROUP=$(id -g "$USER")
+      TMP="$VOLATILE/tfs-$USER$DIR"
+      UPPER="$VOLATILE/tfs-$USER$DIR-rw"
+      WORK="$VOLATILE/.tfs-$USER$DIR"
+
+    # make tmpfs container
+    if [[ -d "$DIR" ]]; then
+        # retain permissions on sync target
+        PREFIXP=$(stat -c %a "$DIR")
+        [[ -r "$TMP" ]] || install -dm"$PREFIXP" --owner="$USER" --group="$GROUP" "$TMP"
+
+      # backup target and link to tmpfs container
+      if [[ $(readlink "$DIR") != "$TMP" ]]; then
+          mv --no-target-directory "$DIR" "$BACKUP"
+          ln -s "$TMP" "$DIR"
+          chown -h "$USER":"$GROUP" "$DIR"
+      fi
+
+      # sync the tmpfs targets to the disc
+      if [[ -e "$TMP"/.flagged ]]; then
+          rsync -aogX --delete-after --inplace --no-whole-file --exclude .flagged "$DIR/" "$BACKUP/"
+      else
+          rsync -aogX --inplace --no-whole-file "$BACKUP/" "$TMP/"
+          touch "$DIR"/.flagged
+      fi
+    fi
+done
+echo -e "${BLD}${BLU}Sync successful${NRM}"
+}
+
+do_unsync() {
+    rm -f "$DAEMON_FILE" "${DAEMON_FILE}.conf"
+
+    local DIR USER BACKUP TMP
+    for DIR in "${WHATTOSYNC[@]}"; do
+        # this is the hdd bound backup in case of power failure
+        [[ ${DIR##*/} == .* ]] && BACKUP="${DIR%/*}/${DIR##*/}-backup_tfs" || BACKUP="${DIR%/*}/.${DIR##*/}-backup_tfs"
+        USER=$(stat -c %U "$DIR")
+        GROUP=$(id -g "$USER")
+        TMP="$VOLATILE/tfs-$USER$DIR"
+        UPPER="$VOLATILE/tfs-$USER$DIR-rw"
+        WORK="$VOLATILE/.tfs-$USER$DIR"
+
+    # remove link and move data from tmpfs to disk
+    if [[ -h "$DIR" ]]; then
+        unlink "$DIR"
+        # this assumes that the backup is always
+        # updated so be sure to invoke a sync before an unsync
+
+        # restore original dirtree
+        [[ -d "$BACKUP" ]] && mv --no-target-directory "$BACKUP" "$DIR"
+        [[ -d "$TMP" ]] && rm -rf "$VOLATILE/tfs-$USER"
+    fi
+done
+echo -e "${BLD}${GRN}Unsync successful${NRM}"
+}
+
+parse() {
+    if [[ -f /usr/lib/systemd/system/tfs.service ]]; then
+        # running systemd
+        tfs_state=$(systemctl is-active tfs)
+        resync_state=$(systemctl is-active tfs-resync.timer)
+        [[ "$tfs_state" = "active" ]] && tfs_color="${GRN}" || tfs_color="${RED}"
+        [[ "$resync_state" = "active" ]] && resync_color="${GRN}" || resync_color="${RED}"
+        echo -e "  ${BLD}Systemd service is currently ${tfs_color}$tfs_state${NRM}${BLD}.${NRM}"
+        echo -e "  ${BLD}Systemd resync service is currently ${resync_color}$resync_state${NRM}${BLD}.${NRM}"
+    else
+        # using other init system + cron job for resync
+        [[ -x /etc/cron.hourly/tfs-update ]] && resync_state="present" || resync_state="not present"
+        [[ "$resync_state" = "present" ]] && resync_color="${GRN}" || resync_color="${RED}"
+        echo -e "  ${BLD}Daemon pid file:$([[ -f $DAEMON_FILE ]] && echo -e "\t${GRN}present${NRM}${BLD}" || echo -e "\t${RED}not present${NRM}${BLD}")${NRM}"
+        echo -e "  ${BLD}Resync cronjob:\t"${resync_color}${resync_state}${NRM}${BLD}${NRM}""
+    fi
+    echo
+    echo -e "  ${BLD}Managing the following per ${GRN}${CONFIG_FILE}${NRM}${BLD} settings:${NRM}"
+    echo
+    local DIR USER GROUP BACKUP TMP
+    for DIR in "${WHATTOSYNC[@]}"; do
+        # this is the hdd bound backup in case of power failure
+        [[ ${DIR##*/} == .* ]] && BACKUP="${DIR%/*}/${DIR##*/}-backup_tfs" || BACKUP="${DIR%/*}/.${DIR##*/}-backup_tfs"
+        USER=$(stat -c %U "$DIR")
+        GROUP=$(id -g "$USER")
+        TMP="$VOLATILE/tfs-$USER$DIR"
+        UPPER="$VOLATILE/tfs-$USER$DIR-rw"
+        WORK="$VOLATILE/.tfs-$USER$DIR"
+
+    # sync target dir size
+    psize=$(du -Dh --max-depth=0 "$DIR" 2>/dev/null | awk '{ print $1 }')
+    if [[ -d "$DIR" ]]; then
+        CRASHArr=( $(find "${BACKUP%/*}" -type d -name '*crashrecovery*' 2>/dev/null|sort -r) )
+        echo -en "  ${BLD}owner/group id:"
+        echo -e $(tput cr)$(tput cuf 20) "$USER"/"$GROUP${NRM}"
+        echo -en "  ${BLD}target to manage:"
+        echo -e $(tput cr)$(tput cuf 20) "${GRN}$DIR${NRM}"
+        echo -en "  ${BLD}sync target:"
+        echo -e $(tput cr)$(tput cuf 20) "${BLU}$BACKUP${NRM}"
+        echo -en "  ${BLD}tmpfs target:"
+        echo -e $(tput cr)$(tput cuf 20) "${RED}$TMP${NRM}"
+        echo -en "  ${BLD}dir size:"
+        echo -e "$(tput cr)$(tput cuf 20) $psize${NRM}"
+        echo -en "  ${BLD}recovery dirs:"
+        if [[ "${#CRASHArr[@]}" -eq 0 ]]; then
+            echo -e "$(tput cr)$(tput cuf 20) none${NRM}"
+        else
+            echo -e "$(tput cr)$(tput cuf 20) ${RED}${#CRASHArr[@]}${NRM}${BLD} <- delete with the c option${NRM}"
+            for backup in "${CRASHArr[@]}"; do
+                psize=$(du -Dh --max-depth=0 "$backup" 2>/dev/null | awk '{ print $1 }')
+                echo -en "  ${BLD} dir path/size:"
+                echo -e "$(tput cr)$(tput cuf 20) ${BLU}$backup ${NRM}${BLD}($psize)${NRM}"
+            done
+        fi
+        unset CRASHArr
+        echo
+    fi
+done
+}
+
+case "$1" in
+    p|P|Parse|parse|Preview|preview|debug)
+        header
+        dep_check
+        config_check
+        parse
+        ;;
+    c|C|clean|Clean)
+        header
+        dep_check
+        config_check
+        cleanup
+        ;;
+    sync)
+        if [[ ! -f "$DAEMON_FILE" ]]; then
+            #root_check
+            dep_check
+            config_check
+            ungraceful_state_check
+            do_sync
+            enforce
+        fi
+        ;;
+    resync)
+        if [[ -f "$DAEMON_FILE" ]]; then
+            #root_check
+            do_sync
+        fi
+        ;;
+    unsync)
+        # make sure the daemon ran to setup the links
+        if [[ -f "$DAEMON_FILE" ]]; then
+            #root_check
+            do_sync
+            do_unsync
+        fi
+        ;;
+    *)
+        echo
+        echo -e "  ${BLD}${BLU}tmp-file-sync v${VERS}${NRM}"
+        echo
+        echo -e "  ${BLD}${BLU}${PN}\t[option]${NRM}"
+        echo -e "  ${BLD}${GRN}preview${NRM}${BLD}\tParse config file (${NRM}${BLU}${CONFIG_FILE}${NRM}${BLD}) to see what will be managed.${NRM}"
+        echo -e "  ${BLD}${GRN}clean${NRM}${BLD}\t\tClean (delete without prompting) ALL crashrecovery dirs.${NRM}"
+        echo -e "  ${BLD}${GRN}resync${NRM}${BLD}\tSynchronize the tmpfs and media bound copy.${NRM}"
+        echo -e "  ${BLD}${RED}sync${NRM}${BLD}\t\tForce a manual sync. NOT recommended.${NRM}"
+        echo -e "  ${BLD}${RED}unsync${NRM}${BLD}\tForce a manual unsync. NOT recommended.${NRM}"
+        echo
+        if [[ -f /usr/lib/systemd/system/tfs.service ]]; then
+            echo -e "  ${BLD}Instead, use systemd to start/stop tmp-file-sync.${NRM}"
+            echo
+            echo -e "  ${BLD}systemctl${NRM}${GRN}[option]${NRM}${BLD}tfs tfs-resync${NRM}"
+            echo -e "  ${BLD}${GRN}start${NRM}${BLD}\tTurn on daemon; make symlinks and actively manage targets in tmpfs.${NRM}"
+            echo -e "  ${BLD}${GRN}stop${NRM}${BLD}\tTurn off daemon; remove symlinks and rotate tmpfs data back to disc.${NRM}"
+            echo -e "  ${BLD}${GRN}enable${NRM}${BLD}\tAutostart daemon when system comes up.${NRM}"
+            echo -e "  ${BLD}${GRN}disable${NRM}${BLD}\tRemove daemon from the list of autostart daemons.${NRM}"
+        elif [[ -f /etc/init.d/tfs ]]; then
+            echo -e "  ${BLD}Instead, use the init system to start/stop tmp-file-sync.${NRM}"
+            echo
+            echo -e "  ${BLD}sudo service tfs${NRM}${GRN}[option]${NRM}${BLD}or /etc/init.d/tfs${NRM}${GRN}[option]${NRM}"
+            echo -e "  ${BLD}${GRN}start${NRM}${BLD}\tTurn on daemon; make symlinks and actively manage targets in tmpfs.${NRM}"
+            echo -e "  ${BLD}${GRN}stop${NRM}${BLD}\tTurn off daemon; remove symlinks and rotate tmpfs data back to disc.${NRM}"
+        fi
+        ;;
+esac
+exit 0
+
