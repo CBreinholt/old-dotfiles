@@ -16,10 +16,10 @@ set $left h
 set $right l
 
 # Reload the configuration file
-bindsym $mod+Shift+c reload
+#bindsym $mod+Control+c reload
 
 # Restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart #[workspace='*'] kill
+bindsym $mod+Shift+r exec "i3-msg reload && i3-msg restart"
 
 
 ##########################################################################
@@ -111,8 +111,8 @@ mode "set_outer_gaps" {
 ##########################################################################
 
 # Handle focus wrapping and mouse focus
-focus_wrapping yes #workspace
-focus_follows_mouse false
+#focus_wrapping yes #workspace
+focus_follows_mouse true
 focus_on_window_activation smart
 popup_during_fullscreen smart
 
@@ -127,7 +127,7 @@ bindsym $mod+Shift+n move scratchpad
 
 # Change focused layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
-bindsym $mod+e layout tabbed
+bindsym $mod+e layout tabbedfalse
 bindsym $mod+d layout toggle split
 bindsym $mod+b split h;
 bindsym $mod+v split v;
@@ -151,6 +151,9 @@ bindsym $mod+$right focus right
 #bindsym $mod+Down focus down
 #bindsym $mod+Up focus up
 #bindsym $mod+Right focus right
+
+# Move floating windows to center of screen
+bindsym $mod+Shift+c move position center
 
 # Move focused window
 bindsym $mod+Shift+$left move left
