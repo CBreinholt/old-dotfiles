@@ -33,8 +33,5 @@ fi
 # Load bashrc
 [[ -f "$HOME/.config/bash/bashrc" ]] && . "$HOME/.config/bash/bashrc"
 
-# Switch escape and caps if tty and no passwd required:
-setxkbmap -option caps:swapescape
-
 # Start graphical server on tty1 if not already running.
 #[ "$(tty)" = "/dev/tty1" ] && ! pgrep -x Xorg > /dev/null && exec startx

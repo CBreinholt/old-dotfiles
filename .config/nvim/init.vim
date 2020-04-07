@@ -26,6 +26,7 @@ Plug 'dbmrq/vim-ditto'
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'lervag/vimtex'
+Plug 'wbthomason/buildit.nvim'
 call plug#end()
 
 " Some basics:

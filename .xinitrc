@@ -8,6 +8,7 @@ fi
 # xinitrc runs automatically when you run startx/xinit
 
 # The commands to run before starting i3
+setxkbmap -option caps:swapescape
 xrdb $XRESOURCES
 #cache-sync &
 
