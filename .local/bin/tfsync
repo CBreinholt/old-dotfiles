@@ -1,6 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 #
 # tfsync.sh
+#
 
 BLD="\e[01m"
 RED="\e[01;31m"

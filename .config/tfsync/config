@@ -2,6 +2,6 @@
 # tfsync.conf
 #
 #WHATTOSYNC=("/home/chris/dev/working/tfsync/test")
-WHATTOSYNC=("${XDG_CACHE_HOME:-"$HOME/.cache"}")
+WHATTOSYNC=("${XDG_CACHE_HOME:-"$HOME/.cache"}/chromium")
 VOLATILE="/tmp"
-BACKUP_LIMIT=2
+BACKUP_LIMIT=1
