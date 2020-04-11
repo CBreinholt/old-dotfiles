@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 src="$HOME/dev/bin/*"
 rm $HOME/.local/bin/*

@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 if [ $1 ]; then dest="$(echo $1 | sed 's/[^a-zA-z]*$/\//')"; else dest=$PWD; fi
 if [ $2 ]; then	name="$2"; else name="backup_image"; fi

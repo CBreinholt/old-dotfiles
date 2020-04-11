@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Quickly access commonly edited config files in ~/.config
 

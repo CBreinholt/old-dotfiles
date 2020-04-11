@@ -1,0 +1,24 @@
+#!/bin/bash
+#
+# monitor_conf --- Xrandr settings for my external laptop displays
+#
+
+# Config the laptop display
+_laptop() {
+	xrandr --output eDP1 --auto --preferred --mode 1920x1080 --pos 0x0 "$@"
+}
+
+# Config the external HDMI display
+_external() {
+    xrandr --output HDMI2 --auto --mode 1360x768 --pos 1920x0 "$@"
+}
+
+# Check if external is there, if not just use laptop display
+if [ -n "$(xrandr --query | grep 'HDMI2 disconnected')" ]; then
+    _laptop --primary --brightness 1 --gamma 1:1:1
+	_external --off
+else
+    _laptop --primary --gamma 0.80:0.79:0.77
+    _external
+fi
+

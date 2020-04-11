@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+# Remap keyboard. Called in xinit during Xorg server start up
+
+# Map Caps_Lock=Hyper, Compose=Menu, Caps_Lock=Shift_L+Shift_R
+setxkbmap -option "caps:hyper,compose:menu,shift:both_capslock_cancel"
+
+# Clear the lock and modifiers
+xmodmap -e "clear lock"
+xmodmap -e "clear mod3"
+xmodmap -e "clear mod4"
+
+# Map the Supers to mod4, Hyper_L to mod3
+xmodmap -e "add mod4 = Super_L Super_R"
+xmodmap -e "add mod3 = Hyper_L"
+
+# Hyper_L (on Caps_Lock key) acts as Escape when pressed by itself only
+killall xcape 2>/dev/null ; xcape -e 'Hyper_L=Escape'
