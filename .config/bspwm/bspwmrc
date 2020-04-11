@@ -1,0 +1,53 @@
+#!/bin/bash
+#
+# bspwmrc --- Initialisation script for BSPWM.
+#
+# This file is part of a custom set up for running bspwm. Other
+# important settings are also defined in xinitrc and the sxhkd configs
+
+
+#####====---Essentials---====#####
+
+_cmd() {
+    command -v "$1" > /dev/null || echo "  bspwm: error - $1 does not exist!"
+}
+
+# Determine the XrandR settings
+command -v monitor_conf > /dev/null && monitor_conf
+
+# Define desktops [per monitor]
+command -v bspwm_desktops > /dev/null && bspwm_desktops
+
+
+#####====---Visual Options---====#####
+
+bspc config initial_polarity second_child
+bspc config pointer_action1 move
+bspc config pointer_action2 resize_side
+bspc config ignore_ewmh_focus false
+bspc config single_monocle false
+bspc config pointer_modifier shift
+bspc config pointer_follows_monitor true
+bspc config focus_follows_pointer true
+bspc config borderless_monocle true
+bspc config gapless_monocle true
+bspc config top_monocle_padding 0
+bspc config bottom_monocle_padding 0
+bspc config left_monocle_padding 0
+bspc config right_monocle_padding 0
+bspc config window_gap 15
+bspc config border_width 3
+bspc config split_ratio 0.50
+
+
+#####====---Autostart---====#####
+
+# Parse my custom key mappings. These enable Mod3 "Hyper"
+#_cmd setxkbmap && setxkbmap -layout 'us'
+#[ -f $XMODMAP ] && xmodmap $XMODMAP
+
+# The hotkey daemon that handles all custom key bindings.
+_cmd sxhkd && sxhkd -c $XDG_CONFIG_HOME/sxhkd/sxhkdrc{,_bspc} &
+
+# Start the simple display compositor.  See `xcompmgr --help'.
+#xcompmgr -cCfF -t -2 -l -2 -r 2.8 -o 0.55 -D 5 &

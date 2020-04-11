@@ -1,0 +1,23 @@
+#! /bin/sh
+
+# Start sxhkd process in bg to load the keybindings
+sxhkd &
+
+# If refreshing bspwm, remove all previous rules to prevent doubling up.
+bspc rule -r "*"
+
+# Set the laptop monitor to the main display
+mainmonitor="$(bspc query --monitors --names | grep "ePD-1")"
+bspc monitor edp-1 -d I III IV V VI VII VIII IX X
+bspc monitor HDMI-2 -d II
+
+bspc config border_width            2
+bspc config window_gap              15
+bspc config top_padding             24
+bspc config focus_follows_pointer   true
+
+bspc config split_ratio             0.50
+bspc config borderless_monocle      true
+bspc config gapless_monocle         true
+
+bspc rule -a Chromium desktop='^2'
