@@ -43,9 +43,9 @@ set_from_resource $color3 i3wm.cursorColor
 client.focused          	$color0		$color1		$color0		$color2		$color0
 client.unfocused        	$color2 	$color1		$color0 	$color1		$color1
 client.focused_inactive 	$color2   	$color1  	$color0   	$color1		$color1
-client.urgent 			#2F343A		#900000		#FFFFFF		#900000		#900000
-client.placeholder 		#000000		#0C0C0C		#FFFFFF		#000000		#0C0C0C
-client.background		#FFFFFF
+client.urgent 			    #2F343A		#900000		#FFFFFF		#900000		#900000
+client.placeholder   		#000000		#0C0C0C		#FFFFFF		#000000		#0C0C0C
+client.background   		#FFFFFF
 #TESTING BELOW
 #client.focused #b0c4bb #2f2f38 #b0c4bb #81a2be #81a2be
 #client.focused_inactive #b0c4bb #2f2f38 #b0c4bb #688486 #688486
@@ -122,8 +122,8 @@ bindsym $mod+Tab workspace back_and_forth
 bindsym $mod+Shift+Tab move container to workspace back_and_forth; workspace back_and_forth
 
 # Show the next scratchpad window or hide the focused scratchpad window. Cyle them.
-bindsym $mod+n scratchpad show
-bindsym $mod+Shift+n move scratchpad
+bindsym $mod+p scratchpad show
+bindsym $mod+Shift+p move scratchpad
 
 # Change focused layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
@@ -242,7 +242,7 @@ bindsym $mod+Shift+0 move container to workspace $ws0; workspace $ws0
 ##########################################################################
 
 # Start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec alacritty
 # Start a floating terminal
 bindsym $mod+Shift+Return exec i3-sensible-terminal -name 'floating_urxvt'
 # Open Chromium

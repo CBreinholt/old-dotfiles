@@ -1,0 +1,53 @@
+!!!!!!!!!!!!!!!
+! Prior notes !
+!!!!!!!!!!!!!!!
+
+! Here are some of the most likely candidates for changes:
+!
+!   keycode   9 = Caps_Lock
+!   keycode  23 = Tab
+!   keycode  37 = Control_L
+!   keycode  49 = grave
+!   keycode  50 = Shift_L
+!   keycode  62 = Shift_R
+!   keycode  64 = Alt_L Meta_L
+!   keycode  66 = Escape
+!   keycode  92 = ISO_Level3_Shift
+!   keycode 105 = Control_R
+!   keycode 108 = Alt_R Meta_R
+!   keycode 133 = Super_L
+!   keycode 134 = Super_R
+!   keycode 204 = Alt_L
+!   keycode 205 = Meta_L
+!   keycode 206 = Super_L
+!   keycode 207 = Hyper_L
+
+!!!!!!!!!!!!!!!!!
+! Modifications !
+!!!!!!!!!!!!!!!!!
+
+! Clear affected keys
+clear lock
+!clear mod3
+!clear mod4
+
+! Swap caps lock and escape
+keycode 66 = Escape
+keycode 9 = Caps_Lock
+
+! Right Alt as right Hyper
+!keycode 108 = Hyper_R
+
+! Keep Supers the same
+!keycode 133 = Super_L
+!keycode 134 = Super_R
+
+! Set menu key to multi-key(compose)
+!keycode 135 = Multi_key
+
+! Set hyper
+!add mod3 = Hyper_L Hyper_R
+
+! Set super
+!add mod4 = Super_L Super_R
+

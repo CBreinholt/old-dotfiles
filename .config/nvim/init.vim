@@ -18,27 +18,20 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'itchyny/lightline.vim'
-
-" These plugins are mainly for writting papers
 Plug 'ron89/thesaurus_query.vim'
 Plug 'rhysd/vim-grammarous'
-Plug 'dbmrq/vim-ditto'
-Plug 'vim-pandoc/vim-pandoc'
-Plug 'vim-pandoc/vim-pandoc-syntax'
-Plug 'lervag/vimtex'
-Plug 'wbthomason/buildit.nvim'
 call plug#end()
 
 " Some basics:
 	set go=a
 	set mouse=a
-	set clipboard+=unnamedplus
+    set clipboard+=unnamedplus
 	set t_Co=256
 	set notermguicolors
 	set encoding=utf-8
 	set nocompatible
 	set number relativenumber
-	set hlsearch
+	set nohlsearch
     set incsearch
 	set noshowmode
 	set tabstop=4
@@ -46,13 +39,12 @@ call plug#end()
 	set expandtab
 	filetype plugin on
 	syntax on
-    set dir=$HOME/.vim/swapfiles//,.,~/tmp,/var/tmp,/tmp
 
 " Enable autocompletion:
 	set wildmode=longest,list,full
 
 " Split behavior
-    set splitbelow splitright
+    set splitright splitbelow
     map <C-h> <C-w>h
     map <C-j> <C-w>j
     map <C-k> <C-w>k
@@ -89,22 +81,6 @@ call plug#end()
         nunmap <buffer><C-p>
         nunmap <buffer><C-i>
     endfunction
-
-" Check for over usage of words within the file
-    au FileType markdown,test DittoOn
-    nmap <leader>di <Plug>ToggleDitto
-    nmap <leader>ds :DittoSentOn \| set linebreak<CR>
-    nmap <leader>dp :DittoParOn \| set linebreak<CR>
-    nmap <leader>df :DittoFileOn \| set linebreak<CR>
-
-" Pandoc
-    let g:pandoc#filetypes#handled = ["pandoc", "markdown"]
-    let g:pandoc#filetypes#pandoc_markdown = 0
-    let g:pandoc#modules#disabled = ["folding","formatting"]
-    "let g:pandoc#command#autoexec_command = Pandoc! pdf --pdf-engine=xelatex
-    let g:pandoc#command#prefer_pdf = 1
-    "let g:pandoc#command#autoexec_on_writes = 1
-    let g:pandoc#command#use_message_buffers = 0
 
 " Turns off highlighting on the bits of code that are changed, so the line that is changed is highlighted but the actual text that has changed stands out on the line and is readable.
     if &diff
