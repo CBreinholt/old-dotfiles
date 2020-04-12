@@ -21,7 +21,6 @@ eval "$(sed 's/^[^#].*/export &/g;t;d' ~/.config/user-dirs.dirs)"
 # Clean-up
 export LESSHISTFILE="-"
 export WGETRC="$HOME/.config/wget/wgetrc"
-#export PASSWORD_STORE_DIR="$HOME/.local/share/password-store"
 
 # Other program settings
 export LESS=-R
@@ -33,9 +32,5 @@ export LESS_TERMCAP_se="$(printf '%b' '[0m')"
 export LESS_TERMCAP_us="$(printf '%b' '[1;32m')"
 export LESS_TERMCAP_ue="$(printf '%b' '[0m')"
 
-
 # Load bashrc
 [[ -f "$HOME/.config/bash/bashrc" ]] && . "$HOME/.config/bash/bashrc"
-
-# Start graphical server on tty1 if not already running.
-#[ "$(tty)" = "/dev/tty1" ] && ! pgrep -x Xorg > /dev/null && exec startx
