@@ -12,8 +12,8 @@ export TERMINAL="alacritty"
 export SHELL="/bin/bash"
 export HISTFILE="$HOME/.config/bash/bash_history"
 export XAUTHORITY="${XDG_RUNTIME_DIR:-"$HOME/.config"}/Xauthority"
-export XMODMAP="$HOME/.config/Xmodmap"
-export XRESOURCES="$HOME/.config/Xresources"
+export XMODMAP="$HOME/.config/xterm/Xmodmap"
+export XRESOURCES="$HOME/.config/xterm/Xresources"
 
 # Export XDG environmental variables from '~/.config/user-dirs.dirs'
 eval "$(sed 's/^[^#].*/export &/g;t;d' ~/.config/user-dirs.dirs)"
