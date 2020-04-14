@@ -1,36 +1,34 @@
 #
-# ~/.bash_profile
+# ~/.profile
 #
+# User environment paths, variables, and configurations
 
-# Adds `~/.local/bin` to $PATH
+# Add `~/.local/bin` to $PATH
 export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
 
 # Default programs
+export BROWSER="/usr/bin/xdg-open"
 export EDITOR="vim"
-export BROWSER="chromium"
-export TERMINAL="alacritty"
+export TERMINAL="alacritty -e /bin/zsh"
+export READER="zathura"
 export SHELL="/bin/bash"
-export HISTFILE="$HOME/.config/bash/bash_history"
-export XAUTHORITY="${XDG_RUNTIME_DIR:-"$HOME/.config"}/Xauthority"
-export XMODMAP="$HOME/.config/xterm/Xmodmap"
-export XRESOURCES="$HOME/.config/xterm/Xresources"
+
+# Common Xorg files
+export XAUTHORITY="${XDG_CONFIG_HOME:-$HOME/.config}/xterm/Xauthority"
+export XRESOURCES="${XDG_CONFIG_HOME:-$HOME/.config}/xterm/Xresources"
+
+# Other settigns
+export PASSWORD_STORE_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/password-store"
+export LESSHISTFILE="-"
+export WGETRC="${XDG_CONFIG_HOME:-$HOME/.config}/wget/wgetrc"
+export INPUTRC="${XDG_CONFIG_HOME:-$HOME/.config}/inputrc"
+export ZDOTDIR="${XDG_CONFIG_HOME:-$HOME/.config}/zsh"
 
 # Export XDG environmental variables from '~/.config/user-dirs.dirs'
 eval "$(sed 's/^[^#].*/export &/g;t;d' ~/.config/user-dirs.dirs)"
 
-# Clean-up
-export LESSHISTFILE="-"
-export WGETRC="$HOME/.config/wget/wgetrc"
-
-# Other program settings
-export LESS=-R
-export LESS_TERMCAP_mb="$(printf '%b' '[1;31m')"
-export LESS_TERMCAP_md="$(printf '%b' '[1;36m')"
-export LESS_TERMCAP_me="$(printf '%b' '[0m')"
-export LESS_TERMCAP_so="$(printf '%b' '[01;44;33m')"
-export LESS_TERMCAP_se="$(printf '%b' '[0m')"
-export LESS_TERMCAP_us="$(printf '%b' '[1;32m')"
-export LESS_TERMCAP_ue="$(printf '%b' '[0m')"
-
 # Load bashrc
-[[ -f "$HOME/.config/bash/bashrc" ]] && . "$HOME/.config/bash/bashrc"
+#[[ -f "$HOME/.config/bash/bashrc" ]] && . $HOME/.config/bash/bashrc
+
+# Start graphical server on tty1 if not already running.
+#[ "$(tty)" = "/dev/tty1" ] && ! ps -e | grep -qw Xorg && exec startx

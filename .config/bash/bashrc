@@ -1,27 +1,27 @@
 #
-# ~/.bashrc
+# ~/.config/bash/bashrc
 #
+# Configurations for bash
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
-PS1='[\u@\h \W]\$ '
 
-# Use neovim for vim if present.
-command -v nvim > /dev/null && alias vim="nvim"
-#alias vim="vim -u $HOME/.config/vim/vimrc"
+# Simple prompt
+if [ -n "$SSH_CONNECTION" ]; then
+	export PS1="\u@\h: \w \$ "
+else
+	export PS1="\w \$ "
+fi
+export PS2="> "
 
-# Colorize commands when possible.
-alias ls="ls -h --color=auto"
-alias lsl="ls -hl"
-alias lsa="ls -hlAX"
-alias grep="grep --color=auto"
-alias diff="diff --color=auto"
+# Enable tab completion when starting a command with 'sudo'
+[ "$PS1" ] && complete -cf sudo
 
-# Verbosity and settings that you pretty much just always are going to want.
-alias cp="cp -iv"
-alias mv="mv -iv"
-alias rm="rm -iv"
-alias mkdir="mkdir -pv"
+# History settings
+HISTFILE="${XDG_CONFIG_HOME:-$HOME/.config}/bash/bash_history"
+HISTSIZE=1000
+HISTFILESIZE=2000
+HISTCONTROL=ignoreboth
+shopt -s histappend
 
-# For managing the dotfiles.git repo of all config files in $HOME
-alias dotfiles='/usr/bin/git --git-dir=$HOME/dev/dotfiles/.git --work-tree=$HOME/ $@'
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc"

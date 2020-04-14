@@ -1,0 +1,190 @@
+exit
+lsa
+lsa .cache
+cd .cache
+lsa .chromium-backup_tfs
+lsa chromium
+du
+du -sh
+du -sh .
+du -sh ./*
+ls
+chromium&
+lsa
+cd ~
+clear
+lsa
+vim .profile
+exit
+exit
+chromium&
+clear
+exit
+exit
+/bin/bash
+exit
+exit
+chromium&
+lsa
+vim .config/bspwm/bspwmrc
+vim .config/sxhkd/sxhkdrc
+man alacritty
+vim .config/sxhkd/sxhkdrc
+vim .profile
+exit
+clear
+jobs
+man alacritty
+exit
+exit
+lsa
+startx
+exot
+exit
+chromium &
+exit
+chromium&
+exit
+exit
+chromium &
+exit
+clear
+exit
+clear
+exi
+exit
+exit
+chromium &
+exit
+clear
+lsa
+$PATH
+echo $PATH
+echo $TERM
+echo $TERMINAL
+alacritty -e /bin/bash
+vim .profile
+chsh /bin/bash
+chsh /bin/sh
+chsh /usr/bin/bash
+lsa
+chsh -s /bin/bash 
+exit
+pkill Xorg
+lsa
+startx
+exit
+exit
+lsa
+exit
+/bin/bash
+jobs
+exit
+chromium&
+exit
+
+screen
+jobs
+jobs 1
+disown 1
+man disown
+disown --help
+disown -h
+disown -help
+disown
+lsa
+jobs
+exit
+jobs
+chromium &
+exit
+lsa
+lsa
+exit
+lsa
+lsa
+lsa
+lsa
+bspc wm -r
+echo $mod
+lsa
+lsa
+cat test
+lsa
+cat test
+cat test
+rm test
+exit
+lsa
+rm test
+tlsa
+lsa
+lsa
+tlsa
+lsa
+eit
+exit
+vim dev/bin/bspwm_smart_move.sh
+vim dev/bin/bspwm_smart_move.sh
+vim dev/bin/bspwm_smart_move.sh
+exit
+exit
+loadbin
+killall sxhkd
+bspc wm -r
+exit
+loadbin
+loadbin
+loadbin
+exit
+loadbin
+loadbin
+exit
+lsa
+vim .config/sxhkd/sxhkdrc
+exut
+exit
+exit
+vim dev/bin/bspwm_dynamic_desktops.sh
+vim dev/bin/bspwm_desktops.sh
+vim dev/bin/bspwm_dynamic_desktops.sh
+mv dev/bin/bspwm_desktops.sh dev/bin/bspwm_conf_desktops.sh
+mv dev/bin/monitor_conf.sh dev/bin/bspwm_conf_xrandr.sh
+exit
+vim .config/bspwm/bspwmrc
+exit
+exit
+exit
+exit
+exit
+exut
+exit
+lsa
+jobs
+vim .config
+cd .config
+lsal
+lsla
+mkdir xorg
+rm -r xorg
+clear
+lsa
+cd ....
+cd ...
+...
+cd chris
+vim .config/bspwm/bspwmrc
+vim .config/sxhkd/sxhkdrc
+vim .config/sxhkd/sxhkdrc-info
+exit
+exit
+exit
+exit
+exit
+vim .config/bspwm/bspwmrc
+vim .config/sxhkd/sxhkdrc
+clear
+lsa
+vim .config/sxhkd/sxhkdrc_bspc
+shutdown -h now
+exit
