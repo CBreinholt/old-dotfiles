@@ -2,7 +2,7 @@
 #
 # xinitrc runs automatically when you run startx/xinit
 
- set some fallbacks to default xorx settings just in case
+# set some fallbacks to default xorx settings just in case
 if [ -d /etc/X11/xinit/xinitrc.d ] ; then
     for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
         [ -x "$f" ] && . "$f"

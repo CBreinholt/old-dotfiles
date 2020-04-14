@@ -4,7 +4,6 @@
 # If you use startx/xinit this file will also be sourced.
 
 xrdb $XRESOURCES                        # Load Xresources
-remap &                                 # Remaps the keyboard
 xsetroot -cursor_name left_ptr &        # Set the mouse cursor
+remap &                                 # Remaps the keyboard
 unclutter &                             # Remove mouse when idle
-#systemctl --user start tfsync.service & # Move ~/.cache to tmpfs and start 1hr auto sync
