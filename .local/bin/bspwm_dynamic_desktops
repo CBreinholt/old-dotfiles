@@ -1,23 +1,6 @@
 #!/bin/bash
-
+#
 # bspwm_dynamic_desktops --- Dynamic desktops (work spaces) for BSPWM.
-#
-# Copyright (c) 2019-2020 Protesilaos Stavrou <info@protesilaos.com>
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-## Commentary:
 #
 # The idea with dynamic desktops is to maintain a list of varying
 # lengths with only the active items.  Whereas the default is to keep a
@@ -41,14 +24,9 @@
 # equivalent).  Furthermore, the desktops need to be set to one per
 # monitor in bspwmrc (empty desktops are removed upon invoking one of
 # this script's commands).
-#
-# `bspwm_dynamic_desktops' is part of my dotfiles (which also offer a
-# complete implementation): https://gitlab.com/protesilaos/dotfiles
 
 
-
-# See the --options below for the available arguments for $1.  $2 must
-# be a number from 0 to 9.
+# See the options below for the available arguments for $1, $2 must be 0-9
 [ "$#" -eq 2 ] || { echo 'Must be run with two arguments.'; exit 1; }
 
 # Capture the arguments.  We need to run tests against them.  Renaming

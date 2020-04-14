@@ -9,10 +9,10 @@ case "$1" in
 		dir="$HOME/.config/i3/config";;
 	"vim")
 		dir="$HOME/.config/nvim/init.vim";;
-	"bash")
-		dir="$HOME/.config/bash/bashrc";;
-	"xres")
-		dir="$HOME/.config/Xresources";;
+	#"bash")
+		#dir="$HOME/.config/bash/bashrc";;
+	#"xres")
+		#dir="$HOME/.config/Xresources";;
 	"xinit")
 		dir="$HOME/.xinitrc";;
 	"profile")
