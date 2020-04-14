@@ -1,0 +1,68 @@
+#!/bin/sh
+#
+# ~/.config/aliasrc
+#
+# Sets up all aliases for the current shell
+
+# Use neovim for vim if present.
+command -v nvim > /dev/null && alias vim="nvim -d"
+
+# cd into the previous working directory by omitting `cd`.
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+# Verbosity and settings that you pretty much just always are going to want.
+alias cp="cp -iv"
+alias mv="mv -iv"
+alias rm="rm -iv"
+alias mkdir="mkdir -pv"
+
+# Colorize commands when possible.
+alias diff='diff --color=auto'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# Make ls easier to read
+alias ls='ls -pv --color=auto --group-directories-first'
+alias lsa='ls -pvA --color=auto --group-directories-first'
+alias lsl='ls -lhpv --color=auto --group-directories-first'
+alias lsla='ls -lhpvA --color=auto --group-directories-first'
+
+# For managing the dotfiles.git repo of all config files in $HOME
+alias dotfiles='/usr/bin/git --git-dir=$HOME/dev/dotfiles/.git --work-tree=$HOME/ $@'
+
+# Enter directory and list contents
+cd() {
+	if [ -n "$1" ]; then
+		builtin cd "$@" && ls -pvA --color=auto --group-directories-first
+	else
+		builtin cd ~ && ls -pvA --color=auto --group-directories-first
+	fi
+}
+
+# Back up a file. Usage "backupthis <filename>"
+backupfile() {
+	cp -riv $1 ${1}-$(date +%Y%m%d%H%M).backup;
+}
+
+# Colourise man pages
+man() {
+    env \
+    LESS_TERMCAP_mb=$(tput bold; tput setaf 6) \
+    LESS_TERMCAP_md=$(tput bold; tput setaf 6) \
+    LESS_TERMCAP_me=$(tput sgr0) \
+    LESS_TERMCAP_se=$(tput rmso; tput sgr0) \
+    LESS_TERMCAP_ue=$(tput rmul; tput sgr0) \
+    LESS_TERMCAP_us=$(tput smul; tput bold; tput setaf 4) \
+    LESS_TERMCAP_mr=$(tput rev) \
+    LESS_TERMCAP_mh=$(tput dim) \
+    LESS_TERMCAP_ZN=$(tput ssubm) \
+    LESS_TERMCAP_ZV=$(tput rsubm) \
+    LESS_TERMCAP_ZO=$(tput ssupm) \
+    LESS_TERMCAP_ZW=$(tput rsupm) \
+        man "$@"
+}
