@@ -1,3 +1,12 @@
+#
+# zshrc
+#
+# Configurations for zsh
+
+# Load aliases and shortcuts if existent.
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc" ] && \
+    source "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc"
+
 # Enable colors and change prompt:
 autoload -U colors && colors	# Load colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
@@ -9,9 +18,6 @@ HISTFILE="${XDG_CONFIG_HOME:-$HOME/.config}/zsh/zsh_history"
 HISTSIZE=1000
 SAVEHIST=2000
 HISTCONTROL=ignoreboth
-
-# Load aliases and shortcuts if existent.
-[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc"
 
 # Basic auto/tab complete:
 autoload -U compinit
@@ -52,22 +58,6 @@ zle -N zle-line-init
 echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 
-# Use lf to switch directories and bind it to ctrl-o
-lfcd () {
-    tmp="$(mktemp)"
-    lf -last-dir-path="$tmp" "$@"
-    if [ -f "$tmp" ]; then
-        dir="$(cat "$tmp")"
-        rm -f "$tmp" >/dev/null
-        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
-    fi
-}
-bindkey -s '^o' 'lfcd\n'
-
-bindkey -s '^a' 'bc -l\n'
-
-bindkey -s '^f' 'cd "$(dirname "$(fzf)")"\n'
-
 bindkey '^[[P' delete-char
 
 # Edit line in vim with ctrl-e:
@@ -75,4 +65,44 @@ autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
 # Load zsh-syntax-highlighting; should be last.
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+
+# Spaceship prompt
+SPACESHIP_PROMPT_ORDER=(
+  exit_code     # Exit code section
+  exec_time     # Execution time
+  time          # Time stamps section
+  jobs          # Background jobs indicator
+  user          # Username section
+  host          # Hostname section
+  dir           # Current directory section
+  git           # Git section (git_branch + git_status)
+  node          # Node.js section
+  venv          # virtualenv section
+  pyenv         # Pyenv section
+  vi_mode       # Vi-mode indicator
+  char          # Prompt character
+)
+
+SPACESHIP_TIME_SHOW=false
+SPACESHIP_TIME_PREFIX=''
+SPACESHIP_USER_SHOW=true
+SPACESHIP_USER_COLOR="green"
+SPACESHIP_USER_PREFIX=''
+SPACESHIP_USER_SUFFIX=''
+SPACESHIP_HOST_SHOW=true
+SPACESHIP_HOST_PREFIX="%{$fg[green]%}@"
+SPACESHIP_DIR_SHOW=always
+SPACESHIP_DIR_PREFIX="%{$fg[blue]%}["
+SPACESHIP_DIR_SUFFIX="%{$fg[blue]%}]"
+SPACESHIP_DIR_COLOR="cyan"
+SPACESHIP_VI_MODE_SHOW=false
+SPACESHIP_EXEC_TIME_SHOW=true
+SPACESHIP_GIT_SHOW=true
+SPACESHIP_GIT_PREFIX=" "
+SPACESHIP_CHAR_SYMBOL="$ "
+SPACESHIP_PROMPT_ADD_NEWLINE=false
+SPACESHIP_PROMPT_SEPARATE_LINE=true
+SPACESHIP_PROMPT_FIRST_PREFIX_SHOW=true
+autoload -U promptinit; promptinit
+prompt spaceship

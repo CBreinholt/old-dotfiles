@@ -1,20 +1,20 @@
 #
-# ~/.config/bash/bashrc
+# bashrc
 #
 # Configurations for bash
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Source all the aliases
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc" ] && \
+    source "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc"
+
 # Simple prompt
-if [ -n "$SSH_CONNECTION" ]; then
-	export PS1="\u@\h: \w \$ "
-else
-	export PS1="\w \$ "
-fi
+export PS1="\w \$ "
 export PS2="> "
 
-# Enable tab completion when starting a command with 'sudo'
+# Enable tab completion when using sudo
 [ "$PS1" ] && complete -cf sudo
 
 # History settings
@@ -23,5 +23,3 @@ HISTSIZE=1000
 HISTFILESIZE=2000
 HISTCONTROL=ignoreboth
 shopt -s histappend
-
-[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc"

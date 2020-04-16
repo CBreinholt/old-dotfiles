@@ -1,136 +1,3 @@
-exit
-lsa
-lsa .cache
-cd .cache
-lsa .chromium-backup_tfs
-lsa chromium
-du
-du -sh
-du -sh .
-du -sh ./*
-ls
-chromium&
-lsa
-cd ~
-clear
-lsa
-vim .profile
-exit
-exit
-chromium&
-clear
-exit
-exit
-/bin/bash
-exit
-exit
-chromium&
-lsa
-vim .config/bspwm/bspwmrc
-vim .config/sxhkd/sxhkdrc
-man alacritty
-vim .config/sxhkd/sxhkdrc
-vim .profile
-exit
-clear
-jobs
-man alacritty
-exit
-exit
-lsa
-startx
-exot
-exit
-chromium &
-exit
-chromium&
-exit
-exit
-chromium &
-exit
-clear
-exit
-clear
-exi
-exit
-exit
-chromium &
-exit
-clear
-lsa
-$PATH
-echo $PATH
-echo $TERM
-echo $TERMINAL
-alacritty -e /bin/bash
-vim .profile
-chsh /bin/bash
-chsh /bin/sh
-chsh /usr/bin/bash
-lsa
-chsh -s /bin/bash 
-exit
-pkill Xorg
-lsa
-startx
-exit
-exit
-lsa
-exit
-/bin/bash
-jobs
-exit
-chromium&
-exit
-
-screen
-jobs
-jobs 1
-disown 1
-man disown
-disown --help
-disown -h
-disown -help
-disown
-lsa
-jobs
-exit
-jobs
-chromium &
-exit
-lsa
-lsa
-exit
-lsa
-lsa
-lsa
-lsa
-bspc wm -r
-echo $mod
-lsa
-lsa
-cat test
-lsa
-cat test
-cat test
-rm test
-exit
-lsa
-rm test
-tlsa
-lsa
-lsa
-tlsa
-lsa
-eit
-exit
-vim dev/bin/bspwm_smart_move.sh
-vim dev/bin/bspwm_smart_move.sh
-vim dev/bin/bspwm_smart_move.sh
-exit
-exit
-loadbin
-killall sxhkd
 bspc wm -r
 exit
 loadbin
@@ -187,4 +54,1949 @@ clear
 lsa
 vim .config/sxhkd/sxhkdrc_bspc
 shutdown -h now
+exit
+dotfiles status
+dotfil add .config/aliasrc .config/inputrc
+dotfiles add .config/aliasrc .config/inputrc
+dotfiles restore --staged .config/inputrc
+dotfiles status
+dotfiles commit -m "moved profile aliases to aliasrc"
+dotfiles add .config/wget .config/htop .config/alacritty .local/bin
+dotfiles status
+dotfiles commit -m "clean up"
+dotfiles status
+dotfiles add .config/bash .config/zsh .config/inputrc .zprofile .profile
+dotfiles status
+dotfiles commit -m "switched from bash to zsh"
+dotfiles status
+dotfiles add .config/xterm/Xresources
+dotfiles add .config/xterm/Xmodmap
+dotfiles add .xinitrc .xprofile
+dotfiles status
+dotfiles commit -m "minor bug fixes"
+dotfiles status
+dofiles push
+dotfiles push
+loadbin
+cd dev/bin
+lsla
+./loadbin.sh
+bspwm_conf_xrandr
+exit
+clear
+chromium&
+disown 1
+jobs
+disown
+jobs
+exit
+lsa
+vim .config/bspwm
+vim .config/bspwm/bspwmrc
+vim .config/bspwm/bspwmrc
+vim .config/sxhkd/sxhkdrc
+vim .config/sxhkd/sxhkdrc_bspc
+vim .profile
+pkill Xorg
+clear
+lsa
+which zsh
+chsh -s $(which bash)
+chsh -l
+which bash
+whcih zsh
+which zsh
+lsa
+pkill Xorg
+lsa
+clear
+lsa
+lsl
+lsla
+vim .config/zsh/.zprofile
+clear
+lsa
+cp .zprofile .config/zsh/.zprofile
+lsla
+lsla .config/zsh
+lsla .config/zsh/
+ls
+lsa
+lsla .config
+vim .config/zsh/.zprofile
+rm .config/zsh/.zprofile
+ln -s .profile .config/zsh/.zprofile
+lsla
+lsla .config/zsh/
+clear
+lsla
+mv .zprofile .zprofile2
+ls
+lsla
+exit
+lsa
+ls
+ls -la
+vim .zshrc
+rm .zshrc
+ls -la
+exit
+exit
+source .config/zsh/zshrc
+lsa
+clear
+lsa
+cd .config
+exit
+source .profile
+exit
+lsa
+source .profile
+exit
+lsa
+echo $SHELL
+source .profile
+echo $SHELL
+lsa
+ls
+env
+exit
+source .profile
+lsa
+source .profile
+source .profile
+source .profile
+source .profile
+source .profile
+exit
+source .profile
+lsa
+vim /etc/zsh/zprofile
+vim /etc/profile
+vim /etc/zsh/zprofile
+vim /etc/profile
+vim .config/zsh/zshrc
+exit
+zsh
+lsa
+cd .config/zsh
+lsa
+lsla
+rm .zcompdump
+ls
+lsa
+lsa ~/.config/bash/
+clear
+lsa
+vim zshrc
+source zshrc
+exit
+source .config/zsh/zshrc
+lsa
+exit
+source .zprofile
+lsa
+exit
+source .zprofile
+lsa
+lsa
+exit
+lsa
+ls
+source .profile
+lsa
+lsa
+source .config/zsh/zshrc
+lsa
+lsa
+rm .viminfo
+exit
+exit
+lsa
+lsa .config/zsh
+exit
+lsa
+exit
+lsa
+exit
+lsa
+exit
+lsa
+exit
+lsa
+exit
+lsa
+exit
+lsa
+exit
+lsa
+startx
+exit
+exit
+lsa
+lsa
+exit
+exit
+source .profile
+lsa
+source .profile
+exit
+exit
+lsa
+rm .bash_history
+rm .viminfo
+lsa
+exit
+startx
+clear
+lsa
+chsh -s /bin/zsh
+exit
+lsa
+chromium & && disown
+chromium &
+disown
+clear
+chsh -s /bin/bash
+exit
+lsa
+rm .bash_history
+rm .viminfo
+lsa
+vim .xinitrc
+vim .xprofile
+ls
+lsa
+startx
+exit
+lsa
+exit
+exit
+exit
+lsa
+chsh -s /bin/bash
+pkill Xorg
+lsa
+startx
+exit
+lsa
+source .profile
+lsa
+printenv
+lsa
+exit
+lsa
+ls
+ls -la
+source .profile
+lsa
+exit
+source .profile
+lsa
+exit
+source .profile
+lsa
+exit
+lsa
+exit
+exit
+lsa
+exit
+exit
+exit
+lsa
+exit
+vim .config/zsh/.zshenv
+.config/zsh
+lsa
+rm .zshrc 
+lsa
+mv .zshenv zshenv
+lsa
+rm .zcompdump
+lsa
+lsa
+zsh
+clear
+ln ~/.zprofile ./
+lsa
+ln -h
+ln --help
+lsa ~
+lsa
+rm .zprofile
+lsa
+rm .zprofile
+lsa
+lsa
+clear
+lsa
+rm .zcompdump
+lsa
+vim zshenv
+mv zshenv .zshenv
+lsa
+clear
+lsa
+mv .zshenv zshenv
+rm .zcompdump
+lsa
+lsa
+lsla
+lsa
+vim .zshrc
+rm .zshrc
+lsa
+vim .zshrc
+rm .zshrc
+mv zshenv .zshenv
+lsa
+rm zcomp zcomp\~
+lsa
+lsa
+lsa
+lsa
+exit
+lsa
+vim .zprofile
+vim .zprofile
+exit
+chromium& && disown
+chromium& | disown
+chromium&
+disown
+lsa
+clear
+printenv
+vim .profile
+clear
+lsa
+jobs
+lsa
+cp .zprofile .zprofile2
+lsa
+rm .zprofile2
+lsa
+lsa
+exit
+lsa
+pkill Xorg
+startx
+exit
+vim .zprofile
+vim .config/zsh/zshrc
+vim .profile
+lsa
+vim .zprofile
+exit
+vim .zprofile
+exit
+vim .zprofile
+exit
+vim $ZDOTDIR/zshrc
+vim $ZDOTDIR/.zshenv
+exit
+lsa
+vim .zprofile
+exit
+vim .zprofile
+exit
+vim .profile
+echo $SHELL
+vim .zprofile
+exit
+vim $ZDOTDIR/.zshenv
+exit
+vim .zprofile
+exit
+vim .zprofile
+exit
+vim .zprofile
+echo $ZSH_NAME
+vim $ZDOTDIR
+vim $ZDOTDIR/.zshenv
+exit
+vim $ZDOTDIR/.zshenv
+exit
+lsa 
+lsa $ZDOTDIR
+vim $ZDOTDIR/zshrc
+lsa
+ln -s .profile $ZDOTDIR/.zshenv
+rm $ZDOTDIR/.zshenv
+ln -s .profile $ZDOTDIR/.zshenv
+exit
+lsa
+vim .zprofile
+mv .zprofile .zprofile2
+ln -s .profile .zprofile
+exit
+lsa
+rm .zprofile2
+rm .zprofile
+mv .zprofile2 .zprofile
+vim .zprofile
+exit
+vim .zprofile
+exit
+lsa
+vim .zprofile
+wxit
+exit
+lsa
+rm .viminfo
+lsa
+lsa $ZDOTDIR
+rm $ZDOTDIR/.zshenv
+mv .zprofile .zprofile2
+exit
+lsa
+vim $ZDOTDIR/.zshenv
+lsa $ZDOTDIR
+rm $ZDOTDIR/.zshenv
+lsa
+exit
+lsa
+startx
+lsa
+ln -s .profile $ZDOTDIR/.zprofile
+startx
+exit
+startx
+lsa
+lsa $ZDOTDIR
+cat $ZDOTDIR/.zprofile
+cat .zprofile
+exit
+lsa
+lsa $ZDOTDIR
+lsla $ZDOTDIR
+vim .profile
+clear
+startx
+lsa
+mv .zprofile $ZDOTDIR
+lsa
+exit
+exit
+exit
+lsa
+source .profile
+lsa
+vim $ZDOTDIR/.zprofile
+vim $ZDOTDIR/.zprofile
+mv $ZDOTDIR/.zprofile $ZDOTDIR/.zshenv
+lsa
+mv .zprofile .zshenv
+lsa
+pkill Xorg
+lsa
+startx
+exit
+lsa
+exit
+exit
+lsa
+chromium&
+disown
+jobs
+lsa
+rm .zshenv
+ln -s $ZDOTDIR/.zprofile .zprofile
+lsa
+lsal
+lsla
+lsl
+lsla
+rm .zprofile
+ln -s $ZDOTDIR/.zshenv .zprofile
+clear
+lsa
+vim $ZDOTDIR/.zshenv
+vim $ZDOTDIR/.zshenv
+vim $ZDOTDIR/.zshenv
+source .profile
+vim $ZDOTDIR/.zshenv
+exit
+lsa
+exit
+exit
+lsa
+.config
+lsa
+mv ~/.xprofile xorg
+lsa
+..
+lsa
+ln -s .config/xorg/xprofile .xprofile
+lsa
+lsla
+rm .xprofile
+.config/xorg
+lsla
+mv .xprofile xprofile
+mv Xauthority xauthority
+mv Xresources xresources
+mv Xmodmap xmodmap
+lsa
+lsla
+chmod -x xprofile
+lsla ../zsh
+../zsh
+lsla
+chmod -x .zshenv
+...
+vim .profile
+source .profile
+ln -s $HOME/.config/xorg/xprofile .xprofile
+lsa
+lsla
+lsa
+clear
+lsa
+lsa
+rm .viminfo
+lsa
+startx
+exit
+lsa
+chromium&
+lsa
+git clone https://github.com/powerline/fonts.git --depth=1
+lsa
+lsa
+cd fonts
+lsa
+./install.sh
+cd ..
+rm -rf fonts
+lsa
+clear
+lsa
+exit
+jobs
+disown
+exit
+lsa
+vim .xinitrc
+vim .xprofile
+clear
+lsa
+mv .xinitrc $HOME/.config/xorg/xinitrc
+ln -s  $HOME/.config/xorg/xinitrc .xinitrc
+lsa
+pkill Xorg
+lsa
+startx
+exit
+chromium&
+disown
+exit
+lsa
+exit
+lsa
+exit
+lsa
+exit
+lsa .profile
+vim .profile
+clear
+exit
+lsa
+exit
+xrdb $XRESOURCES
+exit
+lsa
+pkill chromium
+chromium&
+disown
+exit
+fc-list
+fc-list | power
+fc-list | grep powe
+fc-list | grep power
+fc-list | grep powerline
+fc-list | grep Powerline
+fc-list | grep Source Code Pro Powerline
+fc-list | grep "Source Code Pro Powerline"
+clear
+fc-list | grep "Source Code Pro Powerline"
+exit
+lsa
+fc-cache -vf
+fc-cache -vf
+fc-cache
+fc-cache --help
+lsa
+vim .config/alacritty/alacritty.yml
+vim $XRESOURCES
+vim $XRESOURCES
+xrdb $XRESOURCES
+lsa
+exit
+lsa
+clear
+exit
+lsa
+exit
+lsa /usr/share/zsh
+vim /usr/share/zsh/functions/Completion/bashcompinit
+vim /usr/share/zsh/plugins
+lsa
+ls
+git clone https://aur.archlinux.org/spaceship-prompt-git.git
+cd spaceship-prompt-git
+makepkg -si
+lsa
+cd ..
+rm spaceship-prompt-git -rf
+lsa
+exit
+lsa
+sudo pacman -Syy
+sudo pacman -Syu
+sudo pacman -S zsh-syntax-highlighting
+exit
+exit
+exit
+exit
+lsa
+exit
+lsa
+lsa
+vim .config/zsh/zshrc
+exit
+lsa
+exit
+eixt
+exit
+lsa
+exit
+lsa
+exit
+lsa
+exit
+lsa
+lsa
+exit
+exit
+lsa
+exit
+lsa
+exit
+exit
+exit
+exit
+lsa
+exit
+exit
+exit
+exit
+exit
+lsa
+exit
+exit
+lsa
+exit
+exit
+exit
+exit
+exit
+lsa
+exit
+lsa
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+lsa
+exit
+lsa
+exit
+lsa
+exit
+exit
+exit
+exit
+exit
+lsa
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+lsa
+exit
+exit
+exit
+exit
+exit
+lsa
+exit
+exit
+urxvt
+urxvt
+urxvt -fn 
+urxvt -fn "Source Code Pro for Powerline"
+urxvt -fn "Source Code Pro\"
+urxvt -fn "Source Code Pro"
+vim $XRESOURCES
+xrdb $XRESOURCES
+urxvt
+vim $XRESOURCES
+xrdb $XRESOURCES
+urxvt
+exit
+lsa
+cd dev
+dotfiles
+cd dotfiles
+status
+dotfiles status
+cd ~
+exit
+lsa
+lsa
+exit
+exit
+exit
+lsa
+clear
+exit
+exit
+lsa
+exit
+lsa
+exit
+exit
+exit
+exit
+lsa
+exit
+lsa
+exit
+lsa
+lsa .config
+xrdb $XRESOURCES
+clear
+exit
+urxvt
+lsa
+xrdb $XRESOURCES
+lsa
+rm .viminfo
+exit
+lsa
+clear
+lsa
+cd dev
+lsa
+cd dotfiles
+exit
+exit
+exit
+exit
+lsa
+exit
+cd dev/dotfiles
+exit
+cd dev/dotfiles/
+lsa
+cd ~
+lsa
+exit
+exit
+exit
+exit
+exit
+exit
+lsa
+clear
+exit
+exit
+lsa
+exit
+vim $XRESOURCES
+xrdb $XRESOURCES
+urxvt
+vim $XRESOURCES
+xrdb $XRESOURCES
+urxvt
+exit
+exit
+e602
+echo -e "e602"
+echo -e "\e602"
+echo -e "\e\602"
+echo -e "\e\6\02"
+echo -e "\e\6\0\2"
+echo -e "\e\602"
+echo -e "\e\ 602"
+echo e602
+fc-match
+fc-match monospace
+fc-scan
+fc-scan /
+fc-scan ~/.local
+fc-scan ~/.local | grep powerline
+fc-scan ~/.local | grep Source
+fc-scan ~/.local | grep Source | grep Medium
+fc-match /home/chris/.local/share/fonts/Source Code Pro Medium for Powerline.otf
+fc-cache
+fc-pattern /home/chris/.local/share/fonts/Source Code Pro Medium for Powerline.otf
+/home/chris/.local/share/fonts/Source Code Pro Medium for Powerline.otf
+cd .local/share/fonts/
+fc-scan
+fc-scan .
+vim $XRESOURCES
+xrdb $XRESOURCES
+urxvt
+urxvt --help
+urxvt -help
+urxvt -help | grep fn
+clear
+urxvt -help | grep -fn
+urxvt -help | grep '-fn'
+urxvt -help | grep '-fn'
+urxvt -help > ~/crap
+cat ~/crap
+rm ~/crap
+lsa
+urxvt -help
+urxvt -fn 'Source code Pro for Powerline'
+lsa
+urxvt -fn 'Source code Pro Medium for Powerline'
+urxvt -fn 'Source code Pro Medium for Powerline.otf'
+urxvt -fn ./'Source code Pro Medium for Powerline.otf'
+urxvt -fn xft:mono
+urxvt -fn xft:Source Code Pro
+urxvt -fn xft:'Source Code Pro Medium'
+urxvt -fn xft:'Source Code Pro Medium for Powerline'
+urxvt -fn xft:'Source Code Pro for Powerline'
+urxvt -fn xft:'Source Code Pro for Powerline'
+exit
+exit
+lsa
+exit
+exit
+lsa
+clear
+lsa
+vim .config/zsh/zshrc
+vim .config/zsh/zshrc
+clear
+vim .config/zsh/zshrc
+vim .config/zsh/zshrc
+exit
+exit
+exit
+exit
+exit
+lsa
+exit
+lsa
+exit
+exit
+lsa
+clear
+lsa
+exit
+lsa
+vim .profile
+clear
+lsa
+exit
+lsa
+exit
+exit
+lsa
+exit
+exit
+vim .profile
+lsa
+exit
+lsa
+vim .profile
+vim .profile
+exit
+lsa
+exit
+lsa
+exit
+lsa
+lsa
+exit
+vim .profile
+exit
+exit
+vim .profile
+exit
+exit
+lsa
+vim .profile
+exit
+lsa
+vim .profile
+exit
+lsa
+vim .profile
+exit
+lsa
+vim .profile
+exit
+lsa
+vim .profile
+exit
+clear
+lsa
+vim .profile
+lsa
+exit
+lsa
+vim .profile
+clear
+lsa
+clear
+exit
+lsa
+vim .profile
+exit
+lsa
+vim .profile
+exit
+lsa
+exit
+vim .profile
+exit
+clear
+lsa
+exit
+lsa
+vim .profile
+exit
+vim .profile
+vim .profile
+exit
+lsa
+vim .profile
+exit
+lsa
+vim .config/zsh/zshrc
+vim .config/zsh/zshrc
+vim .config/zsh/zshrc
+exit
+urxvt
+clear
+lsa
+vim .profile
+vim .zprofile
+vim .config/zsh/zshrc
+cat .config/zsh/zshrc
+cat .config/zsh/zshrc | grep PS1
+clear
+cat .config/zsh/zshrc | grep PS1
+exit
+vim .profile
+clear
+exit
+exit
+exit
+exit
+vim .profile
+exit
+lsa
+vim .profile
+exit
+vim .profile
+exit
+vim .profile
+exit
+exit
+vim .profile
+exit
+lsa
+clear
+lsa
+vim .config/zsh/zshrc
+exit
+exit
+exit
+lsa
+exit
+exit
+exit
+lsa
+exit
+vim .profile
+vim .config/zsh/zshrc
+exit
+lsa
+vim .profile
+clear
+exit
+lsa
+clear
+lsa
+exit
+lsa
+exit
+lsa
+exit
+lsa
+exit
+lsa
+clear
+lsa
+exit
+lsa
+exit
+lsa
+exit
+exit
+lsa
+exit
+lsa
+clear
+lsa
+exit
+lsa
+exit
+clear
+lsa
+exit
+lsa
+exit
+lsa
+pwd
+clear
+exit
+lsa
+exit
+lsa
+clear
+lsa
+exit
+exit
+lsa
+exit
+lsa
+exit
+exit
+lsa
+exit
+exit
+exit
+lsa
+exit
+exit
+clear
+exit
+exit
+lsa
+vim .profile
+exit
+clear
+lsa
+echo 20-7e
+echo "20-7e"
+echo -e 20-7e
+vim .config/zsh/zshr
+vim .config/zsh/zshrc
+exit
+lsa
+vim .profile
+clear
+lsa
+fc-list -f '%{file}\n' :lang=en
+fc-list -f '%{file}\n' :lang=en | grep .local
+fc-list -f '%{file}\n' :lang=en | grep -e '(.local)(Powerline)'
+fc-list -f '%{file}\n' :lang=en | grep -e '(.local)&(Powerline)'
+fc-list -f '%{file}\n' :lang=en | grep -e '(.local,Powerline)'
+fc-list -f '%{file}\n' :lang=en | grep -e '(.local|Powerline)'
+fc-list -f '%{file}\n' :lang=en | grep -e "(.local|Powerline)"
+fc-list -f '%{file}\n' :lang=en | grep -e "(local|Powerline)"
+fc-list -f '%{file}\n' :lang=en | grep -e "(local)"
+fc-list -f '%{file}\n' :lang=en | grep -E '(.local)(Powerline)'
+fc-list -f '%{file}\n' :lang=en | grep -E '(.local|Powerline)'
+fc-list -f '%{file}\n' :lang=en | grep -E '(.local&Powerline)'
+fc-list -f '%{file}\n' :lang=en | grep -E '(.local,Powerline)'
+fc-list -f '%{file}\n' :lang=en | grep -E '(.local Powerline)'
+fc-list -f '%{file}\n' :lang=en | grep -E '(Powerline)'
+fc-list -f '%{file}\n' :lang=en | grep -E '(Source)(Powerline)'
+fc-list -f '%{file}\n' :lang=en | grep -E '(Source)&(Powerline)'
+fc-list -f '%{file}\n' :lang=en | grep -E '(Source),(Powerline)'
+fc-list -f '%{file}\n' :lang=en | grep -E "(Source),(Powerline)"
+fc-list -f '%{file}\n' :lang=en | grep -E "(Source)" | grep -E "(Powerline)"
+fc-list -f '%{file}\n' :lang=en | grep -E "(Power)" | grep -E "(Source)"
+fc-list -f '%{file}\n' :lang=en | grep "Source Code Pro for Powerline"
+fc-list -f '%{file}\n' :lang=en | grep "Source Code Pro Medium for Powerline"
+fc-list -f '%{file}\n' :lang=en | grep "Source Code Pro Medium for Powerline" | fc-match -
+fc-cat
+fc-cat | grep "Source Code Pro Medium for Powerline"
+clear
+exit
+clear
+lsa
+exit
+lsa
+.config
+clear
+lsa
+exit
+lsa
+exit
+exit
+lsa
+xit
+exit
+lsa
+.config
+exit
+clear
+lsa
+exit
+exit
+clear
+lsa
+.cache
+exit
+exit
+exit
+vim .config/zsh/zshrc
+exit
+clear
+exit
+lsa
+sudo pacman -Rns spaceship-prompt
+sudo pacman -Rns spaceship-prompt-git
+exit
+lsa
+git clone https://aur.archlinux.org/spaceship-prompt-git.git
+cd spaceship-prompt-git
+makepkg -si
+exit
+clear
+lsa
+ðƒ¿ƒ°¹
+echo -e "ðƒ¿ƒ°¹"
+history
+exit
+lsa
+clear
+sudo pacman -S nerd-fonts
+sudo pacman -S adobe-source-code-pro
+sudo pacman -S adobe-source-code-pro-ttf
+lsa
+rm -rf spaceship-prompt-git
+lsa
+clear
+git clone https://aur.archlinux.org/nerd-fonts-source-code-pro.git
+lsa
+cd nerd-fonts-source-code-pro
+lsa
+./nerd-fonts-source-code-pro.install
+sudo ./nerd-fonts-source-code-pro.install
+sudo ./nerd-fonts-source-code-pro.install
+clear
+lsa
+;sa
+lsa
+history
+lsa
+cat nerd-fonts-source-code-pro.install
+./nerd-fonts-source-code-pro.install
+exec "sudo ./nerd-fonts-source-code-pro.install"
+history
+exot
+exit
+df
+df /
+df -sh /
+df -h /
+sync
+df -h /
+htop
+exit
+vim .config/zsh/zshrc
+exit
+lsa
+cd nerd-fonts-source-code-pro
+makepkg
+makepkg -si
+clear
+ls
+lsa
+cd ..
+lsa
+rm nerd-fonts-source-code-pro -rf
+clear
+fc-list | grep nerd
+fc-scan
+fc-list
+fc-list | grep Nerd
+echo -e "/uE0a0"
+echo "\ue0a0"
+echo "\uE0C0"
+lsa
+git clone --depth 1 https://aur.archlinux.org/nerd-fonts-complete.git
+lsa
+cd nerd-fonts-complete
+makepkg -si
+makepkg
+clear
+lsa
+cd pkg
+lsa
+cd nerd-fonts-complete
+lsa
+cd usr
+cd share
+cd ..
+cd lib
+cd nerd-fonts-complete
+cd ..
+cd ..
+ls
+cd share
+cd fonts
+cd nerd-fonts-complete
+cd OTF
+clear
+cd ...
+cd ..
+cd ..
+c d..
+cd ..
+cd ..
+cd ../..
+c d..
+cd ..
+cd src
+cd nerd-fonts-2.1.0
+clear
+lsa
+exit
+lsa
+vim .config/alacritty/alacritty.yml
+clear
+lsa
+history
+exit
+fc-list
+history | grep pacman
+history
+cat $ZDOTDIR/zsh_history
+cat $ZDOTDIR/zsh_history | grep pacman
+sudo pacman -S adobe-source-code-pro-ttf
+sudo pacman -Rns nerd-fonts
+sudo pacman -Rns powerline-fonts
+lsa
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./uninstall.sh
+sudo ./uninstall.sh
+./uninstall.sh
+./install
+./install.sh
+./uninstall.sh
+sudo ./$PWD/uninstall.sh
+sudo $PWD/uninstall.sh
+sudo .$PWD/uninstall.sh
+ls
+chmod +x uninstall.sh
+./uninstall.sh
+cd ..
+rm -rf fonts
+df -h /
+sync
+df -h /
+ls
+exit
+fc-cache
+fc-cache -h
+fc-cache -r
+df -h /
+fc-list
+sudo pacman -Rns noto-fonts
+df -h /
+clear
+lsa
+fc-list
+history
+history --help
+history -h
+history -a
+history --all
+history -all
+cat $ZDOTDIR/zsh_history
+fc-cache
+fc-cache -h
+fc-cache -r
+fc-list
+sudo pacman -Rns adobe-source-code-pro
+sudo pacman -Rns adobe-source-code-pro-ttf
+sudo pacman -Rns source-code-pro-ttf
+sudo pacman -Rns adobe-source-code-pro-fonts
+sudo pacman -S adobe-source-code-pro-fonts 
+fc-cache -r
+fc-list
+sudo pacman -Rns nerd-font
+sudo pacman -Rns nerd-fonts
+sudo pacman -Rns nerd-font-complete
+sudo pacman -Rns nerd-fonts-complete
+lsa
+lsa
+git clone --depth=1 https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/SourceCodePro
+lsa
+sudo pacman -Rns nerd-fonts-source-code-pro
+fc-list
+fc-cache -r
+clear
+df -h /
+sync
+df -h /
+fc-list
+fc-list | sort
+fc-list | sort | less -M
+clear
+exit
+k
+exit
+lsa
+fclist | grep adobe
+fc-list | grep adobe
+fc-list | grep adobe-source-code-pro
+fc-list | grep "Source Code Pro"
+fc-list | grep -E "Source Code Pro"
+fc-list | grep -E "Source Code Pro"
+clear
+fc-list | grep -E "Source Code Pro"
+fc-list | grep -E "SourceCodePro-Medium"
+[-f /usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium.otf] && echo Its there
+[-f /usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium.otf] && echo "Its there"
+sh -c [-f /usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium.otf] && echo "Its there"
+emulate sh -c [-f /usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium.otf] && echo "Its there"
+emulate sh -c [[-f /usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium.otf]] && echo "Its there"
+clear
+lsa
+/bin/bash
+exit
+lsa
+exit
+exit
+exit
+echo "/ue0a1"
+echo -e "/ue0a1"
+echo "\ue0a1"
+echo "\ue0b0"
+echo "\ue0c8"
+exit
+fc-list | grep 'SourceCodePro'
+lsa /usr/share/fonts/adobe-source-code-pro
+clera
+clear
+lsa
+fc-list | grep SourceCodePro-Medium
+fc-scan /usr/share/fonts
+fc-scan /usr/share/fonts/adobe-source-code-pro/
+fc-scan /usr/share/fonts/adobe-source-code-pro/ | grep Sauce
+fc-scan /usr/share/fonts/adobe-source-code-pro/ | less -M
+clear
+exit
+lsa
+vim .config/alacritty/alacritty.yml
+exit
+vim .profile
+lsa
+echo "\uf09a"
+echo "\uf268"
+echo "\uf268"
+exit
+echo "\uf268"
+exit
+vim .config/alacritty/alacritty.yml
+exit
+echo "\uf268"
+exit
+lsa
+clear
+lsa
+cd nerd-fonts-complete
+cd src
+cd nerd-fonts-2.1.0
+./font-patcher
+git clone https://github.com/fontforge/fontforge
+lsa
+cd fontforge
+makepkg
+lsa
+clear
+lsa
+mkdir build
+cd build
+cmake
+/bin/bash
+sudo pacman -S cmake
+clear
+lsa
+cmake
+cmake -GNinja ..
+make -GNinja ..
+make ..
+cmake ..
+sudo pacman -S libjpeg-dev libtiff5-dev libpng-dev libfreetype6-dev libgif-dev libgtk-3-dev libxml2-dev libpango1.0-dev libcairo2-dev libspiro-dev libuninameslist-dev python3-dev ninja-build cmake build-essential
+sudo pacman -S ninja
+sudo pacman -S build-essential
+sudo pacman -S python-fontforge
+sudo pacman -S fontforge
+lsa
+cd.
+..
+rm fontforge*
+rm fontforge* -rf
+clear
+ls
+cd ..
+rm fontforge -rf
+clear
+lsa
+./font-patcher
+./font-patcher -h
+history | grep pacman
+clear
+clear
+lsa
+font-patcher
+./font-patcher
+./font-patcher
+./font-patcher "/usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium.otf"\
+\
+
+lsa
+./font-patcher --help
+./font-patcher "/usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium.otf" -c
+lsa
+lsa
+./font-patcher -h
+mv 'Sauce Code Pro Medium Nerd Font Complete.otf' SourceCodePro-Medium-Complete.otf
+lsa
+mv SourceCodePro-Medium-Complete.otf /usr/share/fonts/adobe-source-code-pro/
+sudo mv SourceCodePro-Medium-Complete.otf /usr/share/fonts/adobe-source-code-pro/
+lsa
+echo "\uf268"
+exit
+startx
+echo "\ue743"
+echo "\uf2b4"
+clear
+lsa
+rm .lesshst
+lsa
+vim .profile
+pkill chromium
+history
+cat $ZDOTDIR/zsh_history| grep pacman
+lsa
+cd nerd-fonts-complete
+sudo pacman -Qtdq
+sudo pacman -Qtt
+reboot
+lsa
+chromium&
+exit
+exit
+chromium&
+clear
+lsa
+sudo pacman -Syyy
+sudo pacman -Syu
+sudo pacman -S chromium
+lsa
+chromium&
+disown
+lsa
+exit
+vim .config/alacritty/alacritty.yml
+exit
+lsa
+lsa
+echo "\ue0a0"
+exit
+lsa
+exit
+echo "\ue0c7"
+echo "\ue0a0"
+xrdb $XRESOURCES
+urxvt
+urxvt -fn "Sauce Code Pro Medium Nerd Font Complete"
+urxvt -fn "xft:Sauce Code Pro Medium Nerd Font Complete"
+urxvt -fn "xft:Sauce Code Pro Medium Nerd Font Complete:style=Medium:size=12" &
+clear
+lsa
+exit
+lsa
+xset -q
+fc-match SauceCodePro\ Nerd\ Font: 
+fc-match SauceCodePro\ Nerd\ Font:Medium
+lsa
+.config
+lsa
+mkdir fontconfig
+cd fontconfig
+lsa
+touch fonts.conf
+lsa
+lsa ~/.cache/fontconfig/
+fc-list : file
+fc-list : file | grep Source
+fc-query
+fc-query /usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium-Complete.otf:
+fc-query /usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium-Complete.otf
+lsa
+cd ..
+cd ..
+lsa
+.config
+lsa
+rm -rf fontconfig
+clear
+cd ..
+xset +fp /usr/share/fonts/local/
+sudo xset +fp /usr/share/fonts/local/
+xset +fp /usr/share/fonts/adobe-source-code-pro
+xset -q
+lsa
+clear
+lsa
+exit
+lsa
+exit
+lsa
+exit
+Sauce Code Pro Medium Nerd Font Complete
+clear
+lsa
+lsa
+xrdb $XRESOURCES
+vim $XRESOURCES
+xrdb $XRESOURCES
+urxvt
+vim $XRESOURCES
+xrdb $XRESOURCES
+urxvt
+xrdb $XRESOURCES
+vim $XRESOURCES
+xrdb $XRESOURCES
+urxvt
+urxvt &
+exit
+exit
+exit
+exit
+urxvt &
+exit
+lsa
+exit
+lsa
+vim $XRESOURCES
+xrdb $XRESOURCES
+exit
+lsa
+lsa
+exit
+exit
+chromium&
+clear
+lsa
+vim .config/alacritty/alacritty.yml
+lsa
+clear
+lsa
+urxvt
+clear
+fc-match --verbose
+fc-match --verbose sauce
+fc-match --verbose Sauce
+fc-match --verbose
+clera
+clear
+vim /etc/fonts/fonts.conf
+vim /etc/fonts/conf.d/50-user.conf
+mkdir -p ~/.config/fontconfig
+vim .config/fontconfig/fonts.conf
+vim .config/fontconfig/fonts.conf
+pkill Xorg
+lsa
+clear
+lsa
+urxvt
+clear
+fc-match --verbose
+fc-match --verbose sauce
+fc-match --verbose Sauce
+fc-match --verbose
+clera
+clear
+vim /etc/fonts/fonts.conf
+vim /etc/fonts/conf.d/50-user.conf
+mkdir -p ~/.config/fontconfig
+vim .config/fontconfig/fonts.conf
+vim .config/fontconfig/fonts.conf
+pkill Xorg
+lsa
+echo "\ufa05"
+echo "\uf0a3"
+echo "\uf0a9"
+echo "\ufa34"
+startx
+exit
+lsa
+echo "\ue0a0"
+exit
+fc-match
+fc-cache -vf
+fc-match
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
+clear
+fc-cache -vf
+fc-match
+echo "\ue0c8"
+clear
+fc-match /usr/share/fonts/adobe
+fc-match /usr/share/fonts/adobe:
+sudo pacman -S dconf-editor
+dconf-editor
+sudo dconf-editor
+sudo pacman -Rns dconf-editor
+clear
+lsa
+cd .config
+cd dconf
+cd use
+cd user
+vim user
+lsa
+cd /etc
+lsa
+cd dconf
+cd db
+lsa
+cd ..
+cd ..
+lsa
+cd X11
+lsa
+cd xorg.conf.d
+lsa
+cd ..
+cd ..
+exit
+lsa
+exit
+lsa
+exit
+fc-match
+echo "\ue0a0"
+clear
+lsa
+exit
+fc-match
+fc-match Mono
+fc-match Monospace
+fc-cache -vf
+fc-match Monospace
+fc-match
+fc-match --verbose
+fc-match
+exit
+lsa
+fc-match
+fc-cache -vf
+exit
+fc-match
+lsa
+exit
+clear
+lsa
+fc-match
+fc-scan /usr/share/fonts
+fc-cache -vf
+exit
+lsa
+chromium&
+disown
+lsa
+fc-cache -vf
+lsa
+fc-match
+.config
+lsa
+fontconfig
+lsa
+lsa
+mkdir conf.d
+mv fonts.conf conf.d/50-default-font.conf
+cd conf.d
+vim 50-default-font.conf
+fc-list
+fc-match
+vim 50-default-font.conf
+fc-match
+fc-query
+fc-query -i
+fc-query -b
+fc-query /usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium-Complete.otf
+vim 50-default-font.conf
+fc-cat
+fc-cat --help
+fc-cat -V
+fc-match Source\ Code\ Pro
+fc-match Source\ Code\ Pro\ Medium
+fc-match SauceCodePro\ Nerd\ Font:family
+fc-match SauceCodePro\ Nerd\ Font
+fc-match SauceCodePro\ Nerd\ Font:
+fc-match "Sauce Code Pro Medium Nerd Font Complete"
+fc-match --help
+fc-match "Sauce Code Pro Medium Nerd Font Complete"
+fc-match "Nerd Font Complete"
+fc-match "Source Code"
+fc-match Source
+fc-list | grep "Sauce"
+fc-scan
+fc-scan /usr/share/fonts
+fc-match
+fc-match /usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium-Complete.otf:
+fc-validate /usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium-Complete.otf:
+fc-validate /usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium-Complete.otf
+fc-match
+fc-pattern /usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium-Complete.otf:
+fc-pattern /usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium-Complete.otf
+fc-conflist
+fc-match 
+vim 50-default-font.conf
+fc-match
+fc-cache -vf
+fc-match
+fc-scan
+fc-scan /usr/share/fonts
+fc-match
+fc-cat
+fc-match --verbose Sans
+fc-match --verbose
+fc-match --verbose Monospace
+vim 50-default-font.conf
+vim 50-default-font.conf
+exit
+lsa
+fc-match
+fc-query /usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium-Complete.otf
+exit
+lsa
+fc-match
+fc-match
+fc-cache -vf
+fc-match
+exit
+.cache
+lsa
+fontconfig
+lsa
+cd ~
+vim .config/alacritty/alacritty.yml
+clear
+exit
+startx
+lsa
+shutdown -h now
+lsa
+fc-match
+exit
+lsa
+fc-match
+fc-match
+exit
+lsa
+fc-match
+lsa
+rm .config/fontconfig -rf
+exit
+lsa
+exit
+fc-match
+clear
+vim .config/alacritty
+vim .config/alacritty/alacritty.yml
+clear
+lsa
+vim .config/alacritty/alacritty.yml
+exit
+lsa
+echo "\ue0a0"
+clear
+lsa
+exit
+lsa
+exit
+exit
+exit
+lsa
+clear
+lsa
+echo "\e0a0"
+echo "\ue0a0"
+clear
+lsa
+urxvt
+urxvt &
+exit
+exit
+lsa
+urxvt &
+exit
+exit
+urxvt &
+exit
+xrdb $XRESOURCES
+urxvt &
+xrdb $XRESOURCES
+urxvt &
+df -h /
+urxvt &
+clear
+exit
+fc-match
+fc-list | grep Source
+fc-list | grep SourceCodePro
+fc-list | grep SourceCodePro-Medium
+clear
+fc-list | grep SourceCodePro-Medium
+fc-list | grep SourceCodePro-Medium
+fc-cache -vf
+fc-list | grep SourceCodePro-Medium
+fc-list | grep Source
+fc-list | grep Nerd
+fc-list | grep Nerd | grep Source
+fc-list | grep Nerd | grep Source
+fc-list | grep Nerd | grep Source
+clear
+clear
+fc-list | grep Nerd | grep Source
+exit
+lsa
+exit
+lsa
+fc-match
+vim .config/alacritty/alacritty.yml
+exit
+exit
+urxvt &
+exit
+lsa
+clear
+lsa
+lsa
+urxvt&
+vim $XRESOURCES
+vim .config/alacritty/alacritty.yml
+clear
+lsa
+.config
+lsa
+cd ..
+cd nerd-fonts-complete
+cd src
+cd nerd-fonts-2.1.0
+cd patched-fonts
+SourceCodePro
+lsa
+cd Medium
+cd complete
+cd ../..
+cd ..
+lsa
+cd ..
+lsa
+./install.sh
+cd ../..
+makepkg -si
+clear
+lsa
+cd ..
+lsa
+lsa
+sudo pacman -Rns nerd-fonts-complete
+sync
+df -h /
+fc-cache -vf
+clear
+lsa
+rm -rf nerd-fonts-complete
+clear
+lsa
+chromium&
+clear
+vim somethign
+lsa
+clear
+lsa
+exit
+lsa
+startx
+lsa
+chromium&
+disown
+less -M .config/zsh/zsh_history
+less -M .config/zsh/zsh_history | grep pacman
+sudo pacman -Rns fontforge
+sudo pacman -Syyy
+sudo pacman -Syu
+less -M .config/zsh/zsh_history | grep pacman
+sudo pacman -Qtd
+sudo pacman -Qtq
+sudo pacman -Qtdq
+sudo pacman -Qttdq
+sudo pacman -Qtt
+sudo pacman -Qt
+clear
+vim dev/bin/tfsync.sh
+tfsync
+tfsync preview
+tfsync resync
+lsa
+lsa .cache
+lsa .cache/chromium/
+cd .cache
+rm fontconfig -rf
+du -sh .
+du -sh ./*
+sync
+du -sh ./*
+du -sh ./chromium
+du -sh ./chromium/*
+du -sh ./.chromium-backup_tfs
+shutdown -h now
+exit
+exit
+exit
 exit
