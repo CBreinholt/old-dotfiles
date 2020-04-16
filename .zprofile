@@ -1,1 +1,1 @@
-.profile
+/home/chris/.config/zsh/.zshenv
