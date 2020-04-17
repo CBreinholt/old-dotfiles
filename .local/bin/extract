@@ -1,0 +1,108 @@
+#!/bin/sh
+#
+# extract.sh
+#
+# A general, all-purpose extraction script
+#
+# Default behavior: Extract archive into new directory
+# Behavior with `-c` option: Extract contents into current directory
+
+while getopts "hc" o; do case "${o}" in
+	c) extracthere="True" ;;
+	*) printf "Options:\\n   -c: Extract archive into current directory rather than a new one.\\n" && exit ;;
+esac done
+
+if [ -z "$extracthere" ]; then
+	archive="$(readlink -f "$*")" &&
+	directory="$(echo "$archive" | sed 's/\.[^\/.]*$//')" &&
+	mkdir -p "$directory" &&
+	cd "$directory" || exit
+else
+	archive="$(readlink -f "$(echo "$*" | cut -d' ' -f2)")"
+fi
+
+[ "$archive" = "" ] && printf "Give archive to extract as argument.\\n" && exit
+
+if [ -f "$archive" ] ; then
+	case "$archive" in
+		*.tar.bz2|*.tbz2) tar xvjf "$archive" ;;
+		*.tar.xz) tar -xf "$archive" ;;
+		*.tar.gz|*.tgz) tar xvzf "$archive" ;;
+		*.lzma) unlzma "$archive" ;;
+		*.bz2) bunzip2 "$archive" ;;
+		*.rar) unrar x -ad "$archive" ;;
+		*.gz) gunzip "$archive" ;;
+		*.tar) tar xvf "$archive" ;;
+		*.zip) unzip "$archive" ;;
+		*.Z) uncompress "$archive" ;;
+		*.7z) 7z x "$archive" ;;
+		*.xz) unxz "$archive" ;;
+		*.exe) cabextract "$archive" ;;
+		*) printf "extract: '%s' - unknown archive method\\n" "$archive" ;;
+	esac
+else
+	printf "File \"%s\" not found.\\n" "$archive"
+fi
+
+# This is the list for lf icons:
+export LF_ICONS="di=📁:\
+fi=📃:\
+tw=🤝:\
+ow=📂:\
+ln=⛓:\
+or=❌:\
+ex=🎯:\
+*.txt=✍:\
+*.mom=✍:\
+*.me=✍:\
+*.ms=✍:\
+*.png=🖼:\
+*.ico=🖼:\
+*.jpg=📸:\
+*.jpeg=📸:\
+*.gif=🖼:\
+*.svg=🗺:\
+*.xcf=🖌:\
+*.html=🌎:\
+*.xml=📰:\
+*.gpg=🔒:\
+*.css=🎨:\
+*.pdf=📚:\
+*.djvu=📚:\
+*.epub=📚:\
+*.csv=📓:\
+*.xlsx=📓:\
+*.tex=📜:\
+*.md=📘:\
+*.r=📊:\
+*.R=📊:\
+*.rmd=📊:\
+*.Rmd=📊:\
+*.mp3=🎵:\
+*.opus=🎵:\
+*.ogg=🎵:\
+*.m4a=🎵:\
+*.flac=🎼:\
+*.mkv=🎥:\
+*.mp4=🎥:\
+*.webm=🎥:\
+*.mpeg=🎥:\
+*.avi=🎥:\
+*.zip=📦:\
+*.rar=📦:\
+*.7z=📦:\
+*.tar.gz=📦:\
+*.z64=🎮:\
+*.v64=🎮:\
+*.n64=🎮:\
+*.1=ℹ:\
+*.nfo=ℹ:\
+*.info=ℹ:\
+*.log=📙:\
+*.iso=📀:\
+*.img=📀:\
+*.bib=🎓:\
+*.ged=👪:\
+*.part=💔:\
+*.torrent=🔽:\
+"
