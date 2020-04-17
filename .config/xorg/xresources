@@ -1,30 +1,25 @@
 !! Colors
 #include "/home/chris/.config/themes/nord.Xresources"
 
-!! URxvt appearence
-#define font1           xft:SauceCodePro Nerd Font:style=Medium:size=12
-!!define font2         xft:Inconsolata Nerd Font:style=Medium:size=12
-!!define font3         xft:DejaVu Sans Mono Nerd Font:style=Medium:size=12
-!!define font4         xft:Noto Sans Mono CJK JP:style=Medium:size=12
-
 !! Xorg settings
-Xft.dpi: 		        96
+Xft.dpi: 		        100
 Xft.rgba:		        rgb
-Xft.antialias:	 	    1
-Xft.hinting: 		    1
+Xft.antialias:	 	    true
+Xft.hinting: 		    true
 Xft.hintstyle: 		    hintslight
 
 !! URxvt settings
-*font:  			            font1
-URxvt*depth:                    32
+URxvt*font:  			        xft:SauceCodePro Nerd Font:pixelsize=18
 URxvt*scrollBar:                false
 URxvt*mouseWheelScrollPage: 	false
-URxvt*cursorBlink: 		        true
+URxvt*cursorBlink: 		        false
 URxvt*saveLines:              	5000
-URxvt*internalBorder: 		    24
 URxvt*utf8:			            true
 URxvt*locale: 			        true
 URxvt*iso14755:                 false
+URxvt*iso14755_52:              false
+URxvt*depth:                    32
+URxvt*internalBorder: 		    12
 URxvt*letterSpace:		        0
 
 ! URxvt keybindings and escape codes
