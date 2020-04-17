@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #
 # bspwmrc --- Initialisation script for BSPWM.
 #
@@ -8,15 +8,11 @@
 
 #####====---Essentials---====#####
 
-_cmd() {
-    command -v "$1" > /dev/null || echo "  bspwm: error - $1 does not exist!"
-}
-
 # Determine the XrandR settings
-command -v monitor_conf > /dev/null && monitor_conf
+iscmd bspwm_conf_xrandr && bspwm_conf_xrandr
 
 # Define desktops [per monitor]
-command -v bspwm_desktops > /dev/null && bspwm_desktops
+iscmd bspwm_conf_desktops && bspwm_conf_desktops
 
 
 #####====---Visual Options---====#####
@@ -35,19 +31,15 @@ bspc config top_monocle_padding 0
 bspc config bottom_monocle_padding 0
 bspc config left_monocle_padding 0
 bspc config right_monocle_padding 0
-bspc config window_gap 15
-bspc config border_width 3
+bspc config window_gap 10
+bspc config border_width 2
 bspc config split_ratio 0.50
 
 
 #####====---Autostart---====#####
 
-# Parse my custom key mappings. These enable Mod3 "Hyper"
-#_cmd setxkbmap && setxkbmap -layout 'us'
-#[ -f $XMODMAP ] && xmodmap $XMODMAP
-
 # The hotkey daemon that handles all custom key bindings.
-_cmd sxhkd && sxhkd -c $XDG_CONFIG_HOME/sxhkd/sxhkdrc{,_bspc} &
+iscmd sxhkd && sxhkd -c $XDG_CONFIG_HOME/sxhkd/sxhkdrc{,_bspc} &
 
 # Start the simple display compositor.  See `xcompmgr --help'.
 #xcompmgr -cCfF -t -2 -l -2 -r 2.8 -o 0.55 -D 5 &

@@ -3,105 +3,70 @@
 #
 # Partial configuration file for the Simple X Hotkey Daemon
 # Meant to work with `bspwm`
-# ======================================================================================
-# super + [shift+] + q           = Close {or Kill} focused node
-# super + {h,j,k,l}              = Focus the node in given dir
-# super + shift    + {h,j,k,l}   = Swap focused node (smart movement) with dir and follow focus
-# alt   + grave                  = Focus the previously active display
-# alt   + Tab                    = Focus the previously active node
-# ctrl  + [shift+] + Tab         = Focus {next,prev} node in the current desktop
-# super + [shift+] + Tab         = Focus {next,prev} desktop on current display
-# super + <n>                    = Focus the given desktop
-# super + shift    + <n>         = Move focused node to given desktop
-# super + ctrl     + shift + <n> = Move focused node to given display
-# super + ctrl     + <n>         = Activate desktop of unfocused display (smart movement)
-# super + ctrl     + {h,j,k,l}   = Adjust window size. Expand/contract by dir
-# super + alt      + {h,j,k,l}   = Adjust window split dir of next child, re-press cancels
-# super + alt      + {1-9}       = Adjust window split ratio. Default=0.5, defined in bspwmrc
-# super + [shift+] + t           = Swap desktop with next active, focus only follows with shift
-
-########################################################################################
-
-# ctrl  + [shift+] + q           = Close {or Kill} focused node
-# alt   + {h,j,k,l}              = Focus the node in given dir
-# alt   + <n>                    = Focus the given desktop
-# alt   + Tab                    = Focus the previously active node
-# alt   + grave                  = Focus the previously active display
-# alt   + [shift+] + Tab         = Focus {next,prev} node in the current desktop
-# alt   + [shift+] + grave       = Focus {next,prev} desktop on current display
-# super + [shift+] + t           = Swap desktop with next active, focus only follows with shift
-# super + shift    + {h,j,k,l}   = Swap focused node (smart movement) with dir and follow focus
-# super + shift    + <n>         = Move focused node to given desktop
-# super + ctrl     + <n>         = Move focused node to given display
-# super + ctrl     + shift + <n> = Enable desktop for unfocused display (smart movement)
-# super + ctrl     + {h,j,k,l}   = Adjust window size. Expand/contract by dir
-# super + alt      + {h,j,k,l}   = Adjust window split dir of next child, re-press cancels
-# super + alt      + <n>         = Adjust window split ratio. Default=0.5, defined in bspwmrc
 
 
+######################
+# Open/Close Windows #
+######################
 
-###################
-# Node focus/swap #
-###################
+# Open a terminal window
+super + Return
+    $TERMINAL
 
-
-# Close {or kill} currently focused node
+# Close {or kill} the focused window
 super + {_,shift + } q
-	bspc node -{c,k}
+    bspc node -{c,k}
 
-# Focus switch to the node in given direction
+
+############################
+# Window and Desktop Actions #
+############################
+
+# Focus the window in the given direction
 super + {h,j,k,l}
-	bspc node -f {west,south,north,east}
+    bspc node -f {west,south,north,east}
 
-# Focus switch using smart movement (placeholders)
-super + shift + {h,j,k,l}
-	bspwm_smart_move {west,south,north,east}
-    #bspc node -s {west,south,north,east}
-
-
-##############################
-# Dynamic desktop focus/swap #
-##############################
-# Implements dynamic desktops. If the given desktop number is missing
-# it is created on the spot. Empty desktops are removed automatically
-
-# Switch to the other monitor
-alt + grave
-	bspc monitor -f next
-
-# Switch to the last active node
-alt + Tab
-	bspc node -f last
-
-# Focus {next,prev} node in the current desktop
-{ctrl,super} + {_,shift +} Tab
-	bspc {node,desktop} -f {next,prev}.local
-
-# Send focused node to given desktop
-super + {_,shift + ,ctrl + shift +,ctrl +}{0-9}
-	;bspwm_dynamic_desktops {--df,--ns,--nm,--da} {0-9}
-	#;bspwm_dynamic_desktops {--df,--nsf,--nmf,--da} {0-9}
-
-
-#############################
-# Sizing and pixel movement #
-#############################
-
-# Expand or contract node in the given direction.
-super + ctrl + {h,j,k,l}
-	bspwm_resize {west,south,north,east} 50
-
-# Preselect the direction or insert again to cancel the preselection.
-# Enters manual tiling mode that splits the currently focused window.
+# Swap the focused window with the given direction
 super + alt + {h,j,k,l}
-	bspc node --presel-dir '~{west,south,north,east}'
+    bspwm_smart_move {west,south,north,east}
 
-# Preselect the ratio.  The default value is 0.5, defined in `bspwmrc`.
-super + alt + {1-9}
-	bspc node -o 0.{1-9}
+# Move the focused window to the given desktop
+super + {_, alt +, alt + shift +, shift +} {0-9}
+    ;bspwm_dynamic_desktops {--df,--ns,--nm,--da} {0-9}
 
-# Swap desktop to next active. Focus stays on present, follows with shift
-super + {_, shift + }t
-    bspc desktop --swap next.active {_,--follow}
+# Focus the last active {node,desktop}
+{super,alt} + Tab
+    bsp c {node,desktop} -f last
+
+# Toggle the window mode {tiled,fullscreen,floating}
+super + alt + {t,f,F11}
+    bspc node -t "~{tiled,floating,fullscreen}"
 
 
+############################
+# Manipulate the Workspace #
+############################
+
+# Move floating windows with the arrow keys
+super + alt + {Left,Down,Up,Right}
+    bspc node -v {-20 0,0 20,0 -20,20 0}
+
+# Alter size by expanding/contracting the focused window
+super + alt + shift + {h,j,k,l}
+    bspwm_resize {west,south,north,east} 50
+
+# Rotate all windows {counter-}clockwise by 90 degrees.
+super + {_,alt + }r
+    bspc node @/ --rotate {90,-90}
+
+# Control next window split by preselecting the split direction
+super + ctrl + {h,j,k,l}
+    bspc node --presel-dir '~{west,south,north,east}'
+
+# Control next window split by preselecting the split ratio
+super + ctrl + {1-9}
+    bspc node -o 0.{1-9}
+
+# Control the desktop gap size.
+super + ctrl + bracket{left,right}
+    bspc config -d focused window_gap "$(($(bspc config -d focused window_gap) {-,+} 5 ))"

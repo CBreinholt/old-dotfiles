@@ -22,20 +22,3 @@ super + e ; {r,x}
 # Invoke the end of the Xorg session
 ctrl + alt + Delete
     pkill Xorg
-
-
-###################
-# Keyboard layout #
-###################
-
-# Set the keyboard layout and swap Caps_Lock with Escape
-#setxkbmap -layout us -option caps:swapescape
-
-
-#################
-# Main Programs #
-#################
-
-# Open a terminal
-super + {_, shift +} Return
-    $TERMINAL
