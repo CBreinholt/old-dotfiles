@@ -5,8 +5,8 @@
 # Set the workspaces per monitor. One per monitor so we have dynamic desktops.
 # Borders on, otherwise it's impossible to find the focused window
 if [ "$(bspc query -M | wc -l)" -eq 2 ]; then
-	bspc monitor "HDMI2" -d 0
-	bspc monitor "eDP1" -d 1
+	bspc monitor "eDP1" -d 1 2 3 4 5
+	bspc monitor "HDMI2" -d 0 9 8 7 6
     bspc config borderless_monocle false
 else
 	bspc monitor -d 1
