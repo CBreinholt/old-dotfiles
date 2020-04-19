@@ -1,292 +1,3 @@
-yay -h
-yay -S
-yay -Sy
-yay -Syy
-yay -Syyy
-yay -Syu
-clear
-yay
-yay -S brave
-sudo pacman -S libarchive
-lsa /usr/bin
-lsa /usr/bin | grep -E 'tar'
-lsa /usr/bin | grep -Ew 'tar'
-lsa /usr/bin | grep -Ew '(tar)'
-lsa /usr/bin | grep -E '(tar)'
-lsa /usr/bin | grep -E '(tar|unlzma|bunzip|unzip|uncompress|7z|unxz|cabextract)'
-lsa /usr/bin | grep -E '(tar|unlzma|bunzip|unzip|uncompress|7z|unxz|cabextract)'
-sudo pacman -S neofetch
-clear
-lsa
-alacritty --help
-fc-list | grep 'Powerline Symbols'
-fc-list | grep 'Powerline'
-fc-list | grep -I 'Powerline'
-fc-list | grep -I 'Powerline Symbols'
-fc-list | grep -I 'Symbols'
-fc-list | grep -I 'symbols'
-fc-list | grep -i 'symbols'
-fc-list | grep -i 'powerline symbols'
-fc-list | grep -i 'symbols'
-exit
-lsa
-vim dev/bin/extract.sh
-vim $XRESOURCES
-exit
-lsa
-vim dev/bin/extract.sh
-exit
-lsa
-exit
-vim dev/bin/extract.sh
-fc-list | grep 'Noto Sans Mono'
-fc-list | grep 'Noto Sans Mono CJK JP'
-fc-list | grep 'Noto Sans Mono CJK'
-fc-list | grep 'Powerline'
-exit
-lsa
-vim dev/bin/extract.sh
-exit
-lsa
-vim dev/bin/extract.sh
-exit
-vim dev/bin/extract.sh
-exit
-vim dev/bin/extract.sh
-exit
-vim dev/bin/extract.sh
-exit
-vim dev/bin/extract.sh
-exit
-vim dev/bin/extract.sh
-exit
-vim dev/bin/extract.sh
-exit
-vim dev/bin/extract.sh
-exit
-vim dev/bin/extract.sh
-exit
-vim dev/bin/extract.sh
-exit
-vim dev/bin/extract.sh
-exit
-vim dev/bin/extract.sh
-exit
-vim dev/bin/extract.sh
-exit
-sudo pacman -S fontforge
-sudo pacman -S xorg-font-utils
-sudo pacman -S fontforge
-echo "&#x23FE"
-echo "\&#x23FE"
-echo "\u23FE"
-echo "\u2B58"
-echo "\u23FD"
-echo "\u23FC"
-echo "\u23FB"
-clear
-exit
-lsa
-cd .local/share/fonts
-cd fonts
-exit
-exit
-lsa
-exit
-sudo pacman -S byzanz
-exit
-git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
-lsa
-cd nerd-fonts
-clear
-lsa
-c;ear
-clear
-ls
-lsa patched-fonts
-lsa patched-fonts/SourceCodePro
-lsa patched-fonts/SourceCodePro/Medium
-lsa patched-fonts/SourceCodePro/Medium/complete/
-lsa patched-fonts/SourceCodePro
-lsa patched-fonts/
-lsa
-lsa bin
-lsa
-./font-patcher -c 'Source Code Pro'
-mkdir -p ~/.local/share/fonts/patched-fonts/source-code-pro
-./font-patcher -s -l -q -c --careful src/unpatched-fonts/SourceCodePro --outputdir ~/.local/share/fonts/patched-fonts/source-code-pro
-./font-patcher -s -l -q -c --careful src/unpatched-fonts/SourceCodePro/Medium/SourceCodePro-Medium.ttf --outputdir ~/.local/share/fonts/patched-fonts/source-code-pro
-lsa
-src
-lsa
-cd ..
-cd bin
-cd scripts
-vim archive-fonts.sh
-vim test-fonts.sh
-./test-fonts.sh
-./test-powerlines.sh
-./tests
-./tests.sh
-./tests.sh
-lsa
-./gotta-patch-em-all-font-patcher\!.sh
-lsa
-cd ..
-lsa
-cd ..
-lsa
-cd..
-cd ..
-lsa
-rm -rf nerd-fonts
-lsa
-cd .local
-cd share
-cd fonts
-git clone https://github.com/powerline/fonts.git --depth=1
-cd fonts
-chmod +x uninstall.sh
-./uninstall.sh
-ls
-cd ..
-lsa
-rm -rf fonts
-lsa
-rm .fuse_hidden00001*
-ls
-lsa
-ls
-cd patched-fonts
-lsa
-cd source-code-pro
-ls
-cd ..
-cd ..
-cd patched-fonts
-mv source-code-pro 'Source Code Pro'
-ls
-mv Source\ Code\ Pro ../
-cd ..
-rm patched-fonts
-rm patched-fonts -r
-ls
-lsa
-ls
-mv Source\ Code\ Pro Source\ Code\ Pro\ Patched/
-ls
-lsa
-cd Source\ Code\ Pro\ Patched
-cd ..
-lsa
-fc-list
-fc-cache -vf
-ls
-fc-list
-fc-list | grep Source
-fc-list | grep Power
-clear
-lsa
-cd ..
-cd ~
-ls
-lsa
-cd dev
-lsa
-lsla
-lsl
-cd ~
-cd .local
-cd share
-cd ../lib
-git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
-lsa
-cd nerd-fonts
-cd patched-fonts
-cd SourceCodePro
-less -M font-info.md
-lsa
-cd Medium
-cd complete
-cp Sauce\ Code\ Pro\ Medium\ Nerd\ Font\ Complete\ Mono ~/.local/share/fonts/
-cp Sauce\ Code\ Pro\ Medium\ Nerd\ Font\ Complete\ Mono.ttf ~/.local/share/fonts/
-fc-cache -fv
-fc-list | grep 'Source Code Pro'
-fc-list | grep 'Source Code Pro Medium Nerd'
-fc-list | grep 'Sauce Code Pro Medium Nerd'
-fc-list | grep 'Sauce Code Pro'
-clear
-fc-list | grep 'Sauce Code Pro'
-echo '\ue0a0'
-ls
-cd ..
-cd ..
-cd ..
-cp SourceCodePro ~/.local/share/fonts/
-cp SourceCodePro ~/.local/share/fonts/ -r
-clear
-lsa
-lsa ~/.local/share/fonts
-lsa ~/.local/share/fonts/SourceC
-lsa ~/.local/share/fonts/SourceCodePro
-rm ~/.local/share/fonts/Sauce\ Code\ Pro\ Medium\ Nerd\ Font\ Complete\ Mono.ttf
-fc-cache -fv
-clear
-lsa
-fc-list | grep Sauce
-fc-list | grep 'Sauce Code Pro'
-fc-list | grep 'Sauce Code Pro Nerd'
-lsa
-rm -rf ~/.local/share/fonts/Source\ Code\ Pro\ Patched
-rm -rf ~/.local/share/fonts/SourceCodePro
-clear
-fc-cache -vf
-fc-list | Sauce
-fc-list | grep Sauce
-rm /usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium-Complete.otf
-sudo rm /usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium-Complete.otf
-fc-list | grep Sauce
-fc-list | grep Source
-clear
-lsa
-cd ..
-less -M readme.md
-cd 
-lsa
-cd .local/lib
-cd nerd-fonts
-cd bin
-cd scripts
-./tests.sh
-ls
-./test-fonts.sh
-lsa
-cd Hack
-cd ..
-ls
-vim tests.sh
-./tests.sh
-lsa
-vim tests.sh
-./tests.sh
-lsa
-vim tests.sh
-tail -1 tests.sh
-tail -2 tests.sh
-tail -3 tests.sh
-convert -coalesce "rec3.gif" "results/nerd-fonts.png"
-ls
-cd lib
-cd ..
-cd Hack
-cd ..
-./generate-font-image-previews.sh
-ls
-vim generate-font-image-previews.sh
-lsa
-clear
-lsa
-cd ..
 lsa
 lsa
 cd ..
@@ -1999,3 +1710,300 @@ lsa
 clear
 loadbin
 exit
+dotfiles status
+dotfiles add .config/neofetch
+dotfiles commit -m "bloat"
+dotfiles add .config/sxhkd .config/bspwm
+dotfiles status
+clear
+dotfiles status
+dotfiles commit -m "adjusted keybinding and basic functionality"
+dotfiles status
+clear
+dotfiles status
+dotfiles add .config/alacritty .config/xorg/xresources
+dotfiles commit -m "font configurations for better glyph rendering"
+dotfiles status
+dotfiles status .config/nvim
+clear
+dotfiles add .config/nvim
+dotfiles status
+dotfiles commit -m "cleaned up vim config"
+dotfiles add .config/xorg/xinitrc .local/bin/remap
+dotfiles commit -m "added script for remapping escape and caps lock"
+dotfiles status
+dotfiles add .config/zsh .local/bin
+dotfiles status
+dotfiles commit -m "shell tools and minor bug fixes"
+dotfiles status
+dotfiles push
+dotfiles push
+clear
+exit
+xrandr --output eDP1 --off
+xrandr --output HDMI2 --primary --auto
+exit
+bspc wm -r
+vim dev/bin/bspwm_conf_desktops.sh
+vim dev/bin/bspwm_conf_desktops.sh
+clear
+lsa
+xrandr --output HDMI2 --auto --primary
+xrandr --output eDP1 --off
+bspc monitor HDMI2 -d 1
+bspc monitor HDMI2 -d 0 1
+bspc monitor HDMI2 -d 0 1 2 3 4 5 6 7 8 9
+bspc monitor eDP1 -d
+bspc monitor eDP1 -d none
+exit
+exit
+exit
+vim .config/systemd/user/tfresync.timer
+systemctl --user stop tfresync
+exit
+htop
+exit
+lsa
+lsa .cache
+lsa .cache/
+exit
+systemctl --user stop tfresync
+systemctl --user disable tfresync
+systemctl --user list-units
+systemctl --user list-units -type service
+clear
+systemctl --user list-units -type service
+systemctl --user list-units -t service
+systemctl stop tfsync
+systemctl --user stop tfsync
+systemctl --user list-units -t service
+clear
+lsa
+systemctl --user disable tfsync
+systemctl --user enable tfsync
+systemctl --user start tfsync
+exit
+lsa
+exit
+htop
+exit
+exit
+lsa .cache/
+lsa .cache/
+lsa .cache/
+clear
+lsa
+sudo pacman -Syyy
+sudo pacman -Syu
+clear
+sudo pacman -Sc
+paccache -ruk0
+paccache -ruk1
+clear
+exit
+vim dev/bin/bspwm_dynamic_desktops.sh
+exit
+clear
+bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
+exit
+vim .config/sxhkd/sxhkdrc_bspc
+vim .config/sxhkd/sxhkdrc_bspc
+exit
+vim .config/bspwm/bspwmrc
+t
+exit
+t
+exit
+htop
+htop
+exit
+vim .config/sxhkd/sxhkdrc_bspc
+vim .config/bspwm/bspwmrc
+vim .config/sxhkd/sxhkdrc_bspc
+exit
+exit
+exit
+exit
+bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
+xrandr --output HDMI2 --auto
+exit
+exit
+exit
+exit
+exit
+exit
+lsa
+exit
+exit
+htop
+exit
+t
+exit
+bspc monitor HDMI2 -d 0 1 2 3 4 5 6 7 8 9
+exit
+bspc monitor eDP1 -d 1
+bspc monitor HDMI2 -d 2 3 4 5 6 7 8 9 0
+bspc monitor HDMI2 -d 2 3 4 5 6 7 8 9 0 1
+exit
+vim .config
+vim .config/sxhkd/sxhkdrc_bspc
+vim .config/bspwm/bspwmrc
+remap
+loadbin
+remap
+pkill sxhkd
+remap
+bspc wm -r
+exit
+exit
+lsa
+exit
+bspc monitor eDP1 -d 1 2 3 4 5
+bspc monitor HDMI -d 6 7 8 9 0
+bspc monitor HDMI2 -d 6 7 8 9 0
+exit
+bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
+bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
+bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
+bspc monitor "eDP1" -d none
+bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
+xrandr --output eDP1 --off
+xrandr --output HDMI2 --auto --primary --preffered
+xrandr --output HDMI2 --auto --primary --prefered
+xrandr --output HDMI2 --auto --primary --preferred
+bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
+bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
+xrandr --output HDMI2 --auto --primary --preferred
+xrandr --output eDP1 --off
+bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
+bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
+xrandr --output HDMI2 --auto --primary --preferred
+bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
+xrandr --output eDP1 --off
+bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
+bspc monitor "eDP1" -d none
+bspc monitor "eDP1" -d none
+bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
+bspc monitor "eDP1" -d 1
+bspc monitor "HDMI2" -d 2 3 4 5 6 7 8 9 0
+bspc wm -r
+pkill sxhkd
+bspc wm -r
+bspc monitor "HDMI2" -d 2 3 4 5 6 7 8 9 0
+bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
+bspc monitor "eDP1" -d 1 2 3 4 5 6 7 8 9 0
+bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
+bspc monitor "eDP1" -d none
+chromium &
+clear
+lsa
+exit
+bspc monitor eDP1 -d 1 2; bspc monitor HDMI2 -d 8 9 0
+bspc monitor eDP1 -d 1 2; bspc monitor HDMI2 -d 3 4 5 6 7 8 9 0
+exit
+exit
+exit
+exit
+vim dev/bin/bspwm_resize.sh
+loadbin
+exit
+vim dev/bin/bspwm_conf_desktops.sh
+loadbin
+exit
+xrandr -d HDMI2 --rotate right
+xrandr --output HDMI2 --rotate right
+xrandr --output HDMI2 --rotate left
+xrandr --output HDMI2 --rotate left
+xrandr --output HDMI2 --auto
+xrandr --output HDMI2 --rotate right
+xrandr --output HDMI2 --rotate right
+xrandr --output HDMI2 --rotate none
+xrandr --output HDMI2 --rotate normal
+xrandr --output HDMI2 --rotate left
+exit
+htop
+bspc monitor eDP1 -d 1 2
+bspc monitor HDMI2 -d 3 4 5 6 7 8 9 0
+vim dev/bin/bspwm_resize.sh
+loadbin
+killall sxhkd
+bspc wm -r
+vim .config/sxhkd/sxhkdrc
+vim .config/sxhkd/sxhkdrc_bspc
+lsa
+man xrandr
+xrandr --output HDMI2 --rotate right
+xrandr --output eDP1 --primary --preferred
+xrandr --output eDP1 --primary --preferred --auto
+xrandr --output HDMI2 --auto
+xrandr --output HDMI2 --auto --right-of eDP1 --rotate right
+xrandr --output HDMI2 --auto --right-of eDP1 --rotate right --vsync
+xrandr --output HDMI2 --auto --right-of eDP1 --rotate right --sync
+xrand --help
+xrandr --help
+xrandr --output HDMI2 --auto --right-of eDP1 --rotate right --rate 60
+xrandr --output HDMI2 --auto --right-of eDP1 --rotate right --rate 10
+xrandr --output HDMI2 --auto --right-of eDP1 --rotate right --rate 50
+xrandr --output HDMI2 --newmode rotated 60 +HSync
+xrandr --output HDMI2 --newmode +HSync
+xrandr --output HDMI2 --newmode HDMI2 +HSync +VSync
+xrandr --output HDMI2 --newmode auto +HSync +VSync
+exit
+htop
+exit
+startx
+sudo shutdown -h now
+lsa
+exit
+man conky
+xrandr
+autorandr
+autorandr
+chromium&
+disown
+xrandr --output HDMI2 --rotate right
+clear
+lsa .config
+mkdir .config/conky
+sudo pacman -S conky
+cd .config
+cd conky
+vim conkyrc
+mv conkyrc conky.conf
+conky &
+vim conky.conf
+conky &
+vim conky.conf
+conky &
+vim conky.conf
+conky &
+conky &
+exit
+htop
+exit
+htop
+exit
+htop
+exit
+xrandr --output HDMI2 --rotate normal
+clear
+vim dev/bin/bspwm_conf_desktops.sh
+loadbin
+xrandr --output HDMI2 --rotate right
+exit
+startx
+sudo shutdown -h now
+chromium&
+disown
+exit
+vim .config/bspwm/bspwmrc
+exit
+exit
+sudo pacman -Syyy
+sudo pacman -Syu
+yay
+sudo pacman -Syu
+clear
+htop
+startx
+sudo shutdown -h now
