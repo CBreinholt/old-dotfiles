@@ -1,70 +1,3 @@
-lsa
-lsa
-cd ..
-git status
-clear
-lsa
-echo "\ue0a0"
-clear
-lsa
-exit
-clear
-lsa
-cd .local/share
-cd ../lib
-cd nerd-fonts
-clear
-lsa
-cd images
-fontforge-glyph-set-1.png
-xdg-open fontforge-glyph-set-1.png
-clear
-lsa
-cd ..
-cd chocolatey/tools
-cd ..
-cd ..
-cd src
-cd ..
-cd bin
-cd scripts
-cd lib
-cd ..
-vim test-fonts.sh
-./test-fonts.sh
-./test-fonts.sh
-clear
-./test-fonts.sh
-exit
-cd .local/lib/nerd-fonts/bin/scripts
-./test-fonts.sh
-cd ...
-cd ..
-..
-vim install.sh
-./install.sh "SourceCodePro"
-clear
-exit
-cd .local/lib/nerd-fonts/bin/scripts/
-./test-fonts.sh
-clear
-lsa
-vim archive-fonts.sh
-./test-powerlines.sh
-./test-powerlines.sh
-clear
-./test-powerlines.sh
-./test-powerlines.sh
-./test-powerlines.sh
-clear
-./test-powerlines.sh
-./test-powerlines.sh
-clear
-./test-powerlines.sh
-./test-fonts.sh
-clera
-exit
-lsa
 cd .local/lib/nerd-fonts/bin/scripts
 ./test-powerlines.sh
 exit
@@ -2007,3 +1940,62 @@ clear
 htop
 startx
 sudo shutdown -h now
+sudo pacman -Syyy
+dotfiles status
+dotfiles add .config/conky
+dotfiles commit -m "added config for conky"
+clear
+dotfiles status
+dotfiles add .config/bspwm .config/sxhkd 
+dotfiles commit -m "updated key bindings"
+dotfiles status
+clear
+dotfiles status
+dotfiles add .config/htop .config/dconf .config/systemd .config/zsh 
+dotfiles status
+dotfiles restore --staged .config/systemd
+dotfiles status
+dotfiles commit -m "bug fix"
+dotfiles add .config/systemd
+dotfiles commit -m "changed timer for cache sync"
+dotfiles add .local/bin
+dotfiles status
+dotfiles commit -m "updated binaries"
+dotfiles push
+chromium&
+disown
+exit
+chromium&
+disown
+exit
+sudo pacman -Syyy
+sudo pacman -Syu
+exit
+htop
+startx
+exit
+chromium&
+disown
+exit
+clear
+vim doc/downloads/\(M14\)\ B_I_\ Investigate\ end-of-life\ decisions\ and\ create\ an\ advanced\ directive\ \(CO\ 2,\ 4\).html
+exit
+cd doc/dow
+cd doc/downloads
+'(M14) B_I_ Investigate end-of-life decisions and create an advanced directive (CO 2, 4).pdf'
+xdg-open '(M14) B_I_ Investigate end-of-life decisions and create an advanced directive (CO 2, 4).pdf'
+exit
+cd doc/downloads
+rm '(M1'*
+exit
+startx
+sudo shutdowbn -h now
+sudo shutdown -h now
+chromium&
+disown
+exit
+startx
+shutdown -h now
+chromium&
+disown
+exit
