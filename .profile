@@ -8,7 +8,7 @@
     export PATH="${PATH}:$HOME/.local/bin/"
 
 # Default programs
-export BROWSER="/usr/bin/xdg-open"
+export BROWSER="chromium"
 export EDITOR="vim"
 export TERMINAL="alacritty"
 export READER="zathura"
