@@ -7,4 +7,4 @@ xrdb $XRESOURCES                        # Load Xresources
 xsetroot -cursor_name left_ptr &        # Set the mouse cursor
 remap &                                 # Remaps the keyboard
 unclutter &                             # Remove mouse when idle
-polybar main &                          # Start statusbar 
+#polybar main &                          # Start statusbar 
