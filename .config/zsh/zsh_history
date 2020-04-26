@@ -1,450 +1,3 @@
-cd .local/lib/nerd-fonts/bin/scripts
-./test-powerlines.sh
-exit
-lsa
-clear
-ls
-urxvt
-xrdb $XRESOURCES
-urxvt
-vim .config/xorg/xresources
-vim .config/alacritty/alacritty.yml
-exit
-xrdb $XRESOURCES
-urxvt
-bg
-clear
-clera
-clear
-lsa
-fc-list | grep 'PowerlineSymbols'
-fc-list | grep -i 'symbols'
-fc-list | grep -i 'symbols|power'
-fc-list | grep -i '(symbols|power)'
-fc-list | grep -iE '(symbols|power)'
-fc-list | grep -iE '(symbols)(power)'
-fc-list | grep -iE '(symbols) (power)'
-fc-list | grep -iE '(symbols),(power)'
-fc-list | grep -iE '(symbols|power)'
-fc-list | grep -iE '(symbols)' | grep -i 'powerline'
-fc-list | grep -iE '(symbols)' | grep -i 'power'
-fc-list | grep -iE '(symbols)' | grep -i ''
-clear
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-clear
-convert
-sudo pacman -S conver
-sudo pacman -S convert
-sudo pacman -S imagemagick
-fc-list | grep Sauce
-fc-cache -vf
-fc-list | grep Sauce
-fc-list | grep SauceCodePro
-fc-list | grep 'SauceCodePro Nerd Font'
-clear
-fc-list | grep 'SauceCodePro Nerd Font'
-fc-list | grep '(SauceCodePro Nerd Font):'
-fc-list | grep -E '(SauceCodePro Nerd Font):'
-fc-list | grep -E '(SauceCodePro Nerd Font) Mono:'
-lsa
-exit
-cd .local/lib/nerd-fonts/bin/scripts
-./test-powerlines.sh
-./test-powerlines.sh
-./test-powerlines.sh
-clear
-./test-powerlines.sh
-clear
-./test-powerlines.sh
-clear
-./test-powerlines.sh
-clear
-./test-powerlines.sh
-clear
-./test-powerlines.sh
-clear
-./test-powerlines.sh
-clear
-./test-powerlines.sh
-clear
-./test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clera
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clera
-clear
-clera
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clera
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clera
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clera
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-exit
-vim .config/alacritty/alacritty.yml
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-ls
-lsa
-lsa .cache
-lsa
-lsa .cache
-startx
-startx
-clear
-lsa
-shutdown -h now
-chromium&
-disown
-clear
-lsa
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-lsa
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-lsa
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-vim .config/alacritty/alacritty.yml
-exit
-vim .config/alacritty/alacritty.yml 
-exit
-lsa
-lsa
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-lsa
-clear
-lsa
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-exit
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-.local/lib/nerd-fonts/bin/scripts
-lsa
-clera
-clear
-lsa
-rm rec3.gif
-lsa
-./test-powerlines.sh
-clear
-./test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-fonts.sh
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-xrdb $XRESOURCES
-urxvt &
-disown
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-exit
-exit
-htop
-exit
-cd .local/lib/nerd-fonts/bin/scripts/
-...
-clera
-clear
-./install.sh Noto
-clear
-exit
-clear
-lsa
-exit
-lsa
-exit
-lsa
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-fc-list | grep Noto
-fc-list | grep Nerd
-fc-list | grep NerdFonts
-clear
-fc-list | grep NerdFonts
-fc-list | grep NerdFonts | awk -F ":" "print"
-fc-list | grep NerdFonts | awk -F ":" "{print}"
-fc-list | grep NerdFonts | awk -F ":" "{print $1}"
-fc-list | grep NerdFonts | awk -F ":" "{print $2}"
-fc-list | grep NerdFonts | awk -F ":" "{print $3}"
-fc-list | grep NerdFonts | awk -F ":" "{print $4}"
-fc-list | grep NerdFonts | awk -F ":" "{print $1}"
-fc-list | grep NerdFonts | awk -F ":" "{print $0}"
-fc-list | grep NerdFonts | awk -F ":" "{print $1}"
-fc-list | grep NerdFonts | awk -F ":" '{print $1}'
-fc-list | grep NerdFonts | awk -F ":" '{print $2}'
-fc-list | grep NerdFonts | awk -F ":" '{print $2}' | sort
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exut
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-\:q
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-\:q
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-\:exit
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-\:w
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-\:q
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-\:w
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-vim .config/alacritty/alacritty.yml
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-which urxvt
-urxvt --help
-urxvt -help
-urxvt +sbg
-urxvt +sbg -letsp 1
-xrdb $XRESOURCES
-urxvt +sbg -letsp 1
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-urxvt +sbg -letsp 1
-xrdb $XRESOURCES
-urxvt +sbg -letsp 1
-urxvt +sbg
-urxvt
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-sudo pacman -S rxvt-unicode
-sudo pacman -S urxvt-unicode
-sudo pacman -Ss urxvt
-sudo pacman -Ss rxvt
-sudo pacman -Ssy rxvt
 clear
 xrdb $XRESOURCES
 urxvt
@@ -1998,4 +1551,451 @@ startx
 shutdown -h now
 chromium&
 disown
+exit
+dotfiles status
+dotfiles add .config/zsh
+dotfiles commit -m "minor tweaks"
+dotfiles add .config/dconf
+dotfiles commit -m "bug fix"
+dotfiles push
+exit
+startx
+shutdown -h files
+shutdown -h now
+startx
+chromium&
+disown
+chromium &
+disown
+cat ~/doc/downloads/SRI\ Receipt\ -\ courseeval@prod.pdf
+shutdown -h now
+chromium&
+disown
+exit
+startx
+dotfiles status
+vim .profile
+dotfiles status
+dotfiles add .profile
+dotfiles commit -m "quick fix"
+dotfiles push
+dotfiles push
+shutdown -h now
+chromium&
+disown
+exit
+ranger
+exit
+shutdown -h now
+sudo pacman -Syyy
+sudo pacman -Syu
+yay
+start
+startx
+exit
+startx
+chromium&
+disown
+clear
+conkky
+conky&
+clear
+conky&
+clera
+clear
+clera
+conky&
+clear
+lsa
+sudo pacman -Syyy
+sudo pacman -Syu
+sudo pacman -S polybar
+sudo pacman -S libpulseaudio
+sudo pacman -S pulseaudio
+yay -Syy
+yay -Syu
+yay -S polybar
+yay -Qs polybar
+yay -Qy polybar
+yay -Sq polybar
+yay -Qs polybar
+yay -Q polybar
+yay -Qy polybar
+yay -Sy polybar
+yay -S polybar
+polybar example
+lsa
+cd .config
+lsa
+lsl
+lsla
+mkdir polybar
+cd ~
+touch .config/polybar/config
+vim /usr/share/doc/polybar/config
+cp /usr/share/doc/polybar/config ~/.config/polybar/
+polybar example
+killall polybar
+polybar example
+killall polybar
+polybar example &
+disown
+killall polybar
+exit
+polybar &
+polybar future &
+bg
+exit
+disown
+exit
+killall polybar
+polybar future &
+disown
+exit
+killall polybar
+polybar future & && disown
+polybar future &
+disown
+exit
+exit
+killall polybar
+polybar future &
+disown
+killall polybar
+clear
+polybar future
+polybar future
+killall polybar
+killall polybar
+polybar future
+killall polybar
+polybar future
+polybar future
+polybar future
+polybar future
+polybar future
+polybar future
+polybar future
+polybar future
+polybar future
+polybar future
+polybar future
+polybar future
+exit
+vim .config/xorg/xresources
+exit
+vim .config/xorg/xresources
+vim .config/xorg/xresources
+vim .config/themes/nord.Xresources
+xrdb $XRESOURCES
+eit
+exit
+lscpi
+lscpi
+lspci
+ipconfig
+ifconfig
+ip link
+acpi
+lspci --help
+lspci -d
+lspci -v
+t
+exit
+lsa
+vim .config/polybar/config
+cp .config/polybar/config .config/polybar/config-2
+vim .config/polybar/config
+vim .config/polybar/config-2
+vim .config/polybar/config
+polybar future
+polybar future
+polybar future
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+iplink
+ip a
+polybar main
+# lspci -vv
+lspci -vv
+lspci -vv | grep -i bat
+lspci -vv | grep bat
+lspci -nn
+lspci -nn | grep -i bat
+lspci -nn | grep -i bat
+lspci --help
+lspci -t
+lspci -Q
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+echo \u1f90e
+echo "\u1f90e"
+echo -e "\u1f90e"
+echo -e "\nu1f90e"
+echo -e "\n1f90e"
+echo -e "\u1f90e"
+echo -e "\u1f321"
+echo -e \u1f321
+echo "\u1f321"
+echo "\U1f321"
+echo "\U1f9e0"
+polybar main
+acpid
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar future
+polybar future
+polybar future
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+iplink
+ip a
+polybar main
+# lspci -vv
+lspci -vv
+lspci -vv | grep -i bat
+lspci -vv | grep bat
+lspci -nn
+lspci -nn | grep -i bat
+lspci -nn | grep -i bat
+lspci --help
+lspci -t
+lspci -Q
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+echo \u1f90e
+echo "\u1f90e"
+echo -e "\u1f90e"
+echo -e "\nu1f90e"
+echo -e "\n1f90e"
+echo -e "\u1f90e"
+echo -e "\u1f321"
+echo -e \u1f321
+echo "\u1f321"
+echo "\U1f321"
+echo "\U1f9e0"
+polybar main
+acpid
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar future
+polybar future
+polybar future
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+iplink
+ip a
+polybar main
+# lspci -vv
+lspci -vv
+lspci -vv | grep -i bat
+lspci -vv | grep bat
+lspci -nn
+lspci -nn | grep -i bat
+lspci -nn | grep -i bat
+lspci --help
+lspci -t
+lspci -Q
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+echo \u1f90e
+echo "\u1f90e"
+echo -e "\u1f90e"
+echo -e "\nu1f90e"
+echo -e "\n1f90e"
+echo -e "\u1f90e"
+echo -e "\u1f321"
+echo -e \u1f321
+echo "\u1f321"
+echo "\U1f321"
+echo "\U1f9e0"
+polybar main
+acpid
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+polybar main
+chromium&
+disown
+clear
+vim .config/polybar/config
+exit
+vim .xinitrc
+dotfiles .config/xorg/xprofile
+vim .config/xorg/xprofile
+vim .config/bspwm/bspwmrc
+dotfiles status
+dotfiles add .config/themes/nord.Xresources
+dotfilestatus
+dotfiles status
+dotfiles commit -m "adjusted xterm theme"
+dotfiles add .config/polybar
+dotfiles commit -m "added basic statusbar"
+dotfiles add .config/xorg/xprofile
+dotfiles statues
+dotfiles status
+dotfiles commit -m "startup polybar"
+dotfiles push
+polybar --help
+dotfiles status
+dotfiles add .config/bspwm
+dotfiles status
+dotfiles commit -m "added polybar startup & reload"
+dotfiles push
+exit
+vim .config/sxhkd/sxhkdrc
+t
+exit
+starx
+startx
+startx
+startx
+shutdown -h now
+chromium&
+startx
+shutdown -h now
+chromium&
+clear
+exit
+disown
+clear
+dotfiles status
+conky &
+H
+chromium &
+startx
+shutdown -h now
+vim .config/xorg/xprofile
+vim .config/bspwm/bspwmrc
+exit
+chromium&
+disown
+exit
+exit
+exit
+exit
+conky&
+exit
+conky &
 exit
