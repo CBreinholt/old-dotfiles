@@ -1,436 +1,3 @@
-clear
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-urxvt
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-urxvt
-bg 1
-bg
-disown
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font Mono:size=14"
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font Mono:size=12"
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font:size=12"
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font:size=16"
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font:size=13"
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font Mono:size=13"
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font Mono:size=12"
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font Mono:size=15"
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font:size=15"
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font Mono:pixelsize=12"
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font:pixelsize=12"
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font:pixelsize=15"
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font:pixelsize=10"
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font:pixelsize=19"
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font:pixelsize=24"
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font:pixelsize=19"
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font:pixelsize=18"
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font:pixelsize=16"
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font:pixelsize=18"
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font:size=13"
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font:pixelsize=18"
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font Mono:pixelsize=18"
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-./.local/lib/nerd-fonts/bin/scripts/test-fonts.sh
-printf '\e]710;%s\007' "xft:SauceCodePro Nerd Font:size=13"
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exut
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exot
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-cd ~
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-lsa
-cd .local
-lsa
-cd share
-lsa
-cd fonts
-cd NerdFonts
-lsa | grep Powerline
-lsa | grep Power
-lsa | grep Source
-lsa
-lsa | grep Noto
-lsa | grep Sauce
-xrdb $XRESOURCES
-urxvt &
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-lsa
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-rm .local/share/fonts/Patched/Sauce\ Code\ Pro\ Medium\ Nerd\ Font\ Complete\ Mono.ttf
-exit
-rm .local/share/fonts/Patched/Sauce\ Code\ Pro\ Medium\ Nerd\ Font\ Complete\ Mono.ttf
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-./.local/lib/nerd-fonts/bin/scripts/test-fonts.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-fonts.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-fonts.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-fonts.sh
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-fonts.sh
-exit
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-fc-list | grep NotoEmoji
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-fc-list | grep NerdFont
-fc-list | grep NerdFonts
-history | grep grep
-grep $ZDOTDIR/zsh_history grep
-grep grep $ZDOTDIR/zsh_history
-man sort
-fc-list | grep NerdFonts | awk -F ":" '{print $2}' | sort -u
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-lsa
-cd .local/lib/nerd-fonts/
-fc-list | grep Power | awk -F ":" '{print $2}' | sort -u
-xrdb $XRESOURCES
-urxvt &
-cd ~
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-cd .local/lib/nerd-fonts/patched-fonts
-cd SourceCodePro
-cd Medium
-cd complete
-cd ../..
-cd ..
-..
-./font-patcher
-./font-patcher --mono --adjust-line-height
-./font-patcher --mono --adjust-line-height --quiet --complete --careful --outputdir ~/.local/share/fonts/Patched SourceCodePro
-./font-patcher --mono --adjust-line-height --quiet --complete --careful --outputdir ~/.local/share/fonts/Patched src/unpatched-fonts/SourceCodePro/Medium/SourceCodePro-Medium.ttf
-ls
-cd ~/.local/share/fonts/Patched
-\:w
-$xrdb $XRESOURCES
-xrdb $XRESOURCES
-urxvt &
-cd ~
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-fc-cache -vf
-urxvt &
-fc-cache -vf
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-git clone https://github.com/powerline/fonts.git --depth=1
-cd fonts
-./install.sh SourceCodePro
-cd ../.local/share/fonts
-lsa
-cd NerdFonts
-cd ..
-lsa
-lsa Patched
-cd ..
-cd fonts
-cd ~/fonts
-./install
-./install.sh
-cd ~/.local/share/fonts
-cd ~
-clear
-xrdb $XRESOURCES
-urxvt &
-fc-list| grep power
-fc-cache -vf
-fc-list| grep power
-fc-list| grep Power
-fc-list| grep 'Source Code Pro for Powerline'
-urxvt &
-xrdb &XRESOURCES
-fg
-xrdb $XRESOURCES
-urxvt &
-cd .local/lib/nerd-fonts/bin/scripts
-cd ..
-cd ..
-lsa
-clear
-lsa
-./font-patcher --mono --adjust-line-height --quiet --complete --careful --outputdir ~/.local/share/fonts/Patched ~/.local/share/fonts/Source\ Code\ Pro\ for\ Powerline.otf
-cd ~/.local/share/fonts/Patched
-lsa
-cd ..
-rm *.otf
-rm *.otf -f
-clear
-lsa
-rm *.gz
-rm *.gz -f
-lsa
-rm *.ttf -f
-clear
-lsa
-cd Patched
-fc-cache -vf
-fc-list | grep Power
-fc-list
-fc-list | grep Sauce
-fc-list | grep Patched
-cd ~
-clear
-lsa
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
 urxvt &
 yay -Ss urxvt
 yay -S rxvt-unicode-wcwidthcallback
@@ -1999,3 +1566,447 @@ conky&
 exit
 conky &
 exit
+dotfiles status
+dotfiles add .config/bspwm
+dotfiles commit -m "bug fix"
+dotfiles add .config/xorg/xprofile
+dotfiles commit -m "let bspwm handle the polybar instead"
+dotfiles status
+dotfiles add .config/zsh
+dotfiles status
+dotfiles commit
+dotfiles commit -m ""
+dotfiles commit -m "bug fix"
+dotfiles push
+exit
+lsa doc/downloads
+clear
+lsa
+sudo pacman -Syy
+sudo pacman -Syu
+yay -Syy
+yay -Syu
+startx
+startx
+sudo pacman -Syyy
+sudo pacman -Syu
+shutdown -h now
+chromium&
+disown
+exit
+dotfiles status
+sudo pacman -Syy
+sudo pacman -Syu'
+sudo pacman -Syu
+sudo pacman -Rns conky
+rm -rf .config/conky
+dotfiles status
+dotfiles add .config/conky
+dotfiles status
+dotfiles commit -m "removed conky (bloat)"
+dotfiles push
+exit
+ip link
+exit
+.config/polybar/launch.sh dark
+pkill polybar
+vim .config/polybar/dark-config
+exit
+ip link
+exit
+ip link show
+exit
+echo -e "\uf6e9"
+echo -e "\uf6d9"
+echo -e "\ufa51"
+echo -e "\uf85a"
+echo -e "\ue20c"
+echo -e "\ue20b"
+echo -e "\ue20a"
+echo -e "\ue20d"
+echo -e "\ue200"
+echo -e "\ue20a"
+echo -e "\ue20b"
+echo -e "\ue20c"
+echo -e "\ufaf0"
+echo -e "\ufa0f"
+exit
+vim .config/polybar/nord-config
+vim .config/polybar/dark-config
+vim .config/polybar/dark-colors
+vim .config/polybar/launch.sh
+vim .config/polybar/launch.sh
+ip link show
+vim .config/polybar/launch.sh
+vim .config/polybar/launch.sh
+vim .config/polybar/launch.sh
+vim .config/polybar/launch.sh
+vim .config/polybar/scripts/toggle-redshift.sh
+vim .config/polybar/dark-config
+vim .config/polybar/nord-down
+vim .config/polybar/nord-down
+exit
+vim .config/polybar/nord-down
+vim .config/polybar/launch.sh
+vim .config/polybar/launch.sh
+exit
+git clone https://github.com/Yucklys/polybar-nord-theme ~/.config/polybar/
+lsl .config/polybar
+rm .config/polybar/config*
+git clone https://github.com/Yucklys/polybar-nord-theme ~/.config/polybar/
+lsl .config/polybar
+./.config/polybar/launch.sh
+pkill polybar
+vim .config/polybar/launch.sh
+vim .config/polybar/nord-top
+vim .config/polybar/dark-config
+vim .config/polybar/launch.sh
+cd .config/polybar
+vim colors
+cp modules config colors launch.sh scripts ~/poly/
+cp -r modules config colors launch.sh scripts ~/poly/
+rm -rf *
+lsa
+rm scripts
+rm -rf *
+lsa
+rm .git*
+rm .git* -rf
+lsa
+cp ~/poly/* ./
+mv ~/poly/* ./
+lsa
+cd ~
+lsa
+lsa poly
+rmdir poly
+lsa
+rm .pciids-cache
+rm .viminfo
+lsa
+exit
+vim .config/polybar/colors
+exit
+polybar
+polybar nord-dark
+vim .config/polybar/launch.sh
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+pkill polybar
+pkill polybar
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+.config/polybar/launch.sh dark
+pkill polybar
+.config/polybar/nord-top
+./.config/polybar/nord-top
+sudo ./.config/polybar/nord-top
+.config/polybar/nord-top
+sudo .config/polybar/nord-top
+polybar nord-top -r &
+polybar -c .config/polybar/nord-top -r &
+polybar -c .config/polybar/nord-top &
+polybar -c .config/polybar/nord-config
+polybar -c .config/polybar/nord-config nord-top -r &
+polybar -c .config/polybar/nord-config dark-config -r &
+polybar -c .config/polybar/dark-config nord-top -r &
+polybar -c .config/polybar/dark-config nord-top -r &
+disown
+disown
+pkill polybar
+polybar -r -c .config/polybar/dark-config nord-top &
+polybar -r -c .config/polybar/dark-config nord-top &
+pkill polybar
+.config/polybar/launch.sh
+pkill polybar
+counter=0
+bspc query -D --names | while read -r name; do\
+printf 'ws-icon-%i = "%s;<insert-icon-here>"\n' $((counter++)) $name\
+done
+echo -e "\ufa51"
+.config/polybar/launch.sh
+disown
+echo -e "\ufa51"
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh light
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+mkdir poly
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
+sensors
+for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
+sensors
+for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
+for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
+sensor
+sensors
+for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
+for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
+sensors
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+killall polybar
+.config/polybar/launch.sh
+echo -e "\uf818"
+echo -e "\u26a1"
+exit
+pacmd list-sinks
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+ip link
+networkctl
+networkctl status
+systemctl
+NetworkManager
+sudo NetworkManager
+sudo NetworkManager
+sudo NetworkManager --help
+NetworkManager --help-nm
+vim /etc/NetworkManager/NetworkManager.conf 
+sudo pacman -Syy
+sudo pacman -Syu
+sudo pacman -S nm-applet
+sudo pacman -S nm-aplet
+sudo pacman -S network-manager
+sudo pacman -S NetworkManager
+sudo pacman -S networkmanager
+sudo pacman -S networkmanager-applet
+sudo pacman -S networkmanager-appet
+sudo pacman -S networkmanager-app
+sudo pacman -S networkmanager-applet
+sudo pacman -S networkmanager-applit
+sudo pacman -S networkmanager-aplet
+sudo pacman -S nm-applet
+nmcli
+nm-online
+nm
+nmcli connection
+nmcli monitor
+nmcli networking on
+nmcli networking connectivity
+nmcli networking help
+nmcli general permissions
+nmcli general status
+nmcli general hostname
+nmcli agent
+nmcli device show
+nmcli device show
+nmcli device status
+nmcli device wifi list
+nmcli device wifi connect CBreiny 
+nmcli device wifi connect CBreiny password Q466WEGJ9R
+nmcli device wifi connect CBreiny sep2018Q466WEGJ9R 
+nmcli device wifi connect CBreiny password sep2018Q466WEGJ9R 
+nmcli device wifi connect CBreiny password sep2018Q466WEGJ9R ifname wlp2s0 home_network
+nmcli device wifi connect CBreiny password sep2018Q466WEGJ9R ifname wlp2s0
+nmcli device wifi connect CBreiny sep2018Q466WEGJ9R ifname wlp2s0
+sudo nmcli device wifi connect CBreiny password sep2018Q466WEGJ9R ifname wlp2s0
+nmcli device wifi list
+nmtui
+nmtui
+p link
+ip link
+exit
+exit
+.config/polybar/launch.sh
+nmcli
+.config/polybar/launch.sh
+nmpli
+nmtui
+sudo nmtui
+sudo wifi-menu
+NetworkManager
+sudo NetworkManager
+sudo nmtui
+sudo nmcli connection
+sudo nmcli radio wifi on
+sudo nmcli connection up CBreiny
+journalctl -xe NM_CONNECTION=79001d61-8203-4ead-9d2a-93c5ac6a9221 + NM_DEVICE=wlp2s0
+sudo nmcli connection up CBreiny password sep2018Q466WEGJ9R
+sudo nmcli connection up CBreiny
+sudo nmcli connection reload
+sudo nmcli connection show CBreiny
+sudo nmcli connection load
+sudo nmcli connection load CBreiny
+sudo nmcli connection edit CBreiny
+sudo nmcli connection edit CBreiny
+sudo nmcli connection edit CBreiny
+NetworkManager
+sudoNetworkManager
+sudo NetworkManager
+exit
+ip link
+ip a
+ip link --help
+ip hep
+ip help
+ip address
+ip help
+ip -s
+ip a -s
+ip link -s
+ip monitor
+sudo nmcli connection
+sudo nmcli connection edit Wired\ connection\ 1
+nmtui
+nmtui-connect
+nmtui-edit
+nmtui
+nmcli connection up CBreiny
+nmcli connection show CBreiny --active
+nmcli connection load
+nmcli connection load CBreiny
+sudo nmcli connection load CBreiny
+exit
+vim .config/polybar/modules
+vim .config/polybar/modules
+vim .config/polybar/modules
+vim .config/polybar/modules
+vim .config/polybar/modules
+vim .config/polybar/modules
+exit
+vim .config/polybar/nord-top
+vim .config/polybar/nord-config
+mv .config/polybar/nord-config .config/polybar/config
+mv .config/polybar/dark-colors .config/polybar/colors
+vim .config/polybar/nord-config
+vim .config/polybar/config
+vim .config/polybar/config
+vim .config/polybar/config
+exit
+startx
+pkill polybar
+polybar top
+pkill polybar
+polybar top -r
+pkill polybar
+polybar top -r &
+polybar bottom -r &
+sudo shutdown -h now
