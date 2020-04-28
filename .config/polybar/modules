@@ -25,16 +25,19 @@ type = internal/bspwm
 
 ;strip-wsnumbers = true
 pin-workspaces = true
-index-sort = true
+inline-mode = true
+;index-sort = true
 enable-click = true
 enable-scroll = true
-wrapping-scroll = true
-reverse-scroll = false
-inline-mode = false
+;wrapping-scroll = true
+reverse-scroll = true
 fuzzy-match = true
 
 format = <label-state> <label-mode>
-ws-icon-[0-9]+ = <label>;<icon>
+
+label-monitor = %name%
+
+;ws-icon-[0-9]+ = <label>;<icon>
 ;ws-icon-0 = 1:Home;
 ;ws-icon-1 = 2:Browser;
 ;ws-icon-2 = 3:Coding;
@@ -48,19 +51,22 @@ label-focused-underline = ${colors.nord8}
 label-focused-foreground = ${colors.nord8}
 label-focused-padding = 2
 
-label-unfocused = •
-label-unfocused-foreground = ${colors.nord10}
-label-unfocused-padding = 2
+label-occupied = 
+label-occupied-foreground = ${colors.nord10}
+label-occupied-padding = 2
 
-label-urgent = 
+label-empty = 
+label-empty-foreground = ${colors.nord10}
+label-empty-padding = 2
+
+label-urgent = 
 label-urgent-foreground = ${colors.urgent}
 label-urgent-background = ${colors.foreground}
 label-urgent-padding = 2
 
 label-separator = |
+label-separator-padding = 0
 label-separator-foreground = ${colors.buffer}
-
-;label-monitor = %name%
 
 [module/workspace-name]
 type = internal/bspwm

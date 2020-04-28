@@ -4,7 +4,7 @@ include-file = $HOME/.config/polybar/colors
 include-file = $HOME/.config/polybar/modules
 
 [config]
-dpi = 100
+dpi = 96
 width = 100%
 height = 3%
 offset-x = 0%
@@ -12,12 +12,12 @@ offset-y = 0%
 fixed-center = true
 radius = 0.0
 line-size = 2
-override-redirect = true
+override-redirect = false
 font = SauceCodePro Nerd Font:pixelsize=12
 interface = enp3s0
 ;interface = wlp2s0
 
-[bar/top]
+[bar/top-a]
 monitor = ${env:MONITOR:eDP1}
 dpi = ${config.dpi}
 width = ${config.width}
@@ -36,11 +36,46 @@ font-0 = ${config.font}
 
 padding-left = 0
 padding-right = 0
-module-margin = 0
+module-margin = 2
+modules-left = bspwm title
+modules-center = temperature cpu memory network-detail
+modules-right = alsa backlight battery network-short date
+
+tray-position = none
+tray-detached = false
+tray-maxsize = 22
+tray-padding = 3
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+
+[bar/top-b]
+monitor = ${env:MONITOR:HDMI2}
+dpi = ${config.dpi}
+width = ${config.width}
+height = ${config.height}
+offset-x = ${config.offset-x}
+offset-y = ${config.offset-y}
+fixed-center = ${config.fixed-center}
+radius = ${config.radius}
+line-size = ${config.line-size}
+override-redirect = ${config.override-redirect}
+enable-ipc = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+font-0 = ${config.font}
+
+padding-left = 0
+padding-right = 0
+module-margin = 2
 modules-left = bspwm
 modules-center = title
-;modules-right = keyboard backlight alsa battery network-short date
-modules-right =
+modules-right = date
+;modules-left = bspwm title
+;modules-center = temperature cpu memory network-detail
+;modules-right = alsa backlight battery network-short date
 
 tray-position = none
 tray-detached = false
@@ -74,7 +109,6 @@ module-margin = 2
 modules-left = info-hackspeed
 modules-center = temperature cpu memory network-detail
 modules-right = alsa backlight battery network-short date
-;modules-right =
 
 tray-position = right
 tray-detached = false

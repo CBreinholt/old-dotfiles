@@ -7,8 +7,8 @@ killall -q polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 # Launch bar1 and bar2
-polybar -r top &
-polybar -r bottom &
+polybar -r top-a &
+polybar -r top-b &
 
 # Launch bar1 and bar2
 #if [ "$1" == "light" ]
