@@ -1,0 +1,312 @@
+; vim:ft=dosini
+
+# module list:
+# alsa: Display current volume
+# backlight: Display screen brightness
+# date: Display date
+# notify: Notify icon, can customize its binding
+# network-short: Network connect icon, can customize its binding
+# battery: Battery info
+# keyboard: CapsLock indicator
+# mpd: mpd status and controls
+# bspwm: bspwm workspace icons
+# workspace-name: i3 current workspace name, need to be in the format like "1:Home"
+# title: title of the active window
+# network-detail: Download and upload speed
+# weather: Display openweather info
+# info-hackspeed: Numper of characters clicked per minute
+# temperature: Display internal temperature
+# memory: Display memory usage
+# cpu: Display cpu usage
+# show-desktop: Display desktop (i3 only)
+
+[module/bspwm]
+type = internal/bspwm
+
+;strip-wsnumbers = true
+pin-workspaces = true
+index-sort = true
+enable-click = true
+enable-scroll = true
+wrapping-scroll = true
+reverse-scroll = false
+inline-mode = false
+fuzzy-match = true
+
+format = <label-state> <label-mode>
+ws-icon-[0-9]+ = <label>;<icon>
+;ws-icon-0 = 1:Home;
+;ws-icon-1 = 2:Browser;
+;ws-icon-2 = 3:Coding;
+;ws-icon-3 = 4:Learning;
+;ws-icon-4 = 5:Fun;
+;ws-icon-5 = 25:Desktop;
+;ws-icon-default = 
+
+label-focused = 
+label-focused-underline = ${colors.nord8}
+label-focused-foreground = ${colors.nord8}
+label-focused-padding = 2
+
+label-unfocused = •
+label-unfocused-foreground = ${colors.nord10}
+label-unfocused-padding = 2
+
+label-urgent = 
+label-urgent-foreground = ${colors.urgent}
+label-urgent-background = ${colors.foreground}
+label-urgent-padding = 2
+
+label-separator = |
+label-separator-foreground = ${colors.buffer}
+
+;label-monitor = %name%
+
+[module/workspace-name]
+type = internal/bspwm
+strip-wsnumbers = true
+
+format = <label-state> <label-mode>
+
+;label-focused = %name%
+label-focused-padding = 2
+label-focused-foreground = ${colors.nord7}
+label-focused-underline = ${colors.nord7}
+
+;label-urgent = %name%
+label-urgent-foreground = ${colors.urgent}
+label-urgent-background = ${colors.foreground}
+label-urgent-padding = 2
+
+[module/title]
+type = internal/xwindow
+format-foreground = ${colors.nord8}
+format-underline = ${colors.nord8}
+format-padding = 4
+
+label-maxlen = 20
+label-empty = Desktop
+
+[module/date]
+type = internal/date
+interval = 1.0
+; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
+; NOTE: if you want to use syntax tags here you need to use %%{...}
+date = %H:%M
+date-alt = %Y-%m-%d%
+
+format = <label>
+label = " %date%"
+label-margin = 1
+
+
+[module/battery]
+type = internal/battery
+full-at = 92
+battery = BAT1
+adapter = ADP1
+poll-interval = 5
+
+format-charging = <animation-charging>
+;format-charging = <animation-charging> <label-charging>
+label-charging = %time%
+animation-charging-foreground = ${colors.notify}
+animation-charging-0 = "⚡  "
+animation-charging-1 = "⚡  "
+animation-charging-2 = "⚡  "
+animation-charging-3 = "⚡  "
+animation-charging-4 = "⚡  "
+animation-charging-framerate = 500
+
+format-discharging = <ramp-capacity>
+;format-discharging = <ramp-capacity> <label-discharging>
+label-discharging = %time%
+ramp-capacity-0 = " "
+ramp-capacity-0-foreground = ${colors.urgent}
+ramp-capacity-1 = " "
+ramp-capacity-1-foreground = ${colors.urgent}
+ramp-capacity-2 = " "
+ramp-capacity-2-foreground = ${colors.warning}
+ramp-capacity-3 = " "
+ramp-capacity-3-foreground = ${colors.notify}
+ramp-capacity-4 = " "
+ramp-capacity-4-foreground = ${colors.success}
+
+label-full = 
+;label-full =   %percentage%%
+label-full-foreground = ${colors.success}
+
+[module/keyboard]
+type = internal/xkeyboard
+
+; List of indicators to ignore
+bufferlist-0 = num lock
+bufferlist-1 = scroll lock
+
+format = <label-indicator>
+label-indicator-on-capslock-foreground = ${colors.warning}
+label-indicator-on-capslock-underline = ${colors.warning}
+label-indicator-on-capslock =  CL
+layout-icon-default = 
+
+[module/alsa]
+type = internal/alsa
+
+master-soundcard = default
+speaker-soundcard = default
+headphone-soundcard = default
+master-mixer = Master
+
+format-volume = <ramp-volume>
+;format-volume = <ramp-volume> <label-volume>
+
+label-muted = 婢
+label-muted-foreground = ${colors.urgent}
+
+ramp-volume-0 = 奄
+ramp-volume-0-foreground = ${colors.nord9}
+;ramp-volume-0-foreground = ${colors.success}
+ramp-volume-1 = 奔
+ramp-volume-1-foreground = ${colors.nord9}
+;ramp-volume-1-foreground = ${colors.notify}
+ramp-volume-2 = 墳
+ramp-volume-2-foreground = ${colors.nord9}
+;ramp-volume-2-foreground = ${colors.urgent}
+
+ramp-headphones-0 = 
+bar-width = 10
+bar-indicator = |
+bar-fill = -
+bar-empty = " "
+
+ramp-volume-foreground = ${colors.nord9}
+
+[module/backlight]
+type = internal/xbacklight
+enable-scroll = true
+
+format = <ramp>
+;format = <label> <bar> <ramp>
+ramp-foreground = ${colors.nord9}
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+bar-width = 10
+bar-indicator = |
+bar-fill = -
+bar-empty = " "
+
+
+[module/network-short]
+type = internal/network
+interface = enp3s0
+;interface = wlp2s0
+
+interval = 3.0
+;unknown-as-up = true
+;accumulate-stats = true
+
+ramp-signal-0 = " "
+ramp-signal-0-foreground = ${colors.urgent}
+
+ramp-signal-1 = " "
+ramp-signal-1-foreground = ${colors.notify}
+
+ramp-signal-2 = " "
+ramp-signal-2-foreground = ${colors.nord7}
+
+ramp-signal-3 = " "
+ramp-signal-3-foreground = ${colors.success}
+
+format-disconnected = <label-disconnected>
+label-disconnected = 
+label-disconnected-foreground = ${colors.urgent}
+
+format-connected = <label-connected>
+label-connected = 
+label-connected-foreground = ${colors.foreground}
+
+
+[module/cpu]
+type = internal/cpu
+interval = 1
+
+format = <ramp-load> <label>
+
+ramp-load-0 = 
+ramp-load-0-foreground = ${colors.success}
+
+ramp-load-1 = 
+ramp-load-1-foreground = ${colors.notify}
+
+ramp-load-2 = 
+ramp-load-2-foreground = ${colors.warning}
+
+ramp-load-3 = 
+ramp-load-3-foreground = ${colors.urgent}
+
+[module/memory]
+type = internal/memory
+interval = 3
+
+format = <ramp-used> <label>
+label = %gb_used%/%gb_free%
+
+ramp-used-0 = 
+ramp-used-0-foreground = ${colors.success}
+
+ramp-used-1 = 
+ramp-used-1-foreground = ${colors.notify}
+
+ramp-used-2 = 
+ramp-used-2-foreground = ${colors.warning}
+
+ramp-used-3 = 
+ramp-used-3-foreground = ${colors.urgent}
+
+[module/network-detail]
+type = internal/network
+interface = ${config.interface}
+interval = 3
+
+format-connected = <label-connected>
+label-connected =  %downspeed:6%  祝 %upspeed:6%
+label-connected-foreground = ${colors.success}
+
+[module/temperature]
+type = internal/temperature
+
+thermal-zone = 5
+base-temperature = 40
+warn-temperature = 70
+
+; Format
+format = <ramp> <label>
+format-warn = <label-warn>
+format-warn-background = ${colors.foreground}
+
+label-warn = 﨏 %temperature-c%
+label-warn-padding = 1
+label-warn-foreground = ${colors.urgent}
+label-warn-background = ${colors.foreground}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-0-foreground = ${colors.nord8}
+ramp-1-foreground = ${colors.nord9}
+ramp-2-foreground = ${colors.notify}
+ramp-3-foreground = ${colors.warning}
+
+[module/info-hackspeed]
+type = custom/script
+exec = ~/.config/polybar/scripts/info-hackspeed.sh
+tail = true
+
+[module/weather]
+type = custom/script
+exec = ~/.config/polybar/scripts/openweathermap-fullfeatured.sh
+interval = 600
+label-font = 4
