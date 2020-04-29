@@ -2,11 +2,11 @@
 #include "/home/chris/.config/themes/nord.Xresources"
 
 !! Xorg settings
-Xft.dpi: 		        100
+Xft.dpi: 		        120
 Xft.rgba:		        rgb
 Xft.antialias:	 	    true
 Xft.hinting: 		    true
-Xft.hintstyle: 		    hintslight
+Xft.hintstyle: 		    hintfull
 
 !! URxvt settings
 URxvt*font:  			        xft:SauceCodePro Nerd Font:pixelsize=18
