@@ -9,10 +9,17 @@
 #####====---Essentials---====#####
 
 # Determine the XrandR settings
-iscmd bspwm_conf_xrandr && bspwm_conf_xrandr
+iscmd display_conf && display_conf
 
-# Define desktops [per monitor]
-iscmd bspwm_conf_desktops && bspwm_conf_desktops
+# Set the workspaces per monitor. One per monitor so we have dynamic desktops.
+# Borders on, otherwise it's impossible to find the focused window
+if [ "$(bspc query -M | wc -l)" -eq 2 ]; then
+	bspc monitor "eDP1" -d 1 2 3 4 5
+	bspc monitor "HDMI2" -d 6 7 8 9 0
+    bspc config borderless_monocle false
+else
+	bspc monitor -d 1 2 3 4 5 6 7 8 9 0
+fi
 
 
 #####====---Visual Options---====#####
@@ -27,12 +34,15 @@ bspc config pointer_follows_monitor true
 bspc config focus_follows_pointer true
 bspc config borderless_monocle true
 bspc config gapless_monocle true
+bspc config remove_disabled_monitors true
+bspc config remove_unplugged_monitors true
+#bspc config top_padding 24
 bspc config top_monocle_padding 0
 bspc config bottom_monocle_padding 0
 bspc config left_monocle_padding 0
 bspc config right_monocle_padding 0
-bspc config window_gap 5
-bspc config border_width 2
+bspc config window_gap 10
+bspc config border_width 3
 bspc config split_ratio 0.50
 
 
