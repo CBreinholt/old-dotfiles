@@ -88,8 +88,8 @@ super + {t,p,f}
     bspc node -t "~{tiled,pseudo_tiled,floating}"
 
 # Circulate the windows of the tree rooted at selected node
-super + ctrl + {b,c,e}
-    bspc node @/ {-B,-C forward,-E}
+super + ctrl + {b,c,e,r}
+    bspc node @/ {-B,-C forward,-E,-R 90}
 
 # Rotate all windows {counter-}clockwise by 90 degrees.
 #super + {_,alt + }r
