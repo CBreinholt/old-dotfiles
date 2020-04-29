@@ -1,1086 +1,3 @@
-urxvt &
-yay -Ss urxvt
-yay -S rxvt-unicode-wcwidthcallback
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-lsa
-cd fonts
-./install
-./install.sh
-cd ..
-rm -rf fonts
-clear
-lsa
-fc-cache -vf
-clear
-lsa
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-exit
-clear
-lsa
-vim $XRESOURCES
-xrdb $XRESOURCES
-urxvt&
-vim $XRESOURCES
-exit
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-lsa
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-./.local/lib/nerd-fonts/bin/scripts/test-fonts.sh
-echo "\ue3e3"
-echo "\ue3e8"
-mv .local/share/fonts/Patched/Sauce\ Code\ Pro\ Nerd\ Font\ Complete\ Mono.otf ../
-mv .local/share/fonts/Patched/Sauce\ Code\ Pro\ Nerd\ Font\ Complete\ Mono.otf ../
-mv .local/share/fonts/Patched/Sauce\ Code\ Pro\ Nerd\ Font\ Complete\ Mono.otf .local/share/fonts
-lsa
-cd .local/share/fonts
-mv 'Sauce Code Pro Nerd Font Complete Mono.otf' 'Source Code Pro for Powerline.otf'
-fc-cache-vf
-fc-cache -vf
-cd ~
-vim .config/alacritty/alacritty.yml
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-git clone https://github.com/powerline/fonts.git --depth=1\
-
-cd fonts/
-chmod +x uninstall.sh
-./uninstall.sh
-exit
-vim .config/alacritty/alacritty.yml
-fc-cache -vf
-exit
-lsa
-lsa .cache
-startx
-cd .local
-cd share
-cd fonts
-rmdir Patched
-lsa
-cd ~
-shutdown -h now
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-lsa
-vim .config/alacritty/alacritty.yml
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-vim .config/alacritty/alacritty.yml
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-urxvt &
-disown
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-chromium&
-disown
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-cd .local/share/fonts/NerdFonts
-rm * -f
-exit
-exit
-fc-cache -vf
-exit
-lsa
-cd .local/lib/nerd-fonts
-./font-patcher -l -q -c --careful -out ~/.local/share/fonts/NerdFonts/Sauce\ Code\ Pro\ Nerd\ Font\ Complete.ttf src/unpatched-fonts/SourceCodePro/Regular/SourceCodePro-Regular.ttf
-lsa
-./font-patcher -l -q -c --careful -out ~/.local/share/fonts/NerdFonts/ src/unpatched-fonts/SourceCodePro/Regular/SourceCodePro-Regular.ttf
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-vim .config/alacritty/alacritty.yml
-exit
-lsa .local/share/fonts/NerdFonts
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-vim .config/alacritty/alacritty.yml
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-fonts.sh
-exit
-sudo pacman -Syyy
-sudo pacman -Syu
-sudo pacman -Qtdq
-sudo pacman -Qt
-sudo pacman -Qtdq
-sudo pacman -Qttdq
-sudo pacman -Rns imagemagick byzanz
-sudo pacman -Rns byzanz
-sudo pacman -Rns imagemagick byzanz
-sudo pacman -S imagemagick
-sudo pacman -Qtdq
-yay -Syy
-yay -Syu
-yay -S brave-bin
-sudo ay -S brave-bin
-sudo yay -S brave-bin
-yay -S brave-bin
-yay -Ss brave-bin
-sudo pacman -Ss brave-bin
-yay -Qs brave-bin
-yay -Sq brave-bin
-yay -Sy brave-bin
-yay -Qy brave-bin
-yay -Qs brave-bin
-yay -Qq brave-bin
-yay -Q brave-bin
-yay -Ss brave-bin
-yay -Ss brave
-yay -S brave
-clear
-yay -S brave
-histchars=p
-history
-exit
-grep 'pacman' $ZDOTDIR/zsh_history
-grep 'pacman' $ZDOTDIR/zsh_history
-histroy | grep pacman
-history | grep pacman
-sudo pacman -Rns jdk8-openjdk
-sudo pacman -Rns adobe-source-sans-pro-fonts
-sudo pacman -Rns adobe-source-serif-pro-fonts
-sudo pacman -Rns cmake
-sudo pacman -Rns ttf-inconsolata-g
-patch --help
-sudo pacman -Rns patch
-sudo pacman -Qttdq
-sudo pacman -Qtdq
-sudo pacman -Qtq
-sudo pacman -Qtd
-sudo pacman -Qttq
-sudo pacman -Qtdq
-sudo pacman -Rns patch
-sudo pacman -Rns libnotify
-clear
-sudo pacman -Syy
-sudo pacman -Syu
-clear
-sudo pacman -Rns xf86-video-amdgpu
-sudo pacman -Rns xf86-video-ati
-sudo pacman -Rns xf86-video-dummy
-sudo pacman -Rns xf86-video-qxl
-sudo pacman -Rns xf86-video-voodoo
-sudo pacman -Rns xf86-video-vmware
-sudo pacman -Rns xf86-video-openchrome
-sudo pacman -Rns xf86-video-intel
-exit
-exit
-history | grep pacman
-cat $ZDOTDIR/zsh_history | grep pacman
-sudo pacman -Qtt
-sudo pacman -Qtt
-sudo pacman -Rns zsh-syntax-highlighting
-exit
-lsa
-startx
-htop
-shutdown -h now
-lsa .cache
-startx
-lsa
-chromium&
-autorandr
-sudo pacman -S xf86-video-intel
-reboot
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-lsa
-lsa fonts
-./.local/lib/nerd-fonts/bin/scripts/test-fonts.sh
-rm -rf fonts
-clear
-lsa
-lostfiles
-sudo lostfiles
-sudo pacman -Qtt
-sudo pacman -Qtt
-sudo pacman -Qt
-exit
-man grep
-exit
-htop
-lsa
-lsa
-chromium&
-disown
-clear
-history | grep pacman
-cat $ZDOTDIR/zsh_history | grep pacman
-sudo pacman -Rns python-pynvim
-sudo pacman -Rns xorg-server-xwayland
-sudo pacman -Qtdq
-sudo pacman -Qtd
-sudo pacman -Qtq
-clear
-lsa
-df -h
-sync
-df -h
-cd ..
-cd ..
-lsa
-cd usr
-lsa
-cd local
-lsa
-lsa bin
-lsa etc
-sudo du -sh ./*
-cd share
-lsa
-sudo du -sh ./*
-cd zsh
-cd site-functions
-vim prompt_spaceship_setup
-cd /
-cd var
-sudo du -sh ./*
-cd .cache
-lsa
-cd cache
-lsa
-cd ldconfig
-sudo cd ldconfig
-su root
-su root
-lsa
-cd ~/..
-lsa
-cd chris
-du -sh .
-du -sh
-du -sh *
-du -sh ./*
-du -sh ./.*
-du -sh ./.* | sort -h
-cd .local
-du -sh ./.* | sort -h
-du -sh ./* | sort -h
-du -sh ./lib/* | sort -h
-du -sh ./lib/nerd-fonts | sort -h
-clear
-lsa
-cd share
-lsa
-du ./* -sh | sort -h
-fc-cache vf
-fc-cache -vf
-chromium&
-disown
-clear
-lsa
-du -sh ./* | sort -h
-cd nvim
-du -sh ./* | sort -h
-cd swap
-rm *
-lsa
-rm *
-lsa
-cd ..
-lsa
-rm shada/*
-lsa
-du -sh ./* | sort -h
-cd ..
-du -sh ./* | sort -h
-cd xorg
-du -sh ./* | sort -h
-rm *.old
-cd ..
-lsa
-du -sh ./* | sort -h
-cd fonts
-lsa
-du -sh ./* | sort -h
-cd NerdFonts
-lsa | grep -E '^(Sauce)'
-lsa | grep -E '\^(Sauce)'
-lsa | grep -E '^(Sauce)'
-lsa | grep -Ev '(Sauce)'
-lsa | grep -Ev '(Sauce)' | rm
-lsa | grep -Ev '(Sauce)' | rm -
-echo $(lsa | grep -Ev '(Sauce)') 
-echo -e $(lsa | grep -Ev '(Sauce)') 
-lsa | grep -Ev '(Sauce)'
-man rm
-man xargs
-lsa | grep -Ev '(Sauce)' | xargs echo
-man xargs
-man xargs
-lsa | grep -Ev '(Sauce)' | xargs -d '\n' echo
-lsa | grep -Ev '(Sauce)' | xargs -d '\\n' echo
-lsa | grep -Ev '(Sauce)' | xargs -d '\\n' rm --
-lsa | grep -Ev '(Sauce)' | xargs -d '\\n' rm -
-lsa | grep -Ev '(Sauce)' | xargs rm --
-lsa | grep -Ev '(Sauce)' | xargs rm
-lsa | grep -Ev '(Sauce)' | xargs rm -r
-lsa | grep -Ev '(Sauce)' | xargs rm -r --
-lsa
-lsa | grep -Ev '(Sauce)' | xargs rm -rf --
-lsa
-lsa | grep -Ev '(Sauce)' | xargs ehco
-lsa | grep -Ev '(Sauce)' | xargs echo
-lsa | grep -Ev '(Sauce)' | xargs rm -- -rf
-lsa | grep -Ev '(Sauce)' | xargs -d '\n\n' rm --
-lsa
-pkill Xorg
-lsa
-chromium&
-disown
-clear
-history | grep pacman
-cat $ZDOTDIR/zsh_history | grep pacman
-sudo pacman -Rns python-pynvim
-sudo pacman -Rns xorg-server-xwayland
-sudo pacman -Qtdq
-sudo pacman -Qtd
-sudo pacman -Qtq
-clear
-lsa
-df -h
-sync
-df -h
-cd ..
-cd ..
-lsa
-cd usr
-lsa
-cd local
-lsa
-lsa bin
-lsa etc
-sudo du -sh ./*
-cd share
-lsa
-sudo du -sh ./*
-cd zsh
-cd site-functions
-vim prompt_spaceship_setup
-cd /
-cd var
-sudo du -sh ./*
-cd .cache
-lsa
-cd cache
-lsa
-cd ldconfig
-sudo cd ldconfig
-su root
-su root
-lsa
-cd ~/..
-lsa
-cd chris
-du -sh .
-du -sh
-du -sh *
-du -sh ./*
-du -sh ./.*
-du -sh ./.* | sort -h
-cd .local
-du -sh ./.* | sort -h
-du -sh ./* | sort -h
-du -sh ./lib/* | sort -h
-du -sh ./lib/nerd-fonts | sort -h
-clear
-lsa
-cd share
-lsa
-du ./* -sh | sort -h
-fc-cache vf
-fc-cache -vf
-chromium&
-disown
-clear
-lsa
-du -sh ./* | sort -h
-cd nvim
-du -sh ./* | sort -h
-cd swap
-rm *
-lsa
-rm *
-lsa
-cd ..
-lsa
-rm shada/*
-lsa
-du -sh ./* | sort -h
-cd ..
-du -sh ./* | sort -h
-cd xorg
-du -sh ./* | sort -h
-rm *.old
-cd ..
-lsa
-du -sh ./* | sort -h
-cd fonts
-lsa
-du -sh ./* | sort -h
-cd NerdFonts
-lsa | grep -E '^(Sauce)'
-lsa | grep -E '\^(Sauce)'
-lsa | grep -E '^(Sauce)'
-lsa | grep -Ev '(Sauce)'
-lsa | grep -Ev '(Sauce)' | rm
-lsa | grep -Ev '(Sauce)' | rm -
-echo $(lsa | grep -Ev '(Sauce)') 
-echo -e $(lsa | grep -Ev '(Sauce)') 
-lsa | grep -Ev '(Sauce)'
-man rm
-man xargs
-lsa | grep -Ev '(Sauce)' | xargs echo
-man xargs
-man xargs
-lsa | grep -Ev '(Sauce)' | xargs -d '\n' echo
-lsa | grep -Ev '(Sauce)' | xargs -d '\\n' echo
-lsa | grep -Ev '(Sauce)' | xargs -d '\\n' rm --
-lsa | grep -Ev '(Sauce)' | xargs -d '\\n' rm -
-lsa | grep -Ev '(Sauce)' | xargs rm --
-lsa | grep -Ev '(Sauce)' | xargs rm
-lsa | grep -Ev '(Sauce)' | xargs rm -r
-lsa | grep -Ev '(Sauce)' | xargs rm -r --
-lsa
-lsa | grep -Ev '(Sauce)' | xargs rm -rf --
-lsa
-lsa | grep -Ev '(Sauce)' | xargs ehco
-lsa | grep -Ev '(Sauce)' | xargs echo
-lsa | grep -Ev '(Sauce)' | xargs rm -- -rf
-lsa | grep -Ev '(Sauce)' | xargs -d '\n\n' rm --
-lsa
-pkill Xorg
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-vim $XRESOURCES
-xrdb $XRESOURCES
-exit
-vim $XRESOURCES
-xrdb $XRESOURCES
-exit
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-exit
-chromium&
-disown
-lsa
-du -sh ./* | sort -h
-cd .local
-du -sh ./* | sort -h
-cd lib
-cd nerd-fonts
-cd ~/.local
-du -sh ./* | sort -h
-cd lib
-du -sh ./* | sort -h
-cd ..
-cd share
-cd ..
-lsa
-cd share
-du -sh ./* | sort -h
-fc-cache -vf
-sync
-cd ~
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-clear
-./.local/lib/nerd-fonts/bin/scripts/test-powerlines.sh
-urxvt
-urxvt
-urxvt
-lsa
-cd .local
-cd lib
-rm -rf nerd-fonts
-lsa
-cd ~
-clear
-sync
-fc-cache -vf
-sudo pacman -Rns adobe-source-code-pro-fonts
-sudo pacman -Rns gsettings-desktop-schemas
-sudo pacman -Rns glib-networking
-sudo pacman -Rns libsoup
-sudo pacman -Rns rest
-sudo pacman -Rns gtk3
-sudo pacman -Qtdq
-sudo pacman -Qttdq
-sudo pacman -Qttqd
-sudo pacman -Qtqd
-sudo paccache -ruk0
-sudo pacman -Sc
-clear
-sync
-du -sh /*
-df -h
-clear
-lsa
-chromium&
-disown
-clear
-lsa
-pkill Xorg
-startx
-startx
-exit
-lsa
-sudo shutdown -h now
-lsa
-exit
-vim
-exit
-lsa
-chromium&
-disown
-clear
-lsa
-urxvt
-clear
-rm .config/nvim/Ditto -rf
-ksa
-lsa
-cd .config/nvim
-vim init.vim
-lsa
-rm plugged -rf
-rm autoload -rf
-lsa
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-lsa
-clear
-lsa
-vim init.vim
-lsa
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-fg
-fg
-vim init.vim
-fg
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-fg
-fg
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-vim init.vim
-exit
-git --version
-exit
-lsa
-rm .viminfo
-clear
-lsa
-vim .config/nvim/init.vim
-vim .config/nvim/init.vim
-gitstatus
-dotfiles status
-cd dev/dotfiles
-clear
-vim ~/.config/nvim/init.vim
-vim ~/.config/nvim/init.vim
-exit
-lsa
-sudo pacman -Syyy
-sudo pacman -Syu
-yay
-paccache -r1
-paccache -rk1
-paccache -r
-ckear
-clear
-sudo pacman -Qtdq
-startx
-lsa
-sudo shutdown -h now
-lsa
-exit
-lsa
-vim dev/bin
-vim dev/bin/iscmd.sh
-exit
-xev
-exit
-setxbkmap 'us'
-setxkbmap 'us'
-xev
-exit
-xev
-xmodmap
-bspc wm -r
-xmodmap
-loadbin
-xmodmap
-xmodmap
-bspc wm -r
-xmodmap
-xmodmap
-clear
-xmodmap
-loadbin
-vim .local/bin/remap
-loadbin
-xmodmap
-loadbin
-bspc wm -r
-xmodmap
-loadbin
-iscmd
-chmod +x dev/bin/iscmd.sh
-loadbin
-iscmd
-iscmd echo Hi
-vim .config/bspwm/bspwmrc
-vim dev/bin/remap.sh
-chromium&
-disown
-clear
-clear
-lsa
-vim .config/bspwm/bspwmrc
-vim .config/sxhkd/sxhkdrc
-vim .config/sxhkd/sxhkdrc_bspc
-pkill Xorg
-startx
-exit
-exit
-chromium&
-disown
-clear
-vim .config/sxhkd/sxhkdrc_bspc
-xmodmap
-vim dev/bin/remap.sh
-xmodmap
-kill xcape
-killall xcape
-killall sxhkd
-bspc wm -r
-remap
-loadbin
-remap
-startx
-clear
-reboot
-chromium&
-disown
-clear
-lsa
-xmodmap
-vim .profile
-clear
-vim .xinitrc
-vim .config/xorg/xprofile
-vim .zprofile
-vim .config/bspwm/bspwmrc
-vim .config/sxhkd/sxhkdrc
-vim .config/sxhkd/sxhkdrc_
-vim .config/sxhkd/sxhkdrc_bspc
-exit
-cd .config
-cd bspwm
-lsa
-rm bspwmrc-2
-clear
-lsa
-cd ..
-cd sxhkd
-rm sxhkdrc2
-rm sxhkdrc-info
-lsa
-clear
-loadbin
-exit
-dotfiles status
-dotfiles add .config/neofetch
-dotfiles commit -m "bloat"
-dotfiles add .config/sxhkd .config/bspwm
-dotfiles status
-clear
-dotfiles status
-dotfiles commit -m "adjusted keybinding and basic functionality"
-dotfiles status
-clear
-dotfiles status
-dotfiles add .config/alacritty .config/xorg/xresources
-dotfiles commit -m "font configurations for better glyph rendering"
-dotfiles status
-dotfiles status .config/nvim
-clear
-dotfiles add .config/nvim
-dotfiles status
-dotfiles commit -m "cleaned up vim config"
-dotfiles add .config/xorg/xinitrc .local/bin/remap
-dotfiles commit -m "added script for remapping escape and caps lock"
-dotfiles status
-dotfiles add .config/zsh .local/bin
-dotfiles status
-dotfiles commit -m "shell tools and minor bug fixes"
-dotfiles status
-dotfiles push
-dotfiles push
-clear
-exit
-xrandr --output eDP1 --off
-xrandr --output HDMI2 --primary --auto
-exit
-bspc wm -r
-vim dev/bin/bspwm_conf_desktops.sh
-vim dev/bin/bspwm_conf_desktops.sh
-clear
-lsa
-xrandr --output HDMI2 --auto --primary
-xrandr --output eDP1 --off
-bspc monitor HDMI2 -d 1
-bspc monitor HDMI2 -d 0 1
-bspc monitor HDMI2 -d 0 1 2 3 4 5 6 7 8 9
-bspc monitor eDP1 -d
-bspc monitor eDP1 -d none
-exit
-exit
-exit
-vim .config/systemd/user/tfresync.timer
-systemctl --user stop tfresync
-exit
-htop
-exit
-lsa
-lsa .cache
-lsa .cache/
-exit
-systemctl --user stop tfresync
-systemctl --user disable tfresync
-systemctl --user list-units
-systemctl --user list-units -type service
-clear
-systemctl --user list-units -type service
-systemctl --user list-units -t service
-systemctl stop tfsync
-systemctl --user stop tfsync
-systemctl --user list-units -t service
-clear
-lsa
-systemctl --user disable tfsync
-systemctl --user enable tfsync
-systemctl --user start tfsync
-exit
-lsa
-exit
-htop
-exit
-exit
-lsa .cache/
-lsa .cache/
-lsa .cache/
-clear
-lsa
-sudo pacman -Syyy
-sudo pacman -Syu
-clear
-sudo pacman -Sc
-paccache -ruk0
-paccache -ruk1
-clear
-exit
-vim dev/bin/bspwm_dynamic_desktops.sh
-exit
-clear
-bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
-exit
-vim .config/sxhkd/sxhkdrc_bspc
-vim .config/sxhkd/sxhkdrc_bspc
-exit
-vim .config/bspwm/bspwmrc
-t
-exit
-t
-exit
-htop
-htop
-exit
-vim .config/sxhkd/sxhkdrc_bspc
-vim .config/bspwm/bspwmrc
-vim .config/sxhkd/sxhkdrc_bspc
-exit
-exit
-exit
-exit
-bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
-xrandr --output HDMI2 --auto
-exit
-exit
-exit
-exit
-exit
-exit
-lsa
-exit
-exit
-htop
-exit
-t
-exit
-bspc monitor HDMI2 -d 0 1 2 3 4 5 6 7 8 9
-exit
-bspc monitor eDP1 -d 1
-bspc monitor HDMI2 -d 2 3 4 5 6 7 8 9 0
-bspc monitor HDMI2 -d 2 3 4 5 6 7 8 9 0 1
-exit
-vim .config
-vim .config/sxhkd/sxhkdrc_bspc
-vim .config/bspwm/bspwmrc
-remap
-loadbin
-remap
-pkill sxhkd
-remap
-bspc wm -r
-exit
-exit
-lsa
-exit
-bspc monitor eDP1 -d 1 2 3 4 5
-bspc monitor HDMI -d 6 7 8 9 0
-bspc monitor HDMI2 -d 6 7 8 9 0
-exit
-bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
-bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
-bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
-bspc monitor "eDP1" -d none
-bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
-xrandr --output eDP1 --off
-xrandr --output HDMI2 --auto --primary --preffered
-xrandr --output HDMI2 --auto --primary --prefered
-xrandr --output HDMI2 --auto --primary --preferred
-bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
-bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
-xrandr --output HDMI2 --auto --primary --preferred
-xrandr --output eDP1 --off
-bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
-bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
-xrandr --output HDMI2 --auto --primary --preferred
-bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
-xrandr --output eDP1 --off
-bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
-bspc monitor "eDP1" -d none
-bspc monitor "eDP1" -d none
-bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
-bspc monitor "eDP1" -d 1
-bspc monitor "HDMI2" -d 2 3 4 5 6 7 8 9 0
-bspc wm -r
-pkill sxhkd
-bspc wm -r
-bspc monitor "HDMI2" -d 2 3 4 5 6 7 8 9 0
-bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
-bspc monitor "eDP1" -d 1 2 3 4 5 6 7 8 9 0
-bspc monitor "HDMI2" -d 1 2 3 4 5 6 7 8 9 0
-bspc monitor "eDP1" -d none
-chromium &
-clear
-lsa
-exit
-bspc monitor eDP1 -d 1 2; bspc monitor HDMI2 -d 8 9 0
-bspc monitor eDP1 -d 1 2; bspc monitor HDMI2 -d 3 4 5 6 7 8 9 0
-exit
-exit
-exit
-exit
-vim dev/bin/bspwm_resize.sh
-loadbin
-exit
-vim dev/bin/bspwm_conf_desktops.sh
-loadbin
-exit
-xrandr -d HDMI2 --rotate right
-xrandr --output HDMI2 --rotate right
-xrandr --output HDMI2 --rotate left
-xrandr --output HDMI2 --rotate left
-xrandr --output HDMI2 --auto
-xrandr --output HDMI2 --rotate right
-xrandr --output HDMI2 --rotate right
-xrandr --output HDMI2 --rotate none
-xrandr --output HDMI2 --rotate normal
-xrandr --output HDMI2 --rotate left
-exit
-htop
-bspc monitor eDP1 -d 1 2
-bspc monitor HDMI2 -d 3 4 5 6 7 8 9 0
-vim dev/bin/bspwm_resize.sh
-loadbin
-killall sxhkd
-bspc wm -r
-vim .config/sxhkd/sxhkdrc
-vim .config/sxhkd/sxhkdrc_bspc
-lsa
-man xrandr
-xrandr --output HDMI2 --rotate right
-xrandr --output eDP1 --primary --preferred
-xrandr --output eDP1 --primary --preferred --auto
-xrandr --output HDMI2 --auto
-xrandr --output HDMI2 --auto --right-of eDP1 --rotate right
-xrandr --output HDMI2 --auto --right-of eDP1 --rotate right --vsync
-xrandr --output HDMI2 --auto --right-of eDP1 --rotate right --sync
-xrand --help
-xrandr --help
-xrandr --output HDMI2 --auto --right-of eDP1 --rotate right --rate 60
-xrandr --output HDMI2 --auto --right-of eDP1 --rotate right --rate 10
-xrandr --output HDMI2 --auto --right-of eDP1 --rotate right --rate 50
-xrandr --output HDMI2 --newmode rotated 60 +HSync
-xrandr --output HDMI2 --newmode +HSync
-xrandr --output HDMI2 --newmode HDMI2 +HSync +VSync
-xrandr --output HDMI2 --newmode auto +HSync +VSync
-exit
-htop
-exit
-startx
-sudo shutdown -h now
-lsa
-exit
-man conky
-xrandr
-autorandr
-autorandr
-chromium&
-disown
-xrandr --output HDMI2 --rotate right
-clear
-lsa .config
-mkdir .config/conky
-sudo pacman -S conky
-cd .config
-cd conky
-vim conkyrc
-mv conkyrc conky.conf
-conky &
-vim conky.conf
-conky &
-vim conky.conf
-conky &
-vim conky.conf
-conky &
-conky &
-exit
-htop
-exit
-htop
-exit
-htop
-exit
-xrandr --output HDMI2 --rotate normal
-clear
-vim dev/bin/bspwm_conf_desktops.sh
-loadbin
-xrandr --output HDMI2 --rotate right
-exit
-startx
-sudo shutdown -h now
-chromium&
-disown
-exit
-vim .config/bspwm/bspwmrc
-exit
-exit
-sudo pacman -Syyy
-sudo pacman -Syu
-yay
-sudo pacman -Syu
-clear
-htop
-startx
-sudo shutdown -h now
-sudo pacman -Syyy
-dotfiles status
-dotfiles add .config/conky
-dotfiles commit -m "added config for conky"
-clear
-dotfiles status
-dotfiles add .config/bspwm .config/sxhkd 
-dotfiles commit -m "updated key bindings"
-dotfiles status
-clear
-dotfiles status
-dotfiles add .config/htop .config/dconf .config/systemd .config/zsh 
-dotfiles status
-dotfiles restore --staged .config/systemd
-dotfiles status
-dotfiles commit -m "bug fix"
-dotfiles add .config/systemd
-dotfiles commit -m "changed timer for cache sync"
-dotfiles add .local/bin
-dotfiles status
-dotfiles commit -m "updated binaries"
 dotfiles push
 chromium&
 disown
@@ -2010,3 +927,1131 @@ pkill polybar
 polybar top -r &
 polybar bottom -r &
 sudo shutdown -h now
+sudo pacman -Syyy
+sudo pacman -Syu
+lsa
+exit
+vim .config/polybar/launch.sh
+exit
+env
+exit
+vim .config/polybar/launch.sh
+exit
+xrdb -query | grep dpi
+exit
+vim $XRESOURCES
+exit
+loadbin
+exit
+loadbin
+loadbin
+xrandr --output eDP1 --scale 1
+exit
+loadbin
+xrandr --output HDM12 --dpi 125
+loadbin
+loadbin
+loadbin
+xrandr --output HDMI2 --dpi 96 --scale 1
+exit
+vim .config/polybar/modules
+dotfiles status
+dotfiles add .config/polybar/config-2
+dotfiles commit -m "removed poorly constructed config"
+dotfiles status
+clear
+dotfiles status
+dotfiles add .config/zsh
+dotfiles commit -m "hist update"
+dotfiles add .config/polybar/config
+dotfiles status
+dotfiles commit -m "update polybar config"
+dotfiles add .config/polybar/launch.sh
+dotfiles commit -m "launch script for polybar"
+dotfiles add .config/polybar/colors \\
+
+dotfiles status
+dotfiles add .config/polybar/modules
+dotfiles status
+dotfiles commit -m "moved polybar modules and color theme to seperate files"
+dotfiles status
+dotfiles push
+clear
+chromium&
+disown
+clear
+.config/polybar/launch.sh
+killall polybar
+polybar top
+vim .config/polybar/config
+vim .config/polybar/config
+polybar top -r &
+disown
+pkill polybar
+.config/polybar/launch.sh
+vim dev/bin/bspwm_conf_xrandr.sh
+chromium&
+disown
+vim .config/bspwm/bspwmrc
+pkill xorg
+vim .config/bspwm/bspwmrc
+vim .config/sxhkd/sxhkdrc
+vim .config/sxhkd/sxhkdrc_bspc
+vim .config/sxhkd/sxhkdrc
+iscmd polybar && ./config/polybar/launch.sh &\
+
+exit
+rm -rf .config/polybar/scripts
+chromium&
+disown
+exit
+exit
+exit
+exit
+polybar test &
+polybar test &
+polybar test &
+pkill polybar
+exit
+killall polybar
+exit
+exit
+exit
+bspc config bottom_padding 0
+exit
+bspc config top_padding 0
+exit
+exit
+bspc config -n focused split_ratio .5
+bspc config -n focused split_ratio .9
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+vim .config/sxhkd/sxhkdrc
+exit
+xrandr --dpi 120
+xrandr --dpi 120
+xrandr
+xrandr --dpi 120 --fb 3840x2160 \\
+--output eDP1 --mode 1920x1080 --pos 0x0 \
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --pos 0x0 \\
+--output HDMI2 --scale 1.41x1.41 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --pos 0x0 \\
+--output HDMI2 --scale 0.67x0.71 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 0.67x0.71 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1x1 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --scale 1.25x1.25 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1x1 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1.41x1.41 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1.25x1.25 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
+--output HDMI2 --mode 1920x1080 --scale 1.41x1.41 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --scale 1.25x1.25 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1x1 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1260x768 --scale 1.25x1.25 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1x1 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1.25x1.25 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1.41x1.41 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1.2x1.2 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1.1x1.1 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 2x2 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1.5x1.5 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1.4x1.4 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1.4x1.4 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1368x768 --scale 1.25x1.25 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1x1 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1368x768 --scale 0.75x0.75 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1x1 --pos 1920x0
+xrandr --dpi 120 \\
+--output eDP1 --mode 1368x768 --scale 1.41x1.41 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1x1 --pos 1920x0
+xrandr --dpi --fb 3840x2160 \\
+--output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1.4x1.4 --pos 1920x0
+xrandr --dpi \\
+--output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1.4x1.4 --pos 1920x0
+xrandr --dpi 96 --fb 3840x2160 \\
+--output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1.4x1.4 --pos 1920x0
+xrandr --dpi 96 --fb 3840x2160 \\
+--output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
+--output HDMI2 --mode 1360x768 --scale 1x1 --pos 1920x0
+exit
+xrandr
+exit
+loadbin
+bspwm_conf_xrandr
+bspwm_conf_xrandr
+autorandr
+autorandr
+bspwm_conf_xrandr
+autorandr
+exit
+xrdb $XRESOURCES
+exit
+chromium&
+vim $XRESOURCES
+exit
+exit
+exit
+vim .config/polybar/launch.sh
+exit
+killall polybar
+vim .config/polybar/launch.sh
+vim .config/polybar/launch.sh
+exit
+vim $XRESOURCES
+vim /home/chris/.config/themes/nord.Xresources
+vim /home/chris/.config/themes/nord.Xresources
+vim /home/chris/.config/themes/nord.Xresources
+vim /home/chris/.config/themes/nord.Xresources
+vim $XRESOURCES
+vim .config/nvim/init.vim
+vim .config/nvim/init.vim
+exit
+vim $XRESOURCES
+vim $XRESOURCES
+vim .config/nvim/init.vim
+exit
+vim $XRESOURCES
+vim /home/chris/.config/themes/nord.Xresources
+vim /home/chris/.config/themes/nord.Xresources
+vim /home/chris/.config/themes/nord.Xresources
+exit
+vim .config/polybar/colors
+exit
+vim .config/polybar/colors
+vim .config/polybar/colors
+vim .config/polybar/colors
+exit
+vim .config/polybar/colors
+exit
+bspc config top_padding 0
+bspc config top_padding 3%
+bspc config top_padding 27
+bspc config top_padding 30
+bspc config top_padding 0
+bspc config top_padding 24
+t
+exit
+.config/polybar/launch.sh
+pkill polybar
+vim .config/polybar/config
+vim .config/bspwm/bspwmrc
+dotfiles status
+dotfiles add .config/bspwm 
+dotfiles commit -m "bspwm launches polybar launch.sh on startup"
+dotfiles add .config/polybar
+dotfiles status
+dotfiles status
+dotfiles add .config/polybar
+dotfiles status
+dotfiles commit -m "updated polybar multi monitor settings"
+dotfiles push
+clear
+lsa
+pkill sxhkd
+bspc wm -r
+vim .xinitrc
+remap
+remap
+sudo pacman -Ss bashtop
+sudo pacman -S bashtop
+sudo pacman -Rns htop
+sudo pacman -S bashtop
+bashtop
+bashtop
+exit
+lsa
+bspc desktop -F vertical
+bspc desktop -f vertical
+bspc desktop -f horizontal
+bspc desktop -m HDMI2
+bspc desktop -m eDP1
+bspc desktop -b west
+bspc desktop -b left
+bspc desktop -b prev
+bspc desktop -b prev
+bspc desktop -b prev
+bspc desktop -b next
+exit
+vim .config/polybar/modules
+mv .config/polybar/modules .config/polybar/config2
+mv .config/polybar/config2 .config/polybar/modules2
+vim .config/polybar/modules2
+cp .config/polybar/modules2 .config/polybar/modules
+vim .config/polybar/modules
+vim .config/polybar/config
+exit
+vim .config/polybar/config
+vim .config/polybar/modules
+exit
+vim .config/bspwm/bspwmrc
+exit
+pkill polybar
+bspc config top_padding 0
+exit
+exit
+vim .config/bspwm/bspwmrc
+exit
+bspc config top_padding 0
+exit
+lsa
+exit
+lsa
+exit
+exit
+xrandr --output HDMI2 --scale 1.4x.1.4
+xrandr --output HDMI2 --scale 1.4x1.4
+xrandr --dpi 96
+xrandr --dpi 120
+xrandr --dpi 50
+xrandr --dpi 96
+xrandr --dpi 96
+clear
+lsa
+exit
+xrandr
+exit
+exit
+vim .config/polybar/launch.sh
+xrandr
+xrandr
+xrandr --fb
+xrandr --fb 3200x1080
+xrandr --fb 3200x1800
+xrandr --hellp
+xrandr --help
+xrandr --fb 1920x1080+1920+0
+xrandr --fb 1920x1080+1920+1080
+xrandr --fb 1920x1080
+xrandr --fb 3840x1080
+xrandr --fb 1920x1080+1920
+xrandr --fb 1920+1920x1080
+xrandr --fb 1920x1280
+xrandr --fb 3840x1080
+xrandr --fb 3840x1280
+xrandr --fb 3840x1080
+xrandr --fb 3840x1080+1920+720
+xrandr --fb 3840x1080+1920+0
+xrandr --fb 2880x1080+1920+0
+xrandr --fb 2880x1080
+xrandr --fb auto
+xrandr
+xrandr --fb 32767x32767
+lsa
+ doc/downloads
+lsa
+cd ~
+vim .config/polybar/config
+xrandr --output HDMI2 --scale 1.41x1.41
+xrandr --output HDMI2 --scale 1.41x1.42
+xrandr --output HDMI2 --scale 1.41x1.4
+xrandr --output HDMI2 --scale 1.41x1.41
+xrandr --output HDMI2 --scale 1.41x1.4
+xrandr --output HDMI2 --scale 1.41x1.41
+xrandr --output HDMI2 --scale 1.42x1.4
+xrandr --output HDMI2 --scale 1.412x1.406
+xrandr --output HDMI2 --scale 1.4118x1.4066
+xrandr --output HDMI2 --scale 1.4118x1.40625
+xrandr --output HDMI2 --scale 1.41177x1.40625
+xrandr --output HDMI2 --scale 1.41176471x1.40625
+xrandr --output HDMI2 --scale 1.41176471x1.40625
+xrandr --output HDMI2 --scale 1.4117647x1.40625
+xrandr --output HDMI2 --scale 1.411765x1.40625
+xrandr --output HDMI2 --scale 1.41177x1.40625
+xrandr --output HDMI2 --scale 1.4118x1.40625
+xrandr --output HDMI2 --scale 1.4x1.40625
+xrandr --output HDMI2 --scale 1.41176471x1.40625
+vim dev/bin/display_conf.sh
+loadbin
+history | grep xrandr
+grep xrandr ~/.config/zsh/zsh_history
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+display_conf
+vim dev/bin/bspwm_conf_desktops.sh
+vim dev/bin/bspwm_conf_desktops.sh
+loadbin
+vim dev/bin/bspwm_conf_xrandr.sh
+mv dev/bin/bspwm_conf_xrandr.sh dev/bin/display_conf.sh
+vim dev/bin/display_conf.sh
+loadbin
+rm dev/bin/bspwm_conf_desktops.sh
+loadbin
+bashtop
+bashtop
+bashtop
+exit
+xrandr
+exit
+exit
+exit
+lsa
+exit
+xrandr --dpi 276
+exit
+lsa
+exit
+lsa
+exit
+lsa
+exit
+lsa
+exit
+lsa
+exit
+lsa
+exit
+lsa
+exit
+chromium&
+exit
+lsa
+exit
+lsa
+chromium&
+exit
+chromium&
+chromium&
+exit
+exit
+lsa
+exit
+lsa
+exit
+chromium&
+pkill chromium
+exit
+chromium&
+pkill chromium
+chromium&
+pkill chromium
+chromium&
+pkill chromium
+exit
+lsa
+exit
+lsa
+exit
+lsa
+exit
+exit
+lsa
+exit
+urxvt &
+urxvt &
+urxvt &
+exit
+urxvt &
+exit
+urxvt &
+exit
+urxvt &
+exit
+urxvt &
+exit
+urxvt &
+exit
+urxvt &
+exit
+urxvt &
+exit
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+chromium &
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+urxvt &
+exit
+urxvt &
+urxvtc
+urxvt
+exit
+lsa
+chromium&
+pkill chromium
+chromium&
+pkill chromium
+exit
+vim .config/alacritty
+vim .config/alacritty/alacritty.yml
+xrdb $XRESOURCES
+exit
+lsa
+exit
+lsa
+urxvt
+exit
+xrdb $XRESOURCES
+chromium&
+pkill chromium
+exit
+xrdb $XRESOURCES
+exit
+lsa
+chromium&
+xrdb $XRESOURCES
+pkill chromium
+chromium&
+pkill chromium
+xrb $XRESOURCES
+xrdb $XRESOURCES
+exit
+chromium&
+pkill chromium
+xrdb $XRESOURCES
+exit
+chromium&
+pkill chromium
+exit
+lsa
+lsa
+exit
+xrdb $XRESOURCES
+urxvt &
+xrdb $XRESOURCES
+urxvt &
+xrdb $XRESOURCES
+urxvt &
+xrdb $XRESOURCES
+urxvt &
+exit
+urxvt &
+xrdb $XRESOURCES
+urxvt &
+exit
+exit
+xrdb $XRESOURCES
+exit
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+xrandr --output HDMI2 scale 1x1
+xrandr --output HDMI2 --scale 1x1
+xrandr --output HDMI2 --mode 1280x720 --scale 1x1
+xrandr --output HDMI2 --mode 1280x720 --scale 1.5x1.5
+xrandr --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --pos 1920x0
+loadbin
+display_conf
+xrandr --output eDP1 --mode 1920x1080 --fb 3200x1800 --panning 3200x1800 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --same-as eDP1
+display_conf
+autorandr
+autorandr -c
+xrandr --output eDP1 --mode 1920x1080 --fb 3200x1800 --panning 3200x1800 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --same-as eDP1
+autorandr -c
+xrandr --output eDP1 --mode 1920x1080 --fb 3200x1800 --panning 3200x1800 --output HDMI2 --mode 1280x720 --scale 1.5x1.5
+autorandr -c
+xrandr --output eDP1 --mode 1920x1080 --fb 3200x1800 --panning 3200x1800 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --pos 1920x0
+autorandr -c
+xrandr --fb 3200x1800 --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --pos 1920x0
+autorandr -c
+xrandr --fb 3200x1920 --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --pos 1920x0
+autorandr -c
+xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --pos 1920x0
+autorandr -c
+xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --fb 1920x1080 --pos 1920x0
+autorandr -c
+xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.4 --pos 1920x0
+xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.4x1.4 --pos 1920x0
+autorandr -c
+xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --pos 1920x0
+autorandr -c
+xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --pos 1920x0
+xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --right-of eDP1
+autorandr -c
+xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --right-of eDP1
+autorandr -c
+xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.75x1.75 --pos 1920x0
+autorandr -c
+xrandr
+xrandr --output eDP1 --mode 1280x720 --scale 1.5x1.5
+xrandr --output eDP1 --mode 1280x720 --scale 1.5x1.5 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --pos 1280x0
+autorandr -c
+xrandr
+xrandr -help
+xrandr --fb 1920x1080 --output eDP1 --mode 1920x1080 --scale 1x1 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --same-as eDP1
+xrandr --fb 1920x1080 --output eDP1 --mode 1920x1080 --scale 1x1 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --right-of eDP1
+xrandr --fb 3840x2160 --output eDP1 --mode 1920x1080 --scale 1x1 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --right-of eDP1
+xrandr --output eDP1 --mode 1920x1080 --scale 1x1 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --right-of eDP1
+autorandr -c
+xrandr --output eDP1 --mode 1920x1080 --scale 1x1 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --right-of eDP1
+autorandr -c
+xrandr --output eDP1 --mode 1920x1080 --scale-from 3840x2160 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --right-of eDP1
+autorandr -c
+xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 3840x2160 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --right-of eDP1
+autorandr -c
+xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --pos 1920x0
+xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --pos 1980x0
+xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --pos 1985x0
+xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --pos 1920x0
+xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --pos 2000x0
+xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --pos 1920x0
+autorandr -c
+xrandr -h
+xrandr -help
+xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --filter nearest --pos 1920x0
+xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --filter bilinear --pos 1920x0
+xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --filter bilinear,nearest --pos 1920x0
+xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --filter bilinear --pos 1920x0
+xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --filter nearest --pos 1920x0
+xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1260x768 --scale-from 1920x1080 --filter nearest --pos 1920x0
+xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1360x768 --scale-from 1920x1080 --filter nearest --pos 1920x0
+xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1360x768 --scale-from 1920x1080 --pos 1920x0
+xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1360x768 --scale-from 1920x1080 --pos 1920x0
+exit
+chromium &
+disown
+clear
+vim dev/bin/display_conf.sh
+exit
+bashtop
+exit
+xrdb -query
+vim  $XRESOURCES
+t
+exit
+urxvt &
+pkill chromium
+pkill urxvt
+exit
+lsa
+vim .config/alacritty/alacritty.yml
+exit
+exit
+exit
+lsa
+exit
+chromium&
+disown
+urxvt &
+clear
+lsa
+vim .config/alacritty/alacritty.yml
+exit
+lsa
+vim 
+urxvt &
+exit
+lsa
+bashtop
+exit
+lsa
+dotfiles status
+startx
+startx
+startx
+lsa
+startx
+startx
+startx
+pkill chromium
+shutdown -h now
+grep xrandr .config/zsh/zsh_history
+exit
+bc
+sudo pacman -S bc
+echo $(1 / 2)
+echo 1 / 2
+echo "1 / 2"
+sudo pacman -S bc
+echo 1 / 2 | bc
+1/2 >>> bc
+echo 1/2 >>> bc
+bc <<< 1/2
+bc -l<<< 1/2
+awk "BEGIN {print 1 / 2}"
+sudo pacman -Rns bc
+lsa
+exit
+lsa .config
+exit
+test="1920x1080"
+echo $test
+awk -F'x' 'print' test 
+awk -F'x' '{print}' test 
+awk -F'x' '{print}' $test
+awk $test '{print}'
+awk $test '{print $0}'
+awk '{print $0}' $test
+awk
+awk '{$test}' 'print $0'
+awk '${test}' 'print $0'
+awk ${test} 'print $0'
+echo $test | awk -F'x' 'print $0'
+echo $test | awk -F'x' '{print $0}'
+echo $test | awk -F'x' '{print $1}'
+echo $test | awk -F'x' '{print $2}'
+exit
+pkill xcompmgr
+exit
+exit
+pkill xcompmgr 
+exit
+vim .config/polybar/colors
+exit
+chromium&
+disown
+vim .config/polybar/launch.sh
+clear
+vim .config/sxhkd/sxhkdrc
+vim .config/polybar/config
+vim .config/polybar/modules
+vim .config/polybar/modules
+exit
+lsa
+cd .config
+lsa themes
+lsa
+cd xorg
+vim xresources
+exit
+#include $XRESOURCES
+vim .config/polybar/copy_config
+exit
+vim .config/polybar/config
+exit
+exit
+vim .config/sxhkd/sxhkdrc
+exit
+vim .config/sxhkd/sxhkdrc
+t
+exit
+exit
+vim .config/polybar/config
+vim .config/sxhkd/sxhkdrc
+vim .config/sxhkd/sxhkdrc_bspc
+vim dev/bin/display_conf.sh
+vim dev/bin/display_conf.sh
+clear
+bashtop
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+clear
+lsa
+vim .config/bspwm/bspwmrc
+chromium&
+disown
+exit
+exit
+exit
+exit
+exit
+exit
+bspc node -f -B
+bspc node -f -C forward
+exit
+bspc node -C
+bspc node -C forward
+exit
+bspc node -B
+bspc node -C forward
+bspc node -C backward
+bspc node -E
+bspc node -F horizontal
+bspc node -F vertical
+bspc desktop -f -N
+bspc desktop -N
+bspc query -D 1
+bspc query -D 1 --nodes -C
+bspc query -D 1 --nodes -B
+bspc query -D 1 -n all -B
+bspc query -D 1 -N all -B
+bspc query -T
+bspc query -D --tree
+bspc query -D -f --tree
+bspc query -D --focused
+bspc query -N focused -B
+bspc node focused -B
+bspc node focused -B
+bspc node focused -B
+bspc node focused -B
+bspc node focused -E
+exit
+vim .config/sxhkd/sxhkdrc_bspc
+exit
+bspc node -f -B
+bspc node -f -E
+bspc node -f -R 90
+bspc node -f -R /
+bspc node -f -R / 90
+bspc node / -R 90
+bspc node @/ -R 90
+bspc node @/ -R 90
+bspc node @/ -R 90
+bspc node @/ -R 90
+bspc node @/ -B
+bspc node @1 -B
+bspc node @1 -R
+bspc node 1 -R
+bspc node @/1 -R
+bspc node @/1 -R -90
+bspc node @/1 -R -90
+bspc node @/2 -R -90
+bspc node @/2 -R -90
+bspc node @/2 -R -90
+bspc node @/2 -R -90
+bspc node @/2 -R -90
+bspc node @/2 -R -90
+bspc node @/2 -R -90
+bspc node @/2 -R -90
+bspc node @/2 -R -90
+bspc node @/2 -R -90
+bspc node @/2 -R -90
+bspc node @/2 -R -90
+bspc node @/west -R -90
+bspc node @/west -R -90
+bspc node @west -R -90
+bspc node @west -R -90
+bspc node @west -R -90
+bspc node @south -R -90
+bspc node @south -R -90
+bspc node @south -R -90
+bspc node @south -R -90
+bspc node @west -R 90
+bspc node @/west -R 90
+bspc node @/north -R 90
+bspc node @/ -R 90
+bspc node @/ -R 90
+bspc node @/ -B
+bspc node / -B
+bspc node @/parent -B
+bspc node @parent -B
+bspc node @parent -B
+bspc node @parent -R 90
+bspc node @parent -R 90
+bspc node @parent -R 90
+bspc node @parent -R 90
+bspc node @parent -R 180
+bspc node @parent -R 180
+bspc node @parent -R 180
+bspc node @parent -R 180
+bspc node @parent -R 90
+bspc node @parent -R -90
+bspc node @/ -R -90
+bspc node @/ -R -90
+exit
+bspc node focused @-d -B
+bspc node focused @ -d -B
+bspc node focused @/ -d -B
+bspc node focused @1/ -B
+bspc node focused @1* -B
+bspc node focused @* -B
+bspc node focused @/* -B
+bspc node focused @/ -B
+bspc node @/ -B
+bspc node @/* -B
+bspc node @/all -B
+bspc node @/parent -B
+bspc node @/west -B
+bspc node @/north -B
+bspc node @/ -B
+bspc node @/ -E
+bspc node @/ -B
+exit
+bspc desktop -b next
+bspc desktop -b prev
+bspc desktop -m next
+bspc desktop -m next
+t
+exdit
+exit
+exit
+t
+exit
+bashtop
+bspc desktop 2 -d 4
+bspc desktop 2 -f
+bspc desktop 2 -f -n $("test")
+bspc desktop 2 -f -n "$(echo test)"
+bspc desktop "test" -n 2
+bspc desktop -f -b next
+bspc desktop -f -b next -n 22
+bspc desktop -f -b prev -n 3
+bspc desktop -b next -f
+bspc desktop -b next -f
+bspc desktop -b next -f -n "$(bspc desktop last)"
+echo $(bspc query -d next)
+echo $(bspc query -d -f next)
+echo $(bspc query next)
+echo $(bspc query -f next)
+echo $(bspc query desktop next)
+echo $(bspc query desktop -f next)
+echo $(bspc query --desktop)
+echo $(bspc query --desktop -f)
+echo $(bspc query --desktop next)
+echo $(bspc query --desktop any)
+echo $(bspc query -D)
+echo $(bspc query -D -f)
+echo $(bspc query -D --desktop)
+echo $(bspc query -D --desktop)
+echo $(bspc query -D --desktop next)
+echo $(bspc query -D --desktop)
+echo $(bspc query -D --desktop next)
+echo $(bspc subscribe desktop_swap)
+echo $(bspc subscribe desktop_swap report)
+echo $(bspc query -D --desktop --names)
+echo $(bspc query -D -f --desktop --names)
+echo $(bspc query -D --focused --desktop --names)
+echo $(bspc query -D --desktop --names next)
+echo $(bspc query -D --desktop next)
+echo $(bspc query -D --desktop next --names)
+echo $(bspc query -D -d -f next --names)
+echo $(bspc query -D -d -f --names)
+echo $(bspc query -D -d --names)
+echo $(bspc query -D -fd --names)
+echo $(bspc query -D -f --names)
+echo $(bspc query -D --names)
+echo $(bspc query -D -d focused -f --names)
+echo $(bspc query -D -d focused --names)
+a=$(bspc query -D -d focused --names)
+echo $a
+echo $(bspc query -D a --names)
+echo $(bspc query -D -d a --names)
+echo $(bspc query -D -d $a --names)
+echo $(bspc query -D $a --names)
+echo $(bspc query -D $a --names)
+echo $(bspc query -D -d next --names)
+echo $(bspc query -D -d a -n 'a' --names)
+echo $(bspc query -D -d $a -n 'a' --names)
+bspc desktop $a -n "test"
+bspc desktop $a next -n $a
+bspc desktop -f $a next -n $a
+bspc desktop $a next -n $a
+bspc desktop $a next -n "$a"
+bspc desktop $a next
+bspc desktop "test" next
+bspc desktop -f "test" next
+bspc desktop -d "test" next
+bspc desktop test next
+bspc desktop test
+bspc desktop test next
+bspc desktop test -f next
+exit
+t
+exit
+exit
+bspc desktop -f -n 4
+bspc desktop prev -n next
+bspc desktop prev -n 5
+bspc desktop -f -n 5 prev -n 4 
+bspc desktop -f -n 5 -f prev -n 4 
+bspc desktop -f next -n next -f prev -n prev 
+exit
+lsa
+startx
+startx
+lsa
+remap
+vim .config/sxhkd/sxhkdrc_bspc
+dotfiles status
+dotfiles add .config/bashtop
+dotfiles commit -m "system resource monitor"
+dotfiles add .config/alacritty
+dotfiles commit -m "font bug fix"
+dotfiles add .config/xorg
+dotfiles commit -m "color themeing"
+dotfiles add .local/bin
+dotfiles commit -m "scripts for configuring multi head set up"
+dotfiles status
+dotfiles add .config/polybar
+dotfiles commit -m "massive clean up and feature additions"
+dotfiles status
+dotfiles push
+dotfiles push
+dotfiles push
+dotfiles status
+sudo pacman -Syy
+sudo pacman -Syu
+sudo shutdown -h now
+exit
+dotfiles status
+clear
+chromium & | disown
+chromium& | disown
+chromium&
+disown
+exit
+sudo pacman -Syyy
+sudo pacman -Syu
+sudo pacman -Rc
+sudo pacman -Sc
+clear
+yay -Syy
+yay -Syy
+yay -Syu
+startx
+bashtop
+pkill chromium
+shutdown -h now
+vim .config/bspwm/bspwmrc
+exit
+bspc wm -r
+bspc desktop 1 -n 1
+vim .config/bspwm/bspwmrc
+exit
+vim .config/polybar/config
+vim .config/polybar/modules
+exit
+bspc desktop 1
+bspc desktop 2
+bspc desktop Main
+bspc desktop Main -n 1
+dotfiles status
+clear
+exit
+vim .config/sxhkd/sxhkdrc_bspc\
+vim .config/sxhkd/sxhkdrc_bspc
+exit
