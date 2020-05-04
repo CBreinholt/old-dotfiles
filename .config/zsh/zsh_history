@@ -1,224 +1,3 @@
-exit
-startx
-shutdown -h files
-shutdown -h now
-startx
-chromium&
-disown
-chromium &
-disown
-cat ~/doc/downloads/SRI\ Receipt\ -\ courseeval@prod.pdf
-shutdown -h now
-chromium&
-disown
-exit
-startx
-dotfiles status
-vim .profile
-dotfiles status
-dotfiles add .profile
-dotfiles commit -m "quick fix"
-dotfiles push
-dotfiles push
-shutdown -h now
-chromium&
-disown
-exit
-ranger
-exit
-shutdown -h now
-sudo pacman -Syyy
-sudo pacman -Syu
-yay
-start
-startx
-exit
-startx
-chromium&
-disown
-clear
-conkky
-conky&
-clear
-conky&
-clera
-clear
-clera
-conky&
-clear
-lsa
-sudo pacman -Syyy
-sudo pacman -Syu
-sudo pacman -S polybar
-sudo pacman -S libpulseaudio
-sudo pacman -S pulseaudio
-yay -Syy
-yay -Syu
-yay -S polybar
-yay -Qs polybar
-yay -Qy polybar
-yay -Sq polybar
-yay -Qs polybar
-yay -Q polybar
-yay -Qy polybar
-yay -Sy polybar
-yay -S polybar
-polybar example
-lsa
-cd .config
-lsa
-lsl
-lsla
-mkdir polybar
-cd ~
-touch .config/polybar/config
-vim /usr/share/doc/polybar/config
-cp /usr/share/doc/polybar/config ~/.config/polybar/
-polybar example
-killall polybar
-polybar example
-killall polybar
-polybar example &
-disown
-killall polybar
-exit
-polybar &
-polybar future &
-bg
-exit
-disown
-exit
-killall polybar
-polybar future &
-disown
-exit
-killall polybar
-polybar future & && disown
-polybar future &
-disown
-exit
-exit
-killall polybar
-polybar future &
-disown
-killall polybar
-clear
-polybar future
-polybar future
-killall polybar
-killall polybar
-polybar future
-killall polybar
-polybar future
-polybar future
-polybar future
-polybar future
-polybar future
-polybar future
-polybar future
-polybar future
-polybar future
-polybar future
-polybar future
-polybar future
-exit
-vim .config/xorg/xresources
-exit
-vim .config/xorg/xresources
-vim .config/xorg/xresources
-vim .config/themes/nord.Xresources
-xrdb $XRESOURCES
-eit
-exit
-lscpi
-lscpi
-lspci
-ipconfig
-ifconfig
-ip link
-acpi
-lspci --help
-lspci -d
-lspci -v
-t
-exit
-lsa
-vim .config/polybar/config
-cp .config/polybar/config .config/polybar/config-2
-vim .config/polybar/config
-vim .config/polybar/config-2
-vim .config/polybar/config
-polybar future
-polybar future
-polybar future
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-iplink
-ip a
-polybar main
-# lspci -vv
-lspci -vv
-lspci -vv | grep -i bat
-lspci -vv | grep bat
-lspci -nn
-lspci -nn | grep -i bat
-lspci -nn | grep -i bat
-lspci --help
-lspci -t
-lspci -Q
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-echo \u1f90e
-echo "\u1f90e"
-echo -e "\u1f90e"
-echo -e "\nu1f90e"
-echo -e "\n1f90e"
-echo -e "\u1f90e"
-echo -e "\u1f321"
-echo -e \u1f321
-echo "\u1f321"
-echo "\U1f321"
-echo "\U1f9e0"
-polybar main
-acpid
-polybar main
-polybar main
-polybar main
 polybar main
 polybar main
 polybar main
@@ -2065,3 +1844,214 @@ clear
 lsa
 bashtop
 shutdown -h now
+chromium&
+disown
+clear
+dotfiles status
+clear
+dotfiles status
+clear
+dotfiles status
+dotfiles status
+clear
+dotfiles status
+pkill chromium 
+exit
+dotfiles add .config/bashtop
+dotfiles commit -m "update interval"
+dotfiles add .config/zsh
+dotfiles commit "misc"
+dotfiles commit -m "misc"
+dotfiles add .config/dconf
+dotfiles commit -m 'bug fix'
+dotfiles push
+dotfiles push
+dotfiles push
+shutdown -h now
+startx
+chromium&
+disown
+exit
+sudo vim /etc/pacman.conf
+exit
+sudo pacman -Syy
+sudo pacman -Syy
+sudo systemctl start reflector.service
+sudo pacman -Syy
+sudo pacman -Syu
+sudo pacman -Syyy
+sudo pacman -Syu
+vim .config/alacritty/alacritty.yml
+clear
+lsa
+pkill chromium
+chromium
+chromium &
+disown
+clear
+exit
+lsa
+exit
+lsa
+exit
+lsa
+lsa
+exit
+vim .config/polybar/config
+xrandr
+pkill polybar
+poly -r main dual
+polybar -r main dual
+polybar -r main &
+polybar -r dual &
+polybar -r dual &
+polybar -r main &
+polybar -r dual
+clear
+lsa
+loadbin
+xrandr
+xrandr --help
+xrandr --listproviders
+vim .config/alacritty/alacritty.yml
+exit
+exit
+lsa
+exit
+exit
+exit
+lsa
+clear
+lsa
+exit
+exit
+lsa
+exit
+lsa
+exit
+vim .config/polybar/launch.sh
+xrandr --output HDMI2 --mode 1360x768 scale 0.8x0.8
+xrandr --output HDMI2 --mode 1360x768 --scale 0.8x0.8
+xrandr --output HDMI2 --mode 1360x768 --scale 1x1
+xrandr --output HDMI2 --mode 1360x768 --scale 1x1
+xrandr --output HDMI2 --mode 1360x768 --scale 1.25x1.25
+pkill polybar
+polybar -r dual
+xrandr --output HDMI2 --mode 1360x768 --scale 1.5x1.5
+vim dev/bin/display_conf.sh
+exit
+loadbin
+loadbin
+loadbin
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+display_conf
+loadbin
+loadbin
+display_conf
+loadbin
+loadbin
+loadbin
+loadbin
+display_conf
+loadbin
+loadbin
+loadbin
+loadbin
+loadbin
+loadbin
+loadbin
+exit
+vim dev/bin/display_conf.sh
+exit
+exit
+urxvt &
+exit
+urxvt &
+exit
+urxvt &
+exit
+vim .config/bspwm/bspwmrc
+vim .config/sxhkd/sxhkdrc
+vim .config/sxhkd/sxhkdrc_bspc
+exit
+vim .config/polybar/launch.sh
+vim .config/polybar/colors.ini
+vim .config/polybar/modules.ini
+vim .config/polybar/launch.sh
+vim .config/bspwm/bspwmrc
+vim .config/sxhkd/sxhkdrc_bspc
+vim .config/bspwm/bspwmrc
+vim .config/polybar/launch.sh
+vim .config/polybar/launch.sh
+exit
+vim .config/alacritty
+vim .config/alacritty/alacritty.yml
+urxvt &
+clear
+lsa
+vim .config/alacritty/alacritty.yml
+mv .config/polybar/modules2 .config/polybar/modules_copy
+vim .config/polybar/config
+mv .config/polybar/modules .config/polybar/modules_old
+mv .config/polybar/config .config/polybar/config_old
+mv .config/polybar/colors .config/polybar/colors_old
+mv .config/polybar/*.ini .config/polybar/*
+mv .config/polybar/*.ini .config/polybar/*.
+lsa .config/polybar
+pkill polybar
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+pkill polybar
+pkill sxhkd
+bspc wm -r
+.config/polybar/launch.sh
+vim .config/polybar/launch.sh
+.config/polybar/launch.sh
+.config/polybar/launch.sh
+exit
+xrandr
+loadbin
+xrandr
+loadbin
+loadbin
+loadbin
+loadbin
+loadbin
+loadbin
+loadbin
+xrandr
+loadbin
+xrandr
+loadbin
+xrandr
+xrandr
+clear
+xrandr
+loadbin
+xrandr
+loadbin
+xrandr
+loadbin
+xrandr
+loadbin
+loadbin
+vim .config/polybar/modules
+vim .config/polybar/colors
+vim .config/polybar/copy_config
+mv .config/polybar/copy_config .config/polybar/config.ini
+vim .config/polybar/config.ini
+vim .config/polybar/config.ini
+cp .config/polybar/modules .config/polybar/modules.ini
+cp .config/polybar/colors .config/polybar/colors.ini
+rm .config/polybar/*copy*
+vim .config/polybar/colors.ini
+vim .config/polybar/colors.ini
+vim .config/polybar/config.ini
+vim .config/polybar/config.ini
+exit
