@@ -15,7 +15,7 @@
 super + e ; {r,x,q}
     { \
     pkill -USR1 -x sxhkd && bspc wm -r, \
-    xrdb -merge $XRESOURCES, \
+    xrdb $XRESOURCES, \
     pkill Xorg \
     }
 
