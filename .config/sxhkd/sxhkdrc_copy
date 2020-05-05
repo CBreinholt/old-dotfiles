@@ -1,0 +1,24 @@
+#
+# sxhkd --- Module with WM-agnostic keys
+#
+# Partial configuration file for the Simple X Hot Key Daemon.
+# Meant to work with 'bspwm' but the goal of this file is to
+# dynamically key bindings that work with any WM
+
+
+###############
+# Environment #
+###############
+# 'super + e'
+
+# s == reload sxhkd
+# x == reload Xresources
+#super + e ; {r,x}
+    #{ \
+    #pkill -USR1 -x sxhkd && bspc wm -r, \
+    #xrdb -merge $XRESOURCES \
+    #}
+
+# Invoke the end of the Xorg session
+#ctrl + alt + Delete
+    #pkill Xorg

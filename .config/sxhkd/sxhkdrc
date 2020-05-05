@@ -6,19 +6,74 @@
 # dynamically key bindings that work with any WM
 
 
-###############
-# Environment #
-###############
-# 'super + e'
+########################
+# Environment: super+e #
+########################
 
-# s == reload sxhkd
-# x == reload Xresources
-#super + e ; {r,x}
-    #{ \
-    #pkill -USR1 -x sxhkd && bspc wm -r, \
-    #xrdb -merge $XRESOURCES \
-    #}
+# {Reload,Quit} the window manager
+super + e ; {r,q}
+    { \
+    pkill -USR1 -x sxhkd && bspc wm -r, \
+    pkill Xorg
+    }
 
-# Invoke the end of the Xorg session
-#ctrl + alt + Delete
-    #pkill Xorg
+# Open a terminal window
+super + Return
+    $TERMINAL
+
+
+#################
+# Basic Motions #
+#################
+
+# Focus or Swap with the node in the given direction
+super + {_,alt +} {h,j,k,l}
+    bspc node -{f,s} {west,south,north,east}
+
+# Focus or Send to the given desktop
+super + {_,alt +} {0-9} + {_,shift}
+    bspc {desktop -f,node -d} {0-9} {_,--follow}
+
+# Focus or Swap to the next/prev desktop on focused monitor
+super + {_,alt +} bracket{left,right} + {_,shift}
+    bspc desktop -f {_,-s} {prev,next}.local {-f last,--follow}
+
+# Focus the prev focused node or desktop
+super + {Tab,grave}
+    bspc {node,desktop} -f last
+
+# Focus the node for the given path jump
+super + {a,s,z,x}
+    bspc node -f @{parent,brother,first,second}
+
+
+################
+# Node Actions #
+################
+
+# Set or toggle the focused node state
+super + alt + t ; {t,p,f,F11}
+    bspc node -t "~{tiled,pseudo_tiled,floating,fullscreen}"
+
+# Set or toggle the focused node flags
+super + alt + g ; {h,s,p,l,m}
+    bspc node -g {hidden,sticky,private,locked,marked "{on,off}"}
+
+# Set the pre-selection dir of the focuse:d node
+super + alt + p : {h,j,k,l}
+    bspc node -p "~{west,south,north,east}"
+
+# Set the pre-selection ratio of the focused node
+super + alt + p : {1-9}
+    bspc node -o 0.{1-9}
+
+# Set the size of the focused node
+super + alt + s : {h,j,k,l}
+    bspwm_resize {west,south,north,east} 20
+
+
+###################
+# Desktop Actions #
+###################
+
+

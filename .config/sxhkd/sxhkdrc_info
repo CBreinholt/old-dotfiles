@@ -1,0 +1,28 @@
+Environment 
+===========
+Reload WM
+Quit WM
+Open Terminal
+Open Browser
+-----------
+
+
+Nodes
+=====
+Focus node in DIR
+Swap with node in DIR
+Move to Desktop
+Move to Desktop (follow)
+Move to Monitor
+Move to Monitor (follow)
+Move window by pixels (floating)
+Set/toggle state
+Set/toggle flag
+Control window size by pixels
+Control preselect direction
+Control preselect ratio
+Balace split ratios
+Circulate forward/backward
+Equalize split ratios
+Rotate 90 degrees
+-----
