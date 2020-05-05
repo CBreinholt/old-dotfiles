@@ -9,7 +9,7 @@
 #####====---Essentials---====#####
 
 # Determine the XrandR settings
-iscmd display_conf && display_conf
+iscmd conf_display && conf_display
 
 # Set the workspaces per monitor. One per monitor so we have dynamic desktops.
 # Borders on, otherwise it's impossible to find the focused window
