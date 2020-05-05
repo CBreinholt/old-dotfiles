@@ -1,323 +1,3 @@
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar future
-polybar future
-polybar future
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-iplink
-ip a
-polybar main
-# lspci -vv
-lspci -vv
-lspci -vv | grep -i bat
-lspci -vv | grep bat
-lspci -nn
-lspci -nn | grep -i bat
-lspci -nn | grep -i bat
-lspci --help
-lspci -t
-lspci -Q
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-echo \u1f90e
-echo "\u1f90e"
-echo -e "\u1f90e"
-echo -e "\nu1f90e"
-echo -e "\n1f90e"
-echo -e "\u1f90e"
-echo -e "\u1f321"
-echo -e \u1f321
-echo "\u1f321"
-echo "\U1f321"
-echo "\U1f9e0"
-polybar main
-acpid
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar future
-polybar future
-polybar future
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-iplink
-ip a
-polybar main
-# lspci -vv
-lspci -vv
-lspci -vv | grep -i bat
-lspci -vv | grep bat
-lspci -nn
-lspci -nn | grep -i bat
-lspci -nn | grep -i bat
-lspci --help
-lspci -t
-lspci -Q
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-echo \u1f90e
-echo "\u1f90e"
-echo -e "\u1f90e"
-echo -e "\nu1f90e"
-echo -e "\n1f90e"
-echo -e "\u1f90e"
-echo -e "\u1f321"
-echo -e \u1f321
-echo "\u1f321"
-echo "\U1f321"
-echo "\U1f9e0"
-polybar main
-acpid
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-polybar main
-chromium&
-disown
-clear
-vim .config/polybar/config
-exit
-vim .xinitrc
-dotfiles .config/xorg/xprofile
-vim .config/xorg/xprofile
-vim .config/bspwm/bspwmrc
-dotfiles status
-dotfiles add .config/themes/nord.Xresources
-dotfilestatus
-dotfiles status
-dotfiles commit -m "adjusted xterm theme"
-dotfiles add .config/polybar
-dotfiles commit -m "added basic statusbar"
-dotfiles add .config/xorg/xprofile
-dotfiles statues
-dotfiles status
-dotfiles commit -m "startup polybar"
-dotfiles push
-polybar --help
-dotfiles status
-dotfiles add .config/bspwm
-dotfiles status
-dotfiles commit -m "added polybar startup & reload"
-dotfiles push
-exit
-vim .config/sxhkd/sxhkdrc
-t
-exit
-starx
-startx
-startx
-startx
-shutdown -h now
-chromium&
-startx
-shutdown -h now
-chromium&
-clear
-exit
-disown
-clear
-dotfiles status
-conky &
-H
-chromium &
-startx
-shutdown -h now
-vim .config/xorg/xprofile
-vim .config/bspwm/bspwmrc
-exit
-chromium&
-disown
-exit
-exit
-exit
-exit
-conky&
-exit
-conky &
-exit
-dotfiles status
-dotfiles add .config/bspwm
-dotfiles commit -m "bug fix"
-dotfiles add .config/xorg/xprofile
-dotfiles commit -m "let bspwm handle the polybar instead"
-dotfiles status
-dotfiles add .config/zsh
-dotfiles status
-dotfiles commit
-dotfiles commit -m ""
-dotfiles commit -m "bug fix"
-dotfiles push
-exit
-lsa doc/downloads
-clear
-lsa
-sudo pacman -Syy
-sudo pacman -Syu
-yay -Syy
-yay -Syu
-startx
-startx
-sudo pacman -Syyy
-sudo pacman -Syu
-shutdown -h now
-chromium&
-disown
-exit
-dotfiles status
-sudo pacman -Syy
-sudo pacman -Syu'
-sudo pacman -Syu
-sudo pacman -Rns conky
-rm -rf .config/conky
-dotfiles status
-dotfiles add .config/conky
-dotfiles status
-dotfiles commit -m "removed conky (bloat)"
-dotfiles push
-exit
-ip link
-exit
-.config/polybar/launch.sh dark
-pkill polybar
-vim .config/polybar/dark-config
-exit
-ip link
-exit
-ip link show
-exit
-echo -e "\uf6e9"
-echo -e "\uf6d9"
-echo -e "\ufa51"
-echo -e "\uf85a"
-echo -e "\ue20c"
-echo -e "\ue20b"
-echo -e "\ue20a"
-echo -e "\ue20d"
-echo -e "\ue200"
-echo -e "\ue20a"
-echo -e "\ue20b"
-echo -e "\ue20c"
-echo -e "\ufaf0"
-echo -e "\ufa0f"
-exit
-vim .config/polybar/nord-config
-vim .config/polybar/dark-config
-vim .config/polybar/dark-colors
-vim .config/polybar/launch.sh
-vim .config/polybar/launch.sh
-ip link show
-vim .config/polybar/launch.sh
-vim .config/polybar/launch.sh
-vim .config/polybar/launch.sh
-vim .config/polybar/launch.sh
-vim .config/polybar/scripts/toggle-redshift.sh
-vim .config/polybar/dark-config
-vim .config/polybar/nord-down
-vim .config/polybar/nord-down
-exit
-vim .config/polybar/nord-down
-vim .config/polybar/launch.sh
-vim .config/polybar/launch.sh
-exit
-git clone https://github.com/Yucklys/polybar-nord-theme ~/.config/polybar/
-lsl .config/polybar
-rm .config/polybar/config*
-git clone https://github.com/Yucklys/polybar-nord-theme ~/.config/polybar/
-lsl .config/polybar
-./.config/polybar/launch.sh
-pkill polybar
-vim .config/polybar/launch.sh
-vim .config/polybar/nord-top
-vim .config/polybar/dark-config
-vim .config/polybar/launch.sh
-cd .config/polybar
-vim colors
-cp modules config colors launch.sh scripts ~/poly/
-cp -r modules config colors launch.sh scripts ~/poly/
-rm -rf *
 lsa
 rm scripts
 rm -rf *
@@ -2054,4 +1734,324 @@ vim .config/polybar/colors.ini
 vim .config/polybar/colors.ini
 vim .config/polybar/config.ini
 vim .config/polybar/config.ini
+exit
+dotfiles status
+clear
+dotfiles status
+dotfiles status
+clear
+dotfiles status
+dotfiles add .config/polybar
+dotfiles status
+dotfiles commit -m "cleaning up polybar files and appearence"
+clear
+dotfiles status
+dotfiles add .config/sxhkd/sxhkdrc
+dotfiles commit -m "simple key adjustments"
+dotfiles status
+dotfiles add .config/sxhkd
+dotfiles commit -m "simple key adjustments"
+dotfiles status
+clear
+dotfiles status
+dotfiles add .config/alacritty
+dotfiles status
+dotfiles commit -m "fixed dpi scaling bug"
+clear
+dotfiles status
+dotfiles add .config/bashtop
+dotfiles add .config/zsh
+dotfiles statuis
+dotfiles status
+dotfiles commit -m "cleanup"
+clear
+dotfiles status
+dotfiles add .local/bin/display_conf
+dotfiles commit -m "adjusted scale size for secondary display"
+dotfiles status
+dotfiles push
+clear
+dotfiles status
+exit
+bashtop
+exit
+startx
+sudo pacman -Syyy
+sudo pacman -Syu
+yay -Syyy
+yay -Syu
+clear
+lsa
+dotfiles status
+clear
+pkill chromium
+shutdown -h now
+sudo pacman -Syyy
+sudo pacman -Syu
+yay -Syyy
+yay -Syu
+clear
+lsa
+dotfiles status
+clear
+pkill chromium
+shutdown -h now
+sudo pacman -Syyy
+sudo pacman -Syu
+yay -Syyy
+yay -Syu
+clear
+lsa
+dotfiles status
+clear
+pkill chromium
+shutdown -h now
+sudo pacman -Syyy
+sudo pacman -Syu
+yay -Syyy
+yay -Syu
+clear
+lsa
+dotfiles status
+clear
+pkill chromium
+shutdown -h now
+chromium&
+disown
+exit
+loadbin
+display_conf
+exit
+vim .config/sxhkd/sxhkdrc_bspc
+vim .config/polybar/config.ini
+exit
+pkill polybar
+exi
+exit
+lsa
+vim .config/bspwm/bspwmrc
+vim .config/bspwm/bspwmrc
+vim .config/bspwm/bspwmrc
+exit
+pkill sxhkd
+bspc wm -r
+exit
+exit
+exit
+pkill sxhkd
+bspc wm -r
+exit
+vim .config/bspwm/bspwmrc
+pkill polybar
+pkill sxhkd
+bspc wm -r
+vim .config/bspwm/bspwmrc
+vim .config/polybar/launch.sh
+vim .config/bspwm/bspwmrc
+vim .config/bspwm/bspwmrc
+bspc wm -r
+pkill polybar
+exit
+vim .config/bspwm/bspwmrc
+vim .config/polybar/launch.sh
+exit
+alsamixer
+alsamixer
+exit
+alsamixer
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+bspc query --nodes -n -t hidden
+bspc query --nodes -t hidden
+bspc query --nodes -d prev
+bspc query --nodes -d prev -t hidden
+bspc query --nodes -d -f prev -t hidden
+bspc query -n prev
+bspc query -n prev -t hidden
+bspc query --nodes prev
+bspc query --nodes -f prev
+bspc query --nodes -n prev
+bspc query --nodes -n
+bspc query --nodes -n prev -t
+bspc query --nodes -n prev -f
+bspc query --nodes -f -n prev
+bspc node -f prev
+bspc node 0x00E00002.state
+bspc node 0x00E00002
+bspc node 0x00E00002 -t
+bspc node 0x00E00002 -t ~hidden
+bspc node 0x00E00002 -t hidden
+bspc node 0x00E00002 -t activate
+bspc node 0x00E00002 -t
+bspc node 0x00E00002 -t sticky
+bspc node 0x00E00002 -f
+bspc node -f -C
+bspc node -f -C forward
+bspc node -f -C forward
+bspc node -f -C backward
+bspc desktop -f -C backward
+bspc query -N -n any
+bspc query -N -n --state
+bspc query -N -n -t
+bspc query -N any
+bspc query -N any -t
+bspc query -N -n hidden
+bspc query -N hidden
+bspc query -N any.hidden
+bspc query -N any.
+bspc query -N any
+bspc query -N any
+bspc query -D -n any.hidden
+bspc query -D -n any.hidden -f
+bspc query -D -n -f any.hidden
+bspc query -D -n any.hidden
+bspc node $(bspc query -D -n any.hidden) -t hidden
+bspc query -N any
+bspc query -N hidden
+bspc query -N any.hidden
+bspc query -N any
+bspc query -N 
+bspc query -N "
+bspc query -N any.local
+bspc query -N any
+bspc query -N -n hidden
+bspc query -N -n any.hidden
+bspc query -N -n any.hidden -f
+bspc query -N -f -n any.hidden
+bspc query -N -n -f any.hidden
+bspc query -N -n any.hidden
+bspc query -N -n any.hidden -t
+bspc query -N -n any.hidden
+echo $(bspc query -N -n any.hidden)
+bspc node $(bspc query -N -n any.hidden)
+bspc node $(bspc query -N -n any.hidden) -f
+bspc node $(bspc query -N -n any.hidden) --focus
+bspc node $(bspc query -N -n any.hidden) -t
+bspc node $(bspc query -N -n any.hidden) -t hidden
+bspc node $(bspc query -N -n any.hidden) -a
+bspc node $(bspc query -N -n any.hidden) -f
+bspc node $(bspc query -N -n any.hidden) -g hidden
+exit
+vim .config/sxhkd/sxhkdrc_copy
+vim .config/sxhkd/sxhkdrc_bspc
+vim .config/sxhkd/sxhkdrc_bspc
+exit
+t
+exit
+exit
+exit
+exit
+startx
+bspc query -N any
+bspc query -N any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.hidden
+bspc query -N -n any.sticky
+bspc query -N -n any.private
+bspc query -N -n any.locked
+bspc query -N -n any.urgent
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc node any.marked
+bspc node any.marked -s -f 
+bspc node -s any.marked
+bspc node -s any.marked
+bspc node -s any.marked
+bspc node -s any.marked
+bspc node -s any.marked
+bspc node -f -s any.marked
+bspc node -f -s last.marked
+bspc node -f -s last.marked.last
+bspc node -f -s marked.last
+bspc node any.marked
+bspc node any.marked -s focused
+bspc node any.marked -s focused
+bspc node any.marked -s -f
+bspc node last.marked -s 
+bspc node last.marked -s focused
+bspc node last.marked -s focused
+bspc node last.marked -s focused
+bspc node last.marked -s focused
+bspc query -N -n any.marked
+bspc node -f
+bspc query -N -n -f
+bspc query -N -n
+bspc query -N -n any.marked
+bspc node last.marked -s focused
+bspc node last.marked -s focused
+bspc node last.marked -s focused
+bspc node last.marked -s focused
+bspc node last.marked -s focused -f
+bspc node last.marked -s focused -f -g marked "~{on,off}"
+bspc node last.marked -s focused -f -g marked "~{on,off}"
+bspc node last.marked -s focused -f && bspc node -g marked "~{on,off}"
+bspc node last.marked -s focused -f && bspc node -g marked "~{on,off}"
+bspc node last.marked -s focused -f && bspc node -g marked "~{on,off}"
+bspc node last.marked -s focused -f && bspc node -g marked "~{on,off}"
+bspc node last.marked
+bspc deskop last.marked
+bspc desktop last.marked
+bspc desktop -f.marked
+bspc desktop focused .marked
+bspc desktop focused.marked
+bspc desktop focused
+bspc query -N any
+bspc query -N any.marked
+bspc query -N any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked
+bspc query -D -n any.marked
+bspc query -N -n any.marked
+bspc query -N -n any.marked && bspc node -s $(bspc query -N -n any.marked)
+bspc query -N -n any.marked && bspc node -s $(bspc query -N -n any.marked)
+bspc query -N -n any.marked && bspc node -s $(bspc query -N -n any.marked)
+bspc node last.marked -s focused -f && bspc node -g marked "~{on,off}"
+bspc node last.marked -s focused -f && bspc node -g marked "~{on,off}"
+bspc node last.marked -s focused -f && bspc node -g marked "~{on,off}"
+vim dev/bin/bspwm_smart_move.sh
+vim dev/bin/bspwm_resize.sh
+vim .config/sxhkd/sxhkdrc_bspc
+cp .config/sxhkd/sxhkdrc_bspc .config/sxhkd/sxhkdrc_copy
+cp .config/sxhkd/sxhkdrc .config/sxhkd/sxhkdrc_copy
+vim .config/sxhkd/sxhkdrc
+lsa
+vim 
+vim .config/polybar/config.ini
+vim .config/polybar/modules.ini
+bashtop
+vim .config/sxhkd/sxhkdrc_info
+vim .config/sxhkd/sxhkdrc_info
+vim .config/sxhkd/sxhkdrc_copy
+vim .config/sxhkd/sxhkdrc_bspc
+chromium&
+disown
+exit
+exit
+vim .config/sxhkd/sxhkdrc
 exit
