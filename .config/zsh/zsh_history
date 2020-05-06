@@ -1,54 +1,3 @@
-lsa
-rm scripts
-rm -rf *
-lsa
-rm .git*
-rm .git* -rf
-lsa
-cp ~/poly/* ./
-mv ~/poly/* ./
-lsa
-cd ~
-lsa
-lsa poly
-rmdir poly
-lsa
-rm .pciids-cache
-rm .viminfo
-lsa
-exit
-vim .config/polybar/colors
-exit
-polybar
-polybar nord-dark
-vim .config/polybar/launch.sh
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/launch.sh dark
-pkill polybar
-pkill polybar
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/launch.sh dark
-pkill polybar
 .config/polybar/launch.sh dark
 pkill polybar
 .config/polybar/launch.sh dark
@@ -2055,3 +2004,69 @@ exit
 exit
 vim .config/sxhkd/sxhkdrc
 exit
+clear
+dotfiles status
+dotfiles add .config/sxhkd 
+dotfiles status
+dotfiles commit -m "hotkey overhaul part 1"
+clear
+dotfiles status
+dotfiles add .config/polybar
+dotfiles commit -m "polybar overhaul part 1"
+dotfiles status
+dotfiles add .config/bspwm/bspwmrc
+dotfiles commit -m "fixed bug preventing polybar update on bspwm reload"
+clear
+dotfiles status
+dotfiles add .config/bashtop
+dotfiles commit -m interval"
+dotfiles commit -m "interval"
+dotfiles status
+dotfiles add .config/zsh/zsh_history
+dotfiles commit -m "history update"
+dotfiles status
+dotfiles push
+exit
+vim dev/bin/display_conf.sh
+vim dev/bin/display_conf.sh
+mv dev/bin/display_conf.sh dev/bin/conf_display.sh
+loadbin
+vim .config/bspwm/bspwmrc
+exit
+dotfiles status
+dotfiles add .config/bashtop
+dotfiles commit -m "bug fix"
+dotfiles add .config/bspwm
+dotfiles commit -m "changed display config"
+dotfiles add .local/bi
+dotfiles add .local/bin
+dotfiles status
+dotfiles commit -m "script for configuring multi head display set up"
+dotfiles push
+exit
+startx
+bashtop
+clear
+lsa
+bashtop
+shutdown -h now
+chromium&
+disown
+exit
+bashtop
+exit
+sudo pacman -Syyy
+sudo pacman -Syu
+yay -syyy
+yay -syyy
+yay -syu
+yay -syy
+clear
+yay
+yay -Syy
+yay -Syyy
+yay -Syu
+clear
+pkill chromium
+shutdown -h now
+startx
