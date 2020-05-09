@@ -1,17 +1,22 @@
 #!/bin/bash
 
-if [ $1 ]; then dest="$(echo $1 | sed 's/[^a-zA-z]*$/\//')"; else dest=$PWD; fi
-if [ $2 ]; then	name="$2"; else name="backup_image"; fi
+SRC=("bin" "boot" "etc" "home" "lib" "lib64" "lost+found" "opt" "root" "sbin" "srv" "usr" "var")
+DEST="$(echo "${1:-$PWD}/system_backup" | sed 's/[^a-zA-z]*$/\//')"
 
-dir="$dest$name"
-echo "==>  Creating $dir"
-mkdir -p $dir/{root,boot,home}
+echo "==>  Starting system backup to $DEST"
+for dir in "${SRC[@]}"; do
+    [[ -r "/$dir"  &&  -s "/$dir" ]] && \
+        $(mkdir -p $DEST$dir && echo "==>  Backing up /$dir to $DEST$dir" || echo "ERROR: /$dir does not exist!") && \
+        $(rsync -anq "/$dir" "$DEST$dir")
+done
 
-echo "==>  Saving / to $dir/root"
-rsync -aHAXS --info=progress2 --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/swapfile","/boot/*","/home/*","/lost+found"} / $dir/root
+#mkdir -p $DEST
+#rsync -anq --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/swapfile","/boot/*","/home/*","/lost+found"} \
+    #/ $DEST
+    #--info=progress2 / $DEST
 
-echo "==>  Saving / to $dir/boot"
-rsync -aHAXS --info=progress2 /boot $dir/boot
+#echo "==>  Saving / to $DEST/boot"
+#rsync -aHAXS --info=progress2 /boot $DEST/boot
 
-echo "==>  Saving / to $dir/home"
-rsync -aHAXS --info=progress2 /home $dir/home
+#echo "==>  Saving / to $DEST/home"
+#rsync -aHAXS --info=progress2 /home $DEST/home
