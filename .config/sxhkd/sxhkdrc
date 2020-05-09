@@ -21,6 +21,10 @@ super + e ; {r,q}
 super + Return
     $TERMINAL
 
+# Close the focused window
+super + {_,shift +} w
+    bspc node -{c,k} 
+
 
 #################
 # Basic Motions #
@@ -76,4 +80,6 @@ super + alt + s : {h,j,k,l}
 # Desktop Actions #
 ###################
 
-
+# Rotate at the root of the focused node by 90 degrees
+super + alt + {_,shift +} r
+    bspc node @/ -R {90,-90}
