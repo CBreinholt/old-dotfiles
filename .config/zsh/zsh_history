@@ -1,1616 +1,3 @@
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-.config/polybar/launch.sh dark
-pkill polybar
-.config/polybar/nord-top
-./.config/polybar/nord-top
-sudo ./.config/polybar/nord-top
-.config/polybar/nord-top
-sudo .config/polybar/nord-top
-polybar nord-top -r &
-polybar -c .config/polybar/nord-top -r &
-polybar -c .config/polybar/nord-top &
-polybar -c .config/polybar/nord-config
-polybar -c .config/polybar/nord-config nord-top -r &
-polybar -c .config/polybar/nord-config dark-config -r &
-polybar -c .config/polybar/dark-config nord-top -r &
-polybar -c .config/polybar/dark-config nord-top -r &
-disown
-disown
-pkill polybar
-polybar -r -c .config/polybar/dark-config nord-top &
-polybar -r -c .config/polybar/dark-config nord-top &
-pkill polybar
-.config/polybar/launch.sh
-pkill polybar
-counter=0
-bspc query -D --names | while read -r name; do\
-printf 'ws-icon-%i = "%s;<insert-icon-here>"\n' $((counter++)) $name\
-done
-echo -e "\ufa51"
-.config/polybar/launch.sh
-disown
-echo -e "\ufa51"
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh light
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-mkdir poly
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
-sensors
-for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
-sensors
-for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
-for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
-sensor
-sensors
-for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
-for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
-sensors
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-killall polybar
-.config/polybar/launch.sh
-echo -e "\uf818"
-echo -e "\u26a1"
-exit
-pacmd list-sinks
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-ip link
-networkctl
-networkctl status
-systemctl
-NetworkManager
-sudo NetworkManager
-sudo NetworkManager
-sudo NetworkManager --help
-NetworkManager --help-nm
-vim /etc/NetworkManager/NetworkManager.conf 
-sudo pacman -Syy
-sudo pacman -Syu
-sudo pacman -S nm-applet
-sudo pacman -S nm-aplet
-sudo pacman -S network-manager
-sudo pacman -S NetworkManager
-sudo pacman -S networkmanager
-sudo pacman -S networkmanager-applet
-sudo pacman -S networkmanager-appet
-sudo pacman -S networkmanager-app
-sudo pacman -S networkmanager-applet
-sudo pacman -S networkmanager-applit
-sudo pacman -S networkmanager-aplet
-sudo pacman -S nm-applet
-nmcli
-nm-online
-nm
-nmcli connection
-nmcli monitor
-nmcli networking on
-nmcli networking connectivity
-nmcli networking help
-nmcli general permissions
-nmcli general status
-nmcli general hostname
-nmcli agent
-nmcli device show
-nmcli device show
-nmcli device status
-nmcli device wifi list
-nmcli device wifi connect CBreiny 
-nmcli device wifi connect CBreiny password Q466WEGJ9R
-nmcli device wifi connect CBreiny sep2018Q466WEGJ9R 
-nmcli device wifi connect CBreiny password sep2018Q466WEGJ9R 
-nmcli device wifi connect CBreiny password sep2018Q466WEGJ9R ifname wlp2s0 home_network
-nmcli device wifi connect CBreiny password sep2018Q466WEGJ9R ifname wlp2s0
-nmcli device wifi connect CBreiny sep2018Q466WEGJ9R ifname wlp2s0
-sudo nmcli device wifi connect CBreiny password sep2018Q466WEGJ9R ifname wlp2s0
-nmcli device wifi list
-nmtui
-nmtui
-p link
-ip link
-exit
-exit
-.config/polybar/launch.sh
-nmcli
-.config/polybar/launch.sh
-nmpli
-nmtui
-sudo nmtui
-sudo wifi-menu
-NetworkManager
-sudo NetworkManager
-sudo nmtui
-sudo nmcli connection
-sudo nmcli radio wifi on
-sudo nmcli connection up CBreiny
-journalctl -xe NM_CONNECTION=79001d61-8203-4ead-9d2a-93c5ac6a9221 + NM_DEVICE=wlp2s0
-sudo nmcli connection up CBreiny password sep2018Q466WEGJ9R
-sudo nmcli connection up CBreiny
-sudo nmcli connection reload
-sudo nmcli connection show CBreiny
-sudo nmcli connection load
-sudo nmcli connection load CBreiny
-sudo nmcli connection edit CBreiny
-sudo nmcli connection edit CBreiny
-sudo nmcli connection edit CBreiny
-NetworkManager
-sudoNetworkManager
-sudo NetworkManager
-exit
-ip link
-ip a
-ip link --help
-ip hep
-ip help
-ip address
-ip help
-ip -s
-ip a -s
-ip link -s
-ip monitor
-sudo nmcli connection
-sudo nmcli connection edit Wired\ connection\ 1
-nmtui
-nmtui-connect
-nmtui-edit
-nmtui
-nmcli connection up CBreiny
-nmcli connection show CBreiny --active
-nmcli connection load
-nmcli connection load CBreiny
-sudo nmcli connection load CBreiny
-exit
-vim .config/polybar/modules
-vim .config/polybar/modules
-vim .config/polybar/modules
-vim .config/polybar/modules
-vim .config/polybar/modules
-vim .config/polybar/modules
-exit
-vim .config/polybar/nord-top
-vim .config/polybar/nord-config
-mv .config/polybar/nord-config .config/polybar/config
-mv .config/polybar/dark-colors .config/polybar/colors
-vim .config/polybar/nord-config
-vim .config/polybar/config
-vim .config/polybar/config
-vim .config/polybar/config
-exit
-startx
-pkill polybar
-polybar top
-pkill polybar
-polybar top -r
-pkill polybar
-polybar top -r &
-polybar bottom -r &
-sudo shutdown -h now
-sudo pacman -Syyy
-sudo pacman -Syu
-lsa
-exit
-vim .config/polybar/launch.sh
-exit
-env
-exit
-vim .config/polybar/launch.sh
-exit
-xrdb -query | grep dpi
-exit
-vim $XRESOURCES
-exit
-loadbin
-exit
-loadbin
-loadbin
-xrandr --output eDP1 --scale 1
-exit
-loadbin
-xrandr --output HDM12 --dpi 125
-loadbin
-loadbin
-loadbin
-xrandr --output HDMI2 --dpi 96 --scale 1
-exit
-vim .config/polybar/modules
-dotfiles status
-dotfiles add .config/polybar/config-2
-dotfiles commit -m "removed poorly constructed config"
-dotfiles status
-clear
-dotfiles status
-dotfiles add .config/zsh
-dotfiles commit -m "hist update"
-dotfiles add .config/polybar/config
-dotfiles status
-dotfiles commit -m "update polybar config"
-dotfiles add .config/polybar/launch.sh
-dotfiles commit -m "launch script for polybar"
-dotfiles add .config/polybar/colors \\
-
-dotfiles status
-dotfiles add .config/polybar/modules
-dotfiles status
-dotfiles commit -m "moved polybar modules and color theme to seperate files"
-dotfiles status
-dotfiles push
-clear
-chromium&
-disown
-clear
-.config/polybar/launch.sh
-killall polybar
-polybar top
-vim .config/polybar/config
-vim .config/polybar/config
-polybar top -r &
-disown
-pkill polybar
-.config/polybar/launch.sh
-vim dev/bin/bspwm_conf_xrandr.sh
-chromium&
-disown
-vim .config/bspwm/bspwmrc
-pkill xorg
-vim .config/bspwm/bspwmrc
-vim .config/sxhkd/sxhkdrc
-vim .config/sxhkd/sxhkdrc_bspc
-vim .config/sxhkd/sxhkdrc
-iscmd polybar && ./config/polybar/launch.sh &\
-
-exit
-rm -rf .config/polybar/scripts
-chromium&
-disown
-exit
-exit
-exit
-exit
-polybar test &
-polybar test &
-polybar test &
-pkill polybar
-exit
-killall polybar
-exit
-exit
-exit
-bspc config bottom_padding 0
-exit
-bspc config top_padding 0
-exit
-exit
-bspc config -n focused split_ratio .5
-bspc config -n focused split_ratio .9
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-vim .config/sxhkd/sxhkdrc
-exit
-xrandr --dpi 120
-xrandr --dpi 120
-xrandr
-xrandr --dpi 120 --fb 3840x2160 \\
---output eDP1 --mode 1920x1080 --pos 0x0 \
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --pos 0x0 \\
---output HDMI2 --scale 1.41x1.41 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --pos 0x0 \\
---output HDMI2 --scale 0.67x0.71 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 0.67x0.71 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1x1 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --scale 1.25x1.25 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1x1 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1.41x1.41 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1.25x1.25 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
---output HDMI2 --mode 1920x1080 --scale 1.41x1.41 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --scale 1.25x1.25 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1x1 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1260x768 --scale 1.25x1.25 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1x1 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1.25x1.25 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1.41x1.41 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1.2x1.2 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1.1x1.1 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 2x2 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1.5x1.5 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1.4x1.4 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1.4x1.4 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1368x768 --scale 1.25x1.25 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1x1 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1368x768 --scale 0.75x0.75 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1x1 --pos 1920x0
-xrandr --dpi 120 \\
---output eDP1 --mode 1368x768 --scale 1.41x1.41 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1x1 --pos 1920x0
-xrandr --dpi --fb 3840x2160 \\
---output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1.4x1.4 --pos 1920x0
-xrandr --dpi \\
---output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1.4x1.4 --pos 1920x0
-xrandr --dpi 96 --fb 3840x2160 \\
---output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1.4x1.4 --pos 1920x0
-xrandr --dpi 96 --fb 3840x2160 \\
---output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 \\
---output HDMI2 --mode 1360x768 --scale 1x1 --pos 1920x0
-exit
-xrandr
-exit
-loadbin
-bspwm_conf_xrandr
-bspwm_conf_xrandr
-autorandr
-autorandr
-bspwm_conf_xrandr
-autorandr
-exit
-xrdb $XRESOURCES
-exit
-chromium&
-vim $XRESOURCES
-exit
-exit
-exit
-vim .config/polybar/launch.sh
-exit
-killall polybar
-vim .config/polybar/launch.sh
-vim .config/polybar/launch.sh
-exit
-vim $XRESOURCES
-vim /home/chris/.config/themes/nord.Xresources
-vim /home/chris/.config/themes/nord.Xresources
-vim /home/chris/.config/themes/nord.Xresources
-vim /home/chris/.config/themes/nord.Xresources
-vim $XRESOURCES
-vim .config/nvim/init.vim
-vim .config/nvim/init.vim
-exit
-vim $XRESOURCES
-vim $XRESOURCES
-vim .config/nvim/init.vim
-exit
-vim $XRESOURCES
-vim /home/chris/.config/themes/nord.Xresources
-vim /home/chris/.config/themes/nord.Xresources
-vim /home/chris/.config/themes/nord.Xresources
-exit
-vim .config/polybar/colors
-exit
-vim .config/polybar/colors
-vim .config/polybar/colors
-vim .config/polybar/colors
-exit
-vim .config/polybar/colors
-exit
-bspc config top_padding 0
-bspc config top_padding 3%
-bspc config top_padding 27
-bspc config top_padding 30
-bspc config top_padding 0
-bspc config top_padding 24
-t
-exit
-.config/polybar/launch.sh
-pkill polybar
-vim .config/polybar/config
-vim .config/bspwm/bspwmrc
-dotfiles status
-dotfiles add .config/bspwm 
-dotfiles commit -m "bspwm launches polybar launch.sh on startup"
-dotfiles add .config/polybar
-dotfiles status
-dotfiles status
-dotfiles add .config/polybar
-dotfiles status
-dotfiles commit -m "updated polybar multi monitor settings"
-dotfiles push
-clear
-lsa
-pkill sxhkd
-bspc wm -r
-vim .xinitrc
-remap
-remap
-sudo pacman -Ss bashtop
-sudo pacman -S bashtop
-sudo pacman -Rns htop
-sudo pacman -S bashtop
-bashtop
-bashtop
-exit
-lsa
-bspc desktop -F vertical
-bspc desktop -f vertical
-bspc desktop -f horizontal
-bspc desktop -m HDMI2
-bspc desktop -m eDP1
-bspc desktop -b west
-bspc desktop -b left
-bspc desktop -b prev
-bspc desktop -b prev
-bspc desktop -b prev
-bspc desktop -b next
-exit
-vim .config/polybar/modules
-mv .config/polybar/modules .config/polybar/config2
-mv .config/polybar/config2 .config/polybar/modules2
-vim .config/polybar/modules2
-cp .config/polybar/modules2 .config/polybar/modules
-vim .config/polybar/modules
-vim .config/polybar/config
-exit
-vim .config/polybar/config
-vim .config/polybar/modules
-exit
-vim .config/bspwm/bspwmrc
-exit
-pkill polybar
-bspc config top_padding 0
-exit
-exit
-vim .config/bspwm/bspwmrc
-exit
-bspc config top_padding 0
-exit
-lsa
-exit
-lsa
-exit
-exit
-xrandr --output HDMI2 --scale 1.4x.1.4
-xrandr --output HDMI2 --scale 1.4x1.4
-xrandr --dpi 96
-xrandr --dpi 120
-xrandr --dpi 50
-xrandr --dpi 96
-xrandr --dpi 96
-clear
-lsa
-exit
-xrandr
-exit
-exit
-vim .config/polybar/launch.sh
-xrandr
-xrandr
-xrandr --fb
-xrandr --fb 3200x1080
-xrandr --fb 3200x1800
-xrandr --hellp
-xrandr --help
-xrandr --fb 1920x1080+1920+0
-xrandr --fb 1920x1080+1920+1080
-xrandr --fb 1920x1080
-xrandr --fb 3840x1080
-xrandr --fb 1920x1080+1920
-xrandr --fb 1920+1920x1080
-xrandr --fb 1920x1280
-xrandr --fb 3840x1080
-xrandr --fb 3840x1280
-xrandr --fb 3840x1080
-xrandr --fb 3840x1080+1920+720
-xrandr --fb 3840x1080+1920+0
-xrandr --fb 2880x1080+1920+0
-xrandr --fb 2880x1080
-xrandr --fb auto
-xrandr
-xrandr --fb 32767x32767
-lsa
- doc/downloads
-lsa
-cd ~
-vim .config/polybar/config
-xrandr --output HDMI2 --scale 1.41x1.41
-xrandr --output HDMI2 --scale 1.41x1.42
-xrandr --output HDMI2 --scale 1.41x1.4
-xrandr --output HDMI2 --scale 1.41x1.41
-xrandr --output HDMI2 --scale 1.41x1.4
-xrandr --output HDMI2 --scale 1.41x1.41
-xrandr --output HDMI2 --scale 1.42x1.4
-xrandr --output HDMI2 --scale 1.412x1.406
-xrandr --output HDMI2 --scale 1.4118x1.4066
-xrandr --output HDMI2 --scale 1.4118x1.40625
-xrandr --output HDMI2 --scale 1.41177x1.40625
-xrandr --output HDMI2 --scale 1.41176471x1.40625
-xrandr --output HDMI2 --scale 1.41176471x1.40625
-xrandr --output HDMI2 --scale 1.4117647x1.40625
-xrandr --output HDMI2 --scale 1.411765x1.40625
-xrandr --output HDMI2 --scale 1.41177x1.40625
-xrandr --output HDMI2 --scale 1.4118x1.40625
-xrandr --output HDMI2 --scale 1.4x1.40625
-xrandr --output HDMI2 --scale 1.41176471x1.40625
-vim dev/bin/display_conf.sh
-loadbin
-history | grep xrandr
-grep xrandr ~/.config/zsh/zsh_history
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-display_conf
-vim dev/bin/bspwm_conf_desktops.sh
-vim dev/bin/bspwm_conf_desktops.sh
-loadbin
-vim dev/bin/bspwm_conf_xrandr.sh
-mv dev/bin/bspwm_conf_xrandr.sh dev/bin/display_conf.sh
-vim dev/bin/display_conf.sh
-loadbin
-rm dev/bin/bspwm_conf_desktops.sh
-loadbin
-bashtop
-bashtop
-bashtop
-exit
-xrandr
-exit
-exit
-exit
-lsa
-exit
-xrandr --dpi 276
-exit
-lsa
-exit
-lsa
-exit
-lsa
-exit
-lsa
-exit
-lsa
-exit
-lsa
-exit
-lsa
-exit
-chromium&
-exit
-lsa
-exit
-lsa
-chromium&
-exit
-chromium&
-chromium&
-exit
-exit
-lsa
-exit
-lsa
-exit
-chromium&
-pkill chromium
-exit
-chromium&
-pkill chromium
-chromium&
-pkill chromium
-chromium&
-pkill chromium
-exit
-lsa
-exit
-lsa
-exit
-lsa
-exit
-exit
-lsa
-exit
-urxvt &
-urxvt &
-urxvt &
-exit
-urxvt &
-exit
-urxvt &
-exit
-urxvt &
-exit
-urxvt &
-exit
-urxvt &
-exit
-urxvt &
-exit
-urxvt &
-exit
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-chromium &
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-xrdb $XRESOURCES
-urxvt &
-exit
-urxvt &
-urxvtc
-urxvt
-exit
-lsa
-chromium&
-pkill chromium
-chromium&
-pkill chromium
-exit
-vim .config/alacritty
-vim .config/alacritty/alacritty.yml
-xrdb $XRESOURCES
-exit
-lsa
-exit
-lsa
-urxvt
-exit
-xrdb $XRESOURCES
-chromium&
-pkill chromium
-exit
-xrdb $XRESOURCES
-exit
-lsa
-chromium&
-xrdb $XRESOURCES
-pkill chromium
-chromium&
-pkill chromium
-xrb $XRESOURCES
-xrdb $XRESOURCES
-exit
-chromium&
-pkill chromium
-xrdb $XRESOURCES
-exit
-chromium&
-pkill chromium
-exit
-lsa
-lsa
-exit
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-exit
-urxvt &
-xrdb $XRESOURCES
-urxvt &
-exit
-exit
-xrdb $XRESOURCES
-exit
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-xrandr --output HDMI2 scale 1x1
-xrandr --output HDMI2 --scale 1x1
-xrandr --output HDMI2 --mode 1280x720 --scale 1x1
-xrandr --output HDMI2 --mode 1280x720 --scale 1.5x1.5
-xrandr --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --pos 1920x0
-loadbin
-display_conf
-xrandr --output eDP1 --mode 1920x1080 --fb 3200x1800 --panning 3200x1800 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --same-as eDP1
-display_conf
-autorandr
-autorandr -c
-xrandr --output eDP1 --mode 1920x1080 --fb 3200x1800 --panning 3200x1800 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --same-as eDP1
-autorandr -c
-xrandr --output eDP1 --mode 1920x1080 --fb 3200x1800 --panning 3200x1800 --output HDMI2 --mode 1280x720 --scale 1.5x1.5
-autorandr -c
-xrandr --output eDP1 --mode 1920x1080 --fb 3200x1800 --panning 3200x1800 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --pos 1920x0
-autorandr -c
-xrandr --fb 3200x1800 --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --pos 1920x0
-autorandr -c
-xrandr --fb 3200x1920 --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --pos 1920x0
-autorandr -c
-xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --pos 1920x0
-autorandr -c
-xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --fb 1920x1080 --pos 1920x0
-autorandr -c
-xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.4 --pos 1920x0
-xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.4x1.4 --pos 1920x0
-autorandr -c
-xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --pos 1920x0
-autorandr -c
-xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --pos 1920x0
-xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --right-of eDP1
-autorandr -c
-xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --right-of eDP1
-autorandr -c
-xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.75x1.75 --pos 1920x0
-autorandr -c
-xrandr
-xrandr --output eDP1 --mode 1280x720 --scale 1.5x1.5
-xrandr --output eDP1 --mode 1280x720 --scale 1.5x1.5 --pos 0x0 --output HDMI2 --mode 1280x720 --scale 1.5x1.5 --pos 1280x0
-autorandr -c
-xrandr
-xrandr -help
-xrandr --fb 1920x1080 --output eDP1 --mode 1920x1080 --scale 1x1 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --same-as eDP1
-xrandr --fb 1920x1080 --output eDP1 --mode 1920x1080 --scale 1x1 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --right-of eDP1
-xrandr --fb 3840x2160 --output eDP1 --mode 1920x1080 --scale 1x1 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --right-of eDP1
-xrandr --output eDP1 --mode 1920x1080 --scale 1x1 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --right-of eDP1
-autorandr -c
-xrandr --output eDP1 --mode 1920x1080 --scale 1x1 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --right-of eDP1
-autorandr -c
-xrandr --output eDP1 --mode 1920x1080 --scale-from 3840x2160 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --right-of eDP1
-autorandr -c
-xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 3840x2160 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --right-of eDP1
-autorandr -c
-xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --pos 1920x0
-xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --pos 1980x0
-xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --pos 1985x0
-xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --pos 1920x0
-xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --pos 2000x0
-xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --pos 1920x0
-autorandr -c
-xrandr -h
-xrandr -help
-xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --filter nearest --pos 1920x0
-xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --filter bilinear --pos 1920x0
-xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --filter bilinear,nearest --pos 1920x0
-xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --filter bilinear --pos 1920x0
-xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1280x720 --scale-from 1920x1080 --filter nearest --pos 1920x0
-xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1260x768 --scale-from 1920x1080 --filter nearest --pos 1920x0
-xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1360x768 --scale-from 1920x1080 --filter nearest --pos 1920x0
-xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1360x768 --scale-from 1920x1080 --pos 1920x0
-xrandr --dpi 276 --output eDP1 --mode 1920x1080 --scale-from 1920x1080 --output HDMI2 --mode 1360x768 --scale-from 1920x1080 --pos 1920x0
-exit
-chromium &
-disown
-clear
-vim dev/bin/display_conf.sh
-exit
-bashtop
-exit
-xrdb -query
-vim  $XRESOURCES
-t
-exit
-urxvt &
-pkill chromium
-pkill urxvt
-exit
-lsa
-vim .config/alacritty/alacritty.yml
-exit
-exit
-exit
-lsa
-exit
-chromium&
-disown
-urxvt &
-clear
-lsa
-vim .config/alacritty/alacritty.yml
-exit
-lsa
-vim 
-urxvt &
-exit
-lsa
-bashtop
-exit
-lsa
-dotfiles status
-startx
-startx
-startx
-lsa
-startx
-startx
-startx
-pkill chromium
-shutdown -h now
-grep xrandr .config/zsh/zsh_history
-exit
-bc
-sudo pacman -S bc
-echo $(1 / 2)
-echo 1 / 2
-echo "1 / 2"
-sudo pacman -S bc
-echo 1 / 2 | bc
-1/2 >>> bc
-echo 1/2 >>> bc
-bc <<< 1/2
-bc -l<<< 1/2
-awk "BEGIN {print 1 / 2}"
-sudo pacman -Rns bc
-lsa
-exit
-lsa .config
-exit
-test="1920x1080"
-echo $test
-awk -F'x' 'print' test 
-awk -F'x' '{print}' test 
-awk -F'x' '{print}' $test
-awk $test '{print}'
-awk $test '{print $0}'
-awk '{print $0}' $test
-awk
-awk '{$test}' 'print $0'
-awk '${test}' 'print $0'
-awk ${test} 'print $0'
-echo $test | awk -F'x' 'print $0'
-echo $test | awk -F'x' '{print $0}'
-echo $test | awk -F'x' '{print $1}'
-echo $test | awk -F'x' '{print $2}'
-exit
-pkill xcompmgr
-exit
-exit
-pkill xcompmgr 
-exit
-vim .config/polybar/colors
-exit
-chromium&
-disown
-vim .config/polybar/launch.sh
-clear
-vim .config/sxhkd/sxhkdrc
-vim .config/polybar/config
-vim .config/polybar/modules
-vim .config/polybar/modules
-exit
-lsa
-cd .config
-lsa themes
-lsa
-cd xorg
-vim xresources
-exit
-#include $XRESOURCES
-vim .config/polybar/copy_config
-exit
-vim .config/polybar/config
-exit
-exit
-vim .config/sxhkd/sxhkdrc
-exit
-vim .config/sxhkd/sxhkdrc
-t
-exit
-exit
-vim .config/polybar/config
-vim .config/sxhkd/sxhkdrc
-vim .config/sxhkd/sxhkdrc_bspc
-vim dev/bin/display_conf.sh
-vim dev/bin/display_conf.sh
-clear
-bashtop
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-clear
-lsa
-vim .config/bspwm/bspwmrc
-chromium&
-disown
-exit
-exit
-exit
-exit
-exit
-exit
-bspc node -f -B
-bspc node -f -C forward
-exit
-bspc node -C
-bspc node -C forward
-exit
-bspc node -B
-bspc node -C forward
-bspc node -C backward
-bspc node -E
-bspc node -F horizontal
-bspc node -F vertical
-bspc desktop -f -N
-bspc desktop -N
-bspc query -D 1
-bspc query -D 1 --nodes -C
-bspc query -D 1 --nodes -B
-bspc query -D 1 -n all -B
-bspc query -D 1 -N all -B
-bspc query -T
-bspc query -D --tree
-bspc query -D -f --tree
-bspc query -D --focused
-bspc query -N focused -B
-bspc node focused -B
-bspc node focused -B
-bspc node focused -B
-bspc node focused -B
-bspc node focused -E
-exit
-vim .config/sxhkd/sxhkdrc_bspc
-exit
-bspc node -f -B
-bspc node -f -E
-bspc node -f -R 90
-bspc node -f -R /
-bspc node -f -R / 90
-bspc node / -R 90
-bspc node @/ -R 90
-bspc node @/ -R 90
-bspc node @/ -R 90
-bspc node @/ -R 90
-bspc node @/ -B
-bspc node @1 -B
-bspc node @1 -R
-bspc node 1 -R
-bspc node @/1 -R
-bspc node @/1 -R -90
-bspc node @/1 -R -90
-bspc node @/2 -R -90
-bspc node @/2 -R -90
-bspc node @/2 -R -90
-bspc node @/2 -R -90
-bspc node @/2 -R -90
-bspc node @/2 -R -90
-bspc node @/2 -R -90
-bspc node @/2 -R -90
-bspc node @/2 -R -90
-bspc node @/2 -R -90
-bspc node @/2 -R -90
-bspc node @/2 -R -90
-bspc node @/west -R -90
-bspc node @/west -R -90
-bspc node @west -R -90
-bspc node @west -R -90
-bspc node @west -R -90
-bspc node @south -R -90
-bspc node @south -R -90
-bspc node @south -R -90
-bspc node @south -R -90
-bspc node @west -R 90
-bspc node @/west -R 90
-bspc node @/north -R 90
-bspc node @/ -R 90
-bspc node @/ -R 90
-bspc node @/ -B
-bspc node / -B
-bspc node @/parent -B
-bspc node @parent -B
-bspc node @parent -B
-bspc node @parent -R 90
-bspc node @parent -R 90
-bspc node @parent -R 90
-bspc node @parent -R 90
-bspc node @parent -R 180
-bspc node @parent -R 180
-bspc node @parent -R 180
-bspc node @parent -R 180
-bspc node @parent -R 90
-bspc node @parent -R -90
-bspc node @/ -R -90
-bspc node @/ -R -90
-exit
-bspc node focused @-d -B
-bspc node focused @ -d -B
-bspc node focused @/ -d -B
-bspc node focused @1/ -B
-bspc node focused @1* -B
-bspc node focused @* -B
-bspc node focused @/* -B
-bspc node focused @/ -B
-bspc node @/ -B
-bspc node @/* -B
-bspc node @/all -B
-bspc node @/parent -B
-bspc node @/west -B
-bspc node @/north -B
-bspc node @/ -B
-bspc node @/ -E
-bspc node @/ -B
-exit
-bspc desktop -b next
-bspc desktop -b prev
-bspc desktop -m next
-bspc desktop -m next
-t
-exdit
-exit
-exit
-t
-exit
-bashtop
-bspc desktop 2 -d 4
-bspc desktop 2 -f
-bspc desktop 2 -f -n $("test")
-bspc desktop 2 -f -n "$(echo test)"
-bspc desktop "test" -n 2
-bspc desktop -f -b next
-bspc desktop -f -b next -n 22
-bspc desktop -f -b prev -n 3
-bspc desktop -b next -f
-bspc desktop -b next -f
-bspc desktop -b next -f -n "$(bspc desktop last)"
-echo $(bspc query -d next)
-echo $(bspc query -d -f next)
-echo $(bspc query next)
-echo $(bspc query -f next)
-echo $(bspc query desktop next)
-echo $(bspc query desktop -f next)
-echo $(bspc query --desktop)
-echo $(bspc query --desktop -f)
-echo $(bspc query --desktop next)
-echo $(bspc query --desktop any)
-echo $(bspc query -D)
-echo $(bspc query -D -f)
-echo $(bspc query -D --desktop)
-echo $(bspc query -D --desktop)
-echo $(bspc query -D --desktop next)
-echo $(bspc query -D --desktop)
-echo $(bspc query -D --desktop next)
-echo $(bspc subscribe desktop_swap)
-echo $(bspc subscribe desktop_swap report)
-echo $(bspc query -D --desktop --names)
-echo $(bspc query -D -f --desktop --names)
-echo $(bspc query -D --focused --desktop --names)
-echo $(bspc query -D --desktop --names next)
-echo $(bspc query -D --desktop next)
-echo $(bspc query -D --desktop next --names)
-echo $(bspc query -D -d -f next --names)
-echo $(bspc query -D -d -f --names)
-echo $(bspc query -D -d --names)
-echo $(bspc query -D -fd --names)
-echo $(bspc query -D -f --names)
-echo $(bspc query -D --names)
-echo $(bspc query -D -d focused -f --names)
-echo $(bspc query -D -d focused --names)
-a=$(bspc query -D -d focused --names)
-echo $a
-echo $(bspc query -D a --names)
-echo $(bspc query -D -d a --names)
-echo $(bspc query -D -d $a --names)
-echo $(bspc query -D $a --names)
-echo $(bspc query -D $a --names)
-echo $(bspc query -D -d next --names)
-echo $(bspc query -D -d a -n 'a' --names)
-echo $(bspc query -D -d $a -n 'a' --names)
-bspc desktop $a -n "test"
-bspc desktop $a next -n $a
-bspc desktop -f $a next -n $a
-bspc desktop $a next -n $a
-bspc desktop $a next -n "$a"
-bspc desktop $a next
-bspc desktop "test" next
-bspc desktop -f "test" next
-bspc desktop -d "test" next
-bspc desktop test next
-bspc desktop test
-bspc desktop test next
-bspc desktop test -f next
-exit
-t
-exit
-exit
-bspc desktop -f -n 4
-bspc desktop prev -n next
-bspc desktop prev -n 5
-bspc desktop -f -n 5 prev -n 4 
-bspc desktop -f -n 5 -f prev -n 4 
-bspc desktop -f next -n next -f prev -n prev 
-exit
-lsa
-startx
-startx
-lsa
-remap
-vim .config/sxhkd/sxhkdrc_bspc
-dotfiles status
-dotfiles add .config/bashtop
-dotfiles commit -m "system resource monitor"
-dotfiles add .config/alacritty
-dotfiles commit -m "font bug fix"
-dotfiles add .config/xorg
-dotfiles commit -m "color themeing"
-dotfiles add .local/bin
-dotfiles commit -m "scripts for configuring multi head set up"
-dotfiles status
-dotfiles add .config/polybar
-dotfiles commit -m "massive clean up and feature additions"
-dotfiles status
-dotfiles push
-dotfiles push
-dotfiles push
-dotfiles status
-sudo pacman -Syy
-sudo pacman -Syu
-sudo shutdown -h now
-exit
-dotfiles status
-clear
-chromium & | disown
-chromium& | disown
-chromium&
-disown
-exit
-sudo pacman -Syyy
-sudo pacman -Syu
-sudo pacman -Rc
-sudo pacman -Sc
-clear
-yay -Syy
-yay -Syy
-yay -Syu
-startx
-bashtop
-pkill chromium
-shutdown -h now
-vim .config/bspwm/bspwmrc
-exit
-bspc wm -r
-bspc desktop 1 -n 1
-vim .config/bspwm/bspwmrc
-exit
-vim .config/polybar/config
-vim .config/polybar/modules
-exit
-bspc desktop 1
-bspc desktop 2
-bspc desktop Main
-bspc desktop Main -n 1
-dotfiles status
-clear
-exit
-vim .config/sxhkd/sxhkdrc_bspc\
-vim .config/sxhkd/sxhkdrc_bspc
-exit
-bspc wm -o
-bspc wm -o 1 2 3 4 5 6 7 8 9 0
-bspc wm -o {1-9}
-bspc wm -O
-bspc wm -O 1
-bspc wm -O 0
-bspc monitor -f -o
-bspc monitor -f -o {1-5}
-bspc monitor -f -o 1 2 3 4 5
-bspc monitor -f -o 1 2
-bspc monitor -f -o 21
-bspc monitor -f -o 2 1
-bspc monitor -f -o 1..
-bspc monitor -f -o 1
-bspc desktop -f -n 22
-bspc monitor -f -o 1 2 3 4 5
-bspc desktop -f -n 1
-bspc desktop -f -n Chris
-clear
-dotfiles add .config/bashtop
-dotfiles commit -m "system resource update frequency"
-dotfiles add .config/bspwm
-dotfiles commit -m "gap and border size adjustments"
-dotfiles add .config/sxhkd
-dotfiles commit -m "key binding overhaul"
-dotfiles add .config/zsh/zsh_history
-dotfiles commit -m "why even have this file here"
-dotfiles add .config/themes/nord.Xresources
-dotfiles commit -m "adjusted colors to the actual nord theme for 16 colors"
-dotfiles status
-dotfiles push
-lsa
-exit
-dotfiles status
-vim .config/sxhkd
-vim .config/sxhkd/sxhkdrc
-vim .config/sxhkd/sxhkdrc_bspc
-clear
-dotfiles status
-dotfiles add .config/sxhkd
-dotfiles commit -m "added key for rotating and balancing nodes at the current node as root"
-dotfiles push
-lsa doc/downloads
-exit
-sudo pacman -Syy
-sudo pacman -Syy
-sudo pacman -Syu
-startx
-chromium&
-disown
-clear
-lsa
-bashtop
-shutdown -h now
-chromium&
-disown
-clear
-dotfiles status
-clear
-dotfiles status
-clear
-dotfiles status
-dotfiles status
-clear
-dotfiles status
-pkill chromium 
-exit
-dotfiles add .config/bashtop
-dotfiles commit -m "update interval"
-dotfiles add .config/zsh
-dotfiles commit "misc"
-dotfiles commit -m "misc"
-dotfiles add .config/dconf
-dotfiles commit -m 'bug fix'
-dotfiles push
-dotfiles push
-dotfiles push
-shutdown -h now
-startx
-chromium&
-disown
-exit
-sudo vim /etc/pacman.conf
-exit
-sudo pacman -Syy
-sudo pacman -Syy
-sudo systemctl start reflector.service
-sudo pacman -Syy
-sudo pacman -Syu
-sudo pacman -Syyy
-sudo pacman -Syu
-vim .config/alacritty/alacritty.yml
-clear
-lsa
-pkill chromium
-chromium
-chromium &
-disown
-clear
-exit
-lsa
-exit
-lsa
-exit
-lsa
-lsa
-exit
-vim .config/polybar/config
-xrandr
-pkill polybar
-poly -r main dual
-polybar -r main dual
-polybar -r main &
-polybar -r dual &
-polybar -r dual &
-polybar -r main &
-polybar -r dual
-clear
-lsa
-loadbin
-xrandr
-xrandr --help
-xrandr --listproviders
-vim .config/alacritty/alacritty.yml
-exit
-exit
-lsa
-exit
-exit
-exit
-lsa
-clear
-lsa
-exit
-exit
-lsa
-exit
-lsa
-exit
-vim .config/polybar/launch.sh
-xrandr --output HDMI2 --mode 1360x768 scale 0.8x0.8
-xrandr --output HDMI2 --mode 1360x768 --scale 0.8x0.8
-xrandr --output HDMI2 --mode 1360x768 --scale 1x1
-xrandr --output HDMI2 --mode 1360x768 --scale 1x1
-xrandr --output HDMI2 --mode 1360x768 --scale 1.25x1.25
-pkill polybar
-polybar -r dual
-xrandr --output HDMI2 --mode 1360x768 --scale 1.5x1.5
-vim dev/bin/display_conf.sh
-exit
-loadbin
-loadbin
-loadbin
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-display_conf
-loadbin
-loadbin
-display_conf
-loadbin
-loadbin
-loadbin
-loadbin
-display_conf
-loadbin
-loadbin
-loadbin
-loadbin
-loadbin
-loadbin
-loadbin
-exit
-vim dev/bin/display_conf.sh
-exit
-exit
-urxvt &
-exit
-urxvt &
-exit
-urxvt &
-exit
-vim .config/bspwm/bspwmrc
-vim .config/sxhkd/sxhkdrc
-vim .config/sxhkd/sxhkdrc_bspc
-exit
-vim .config/polybar/launch.sh
-vim .config/polybar/colors.ini
 vim .config/polybar/modules.ini
 vim .config/polybar/launch.sh
 vim .config/bspwm/bspwmrc
@@ -2070,3 +457,1544 @@ clear
 pkill chromium
 shutdown -h now
 startx
+dotfiles status
+dotfiles add .config/bashtop/bashtop.cfg
+dotfiles commit -m "update interval"
+dotfiles add .config/bashtop/error.log
+dotfiles commit -m "error log (delete this)
+dotfiles commit -m "error log (delete this)"
+vim .config/bspwm/bspwmrc
+dotfiles status
+dotfiles add .config/zsh/zsh_history
+dotfiles commit -m "zsh hist file (delete this)"
+dotfiles add .config/bspwm/bspwmrc
+dotfiles status
+dotfiles commit -m "code cleanup"
+dotfiles push
+sudo pacman -Syyy
+sudo pacman -Syu
+dotfiles status
+clear
+yay -Syyy
+yay -Syu
+sudo pacman -Syu
+shutdown -h now
+dotfiles status
+reboot
+vim dev/bin/backup_home.sh
+exit
+chromium&
+disown
+exit
+vim dev/bin/backup_system.sh
+startx
+vim dev/bin/backup_system.sh
+lsblk
+sudo mount du
+du -h
+du -h /
+du -h /*
+clear
+du -df /*
+du -dh /*
+du -h /*
+du -df /*
+du -dh /*
+du -fh /*
+du - /*
+du -help /*
+du --help /*
+du -ha /*
+du -ht /*
+du -hr /*
+du -hf /*
+du -ha /*
+df -h
+lsblk
+clera
+clear
+lsblk
+sudo mount /dev/sdb1 /mnt
+lsa /mnt
+df -h
+sudo pacman -Syyy
+sudo pacman -Syu
+mount boot
+sudo mount /boot/efi
+sudo mount /boot
+lsblk
+sudo mount /efi
+sudo mount /boot/efi
+sudo pacman -S vfat
+sudo pacman -S libfat
+sudo pacman -S fat
+sudo pacman -S dosfstools
+sudo mount /boot/efi
+sudo mount /boot/efi
+sudo mount /dev/nvme0n1p1
+sudo mount /dev/nvme0n1p2
+lsblk
+sudo mount -a
+lsblk
+lsblk
+sudo pacman -S ntfs-3g
+sudo mount -a
+lsblk
+sudo mount /boot/efi
+sudo pacman -Rns dosfstools
+reboot
+chromium&
+disown
+exit
+lsa .cache
+lsa .cache/fontconfig
+lsa .cache/yay
+exit
+sudo pacman -Sc
+sudo pacman -Qtdq
+sudo di -sh ~/.cache/
+sudo du -sh ~/.cache/
+rm -rf ~/.cache
+sudo du -sh ~/.cache/
+exit
+man sed
+vim dev/bin/extract.sh
+vim dev/bin/compiler.sh
+exit
+man rsync
+vim .config/sxhkd/sxhkdrc_bspc
+exit
+vim .config/sxhkd/sxhkdrc_bspc
+vim .config/sxhkd/sxhkdrc
+exit
+exit
+lsa /
+lsla /
+exit
+lsa /
+lsaa /
+lsla /
+lsl /
+clear
+ls /
+clear
+lsa /
+man rsync
+man rsync
+t
+exit
+df -h | grep -E '^(/dev/)+([.-/])$'
+df -h | grep -E '^(/dev/)+([.-/])'
+df -h | grep -E '^(/dev/)+(.-^[/])'
+df -h | grep -E '^(/dev/)+(.-[/])'
+df -h | grep -E '^(/dev/)+(.-/)'
+df -h | grep -E '^(/dev/[/w])'
+df -h | grep -E '^(/dev/[/w])+'
+df -h | grep -E '^(/dev/)[\w]+'
+df -h | grep -E '^(/dev/)+[\w]+'
+df -h | grep -E '^(/dev/)+[\w]'
+df -h | grep -E '^(/dev/)+[\w]*'
+df -h | grep -E '^(/dev/)+[w]*'
+df -h | grep -E '^(/dev/)+(\)*'
+df -h | grep -E '^(/dev/)+\*'
+df -h | grep -E '^(/dev/)+\'
+df -h | grep -E '^(/dev/)+\>'
+df -h | grep -E '^(/dev/)+\>$'
+df -h | grep -E '^(/dev/)+(\>)$'
+df -h | grep -E '^(/dev/)+(\>)*$'
+df -h | grep -E '^(/dev/)+(\)*$'
+df -h | grep -E '^(/dev/)+(\\)*$'
+df -h | grep -E '^(/dev/)+(\\)*$'
+df -h | grep -wE '^(/dev/)+(\\)*$'
+df -h | grep -wE '^(/dev/)+(\)*$'
+df -h | grep -wE '^(/dev/)+()*$'
+df -h | grep -wE '^(/dev/)+(\>)*$'
+df -h | grep -wE '^(/dev/)+'
+df -h | grep -E '^(/dev/)+'
+df -h | grep -E '^(/dev/)+([a-zA-Z])'
+df -h | grep -E '^(/dev/)+([a-zA-Z]*)'
+df -h | grep -E '^(/dev/)+([:alpha:]*)'
+df -h | grep -E '^(/dev/)+([[:alpha:]]*)'
+df -h | grep -E '^(/dev/)+([[:alphanum:]]*)'
+df -h | grep -E '^(/dev/)+([[:alpha:][:num:]]*)'
+df -h | grep -E '^(/dev/)+([[:alpha:][:numeric:]]*)'
+df -h | grep -wE '^(/dev/)+([[:alpha:][::]]*)'
+df -h | grep -wE '^(/dev/)+([[:alpha:]]*)'
+df -h | grep -wE '^(/dev/)+(.*)'
+df -h | grep -wE '^(/dev/)+'
+df -h | grep -wE '^(/dev/)'
+df -h | grep -wE '^(/dev/)+'
+df -h | grep -E '^(/dev/)+'
+df -h | grep -E '^(/dev./)+'
+df -h | grep -E '^(/dev)./+'
+df -h | grep -E '^(/dev).[/]+'
+df -h | grep -E '^(/dev).(/)+'
+df -h | grep -E '^(/dev).(/)'
+df -h | grep -E '^(/dev)./'
+df -h | grep -E '^(/dev)*/'
+df -h | grep -E '^(/dev/)* '
+df -h | grep -E '^(/dev/) *'
+df -h | grep -E '^(/dev/.) *'
+df -h | grep -E '^(/dev/*) *'
+df -h | grep -E '^(/dev/.*) *'
+df -h | grep -E '^(/dev/.*)+'
+df -h | grep -E '^(/dev/*)+'
+df -h | grep -E '^(/dev/[.])+'
+df -h | grep -E '^(/dev/[:alnum:])+'
+df -h | grep -E '^(/dev/[[:alnum:]])+'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+'
+df -h | grep -E '^(/dev/[[:alnum:]]*)'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+(^/)'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+(^/$)'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+(^/)$'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+(^[/])$'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+(^[/])*'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+(^[/])+'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+(^[/])?'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+(^/)?'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+(^/)+'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+(^/)*'
+df -h | grep -E '^(/dev/[[:alnum:]]*)(^/)*'
+df -h | grep -E '^(/dev/[[:alnum:]]*)|(^/)*'
+df -h | grep -E '^(/dev/[[:alnum:]]*)&(^/)*'
+df -h | grep -E '^(/dev/[[:alnum:]]*)\&(^/)*'
+df -h | grep -E '^(/dev/[[:alnum:]]*)&(^/)*'
+df -h | grep -wE '^(/dev/[[:alnum:]]*)&(^/)*'
+df -h | grep -wE '^(/dev/[[:alnum:]]*)\&(^/)*'
+df -h | grep -wE '^(/dev/[[:alnum:]]*)(^/)*'
+df -h | grep -wE '^(/dev/[[:alnum:]]*)|(/)*'
+df -h | grep -wE '^(/dev/[[:alnum:]]*)(/)*'
+df -h | grep -wE '^(/dev/[[:alnum:]]*)+(/)*'
+df -h | grep -wE '^(/dev/[[:alnum:]])+(/)*'
+df -h | grep -wE '^(/dev/[[:alnum:]]*)+(/)*'
+df -h | grep -wE '^(/dev/[[:alnum:]]*)+[/]{0}'
+df -h | grep -wE '^(/dev/[[:alnum:]]*)+[/$]{0}'
+df -h | grep -wE '^(/dev/[[:alnum:]]*)+[/]${0}'
+df -h | grep -wE '^(/dev/[[:alnum:]]*)+[/]{0}$'
+df -h | grep -wE '^(/dev/[[:alnum:]]*)+([/]$){0}'
+df -h | grep -wE '^(/dev/[[:alnum:]]*)+([/$]){0}'
+df -h | grep -wE '^(/dev/[[:alnum:]]*)+(/$){0}'
+df -h | grep -wE '^(/dev/[[:alnum:]]*)+(/\$){0}'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+(/\$){0}'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+(/$){0}'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+(/){0}'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+(/)$'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+(/)$'
+df -h | grep -E '^(/dev/[[:alnum:]]*)+(/.)$'
+df -h | grep -E '^(/dev/[\A]*)+(/)$'
+df -h | grep -E '^(/dev/[\A]*)+'
+df -h | grep -E '^(/dev/[\C]*)+'
+df -h | grep -wE '^(/dev/[\C]*)+'
+df -h | grep -E '^(/dev/[\C]*)+'
+df -h | grep -E '^(/dev/[\c]*)+'
+df -h | grep -E '^(/dev/[\c]\)+'
+df -h | grep -E '^(/dev/[\c])+'
+df -h | grep -E '^(/dev/[\C])+'
+df -h | grep -E '^(/dev/\C)+'
+df -h | grep -E '^(/dev/[\C]*)+'
+df -h | grep -E '^(/dev/[\C]*)'
+df -h | grep -E '^(/dev/[\C]+)'
+df -h | grep -E '^(/dev/[\C]?)'
+df -h | grep -E '^(/dev/:[\C])'
+df -h | grep -E '^(/dev/[\C])'
+df -h | grep -E '^(/dev/)+[\C]'
+df -h | grep -E '^(/dev/)+([\C])'
+df -h | grep -E '^(/dev/)+(\C)*'
+df -h | grep -E '^(/dev/)+(\C)+'
+df -h | grep -E '^(/dev/)(\C)+'
+df -h | grep -E '(^/dev/)(\C)+'
+df -h | grep -E '(^/dev/)|(\C)+'
+df -h | grep -E '(^/dev/)|(\C+)'
+df -h | grep -E '(^/dev/)|([\C]+)'
+df -h | grep -E '(^/dev/)|([\C]*)'
+df -h | grep -E '(^/dev/)|([\C]+)'
+df -h | grep -E '(^/dev)|(/[\C]+)'
+df -h | grep -E '(^/dev)|(/[\c]+)'
+df -h | grep -E '(^/dev)|(/[\A]+)'
+df -h | grep -E '(^/dev)|(/[A]+)'
+df -h | grep -E '(^/dev)|(/[\a]+)'
+df -h | grep -E '(^/dev)|(/[\b]+)'
+df -h | grep -E '(^/dev/)|(\b+)'
+df -h | grep -E '(^/dev/)|(\b)'
+df -h | grep -E '(^/dev/)|(\b)+'
+df -h | grep -E '(^/dev/)+(\b)+'
+df -h | grep -E '(^/dev/[\a])+(\b)+'
+df -h | grep -E '(^/dev/[\w])+(\b)+'
+df -h | grep -E '(^/dev/[\A])+(\b)+'
+df -h | grep -E '(^/dev/[\A])'
+df -h | grep -E '(^/dev/[\A]+)'
+df -h | grep -E '(^/dev/[\w]+)'
+df -h | grep -E '(^/dev/[\w])'
+df -h | grep -E '(^/dev/[\W])'
+df -h | grep -E '(^/dev/[\W]*)'
+df -h | grep -E '(^/dev/[\W]+)'
+df -h | grep -E '(^/dev/+)'
+df -h | grep -E '(^/dev/)+(\w)'
+df -h | grep -E '(^/dev/)+(\w)*'
+df -h | grep -E '(^/dev/+)(\w)*'
+df -h | grep -E '(^/dev/+)(\w*)'
+df -h | grep -E '(^/dev/+) (\w*)'
+df -h | grep -E '(^/dev/+)([\w]*)'
+df -h | grep -E '(^/dev/)+([\w]*)'
+df -h | grep -E '(^/dev/)+(\w)*'
+df -h | grep -E '(^/dev/)+(\w)+'
+df -h | grep -E '(^/dev/)+(\w)?'
+df -h | grep -E '(^/dev/)+(\w)*'
+df -h | grep -E '^(/dev/)+(\w)*(\>)$'
+df -h | grep -E '^(/dev/)+(\w)*(/)$'
+df -h | grep -E '^(/dev/)+(\w)**(/)$'
+df -h | grep -E '^(/dev/)+(\w)*(/)$'
+df -h | grep -E '^(/dev/)+(\w*/)$'
+df -h | grep -E '^(/dev/)+(\w*/)'
+df -h | grep -E '^(/dev/)+(\S*/)'
+df -h | grep -E '^(/dev/)+(\S*)'
+df -h | grep -E '^(/dev/)+(\S)'
+df -h | grep -E '^(/dev/)+(\S.)'
+df -h | grep -E '^(/dev/)+(\S*)'
+df -h | grep -E '^(/dev/)+(\w*)'
+df -h | grep -E '^(/dev/)+(\w)*'
+df -h | grep -E '^(/dev/)+(\>\w)*'
+df -h | grep -E '^(/dev/)+(\<\w)*'
+df -h | grep -E '^(/dev/)+(\<*\w)*'
+df -h | grep -E '^(/dev/)+(\<)*(\w)*'
+df -h | grep -E '^(/dev/)+(\s)*(\w)*'
+df -h | grep -E '^(/dev/)+(\S)*(\w)*'
+df -h | grep -E '^(/dev/)+(\w)*'
+df -h | grep -E '^(/dev/)+(\w)*()'
+df -h | grep -E '^(/dev/)+(\w)*(\>)'
+df -h | grep -E '^(/dev/)+(\w)*(\>)+'
+df -h | grep -E '^(/dev/)+(\w)*(\>){1}'
+df -h | grep -E '^(/dev/)+(\w)*(\>)+'
+df -h | grep -E '^(/dev/)+(\w)*(\n)+'
+df -h | grep -E '^(/dev/)+(\w)*(\n)*'
+df -h | grep -E '^(/dev/)+(\w)*(\n)?'
+df -h | grep -E '^(/dev/)+(\w)*(/\n)?'
+df -h | grep -E '^(/dev/)+(\w)*(/\n)+'
+df -h | grep -E '^(/dev/)+(\w)*(^/\n)+'
+df -h | grep -E '^(/dev/)+(\w)*(\^/\n)+'
+df -h | grep -E '^(/dev/)+(\w)*(\^/\n)'
+df -h | grep -E '^(/dev/)+(\w)*(\^/)'
+df -h | grep -E '^(/dev/)+(\w)*(\^/)$'
+df -h | grep -E '^(/dev/)+(\w)*(/)$'
+df -h | grep -E '^(/dev/+)*(\w)*(/)$'
+df -h | grep -E '^(/dev/)*(\w)*(/)$'
+df -h | grep -E '^(/dev/)*(\w)*(/$)'
+df -h | grep -E '^(/dev/)*(\w)*(./$)'
+df -h | grep -E '^(/dev/)*(\w)*(./*)$'
+df -h | grep -E '^(/dev/)*(\w/*)$'
+df -h | grep -E '^(/dev/)*(\a/*)$'
+df -h | grep -E '^(/dev/)*(\s/*)$'
+df -h | grep -E '^(/dev/)*(\S/*)$'
+df -h | grep -E '^(/dev/)*(\w/*)$'
+df -h | grep -E '^(/dev/*)(\w/*)$'
+df -h | grep -E '^(/dev/*)'
+df -h | grep -E '^(/dev/+)'
+df -h | grep -E '^(/dev/\w)'
+df -h | grep -E '^(/dev/\w)*'
+df -h | grep -E '^(/dev/)*[\w+]'
+df -h | grep -E '^(/dev/)*[\w*]'
+df -h | grep -E '^(/dev/)*[\w]*'
+df -h | grep -E '^(/dev/)*[\w]+'
+df -h | grep -E '^(/dev/)*[\w\s]()'
+df -h | grep -E '^(/dev/)*[\w\s]*()'
+df -h | grep -E '^(/dev/)*[\w]*()'
+df -h | grep -E '^(/dev/)*[\w]()'
+df -h | grep -E '^(/dev/)*[\w]'
+df -h | grep -E '^(/dev/)*[\w]*'
+df -h | grep -E '^(/dev/)*(\w)*'
+df -h | grep -E '^(/dev/)*(\w)*' --color=red
+df -h | grep -E '^(/dev/)*(\w)*' --highlight=
+df -h | grep -E '^(/dev/)*(\w)*' --highlight=red
+df -h | grep -E '^(/dev/)*(\w*)'
+df -h | grep -E '^(/dev/*)|(\w*)'
+df -h | grep -E '^(/dev/*)+|(\w*)'
+df -h | grep -E '^(/dev/)+|(\w*)'
+df -h | grep -E '^(/dev/+)|(\w*)'
+df -h | grep -E '^(/dev/+)|(\w)'
+df -h | grep -E '^(/dev/+)'
+df -h | grep -E '^(/dev/\w+)'
+df -h | grep -E '^(/dev/\w?)'
+df -h | grep -E '^(/dev/\w+)'
+df -h | grep -E '^(/dev/+\w*)'
+df -h | grep -E '^(/dev/+\w)'
+df -h | grep -E '^(/dev/+\w*)'
+df -h | grep -E '^(/dev/+\w*)(^[2])'
+df -h | grep -E '^(/dev/+\w*)(^[2-3])'
+df -h | grep -E '^(/dev/+\w*)(^[0-9])'
+df -h | grep -E '^(/dev/+\w*)([^0-9])'
+df -h | grep -E '^(/dev/+\w*)([^//>])'
+df -h | grep -E '^(/dev/+\w*)([^/\>])'
+df -h | grep -E '^(/dev/+\w*)([^/\>])'
+df -h | grep -E '^(/dev/+\w*)([^/\<])'
+df -h | grep -E '^(/dev/+\w*)(^/\<)'
+df -h | grep -E '^(/dev/+\w*)(\^/\<)'
+df -h | grep -eE '^(/dev/+\w*)([^/\<)'
+df -h | grep -E '^(/dev/+\w*)(\^/\<)'
+df -h | grep -E '^(/dev/+\w*)' -E '(\^/\<)'
+df -h | grep -E '^(/dev/+\w*)' -e '(\^/\<)'
+df -h | grep -E -e '^(/dev/+\w*)' -e '(\^/\<)'
+df -h | grep -E -e '^(/dev/+\w*)' -Ee '(\^/\<)'
+df -h | grep -Ee '^(/dev/+\w*)' -Ee '(\^/\<)'
+df -h | grep -Ee '^(/dev/+\w*)' -Ee '(\)'
+df -h | grep -Ee '^(/dev/+\w*)' -Ee '(/)'
+df -h | grep -Ee '^(/dev/+\w*)' -Ee '(/$)'
+df -h | grep -Ee '^(/dev/+\w*)' -Ee '(^/$)'
+df -h | grep -Ee '^(/dev/+\w*)' -Ee '([^/]$)'
+df -h | grep -Ee '^(/dev/+\w*)' -Ee '([^/])$'
+df -h | grep -Ee '^(/dev/+\w*)([^/])$'
+df -h | grep -Ee '^(/dev/+\w*)|([^/])$'
+df -h | grep -Ee '^(/dev/+\w)*([^/])$'
+df -h | grep -Ee '^(/dev/+\w*)+([^/])$'
+df -h | grep -Ee '^(/dev/+\w*)+([^/])'
+df -h | grep -Ee '^(/dev/+\w*)+([^/\n])'
+df -h | grep -Ee '^(/dev/+\w*)+([^/\n])+'
+df -h | grep -Ee '^(/dev/+\w*)+([*^/\n])'
+df -h | grep -Ee '^(/dev/+\w*)+([.*^/\n])'
+df -h | grep -Ee '^(/dev/+\w)+(.*^/\n])'
+df -h | grep -Ee '^(/dev/+\w)+(.*[^/])'
+df -h | grep -Ee '^(/dev/+\w)+(.*[^/])$'
+df -h | grep -Ee '^(/dev/+\w)+(/^/)$'
+df -h | grep -Ee '^(/dev/+\w)+(/^/$)'
+df -h | grep -Ee '^(/dev/+\w)+(/^/)'
+df -h | grep -Ee '^(/dev/+\w)+(\s/^/)'
+df -h | grep -Ee '^(/dev/+\w)+(/^/)'
+df -h | grep -Ee '^(/dev/+\w)+|(/^)'
+df -h | grep -Ee '^(/dev/+\w*)|(/^)'
+df -h | grep -Ee '^(/dev/+\w*)(/^)'
+df -h | grep -Ee '^(/dev/+\w*)(/)'
+df -h | grep -Ee '^(/dev/+\w*)|(/)'
+df -h | grep -Ee '^(/dev/+\w*)|(^/)'
+df -h | grep -Ee '^(/dev/+\w*)|(^/$)'
+df -h | grep -Ee '^(/dev/+\w*)|(/^/$)'
+df -h | grep -Ee '^(/dev/+\w*)|(/^/)$'
+df -h | grep -Ee '^(/dev/+\w*)(/^/)$'
+df -h | grep -Ee '^(/dev/+\w*)*(/^/)$'
+df -h | grep -Ee '^(/dev/+\w)*(/^/)$'
+df -h | grep -Ee '^(/dev/+\w)(/^/)$'
+df -h | grep -Ee '^(/dev/+\w*/^/)$'
+df -h | grep -Ee '^(/dev/+\w\s*/^/)$'
+df -h | grep -Ee '^(/dev/+[\w\s]*/^/)$'
+df -h | grep -Ee '^(/dev/+[\w\s]*'
+df -h | grep -Ee '^(/dev/+[\w\s]*)$'
+df -h | grep -Ee '^(/dev/+[\w]*)$'
+df -h | grep -Ee '^(/dev/+[\w]*)'
+df -h | grep -Ee '^(/dev/)+([\w]*))'
+df -h | grep -Ee '^(/dev/)+([\w]*)'
+df -h | grep -Ee '^(/dev/)+(\w*)'
+df -h | grep -Ee '^(/dev/)+(\w)'
+df -h | grep -Ee '^(/dev/)+[\w]'
+df -h | grep -Ee '^(/dev/)+([\w])'
+df -h | grep -Ee '^(/dev/)+([\w])*'
+df -h | grep -Ee '^(/dev/)+(\w)*'
+df -h | grep -Ee '^(/dev/)+(\w\s)*'
+df -h | grep -Ee '^(/dev/)+(\w*)*'
+df -h | grep -Ee '^/dev/[\w\s]*'
+df -h | grep -Ee '^/dev/[\w\s]*'
+df -h | grep -Ee '^/dev/[\w\s*]'
+df -h | grep -Ee '^/dev/([\w\s])'
+df -h | grep -Ee '^/dev/([\w\s]*)'
+df -h | grep -Ee '^/dev/(\w\s*)'
+df -h | grep -Ee '^/dev/(\w\s)*'
+df -h | grep -Ee '^/dev/(\w\s*)*'
+df -h | grep -Ee '^/dev/(\w)*'
+df -h | grep -Ee '^/dev/(\w*)'
+df -h | grep -Ee '^/dev/(\w)'
+df -h | grep -Ee '^/dev/(\w)*'
+df -h | grep -Ee '^/dev/(\w*)^(/)'
+df -h | grep -Ee '^/dev/(\w*)^/'
+df -h | grep -Ee '^/dev/(\w*)[^/]'
+df -h | grep -Ee '^/dev/(\w*)[^/]*'
+df -h | grep -Ee '^/dev/(\w*)[ /]*'
+df -h | grep -Ee '^/dev/(\w*)[/]*'
+df -h | grep -Ee '^/dev/(\w*)[/]'
+df -h | grep -Ee '^/dev/(\w*)' -Ee '/'
+df -h | grep -Ee '^/dev/(\w*):/'
+df -h | grep -Ee '^/dev/(\w*)[:/]'
+df -h | grep -Ee '^/dev/(\w*)[=/]'
+df -h | grep -Ee '^/dev/(\w*)=/]'
+df -h | grep -Ee '^/dev/(\w*)|[=/]'
+df -h | grep -Ee '^/dev/(\w*)[=/]'
+df -h | grep -Ee '^/dev/(\w*)(=/)'
+df -h | grep -Ee '^/dev/(\w*)([=^/])'
+df -h | grep -Ee '^/dev/(\w*)([=^/]*)'
+df -h | grep -Ee '^/dev/(\w*)([=^/]+)'
+df -h | grep -Ee '^/dev/(\w*)(=^/)'
+df -h | grep -Ee '^/dev/(\w*)(=^/)*'
+df -h | grep -Ee '^/dev/(\w*)(=^/)+'
+df -h | grep -Ee '^/dev/(\w*)([=^/])'
+df -h | grep -wE '^/dev/(\w*)([=^/])'
+df -h | grep -wE '^/dev/(\w*)([^/])'
+df -h | grep -wE '^/dev/(\w*[^/])'
+df -h | grep -wE '^/dev/(\w*[^/\n])'
+df -h | grep -wE '^/dev/(\w*^[/\n])'
+df -h | grep -wE '^(/dev/[\w*]){1}'
+df -h | grep -wE '^(/dev/[\w]*){1}'
+df -h | grep -wE '^(/dev/[\w]*)'
+df -h | grep -wE '^(/dev/[\w*])'
+df -h | grep -wE '^(/dev/\w*)'
+df -h | grep -wE '^(/dev/\w*){1}'
+df -h | grep -wE '^(/dev/\w*){1}(/\n){1}'
+df -h | grep -wE '^(/dev/\w*){1}(/){1}'
+df -h | grep -wE '^(/dev/\w*){1}(/\w*){1}'
+df -h | grep -wE '^(/dev/\w*){1}(/\w*/){1}$'
+df -h | grep -wE '^(/dev/\w*){1}(/\w*/$){1}'
+df -h | grep -wE '^(/dev/\w*){1}(/\w*/$)'
+df -h | grep -wE '^(/dev/\w*)(/\w*/$)'
+df -h | grep -wE '(^/dev/\w*)(/\w*/$)'
+df -h | grep -wE '(^/dev/\w*)|(/\w*/$)'
+df -h | grep -wE '((^/dev/\w*)|(/\w*/$))'
+df -h | grep -wE '((^/dev/\w*)|(/\w*/))'
+df -h | grep -wE '(^(/dev/\w*)|(/\w*/)$)'
+df -h | grep -wE '((/\w*/)$)'
+df -h | grep -wE '(/\w*/)$'
+df -h | grep -wE '(/(\w*)/)$'
+df -h | grep -wE '(/\w*)$'
+df -h | grep -wE '(^(/dev/\w*)|(/\w*)$)'
+df -h | grep -wE '(^(/dev/\w*)|(/\w*)$){2}'
+df -h | grep -wE '(^(/dev/\w*)|(/\w*)$){1}'
+df -h | grep -wE '(^(/dev/\w*)|(/\w*)$){2}'
+df -h | grep -wE '(^(/dev/\w*)(/\w*)$){2}'
+df -h | grep -wE '(^(/dev/\w*)(/\w*)$)'
+df -h | grep -E '(^(/dev/\w*)(/\w*)$){2}'
+df -h | grep -E '(^(/dev/\w*)(/\w*)$)'
+df -h | grep -E '(^(/dev/\w*)|(/\w*)$)'
+df -h | grep -E '(^(/dev/\w*)|(/\w*)$)+'
+df -h | grep -E '(^(/dev/\w*)|(/\w*)$){2,}'
+df -h | grep -E '(^(/dev/\w*)|(/\w*)$){,}'
+df -h | grep -E '(^(/dev/\w*)|(/\w*)$){,2}'
+df -h | grep -E '(^(/dev/\w*)|(/\w*)$){,1}'
+df -h | grep -E '(^(/dev/\w*)|(/\w*)$){}'
+df -h | grep -E '(^(/dev/\w*)|(/\w*)$){0}'
+df -h | grep -E '(^(/dev/\w*)|(/\w*)$)'
+df -h | grep '^/dev/\w*'
+df -h | grep '^/dev/\w\s*'
+df -h | grep '^/dev/[\w\s]*'
+df -h | grep '^/dev/(\w\s)*'
+df -h | grep -E '^/dev/(\w\s)*'
+df -h | grep -E '^/dev/(\w\s*)*'
+df -h | grep '^/dev/\w+.'
+df -h | grep -E '^(/dev/\w*)+.'
+df -h | grep -E '^(/dev/\w*)+([[:graph:]])$'
+df -h | grep -E '^(/dev/\w*)+([[:graph:]])'
+df -h | grep -E '^(/dev/\w*)?([[:graph:]])'
+df -h | grep -E '^(/dev/\w*)+([[:graph:]])'
+df -h | grep -E '([[:graph:]])'
+df -h | grep -E '([[:graph:]^/])'
+df -h | grep -E '([[:graph:]/]^/)'
+df -h | grep -E '([[:graph:]]^/)'
+df -h | grep -E '(.*^/)'
+df -h | grep -E '(.^/)'
+df -h | grep -E '(.^/)*'
+df -h | grep -E '(.^/)+'
+df -h | grep -E '(.^/*)'
+df -h | grep -E '(*.^/)'
+df -h | grep -E '(*.^/)*'
+df -h | grep -E '(*.^/.)'
+df -h | grep -E '(*^/)'
+df -h | grep -E '([.^/]*)'
+df -h | grep -E '([\b^/]*)'
+df -h | grep -E '([\w^/]*)'
+df -h | grep -E '([.^/]*)'
+df -h | grep -E '([:.^/:]*)'
+df -h | grep -E '([.^/]*)'
+df -h | grep -E '([\w^/]*)'
+df -h | grep -E '([^/]*)'
+df -h | grep -E '([^/*])'
+df -h | grep -E '([^/]*)'
+df -h | grep -E '([\w]*)'
+df -h | grep -E '([^\w]*)'
+df -h | grep -E '([\w]*)'
+df -h | grep -E '([\]*)'
+df -h | grep -E '([^\]*)'
+df -h | grep -E '([^/]*)'
+df -h | grep -E '([^/\w]*)'
+df -h | grep -E '([^/]*\w)'
+df -h | grep -E '([^/]*)(\w)'
+df -h | grep -E '([^/]*)(\W)'
+df -h | grep -E '([^/])(\W)'
+df -h | grep -E '([^/]*)(\W*)'
+df -h | grep -E '([^/]*)(\W?)'
+df -h | grep -E '([^/]*)(\W+)'
+df -h | grep -E '([^/])(\W+)'
+df -h | grep -E '([^/]){1}(\W+)'
+df -h | grep -E '([^/])?(\W+)'
+df -h | grep -E '([^/]?)(\W+)'
+df -h | grep -E '([^/]+)(\W+)'
+df -h | grep -E '(.[^/]+)(\W+)'
+df -h | grep -E '(.[^/]+)'
+df -h | grep -E '(.[^/])'
+df -h | grep -E '(.[=^/=])'
+df -h | grep -E '(.[^/=])'
+df -h | grep -E '(.[=^/])'
+df -h | grep -E '(.[=^/=])'
+df -h | grep -E '(.[=^/=])'
+df -h | grep -E '(.[^/=])'
+df -h | grep -E '(.[^/=]\n)'
+df -h | grep -E '(.[^/=\n])'
+df -h | grep -E '(.[^/=\b])'
+df -h | grep -E '.([/=])'
+df -h | grep -E '.([/])'
+df -h | grep -E '.(/)'
+df -h | grep -E '.(/\w)'
+df -h | grep -E '.(/\w*)'
+df -h | grep -E '*(/\w*)'
+df -h | grep -E '[^/](/\w*)'
+df -h | grep -E '[^/]+(/\w*)'
+df -h | grep -E '[^/*]+(/\w*)'
+df -h | grep -E '[^/]*(/\w*)'
+df -h | grep -E '[^/]*(/\w)'
+df -h | grep -E '[^/]*()'
+df -h | grep -E '^[^/]*()'
+df -h | grep '^/\w*'
+df -h | grep '^/.*'
+df -h | grep '^/.* '
+df -h | grep '^/.'*
+df -h | grep '^/[\w]'
+df -h | grep '^/[\w]*'
+df -h | grep '^/\w*'
+df -h | grep '^/(\w*)'
+df -h | grep '^/dev/\w*'
+df -h | grep '/dev/\w*'
+df -h | grep '/\w*/'
+df -h | grep '/\w*/*'
+df -h | grep -E '(/\w*/)*'
+df -h | grep -E '(/\w*/)'
+df -h | grep -E '(/\w*)'
+df -h | grep -E '(/\w*){1}'
+df -h | grep -E '(/\w*){2}'
+df -h | grep -E '(/[.]*){2}'
+df -h | grep -E '(/.[^/ ]*){2}'
+df -h | grep -E '(/.[^/ =]*){2}'
+df -h | grep -E '(/.[^/[:space:]*){2}'
+df -h | grep -E '(/.[^/[:space:]]*){2}'
+df -h | grep -E '(/[^/[:space:]]*){2}'
+df -h | grep -E '(/[^/[:space:]])*{2}'
+df -h | grep -E '(/[^/[:space:]]*)*{2}'
+df -h | grep -E '(/[^/[:space:]]*){2}'
+df -h | grep -E '(/[^/[:space:]]*)'
+df -h | grep -E '(/[^[:space:]]*)'
+df -h | grep -E '(/[^[:space:]]*){1}'
+df -h | grep -wE '(/[^[:space:]]*){1}'
+df -h | grep -E '(/[^[:space:]])*{1}'
+df -h | grep -E '(/^[:space:])*{1}'
+df -h | grep -E '(/^[[:space:]])*{1}'
+df -h | grep -E '(/^[[:space:]])'
+df -h | grep -E '(/^[[:space:]])*'
+df -h | grep -E '(/[^[:space:]])*'
+df -h | grep -E '(/[^[:space:]]*)*'
+df -h | grep -E '(/[^[:space:]]*)'
+df -h | grep -E '(/.*[:space:])'
+df -h | grep -E '(/.*[[:space:]])'
+df -h | grep -E '(/.[[:space:]])'
+df -h | grep -E '(/*[[:space:]])'
+df -h | grep -E '(/.*[[:space:]])'
+df -h | grep -E '(/.*[[:space:]]){1}'
+df -h | grep -E '(/.*[[:space:]])+'
+df -h | grep -E '(/.*[[:space:]])?'
+df -h | grep -E '(/.*[[:space:]])'
+df -h | grep -E '/.*[[:space:]]'
+df -h | grep -E '/.*[[:space:]]{1}'
+df -h | grep -E '/(^[[::space::]])'
+df -h | grep -E '/(^[[:space:]])'
+df -h | grep -E '/(.^[[:space:]])'
+df -h | grep -E '/(.^[[:space:]])*'
+df -h | grep -E '/(.[^[:space:]])*'
+df -h | grep -E '/([^[:space:]])*'
+df -h | grep -E '/([^[:space:]]){1}'
+df -h | grep -E '/([^[:space:]]*){1}'
+df -h | grep -E '/([^[:space:]]*){,1}'
+df -h | grep -E '/([^[:space:]]*){}'
+df -h | grep -E '/([^[:space:]]*)'
+df -h | grep -E '/([^[:space:]*])'
+df -h | grep -E '/(\S)'
+df -h | grep -E '/(\S*)'
+df -h | grep -E '/(\S*)+'
+df -h | grep -E '/(\S*)?'
+df -h | grep -E '/\S*'
+df -h | grep '/[\S]'
+df -h | grep '/[\s]'
+df -h | grep '/[\S]'
+df -h | grep '/[\\S]'
+df -h | grep '/[\\s]'
+df -h | grep '/[\\S]*'
+df -h | grep '/[\S]*'
+df -h | grep '/[\w]*'
+df -h | grep '^/'
+df -h | grep '^/dev'
+df -h | grep '^/dev*'
+df -h | grep '^/dev'
+df -h | grep '^/dev/'
+df -h | sed '/^\/dev\// /p'
+df -h | sed '/^\/dev\//\S/p'
+df -h | sed '/^\/dev\/,\S/p'
+df -h | sed '/^\/dev\/,/ /p'
+df -h | sed '/^\/dev\//,/ /p'
+df -h | sed '/^\/dev\//,/ /'
+df -h | sed '/^\/dev\//,/ /g'
+df -h | sed '/^\/dev\//,/ /p'
+df -h | sed '/^\/dev\//,/ /!p'
+df -h | sed '/^\/dev\//,/[[:space:]]/p'
+df -h | sed '/\^\/dev\//,/[[:space:]]/p'
+df -h | sed '/\^\/dev\//,/ /p'
+df -h | sed '/\^\/dev\//,/\ /p'
+df -h | sed '/\^\/dev\//\ /p'
+df -h | sed '/\^\/dev\//\ /'
+df -h | sed '/\^\/dev\//'
+df -h | sed '/\^\/dev\/'
+df -h | sed '/\^\/dev\//p'
+df -h | sed '/\^\/dev\//!p'
+df -h | sed '/\^\/dev\//'
+df -h | sed '/\^\/dev\//-f'
+df -h | sed '/\^\/dev\//g'
+df -h | sed '/\^\/dev\//!g'
+df -h | sed '/\^\/dev\//g'
+df -h | sed '/\^\/dev\//gp'
+df -h | sed '/\^\/dev\/\ /g'
+df -h | sed '/\^\/dev\//\ /g'
+df -h | sed '/\^\/dev\/,/\ /g'
+df -h | sed '/\^\/dev\//,/\ /g'
+df -h | sed '/\^\/dev\/[\S]*/g'
+df -h | sed '/^\/dev\/[\S]*/g'
+df -h | sed '/^\/dev\/[\S]*/p'
+df -h | sed '/^\/dev\/[\S]*/'
+df -h | sed '/^\/dev\/[\S]*/g'
+df -h | sed '/^\/dev\/[ ]*/g'
+df -h | sed '/^\/dev\/[\ ]*/g'
+df -h | sed '/^\/dev\/[[:space:]]*/g'
+df -h | sed '/^\/dev\/[^\S]*/g'
+df -h | sed '/^\/dev\/[^\s]*/g'
+df -h | sed '/^\/dev\/[^\s*]*/g'
+df -h | sed '/^\/dev\/[^\s*]/g'
+df -h | sed '/^\(\S\)/g'
+df -h | sed '/^\(\s\)/g'
+df -h | sed '/^\(/\s\)/g'
+df -h | sed '/^\(\/\s\)/g'
+df -h | sed '/^\/\(\s\)/g'
+df -h | sed '//,//!d'
+df -h | sed '//dev//,//!d'
+df -h | sed '/\/dev\//,//!d'
+df -h | sed '/^\/dev\//,//!d'
+df -h | sed '/^\/dev\//,/ /!d'
+df -h | sed '/^\/dev\//,/\ /!d'
+df -h | sed '/^\/dev\//,/\ /!p'
+df -h | sed '/^\/dev\//,/\ /p'
+df -h | sed '/^\/dev\//,/\ /!p'
+df -h | sed '/^\/dev\//,/\ /g'
+df -h | sed '/^\/dev\//,/\ /!g'
+df -h | sed '/^\/dev\//,/\ /d'
+df -h | sed '/^\/dev\//,/\ /!d'
+df -h | sed '/^\/dev\/\s/,/\ /!d'
+df -h | sed '/^\/dev\/\s/,/\ /d'
+df -h | sed '/^\/dev\/\s/,/\ /p'
+df -h | sed '/^\/dev\/\s/,/\ /!d'
+df -h | sed '/^\/dev\/\S/,/\ /!d'
+df -h | sed '/^\/dev\/\s/,/\ /!d'
+df -h | sed '/^\/dev\/\s/,/\s/!d'
+df -h | sed '/^\/dev\/\s/,/\S/!d'
+df -h | sed '/^\/dev\//,/\S/!d'
+df -h | sed '/^\/dev\/.*/,/\S/!d'
+df -h | sed '/^\/dev\/\s*/,/\S/!d'
+df -h | sed '/^\/dev\/\s*/,/\S./!d'
+df -h | sed '/^\/dev\/\s*/,/\S/!d'
+df -h | sed '/^\(\/dev\/\s*\)/,/\S/!d'
+df -h | sed '/^\(\/dev\/\s*\)+/,/\S/!d'
+df -h | sed '/^\(\/dev\/\s\)+/,/\S/!d'
+df -h | sed '/^\(\/dev\/\s*\)*/,/\S/!d'
+df -h | sed '/^\(\/dev\/\s*\)?/,/\S/!d'
+df -h | sed '/^\(\/dev\/\s*\)/,/\S/!d'
+df -h | sed '/^\(\/dev\/\s*\)\ /,/\S/!d'
+df -h | sed '/^\(\/dev\/\s*\)\s/,/\S/!d'
+df -h | sed '/^\(\/dev\/\s*\)\S/,/\S/!d'
+df -h | sed '/^\(\/dev\/\s*\)\S/!d'
+df -h | sed -r '/^(/dev/\s)/!d'
+df -h | sed -r '/^(/dev/\s) !d'
+df -h | sed -r '^(/dev/\s) !d'
+df -h | sed -r '^(/dev/\s)'
+df -h | sed -r '/^(/dev/\s)/'
+df -h | sed -E '/^(/dev/\s)/'
+df -h | sed -E '/^(/dev/)/'
+df -h | sed -E '^/dev/'
+df -h | sed -E '/^dev/'
+df -h | sed -E '/^dev/g'
+df -h | sed -E '/^dev/p'
+df -h | sed -E '/^dev/!d'
+df -h | sed -E '/^dev/d'
+df -h | sed -E '/^dev/!'
+df -h | sed -E '/^dev/!d'
+df -h | sed -E '/^/dev//!d'
+df -h | sed -E '/^[/dev/]/!d'
+df -h | sed -E '/^(/dev/)/!d'
+df -h | sed -E '/^\(/dev/\)/!d'
+df -h | sed -E '/^[/dev/*]/!d'
+df -h | sed -E '/^[/dev/*]/d'
+df -h | sed -E '/^[/dev/*]/!d'
+df -h | sed -E '/^[/dev/]*/!d'
+df -h | sed -E '/^[/dev/]/!d'
+df -h | sed -E '/^[/dev/]/p'
+df -h | sed -E '/^[/dev/]/d'
+df -h | sed -E '/^[/dev/]/!p'
+df -h | sed -E '/^[/dev/]/!g'
+df -h | sed -E '/^[/dev/]/g'
+df -h | sed -E '/^[/dev/]/!g'
+df -h | sed -E '/^[/dev/]/!d'
+df -h | sed -E '/^[/dev/*]/!d'
+df -h | sed -E '/^/dev*/!d'
+df -h | sed -E '/^\/dev*/!d'
+df -h | sed -E '/^\/dev\/*/!d'
+df -h | sed -E '/^\/dev\/*/,/ /!d'
+df -h | sed -E '/^\/dev\/*/,/\ /!d'
+df -h | sed -E '/^\/dev\/*/,/[\S]/!d'
+df -h | sed -E '/^\/dev\/*/,/[\S]/d'
+df -h | sed -E '/^\/dev\/*/,/[\S]/p'
+df -h | sed -E '/^\/dev\/*/,/[\S]/!p'
+df -h | sed -E '/^\/dev\/*/,/[\S]/g'
+df -h | sed -E '/^\/dev\/*/,/[\S]/!g'
+df -h | sed -E '/^\/dev\/*/,/[\S]/gp'
+df -h | sed -E '/^\/dev\/*/,/[\S]/g'
+df -h | sed -E '/^\/dev\/*/,/[\S]/'
+df -h | sed -E '/^\/dev\/*/!p,/[\S]/'
+df -h | sed -E '/^\/dev\/*/!p,/[\S]/g'
+df -h | sed -E '/^\/dev\/*/,/[\S]/g'
+df -h | sed -E '/^\/dev\/*/,/[\S]/!g'
+df -h | sed -E '/^\/dev\/*/,/[\S]/!d'
+df -h | sed -E '/^\/dev\/*/,/[\S]/d'
+df -h | sed -E '/^\/dev\/*/,/[\S]/!d'
+df -h | sed -E '/^\/dev\/*/,/[\\S]/!d'
+df -h | sed -E '/^\/dev\/*/,/[\/S]/!d'
+df -h | sed -E '/^\/dev\/*/,/[\\S]/!d'
+df -h | sed -E '/^\/dev\/*/,/[[:space:]]/!d'
+df -h | sed -E '/^\/dev\/*/,/[[:space:]]/!g'
+df -h | sed -E '/^\/dev\/*/,/[[:space:]]/g'
+df -h | sed -E '/^\/dev\/*/,/[[:space:]]/d'
+df -h | sed -E '/^\/dev\/*/,/[[:space:]]/p'
+df -h | sed -E '/^\/dev\/*/,/[[:space:]]/!p'
+df -h | sed -E '/^\/dev\/*/,/[[:space:]]/!g'
+df -h | sed -E '/^\/dev\/*/,/[[:space:]]/!d'
+df -h | sed -E '/^\/dev\//,/[[:space:]]/!d'
+df -h | sed -E '/^\/dev\/+/,/[[:space:]]/!d'
+df -h | sed -E '/^\/dev\/+/,/[]\w/!d'
+df -h | sed -E '/^\/dev\/+/,/[^/]\w/!d'
+df -h | sed -E '/^\/dev\/+/,/[^/*]\w/!d'
+df -h | sed -E '/^\/dev\/+/,/[^/*]/!d'
+df -h | sed -E '/^\/dev\/+/,/[^/*]\n/!d'
+df -h | sed -E '/^\/dev\/+/,/[^/*]\n/d'
+df -h | sed -E '/^\/dev\/+/,/[^/*]\n/p'
+df -h | sed -E '/^\/dev\/+/,/[^/*]\n/g'
+df -h | sed -E '/^\/dev\/+/,/[^/*]\n/!g'
+df -h | sed -E '/^\/dev\/+/,/[^/*]\n/!p'
+df -h | sed -E '/^\/dev\/+/,/[^/*]\n/!d'
+df -h | sed -E '/^\/dev\/*/,/[^/*]\n/!d'
+df -h | sed -E '/^\/dev\/* /,/[^/*]\n/!d'
+df -h | sed -E '/^\/dev\/* /,/[^/*]\n/d'
+df -h | sed -E '/^\/dev\/* /,/.*\//d'
+df -h | sed -E '/^\/dev\/* /,/.*\//!d'
+df -h | sed -E '/^\/dev\/* /,/.*\//!g'
+df -h | sed -E '/^\/dev\/* /,/.*\//g'
+df -h | sed -E '/^\/dev\/* /,/.*\//p'
+df -h | sed -E '/^\/dev\/* /,/.*\//!p'
+df -h | sed -E '/^\/dev\/* /,/.*\//!d'
+df -h | sed -E '/^\/dev\/* /,/.*\//d'
+df -h | sed -E '/^\/dev\/* /,/*\//d'
+df -h | sed -E '/^\/dev\/* /,/*\/\n/d'
+df -h | sed -E '/^\/dev\/* /,/.*\/\n/d'
+df -h | sed -E '/^\/dev\/* /,/.*\/\n/!d'
+df -h | sed -E '/^\/dev\/* /,/.*\/\n/!g'
+df -h | sed -E '/^\/dev\/* /,/.*\/\n/g'
+df -h | sed -E '/^\/dev\/* /,/.*\/\n/p'
+df -h | sed -E '/^\/dev\/* /,/.*\/\n/d'
+df -h | sed -E '/^\/dev\/*/,/.*\/\n/!d'
+df -h | sed -E '/^\/dev\/*/,/.*\/\n/d'
+df -h | sed -E '/^\/dev\/*/,/.*\/\n/g'
+df -h | sed -E '/^\/dev\/*/,/.*\/\n/!g'
+df -h | sed -E '/^\/dev\/*/,/.*\/\n/!p'
+df -h | sed -E '/^\/dev\/*/,/.*\/\n/p'
+df -h | sed -E '/^\/dev\/*/,/.*\/\n/d'
+df -h | sed -E '/^\/dev\/*/,/.*\/\n/!d'
+df -h | sed -E '/^\/dev\/*/p; /.*\/\n/!d'
+df -h | sed -E '/^\/dev\/*/p; /.*\/\n/'
+df -h | sed -E '/^\/dev\/*/p; /.*\/\n/p'
+df -h | sed -E '/^\/dev\/*/p; /.*\/\n/!p'
+df -h | sed -E '/^\/dev\/*/!p; /.*\/\n/!p'
+df -h | sed -E '/^\/dev\/*/!d; /.*\/\n/!d'
+df -h | sed -E '/^\/dev\/*/!d; /.*\/\n/p'
+df -h | sed -E '/^\/dev\/*/d; /.*\/\n/p'
+df -h | sed -E '/^\/dev\/*/!d; /.*\/\n/!p'
+df -h | sed -E '/^\/dev\/*/!d; /.*\/\n/p'
+df -h | sed -E '/^\/dev\/*/!d; s/.*\/\//p'
+df -h | sed -E '/^\/dev\/*/!d; s/.*\//\//p'
+df -h | sed -E '/^\/dev\/*/!d; s/.*\//\//!p'
+df -h | sed -E '/^\/dev\/*/!d; s/.*\//\//!d'
+df -h | sed -E '/^\/dev\/*/!d; s/.*\//\//d'
+df -h | sed -E '/^\/dev\/*/!d; s/.*\//\//g'
+df -h | sed -E '/^\/dev\/*/!d; s/.*\//\//!g'
+df -h | sed -E '/^\/dev\/*/!d; s/.*\//\//g'
+df -h | sed -E '/^\/dev\/*/!d; /.*\//\//g'
+df -h | sed -E '/^\/dev\/*/!d; /.*\//\//p'
+df -h | sed -E '/^\/dev\/*/!d; /.*\//\//!p'
+df -h | sed -E '/^\/dev\/*/!d; /.*\/\//!p'
+df -h | sed -E '/^\/dev\/*/!d; /.*\/\//p'
+df -h | sed -E '/^\/dev\/*/!d; /.*\/\//d'
+df -h | sed -E '/^\/dev\/*/!d; /.*\/\//!d'
+df -h | sed -E '/^\/dev\/*/d; /.*\/\//!d'
+df -h | sed -E '/^\/dev\/*/d; /.*\/\//d'
+df -h | sed -E '/^\/dev\/*/d; /.*\/\//p'
+df -h | sed -E '/^\/dev\/*/d; /.*\/\//g'
+df -h | sed -E '/^\/dev\/*/d; /.*\/\//!g'
+df -h | sed -E '/^\/dev\/*/!d; /.*\/\//g'
+df -h | sed -E '/^\/dev\/*/!d; /\S/g'
+df -h | sed -E '/^\/dev\/*/!d; /\S/p'
+df -h | sed -E '/^\/dev\/*/!d; /\S/g'
+df -h | sed -E '/^\/dev\/*/!d; /\S/!g'
+df -h | sed -E '/^\/dev\/*/!d; /\S/d'
+df -h | sed -E '/^\/dev\/*/!d; /\S/!d'
+df -h | sed -E '/^\/dev\/*/d; /\S/!d'
+df -h | sed -E '/^\/dev\/*/; /\S/!d'
+df -h | sed -E '/^\/dev\/*/; /\S/p'
+df -h | sed -E '/^\/dev\/*/p; /\S/p'
+df -h | sed -E '/^\/dev\/*/p; /\S/g'
+df -h | sed -E '/^\/dev\/*/g; /\S/g'
+df -h | sed -E '/^\/dev\/*/!g; /\S/g'
+df -h | sed -E '/^\/dev\/*/d; /\S/g'
+df -h | sed -E '/^\/dev\/*/d; /\/\S^/!d'
+df -h | sed -E '/^\/dev\/*/dd; /\/\S^/!d'
+df -h | sed -E '/^\/dev\/*/!d; /\/\S^/!d'
+df -h | sed -E '/^\/dev\/*/!d; /\/\S^/'
+df -h | sed -E '/^\/dev\/*/!d; /\/\S^/p'
+df -h | sed -E '/^\/dev\/*/!d; /\/\S^/g'
+df -h | sed -E '/^\/dev\/*/!d; /\/\S^/!g'
+df -h | sed -E '/^\/dev\/*/!d; /\/\S^/g'
+df -h | sed -E '/^\/dev\/*/d; /\/\S^/g'
+df -h | sed -E '/^\/dev\/*/d; /\/\S^/!d'
+df -h | sed -E '/^\/dev\/*/d; /\/\S^/d'
+df -h | sed -E '/^\/dev\/*/d; /\/\S*^/d'
+df -h | sed -E '/^\/dev\/*/d; /\/\S*^/!d'
+df -h | sed -E '/^\/dev\/*/!d; /\/\S*^/!d'
+df -h | sed -E '/^\/dev\/*/!d; /\/\S*^/g'
+df -h | sed -E '/^\/dev\/\s*/!d; /\/\S*^/g'
+df -h | sed -E '/^\/dev\/\s*/!d; /\/\S*^/!d'
+df -h | sed -E '/^\/dev\/\s*/!d; /\/\S*^/d'
+df -h | sed -E '/^\/dev\/\s*/d; /\/\S*^/d'
+df -h | sed -E '/^\/dev\/\s*/d; /\/\S*^/p'
+df -h | sed -E '/^\/dev\/\s*/d'
+df -h | sed -E '/^\/dev\/\s*/!d'
+df -h | sed -E '/^\/dev\/\s*/!p'
+df -h | sed -E '/^\/dev\/\s*/!g'
+df -h | sed -E '/^\/dev\/\s*/g'
+df -h | sed -E '/^\/dev\/\s*/!d'
+df -h | sed -E '/^\/dev\/\s/!d'
+df -h | sed -E '/^\/dev\/\s/d'
+df -h | sed -E '/^\/dev\/\s/!d'
+df -h | sed -E '/^\/dev\/\s*/!d'
+df -h | sed -E '/^\/dev\/\s*/ /!d'
+df -h | sed -E '/^\/dev\/\s*\/ /!d'
+df -h | sed -E '/^\/dev\/\s*\/\S/!d'
+df -h | sed -E '/^\/dev\/\s*\/\S/d'
+df -h | sed -E '/^\/dev\/\s*\/\S/!d'
+df -h | sed -E '/^\/dev\/\s*\S/!d'
+df -h | sed -E '/^\/dev\/\s*\S/d'
+df -h | sed -E '/^\/dev\/\s*\S/g'
+df -h | sed -E '/^\/dev\/\s*\S/!g'
+df -h | sed -E '/^\/dev\/\s*\S/!d'
+df -h | sed '/^\/dev\/\s*\S/!d'
+df -h | sed '/^\/dev\/\s*/!d'
+df -h | sed '/^\/dev\/\s*/!d1,'
+df -h | sed '/^\/dev\/\s*/1,!d'
+df -h | sed '/^\/dev\/\s*/1!d'
+df -h | sed '/^\/dev\/\s*/!d1'
+df -h | sed '/^\/dev\/\s*/!1d'
+df -h | sed '/^\/dev\/\s*/!d'
+df -h | sed '1/^\/dev\/\s*/!d'
+df -h | sed '0/^\/dev\/\s*/!d'
+df -h | sed '/^\/dev\/\s*/0!d'
+df -h | sed '/^\/dev\/\s*/d'
+df -h | sed '/^\/dev\/\s*/!d'
+df -h | grep '^/dev/\w*'
+df -h | grep '(^/dev/\w*){1}'
+df -h | grep '^(/dev/\w*){1}'
+df -h | grep '^(/dev/\w*)*{1}'
+df -h | grep '^(/dev/\w*)'
+df -h | grep '^(/dev/){1}(\w*)'
+df -h | grep '^(/dev/\w*)'
+df -h | grep '^/dev/\w*'
+df -h | grep '(^/dev/\w*)'
+df -h | grep '(^/dev/\w*)*'
+df -h | grep '(^/dev/\w)'
+df -h | grep '(^/dev/(\w*))'
+df -h | grep '(^/dev/\w*)'
+df -h | grep '^(/dev/\w*)'
+df -h | grep -E '^(/dev/\w*)'
+df -h | grep -E '^(/dev/\w*)' -E ''
+df -h | grep -E '^(/dev/\w*)' -eE ''
+df -h | grep -eE '^(/dev/\w*)' -eE ''
+df -h | grep -Ee '^(/dev/\w*)' -Ee ''
+df -h | grep -wE '^(/dev/\w*)'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{print}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{print $(-1)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{print $(0)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{print $(1)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{print $(1,2)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{print $(1)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{print $(1 2)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{print $(1 4)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{print $(1 0)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{print $(1,0)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{print $(0)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{print $(1)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{1=$1}{print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{1=$1; print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{1=($1); print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{1=${1}; print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{1={print{$1}; print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{1=$(print($1)}; print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{1=$(print $1}; print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{1=$(print $1); print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{$1=$(print $1); print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{$1=(print $1); print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{1=(print $1); print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{$1=(print $1); print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{$1={print $1}; print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{$1=(print $1); print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{$1={print $1}; print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{1={print $1}; print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a={print $1}; print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=(print $1); print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=$(print $1); print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=echo $(print $1); print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=echo $1; print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=echo $1; print $a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=echo($1); print $a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=print $(echo $1); print $a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=$(print $(echo $1)); print $a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=print $1; print $a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=print($1); print $a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=$(echo print $1); print $a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=$(print $1); print $a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=(print $1); print $a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a="(print $1)"; print $a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a="(print $1)"; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a={print $1}; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=$1; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{1=$1; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{$1=$1; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{$1=$0; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{1=$0; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{$1="$0"; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{$1="$1"; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a="$1"; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a="${1}"; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=${1}; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=${print $1}; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=${print 1}; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a={print $1}; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=(print $1); print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=${print($1)}; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a="${print($1)}"; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a="${print $1 }"; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a="${print $1}"; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a="{print $1}"; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a="$(print $1)"; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a="$1)"; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a="$1"; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=$(echo $1); print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a=$(echo $1); print $a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a="$(echo $1)"; print $a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a="$(echo {print $1})"; print $a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a="$(echo {print $1})"; print a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F ' ' '{a="$(echo {print $1})"; print $a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F '{a="$(echo {print $1})"; print $a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F'' '{a="$(echo {print $1})"; print $a}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{0=$1}; END {print $0}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{0=1}; END {print $0}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{$0=1}; END {print $0}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{$0=1}; END {print 0}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{$0=$1}; END {print $0}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{$2=$1}; END {print $0}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{$2=$3}; END {print $0}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{$1=$2=$3=$0}; END {print $0}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{$1=$2=$3=}; END {print $0}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{$1=$2=$3=$3+1}; END {print $0}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{$1=$2=$3=$3}; END {print $0}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{$2=$3=$4=$0}; END {print $0}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{$2=$3=$4=$0}; END {print $1}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{$2=$3=$4=$0}; END {print $1 $0}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{$2=$3=$4=$0}; END {print $1 $2}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print $1 $(NF-1)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{$(NF-1)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print $(NF-1)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print $(NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print $1 $(NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print $1 + $(NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print $1 $(NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print $1 \n $(NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1 $(NF))}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1,$NF))}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1,$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1,'\n',$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1,'  ',$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"  "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"\n"$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"  ===>   "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"   \t===>   "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"   \t\t===>   "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"  ===>\t  "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"  ===>\t\t  "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"  ===>\t\t"$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"  ===>\t\t "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1" ===>\t\t "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"  ==>\t\t "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1)print("  ==>\t\t "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1); print("  ==>\t\t "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{echo $1"  ==>\t\t "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{echo -e "$1  ==>\t\t $NF"}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print $(echo -e "$1  ==>\t\t $NF")}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print (echo -e "$1  ==>\t\t $NF")}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print (echo -e "1  ==>\t\t $NF")}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print $(echo -e "$(1)  ==>\t\t $NF")}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print $(echo -e "print($1)  ==>\t\t $NF")}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print $(echo "print($1)  ==>\t\t $NF")}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print("$1  \t==>\t $NF")}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print("1  \t==>\t NF")}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($("1  \t==>\t NF"))}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($("$1  \t==>\t NF"))}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($("$1  \t==>\t $NF"))}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print("$1  \t==>\t $NF")}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"  \t==>\t "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"  \t==> "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"\t==> "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"\t==>\t "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"\t\t==>\t "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"\t==>\t "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"\t==>\t"$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"\t ==>\t"$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"\t  ==>\t"$NF)}'
+clear
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"\t  ==>\t"$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"\t  ==>  "$NF)}'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"\t==>  "$NF)}'
+clear
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"\t==>  "$NF)}'
+lsblk
+clear
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"\t==>  "$NF)}'
+df -du
+df -h
+clear
+df -h | grep -wE '^(/dev/\w*)'
+df -h | grep -wE '^(/dev/\w*)' | awk -F' ' '{print($1"\t==>  "$NF)}'
+df -h | grep -wE '^(/dev/\w*)'
+sudo pacman -Syyy
+sudo pacman -Syu
+sudo pacman -S cups
+sudo systemctl enable org.cups.cupsd.service
+sudo systemctl start org.cups.cupsd.service
+lpinfo
+lpinfo --help
+lpinfo --help -v
+lpinfo -m
+lpinfo -m | grep 3830
+lpinfo -m | grep hp
+/usr/lib/cups/backend/snmp 30:9c:23:14:58:61
+/usr/lib/cups/backend/snmp 10.0.0.31
+lpinfo -m
+lpinfo -m | grep hp
+lpadmin -p HP_OfficeJet_3830 -m raw
+lpstat -s
+lpoptions -p HP_OfficeJet_3830
+lpstat -s
+lpoptions -d HP_OfficeJet_3830
+lpstat -s
+lpadmin
+lpoptions -d HP_OfficeJet_3830 -h ://10.0.0.31
+lpstat -s
+lpoptions -d HP_OfficeJet_3830 -v ://10.0.0.31
+lpoptions -d HP_OfficeJet_3830 -d ://10.0.0.31
+lpoptions -d HP_OfficeJet_3830 -p ://10.0.0.31
+lpstat -s
+lpstat -s
+/usr/lib/cups/backend/snmp 10.0.0.31
+lpinfo -m
+lpinfo -m | grep HP
+/usr/lib/cups/backend/snmp 10.0.0.31
+lpadmin -p HP_OfficeJet_3830 -v //10.0.0.31:9100
+lpstat -s
+lpoptions -d HP_OfficeJet_3830
+lpstat -s
+lpstat -s
+lpstat -p HP_OfficeJet_3830
+cupsenable HP_OfficeJet_3830
+cupsaccept HP_OfficeJet_3830
+cupsaccept HP_OfficeJet_3830
+cups-config
+cups-config --libs
+cups-config --api-version
+cups-config --build
+cups-config --serverbin
+cups-config --serverroot
+cups
+CUPS_SERVER=http://10.0.0.31:9100 chromium
+CUPS_SERVER=10.0.0.31:9100 chromium
+CUPS_SERVER=Osiris.localdomain:9100 chromium
+lsa /mnt
+lsa /mnt/backups
+rm -rf ~/.cache
+clear
+loadbin
+backup_system
+loadbin
+backup_system
+loadbin
+backup_system
+loadbin
+backup_system
+loadbin
+backup_system
+loadbin
+backup_system
+loadbin
+backup_system
+loadbin
+backup_system
+bspc node @/ -R 90
+bspc node @/ -R 90
+bspc node @/ -R 90
+bspc node @/ -R 90
+bspc node @ / -R 90
+lsa /
+loadbin
+backup_system
+loadbin
+backup_system
+loadbin
+backup_system
+loadbin
+backup_system
+loadbin
+backup_system
+sudo backup_system
+loadbin
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+lsa /
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+hostname
+nss-resolve
+nss-myhostname
+getent hosts Osiris.localdomain
+ip link
+sudo pacman -S system-config-printer
+vim dev/bin/backup_system.sh
+chromium&
+disown
+startx
+startx
+shutdown -h now
+chromium&
+disown
+exit
+vim .config/bspwm/bspwmrc
+vim .config/sxhkd/sxhkdrc_bspc
+vim .config/sxhkd/sxhkdrc_bspc
+exit
+vim .config/sxhkd
+vim .config/sxhkd/sxhkdrc
+lspci -k
+car
+ping google.com -c3
+exit
+ping google.com
+dotfiles status
+clear
+sudo vim /etc/hostname
+vim /etc/hosts
+sudo vim /etc/hosts
+sudo vim /etc/udev/rules.d/10-network.rules
+sudo pacman -Q wpa
+sudo pacman -Q wpa-supplicant
+clear
+sudo dmesg | grep firmware
+clear
+sudo dmesg | grep wifi
+nmcli device wifi list
+nmcli device wifi connect CBreiny password sep2018Q466WEGJ9R
+nmcli connection show
+nmcli connection
+nmcli connection edit CBreiny\ 1
+clear
+nmcli connection delete CBreiny\ 1
+clear
+nmcli show
+nmcli connection show
+nmcli device wifi connect CBreiny password sep2018Q466WEGJ9R
+nmcli connection show
+nmcli connection delete CBreiny
+nmcli connection show
+nmcli connection edit CBreiny\ 1
+clear
+nmcli connection show
+nmcli connection modify Wired\ connection\ 1 connection.id Ethernet
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+clear
+clear
+nmcli connection show
+nmcli connection show
+nmcli radio wifi off
+nmcli connection show
+clear
+nmcli connection show
+nmcli connection show
+nmcli connection show
+clear
+nmcli connection show
+nmcli radio wifi on
+clear
+nmcli connection show
+nmcli connection show
+nmcli radio wifi off
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection reload
+sudo nmcli connection reload
+sudo nmcli connection reload
+nmcli connection show
+nmcli connection show
+ip link
+ip a
+ip link a
+ip link show
+sudo ip link set enp3s0 down
+sudo ip link set enp3s0 up
+sudo nmcli connection reload
+sudo nm-online
+sudo nm-online
+sudo nmcli connection up Ethernet
+sudo nmcli connection down Ethernet
+clear
+sudo nmcli connection show
+sudo nmcli connection reload
+sudo nmcli connection up Ethernet
+sudo nmcli connection show
+sudo nmcli connection show
+exit
+ip link
+ip link set wlp2s0 down
+sudo ip link set wlp2s0 down
+ip link
+clear
+ip link
+sudo ip link set enp3s0 down
+clear
+ip link
+sudo ip link set enp3s0 up
+sudo ip link set wlp2s0 up
+clear
+ip link
+sudo ip link set enp3s0 down
+clear
+ip a
+sudo ip link set enp3s0 up
+clear
+ip link
+clear
+ip link
+sudo ip set enp3s0 donw
+sudo ip set enp3s0 down
+sudo ip link set enp3s0 down
+clear
+ip link
+ip link set enp3s0 up
+sudo ip link set enp3s0 up
+clear
+ip link
+sudo ip link set enp3s0 down
+ip link
+sudo ip link set enp3s0 up
+ip link
+clear
+ip link
+clear
+iplink
+ip link
+ip link enp3s0 set up
+ip link set enp3s0 up
+sudo ip link set enp3s0 up
+clear
+ip link
+NetworkManager
+sudo NetworkManager
+sudo NetworkManager.service
+sudo systemctl daemon-reload
+sudo systemctl status
+sudo systemctl stop org.cups.cupsd.service
+sudo systemctl disable org.cups.cupsd.service
+clear
+systemctl reload-or-restart NetworkManager.service
+clear
+sudo systemctl daemon-reload
+sudo systemctl daemon-reexec
+systemctl status
+sudo systemctl reload-or-restart wpa_supplicant.service
+ping google.com -c 3
+ping google.com -c 3
+ping google.com -c 3
+ip link
+ping google.com
+clear
+ip link
+exit
+history
+sudo pacman -Syyy
+sudo pacman -Syu
+sudo pacman -Rns caps
+clear
+grep 'pacman' ~/.config/zsh/zsh_history
+sudo pacman -Rns cups
+sudo pacman -Rns system-config-printer
+clear
+sudo pacman -Syyy
+sudo pacman -Syu
+clera
+clear
+sudo pacman -Sc
+clear
+bashtop
+exit
+ping -h
+exit
+ip a
+exit
+clear
+lsa
+rm doc/downloads/qrcode.png
+xdg-open doc/downloads/qrcode.png
+xdg-open doc/downloads/qrcode.png
+clear
+sudo nmcli connection show
+sudo nmcli connection delete CBreiny
+sudo nmcli connection add
+sudo nmcli device wifi rescan
+sudo nmcli radio wifi on
+sudo nmcli device wifi rescan
+sudo nmcli device wifi rescan
+sudo nmcli device wifi list
+sudo nmcli device wifi list | head 10
+sudo nmcli device wifi list | head -10
+sudo nmcli device wifi connect CBreiny password sep2018Q466WEGJ9R!
+clear
+nmcli connection show
+nmcli connection delete CBreiny
+sudo nmcli device wifi connect CBreiny-5G password sep2018Q466WEGJ9R!
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli connection show
+nmcli radio wifi off
+nmcli connection show
+clear
+nmcli connection show
+nmcli connection show
+nmcli connection down Ethernet
+nmcli connection show
+nmcli radio wifi on
+nmcli connection show
+nmcli connection up CBreiny-5G
+nmcli connection show
+nmcli connection show
+pkill chromium
+exit
+startx
+bashtop
+shutdown -h now
+chromium&
+disown
+exit
