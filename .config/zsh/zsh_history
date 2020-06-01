@@ -1,600 +1,3 @@
-vim .config/polybar/modules.ini
-vim .config/polybar/launch.sh
-vim .config/bspwm/bspwmrc
-vim .config/sxhkd/sxhkdrc_bspc
-vim .config/bspwm/bspwmrc
-vim .config/polybar/launch.sh
-vim .config/polybar/launch.sh
-exit
-vim .config/alacritty
-vim .config/alacritty/alacritty.yml
-urxvt &
-clear
-lsa
-vim .config/alacritty/alacritty.yml
-mv .config/polybar/modules2 .config/polybar/modules_copy
-vim .config/polybar/config
-mv .config/polybar/modules .config/polybar/modules_old
-mv .config/polybar/config .config/polybar/config_old
-mv .config/polybar/colors .config/polybar/colors_old
-mv .config/polybar/*.ini .config/polybar/*
-mv .config/polybar/*.ini .config/polybar/*.
-lsa .config/polybar
-pkill polybar
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-pkill polybar
-pkill sxhkd
-bspc wm -r
-.config/polybar/launch.sh
-vim .config/polybar/launch.sh
-.config/polybar/launch.sh
-.config/polybar/launch.sh
-exit
-xrandr
-loadbin
-xrandr
-loadbin
-loadbin
-loadbin
-loadbin
-loadbin
-loadbin
-loadbin
-xrandr
-loadbin
-xrandr
-loadbin
-xrandr
-xrandr
-clear
-xrandr
-loadbin
-xrandr
-loadbin
-xrandr
-loadbin
-xrandr
-loadbin
-loadbin
-vim .config/polybar/modules
-vim .config/polybar/colors
-vim .config/polybar/copy_config
-mv .config/polybar/copy_config .config/polybar/config.ini
-vim .config/polybar/config.ini
-vim .config/polybar/config.ini
-cp .config/polybar/modules .config/polybar/modules.ini
-cp .config/polybar/colors .config/polybar/colors.ini
-rm .config/polybar/*copy*
-vim .config/polybar/colors.ini
-vim .config/polybar/colors.ini
-vim .config/polybar/config.ini
-vim .config/polybar/config.ini
-exit
-dotfiles status
-clear
-dotfiles status
-dotfiles status
-clear
-dotfiles status
-dotfiles add .config/polybar
-dotfiles status
-dotfiles commit -m "cleaning up polybar files and appearence"
-clear
-dotfiles status
-dotfiles add .config/sxhkd/sxhkdrc
-dotfiles commit -m "simple key adjustments"
-dotfiles status
-dotfiles add .config/sxhkd
-dotfiles commit -m "simple key adjustments"
-dotfiles status
-clear
-dotfiles status
-dotfiles add .config/alacritty
-dotfiles status
-dotfiles commit -m "fixed dpi scaling bug"
-clear
-dotfiles status
-dotfiles add .config/bashtop
-dotfiles add .config/zsh
-dotfiles statuis
-dotfiles status
-dotfiles commit -m "cleanup"
-clear
-dotfiles status
-dotfiles add .local/bin/display_conf
-dotfiles commit -m "adjusted scale size for secondary display"
-dotfiles status
-dotfiles push
-clear
-dotfiles status
-exit
-bashtop
-exit
-startx
-sudo pacman -Syyy
-sudo pacman -Syu
-yay -Syyy
-yay -Syu
-clear
-lsa
-dotfiles status
-clear
-pkill chromium
-shutdown -h now
-sudo pacman -Syyy
-sudo pacman -Syu
-yay -Syyy
-yay -Syu
-clear
-lsa
-dotfiles status
-clear
-pkill chromium
-shutdown -h now
-sudo pacman -Syyy
-sudo pacman -Syu
-yay -Syyy
-yay -Syu
-clear
-lsa
-dotfiles status
-clear
-pkill chromium
-shutdown -h now
-sudo pacman -Syyy
-sudo pacman -Syu
-yay -Syyy
-yay -Syu
-clear
-lsa
-dotfiles status
-clear
-pkill chromium
-shutdown -h now
-chromium&
-disown
-exit
-loadbin
-display_conf
-exit
-vim .config/sxhkd/sxhkdrc_bspc
-vim .config/polybar/config.ini
-exit
-pkill polybar
-exi
-exit
-lsa
-vim .config/bspwm/bspwmrc
-vim .config/bspwm/bspwmrc
-vim .config/bspwm/bspwmrc
-exit
-pkill sxhkd
-bspc wm -r
-exit
-exit
-exit
-pkill sxhkd
-bspc wm -r
-exit
-vim .config/bspwm/bspwmrc
-pkill polybar
-pkill sxhkd
-bspc wm -r
-vim .config/bspwm/bspwmrc
-vim .config/polybar/launch.sh
-vim .config/bspwm/bspwmrc
-vim .config/bspwm/bspwmrc
-bspc wm -r
-pkill polybar
-exit
-vim .config/bspwm/bspwmrc
-vim .config/polybar/launch.sh
-exit
-alsamixer
-alsamixer
-exit
-alsamixer
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-bspc query --nodes -n -t hidden
-bspc query --nodes -t hidden
-bspc query --nodes -d prev
-bspc query --nodes -d prev -t hidden
-bspc query --nodes -d -f prev -t hidden
-bspc query -n prev
-bspc query -n prev -t hidden
-bspc query --nodes prev
-bspc query --nodes -f prev
-bspc query --nodes -n prev
-bspc query --nodes -n
-bspc query --nodes -n prev -t
-bspc query --nodes -n prev -f
-bspc query --nodes -f -n prev
-bspc node -f prev
-bspc node 0x00E00002.state
-bspc node 0x00E00002
-bspc node 0x00E00002 -t
-bspc node 0x00E00002 -t ~hidden
-bspc node 0x00E00002 -t hidden
-bspc node 0x00E00002 -t activate
-bspc node 0x00E00002 -t
-bspc node 0x00E00002 -t sticky
-bspc node 0x00E00002 -f
-bspc node -f -C
-bspc node -f -C forward
-bspc node -f -C forward
-bspc node -f -C backward
-bspc desktop -f -C backward
-bspc query -N -n any
-bspc query -N -n --state
-bspc query -N -n -t
-bspc query -N any
-bspc query -N any -t
-bspc query -N -n hidden
-bspc query -N hidden
-bspc query -N any.hidden
-bspc query -N any.
-bspc query -N any
-bspc query -N any
-bspc query -D -n any.hidden
-bspc query -D -n any.hidden -f
-bspc query -D -n -f any.hidden
-bspc query -D -n any.hidden
-bspc node $(bspc query -D -n any.hidden) -t hidden
-bspc query -N any
-bspc query -N hidden
-bspc query -N any.hidden
-bspc query -N any
-bspc query -N 
-bspc query -N "
-bspc query -N any.local
-bspc query -N any
-bspc query -N -n hidden
-bspc query -N -n any.hidden
-bspc query -N -n any.hidden -f
-bspc query -N -f -n any.hidden
-bspc query -N -n -f any.hidden
-bspc query -N -n any.hidden
-bspc query -N -n any.hidden -t
-bspc query -N -n any.hidden
-echo $(bspc query -N -n any.hidden)
-bspc node $(bspc query -N -n any.hidden)
-bspc node $(bspc query -N -n any.hidden) -f
-bspc node $(bspc query -N -n any.hidden) --focus
-bspc node $(bspc query -N -n any.hidden) -t
-bspc node $(bspc query -N -n any.hidden) -t hidden
-bspc node $(bspc query -N -n any.hidden) -a
-bspc node $(bspc query -N -n any.hidden) -f
-bspc node $(bspc query -N -n any.hidden) -g hidden
-exit
-vim .config/sxhkd/sxhkdrc_copy
-vim .config/sxhkd/sxhkdrc_bspc
-vim .config/sxhkd/sxhkdrc_bspc
-exit
-t
-exit
-exit
-exit
-exit
-startx
-bspc query -N any
-bspc query -N any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.hidden
-bspc query -N -n any.sticky
-bspc query -N -n any.private
-bspc query -N -n any.locked
-bspc query -N -n any.urgent
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc node any.marked
-bspc node any.marked -s -f 
-bspc node -s any.marked
-bspc node -s any.marked
-bspc node -s any.marked
-bspc node -s any.marked
-bspc node -s any.marked
-bspc node -f -s any.marked
-bspc node -f -s last.marked
-bspc node -f -s last.marked.last
-bspc node -f -s marked.last
-bspc node any.marked
-bspc node any.marked -s focused
-bspc node any.marked -s focused
-bspc node any.marked -s -f
-bspc node last.marked -s 
-bspc node last.marked -s focused
-bspc node last.marked -s focused
-bspc node last.marked -s focused
-bspc node last.marked -s focused
-bspc query -N -n any.marked
-bspc node -f
-bspc query -N -n -f
-bspc query -N -n
-bspc query -N -n any.marked
-bspc node last.marked -s focused
-bspc node last.marked -s focused
-bspc node last.marked -s focused
-bspc node last.marked -s focused
-bspc node last.marked -s focused -f
-bspc node last.marked -s focused -f -g marked "~{on,off}"
-bspc node last.marked -s focused -f -g marked "~{on,off}"
-bspc node last.marked -s focused -f && bspc node -g marked "~{on,off}"
-bspc node last.marked -s focused -f && bspc node -g marked "~{on,off}"
-bspc node last.marked -s focused -f && bspc node -g marked "~{on,off}"
-bspc node last.marked -s focused -f && bspc node -g marked "~{on,off}"
-bspc node last.marked
-bspc deskop last.marked
-bspc desktop last.marked
-bspc desktop -f.marked
-bspc desktop focused .marked
-bspc desktop focused.marked
-bspc desktop focused
-bspc query -N any
-bspc query -N any.marked
-bspc query -N any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked
-bspc query -D -n any.marked
-bspc query -N -n any.marked
-bspc query -N -n any.marked && bspc node -s $(bspc query -N -n any.marked)
-bspc query -N -n any.marked && bspc node -s $(bspc query -N -n any.marked)
-bspc query -N -n any.marked && bspc node -s $(bspc query -N -n any.marked)
-bspc node last.marked -s focused -f && bspc node -g marked "~{on,off}"
-bspc node last.marked -s focused -f && bspc node -g marked "~{on,off}"
-bspc node last.marked -s focused -f && bspc node -g marked "~{on,off}"
-vim dev/bin/bspwm_smart_move.sh
-vim dev/bin/bspwm_resize.sh
-vim .config/sxhkd/sxhkdrc_bspc
-cp .config/sxhkd/sxhkdrc_bspc .config/sxhkd/sxhkdrc_copy
-cp .config/sxhkd/sxhkdrc .config/sxhkd/sxhkdrc_copy
-vim .config/sxhkd/sxhkdrc
-lsa
-vim 
-vim .config/polybar/config.ini
-vim .config/polybar/modules.ini
-bashtop
-vim .config/sxhkd/sxhkdrc_info
-vim .config/sxhkd/sxhkdrc_info
-vim .config/sxhkd/sxhkdrc_copy
-vim .config/sxhkd/sxhkdrc_bspc
-chromium&
-disown
-exit
-exit
-vim .config/sxhkd/sxhkdrc
-exit
-clear
-dotfiles status
-dotfiles add .config/sxhkd 
-dotfiles status
-dotfiles commit -m "hotkey overhaul part 1"
-clear
-dotfiles status
-dotfiles add .config/polybar
-dotfiles commit -m "polybar overhaul part 1"
-dotfiles status
-dotfiles add .config/bspwm/bspwmrc
-dotfiles commit -m "fixed bug preventing polybar update on bspwm reload"
-clear
-dotfiles status
-dotfiles add .config/bashtop
-dotfiles commit -m interval"
-dotfiles commit -m "interval"
-dotfiles status
-dotfiles add .config/zsh/zsh_history
-dotfiles commit -m "history update"
-dotfiles status
-dotfiles push
-exit
-vim dev/bin/display_conf.sh
-vim dev/bin/display_conf.sh
-mv dev/bin/display_conf.sh dev/bin/conf_display.sh
-loadbin
-vim .config/bspwm/bspwmrc
-exit
-dotfiles status
-dotfiles add .config/bashtop
-dotfiles commit -m "bug fix"
-dotfiles add .config/bspwm
-dotfiles commit -m "changed display config"
-dotfiles add .local/bi
-dotfiles add .local/bin
-dotfiles status
-dotfiles commit -m "script for configuring multi head display set up"
-dotfiles push
-exit
-startx
-bashtop
-clear
-lsa
-bashtop
-shutdown -h now
-chromium&
-disown
-exit
-bashtop
-exit
-sudo pacman -Syyy
-sudo pacman -Syu
-yay -syyy
-yay -syyy
-yay -syu
-yay -syy
-clear
-yay
-yay -Syy
-yay -Syyy
-yay -Syu
-clear
-pkill chromium
-shutdown -h now
-startx
-dotfiles status
-dotfiles add .config/bashtop/bashtop.cfg
-dotfiles commit -m "update interval"
-dotfiles add .config/bashtop/error.log
-dotfiles commit -m "error log (delete this)
-dotfiles commit -m "error log (delete this)"
-vim .config/bspwm/bspwmrc
-dotfiles status
-dotfiles add .config/zsh/zsh_history
-dotfiles commit -m "zsh hist file (delete this)"
-dotfiles add .config/bspwm/bspwmrc
-dotfiles status
-dotfiles commit -m "code cleanup"
-dotfiles push
-sudo pacman -Syyy
-sudo pacman -Syu
-dotfiles status
-clear
-yay -Syyy
-yay -Syu
-sudo pacman -Syu
-shutdown -h now
-dotfiles status
-reboot
-vim dev/bin/backup_home.sh
-exit
-chromium&
-disown
-exit
-vim dev/bin/backup_system.sh
-startx
-vim dev/bin/backup_system.sh
-lsblk
-sudo mount du
-du -h
-du -h /
-du -h /*
-clear
-du -df /*
-du -dh /*
-du -h /*
-du -df /*
-du -dh /*
-du -fh /*
-du - /*
-du -help /*
-du --help /*
-du -ha /*
-du -ht /*
-du -hr /*
-du -hf /*
-du -ha /*
-df -h
-lsblk
-clera
-clear
-lsblk
-sudo mount /dev/sdb1 /mnt
-lsa /mnt
-df -h
-sudo pacman -Syyy
-sudo pacman -Syu
-mount boot
-sudo mount /boot/efi
-sudo mount /boot
-lsblk
-sudo mount /efi
-sudo mount /boot/efi
-sudo pacman -S vfat
-sudo pacman -S libfat
-sudo pacman -S fat
-sudo pacman -S dosfstools
-sudo mount /boot/efi
-sudo mount /boot/efi
-sudo mount /dev/nvme0n1p1
-sudo mount /dev/nvme0n1p2
-lsblk
-sudo mount -a
-lsblk
-lsblk
-sudo pacman -S ntfs-3g
-sudo mount -a
-lsblk
-sudo mount /boot/efi
-sudo pacman -Rns dosfstools
-reboot
-chromium&
-disown
-exit
-lsa .cache
-lsa .cache/fontconfig
-lsa .cache/yay
-exit
-sudo pacman -Sc
-sudo pacman -Qtdq
-sudo di -sh ~/.cache/
-sudo du -sh ~/.cache/
-rm -rf ~/.cache
-sudo du -sh ~/.cache/
-exit
-man sed
-vim dev/bin/extract.sh
-vim dev/bin/compiler.sh
-exit
-man rsync
-vim .config/sxhkd/sxhkdrc_bspc
-exit
-vim .config/sxhkd/sxhkdrc_bspc
-vim .config/sxhkd/sxhkdrc
-exit
-exit
-lsa /
-lsla /
-exit
-lsa /
-lsaa /
-lsla /
-lsl /
-clear
-ls /
-clear
-lsa /
-man rsync
-man rsync
-t
-exit
-df -h | grep -E '^(/dev/)+([.-/])$'
-df -h | grep -E '^(/dev/)+([.-/])'
-df -h | grep -E '^(/dev/)+(.-^[/])'
-df -h | grep -E '^(/dev/)+(.-[/])'
-df -h | grep -E '^(/dev/)+(.-/)'
-df -h | grep -E '^(/dev/[/w])'
-df -h | grep -E '^(/dev/[/w])+'
-df -h | grep -E '^(/dev/)[\w]+'
-df -h | grep -E '^(/dev/)+[\w]+'
-df -h | grep -E '^(/dev/)+[\w]'
-df -h | grep -E '^(/dev/)+[\w]*'
-df -h | grep -E '^(/dev/)+[w]*'
 df -h | grep -E '^(/dev/)+(\)*'
 df -h | grep -E '^(/dev/)+\*'
 df -h | grep -E '^(/dev/)+\'
@@ -1998,3 +1401,617 @@ shutdown -h now
 chromium&
 disown
 exit
+unzip doc/downloads/w4.0_mr_u08.zip
+clear
+lsa
+rm userguide.html
+lsa atsc
+rm -rf atsc
+lsa
+rm -rf .cups
+lsa
+lsa .config
+lsa
+clear
+cd doc/downloads
+unzip --help
+man unzip
+unzip w4.0_mr_u08.zip -q
+unzip -q w4.0_mr_u08.zip
+lsa
+mv qrcode.png .*
+mv qrcode.png .qrcode.png
+rm *
+lsa
+cd '$RW6UB37.exe'
+cd atsc
+cd ..
+rm -rf atsc
+clear
+lsa
+lsa atsc
+sudo rm -rf atsc
+clear
+lsa
+rm '$RW6UB37.exe'
+clear
+lsa
+mv .qrcode.png qrcode.png
+clear
+lsa
+dotfiles status
+cd ~
+clear
+dotfiles status
+dotfiles add .config/sxhkd
+dotfiles commit -m "added new key binding for properly closing windows"
+dotfiles add .local/bin/backup_system
+dotfiles commit -m "improvments and cleanup"
+dotfiles add .config/zsh
+dotfiles add .config
+dotfiles status
+dotfiles add .config/*
+dotfiles status
+clear
+dotfiles status
+dotfiles add .config/*
+dotfiles add .config/systemd
+dotfiles add .config/systemd -f
+dotfiles status
+clear
+dotfiles status
+dotfiles restore --staged .config/systemd
+clear
+dotfiles status
+dotfiles commit -m "more cleanup"
+dotfiles add .config/systemd
+dotfiles add .config/systemd -f
+dotfiles commit -m "service calling my script to move chromium cache to tmpfs on startup"
+dotfiles status
+dotfiles push
+bashtop
+startx
+shutdown -h now
+reboot
+chromium&
+disown
+exit
+chromium&
+disown
+clear
+exit
+lsa /
+du -sh /*
+sudo du -sh /*
+exit
+echo "home/chris/test//" || awk '/[^_\w]/\//
+echo "home/chris/test//" || awk '/[^_\w]/\//'
+echo "home/chris/test//" || awk 's/[^_\w]/\//'
+echo "home/chris/test//" || awk 's/[^_\w]/\//g'
+echo "home/chris/test//" || awk 's/[^_\w]*$/\//g'
+echo "home/chris/test//" || awk 's/[^_\w]*$/\//'
+echo "home/chris/test//" || awk '/[^_\w]*$/\//'
+echo "home/chris/test//" || awk '/[^_\w]*$/\//g'
+echo "home/chris/test//" || awk '/[^_]*$/\//g'
+echo "home/chris/test//" || awk '/[^\W]*$/\//g'
+echo "home/chris/test//" || awk '/[^\W]*$/^/g'
+echo "home/chris/test//" || awk '/[^\W]*$/^/'
+echo "home/chris/test//" || awk '/[^_\w]*$/\//g {print}'
+echo "home/chris/test//" || awk '/[^_\w]*$/\//g {print $0}'
+echo "home/chris/test//" || awk '/[^_\w]*$/\//g {print $1}'
+echo "home/chris/test//" || awk '/[^_\w]*$/\//g {print(hello)}'
+echo "home/chris/test//" | awk '/[^_\w]*$/\//g {print(hello)}'
+echo "home/chris/test//" | awk '/[^_\w]*$/\//g'
+echo "home/chris/test//" | awk '/[^_\w]*$/\//'
+echo "home/chris/test//" | awk 's/[^_\w]*$/\//'
+echo "home/chris/test//" | awk 's/[^_\w]*$/\//g'
+echo "home/chris/test//" | awk 's/[^_]*$/\//g'
+echo "home/chris/test//" | awk 's/[_]*$/\//g'
+echo "home/chris/test//" | awk '/[_]*$/\//g'
+echo "home/chris/test//" | awk '/[_]*$/\//'
+echo "home/chris/test//" | awk '/[_]*$///'
+echo "home/chris/test//" | awk '/[_]*$//'
+echo "home/chris/test//" | awk '/_*$//'
+echo "home/chris/test//" | awk '/_*$// {print}'
+echo "home/chris/test//" | awk '/_*$// print'
+echo "home/chris/test//" | awk '/_*$/'
+echo "home/chris/test//" | awk '/_\w*$/'
+echo "home/chris/test//" | awk '/^_\w*$/'
+echo "home/chris/test//" | awk '/[^_\w]*$/'
+echo "home/chris/test//" | awk '/[^_\W]*$/'
+echo "home/chris/test//" | awk '/[^_\w]*$/'
+echo "home/chris/test//" | awk '/[_\w]*$/'
+echo "home/chris/test//" | awk '/[_\W]*$/'
+echo "home/chris/test//" | awk '/_\w*$//'
+echo "home/chris/test//" | awk '/_\w*$///'
+echo "home/chris/test//" | awk 's/_\w*$///'
+echo "home/chris/test//" | awk 's/_\w*$///g'
+echo "home/chris/test//" | awk '/_\w*$///'
+echo "home/chris/test//" | sed 's/[^\w]*$/g'
+echo "home/chris/test//" | sed 's/[^\w]*$/'
+echo "home/chris/test//" | sed 's/[^\w]*$/\//'
+echo "home/chris/test//" | sed 's/[^\W]*$/\//'
+echo "home/chris/test//" | sed 's/[^]*$/\//'
+echo "home/chris/test//" | sed 's/[^_]*$/\//'
+echo "home/chris/test//" | sed 's/[^a-zA-Z]*$/\//'
+echo "home/chris/test_a//" | sed 's/[^a-zA-Z]*$/\//'
+man sed
+test="hello"
+echo $test
+sed 's/\w/#/' $test
+echo "/test_b" >> sed 's/\w/#/'
+lsa
+cat sed
+rm sed
+lsa
+echo "/test_b" >>> sed 's/\w/#/'
+lsa
+clear
+echo "home/chris/test_a//" | sed 's/[^a-zA-Z]*$/\//'
+echo "home/chris/test_a//" | sed 's/[^\w]*$/\//'
+echo "home/chris/test_a//" | sed 's/[\W]*$/\//'
+echo "home/chris/test_a//" | sed 's/[^\W]*$/\//'
+echo "home/chris/test_a//" | sed 's/\W*$/\//'
+echo "home/chris/test_a//" | sed 's/\w*$/\//'
+echo "home/chris/test_a//" | sed 's/\W*$/\//'
+echo $(echo "home/chris/test_a//" | sed 's/\W*$/\//')
+echo $(echo "home/chris/test_a//" | sed 's/\W*$/\//')/testingsagasldfsl_adfs_asdfads_
+echo $(echo "home/chris/test_a//" | sed 's/\W*$//')/testingsagasldfsl_adfs_asdfads_
+echo $(echo "home/chris/test_a//" | sed 's/\W*$//')/testingsagasldfsl_adfs_asdfads_
+echo $(echo "home/chris/test_a//" | sed 's/\W*$/\//')/testingsagasldfsl_adfs_asdfa/ds_
+echo $(echo "home/chris/test_a////" | sed 's/\W*$/\//')/testingsagasldfsl_adfs_asdfa/ds_
+echo $(echo "home/chris/test_a////" | sed 's/\W*$/\//')testingsagasldfsl_adfs_asdfa/ds_
+echo $(echo "home/chris/test_a///" | sed 's/\W*$/\//')testingsagasldfsl_adfs_asdfa/ds_
+echo $(echo "home/chris/test_a/" | sed 's/\W*$/\//')testingsagasldfsl_adfs_asdfa/ds_
+echo $(echo "home/chris/test_a" | sed 's/\W*$/\//')testingsagasldfsl_adfs_asdfa/ds_
+exit
+man mount
+exit
+lsa
+du -sh system_backup
+rm -rf system_backup
+sudo rm -rf system_backup
+clear
+lsa
+lsblk
+clear
+sudo mount /dev/sdb1 /mnt
+lsa /mnt
+cd backups
+clear
+cd /mnt/backups
+clear
+lsa
+cd ..
+lsa
+cd backups
+mkdir test
+sudo mkdir test
+lsa
+rm -f test
+rm -r test
+lsa
+sudo rm -r test
+lsa
+clear
+lsa
+lsa
+rm -rf osiris_05_08_2020
+sudo rm -rf osiris_05_08_2020
+clear
+lsa
+lsa
+lsa osiris_05_08_
+lsa osiris_05_08_2020
+rm osiris_05_08_* -rf
+sudo rm osiris_05_08_* -rf
+clear
+lsa
+lsa
+lsa osiris_05_08_
+sudo rm osiris_05_08_/
+sudo rmdir osiris_05_08_
+sudo rm -rf osiris_05_08_
+clear
+lsa
+lsa
+rm dir bin lib opt sbin
+sudo rm -rf bin sbin srv var usr opt lost+found lib* home etc boot
+clear
+lsa
+sudo rm -rf root
+lsa
+lsa
+lsa
+lsa osiris_05_08_2020
+lsa
+sudo rm -rf osiris_05_08_2020
+clear
+lsa
+cd ..
+lsa
+cd ..
+lsa
+..
+..
+cd /mnt
+sudo umount /mnt
+cd ..
+sudo umount /mnt
+lsa
+cd mnt
+las
+lsa
+clear
+lsblk
+sudo mount /dev/sdb1 /mnt
+clear
+df -du
+df -h
+df -h
+df -h
+df -h
+df -h
+df -h
+du -dh /
+du -h /
+du -dh /*
+du -sh /*
+sudo du -sh /usr
+sudo du -sh /var
+exit
+loadbin
+exit
+loadbin
+exit
+du
+du -h /
+df
+df -h
+clear
+lsblk
+sudo mount /boot/efi
+clear
+lsblk
+df -h 
+df -h 
+df -h 
+df -h 
+df -h 
+df -h 
+df -h 
+df -h 
+df -h 
+man rsync
+exit
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+backup_system
+loadbin
+backup_system
+loadbin
+backup_system
+sudo backup_system
+backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+loadbin
+sudo backup_system
+du -h /
+du -sh /
+sudo du -sh /
+sudo du -sh /*
+sudo du -h /*
+du --help
+du -sh /*
+sudo du -sh /
+sudo du -sh /*
+clear
+loadbin
+sudo backup_system 
+loadbin
+sudo backup_system 
+sudo backup_system /mnt/backups/osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups/osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups/osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups/osiris_05_08_2020
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+lsa
+lsa dev
+rmdir usr var srv
+clear
+lsa
+rmdir opt root etc bin bot
+rmdir opt root etc bin boot
+clear
+lsa
+rmdir lib lost+found sbin lib64
+clear
+lsa
+rmdir home
+lsa
+clear
+lsa
+dotfiles status
+clear
+loadbin
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+sudo backup_system /mnt/backups osiris_05_08_2020//
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020//
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020//
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020//
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020//
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020//
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020//
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020//
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020//
+sudo backup_system /mnt/backups osiris_05_08_2020/
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+lsa
+lsa system_backup
+sudo rm -rf system_backup
+clear
+lsa
+lsa /mnt
+lsa /mnt/backups
+cd /mnt/backups
+rm osiris_05_08_2020 -rf 
+sudo rm osiris_05_08_2020 -rf 
+lsa
+lsa /
+clear
+lsa
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+sudo backup_system /mnt/backups osiris_05_08_2020
+lsa
+sudo rm -rf osiris_05_08_2020
+lsa
+loadbin
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+sudo rm -rf osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+loadbin
+sudo backup_system /mnt/backups osiris_05_08_2020
+exit
+cd /mnt/backups
+sudo rm -rf osiris_05_08_2020
+loadbin
+clear
+lsa
+lsa
+lsa
+lsa
+lsa /
+clear
+lsa
+lsa
+sudo rm -rf osiris_05_08_2020
+lsa
+sudo rm -rf osiris_05_08_2020
+lsa
+sudo rm -rf osiris_05_08_2020
+clear
+lsa
+lsa
+du -h
+du -sh /mnt/backups
+du -sh /mnt/.
+du -sh /mnt/*
+du -sh /mnt
+du -sh /mnt/
+sudo du -sh /mnt/*
+sudo du -sh /mnt
+lsa
+lsblk
+sudo umount /mnt
+sudo umount /mnt
+sudo umount /mnt
+sudo umount /mnt
+exit
+bashtop
+man rsync
+htop
+top
+exit
+startx
+alsamixer
+lsa
+rm .nmcli-history
+lsa
+cd .urxvt
+lsa
+cd ..
+rm .urxvt -rf
+lsa
+cd system_backup
+lsa
+lsla
+du .
+clear
+lsa
+cd ..
+lsa
+..
+cd chris
+clear
+lsa
+rm system_backup -rf
+sudo rm system_backup -rf
+clear
+sudo pacman -Syyy
+sudo pacman -Syu
+clear
+sudo mount -a
+lsblk
+sudo mount /boot/efi
+clear
+lsa
+clear
+lsblk
+clear
+sudo umount /boot/efi
+clear
+lsblk
+vim dev/bin/backup_system.sh
+vim dev/bin/backup_system.sh
+vim dev/bin/backup_system.sh
+vim dev/bin/backup_system.sh
+mv dev/bin/backup_system.sh dev/bin/system_backup.sh
+rm dev/bin/backup_home.sh
+clear
+lsa
+df -h /
+df -h
+bashtop
+bashtop
+sudo umount /mnt
+clear
+lsblk
+sudo mount /mnt/sdb1 /mnt
+sudo mount /dev/sdb1 /mnt
+lsa
+lsblk
+du -sh /mnt
+sudo du -sh /mnt/*
+sudo umount /mnt
+lsblk
+umount /boot/efi
+sudo umount /boot/efi
+clear
+lsa
+lsblk
+lsa
+clear
+lsa
+lsblk
+lsa
+clera
+clear
+lsa
+lsblk
+mount /dev/sdb1 /mnt
+sudo mount /dev/sdb1 /mnt
+lsa /mnt
+umount /mnt
+sudo umount /mnt
+clear
+lsa
+lsblk
+fdisk sdb
+fdisk /dev/sdb
+sudo fdisk /dev/sdb
+sudo fdisk /dev/sdb
+mkfs.fat -F32 /dev/sdb1
+sudo mkfs.fat -F32 /dev/sdb1
+lsa
+umount /mnt
+sudo umount /mnt
+lsa
+lsblk
+shutdown -h now
+chromium&
+disown
+exit
+clear
+lsa
+startx
+sudo pacman -Syyy
+sudo pacman -Syu
+cd doc/downloads
+extract CSME_Version_Detection_Tool_Linux.tar.gz
+sudo extract CSME_Version_Detection_Tool_Linux.tar.gz
+clear
+lsa
+tar -x CSME_Version_Detection_Tool_Linux.tar.gz
+tar -xf CSME_Version_Detection_Tool_Linux.tar.gz
+lsa
+./intel_csme_version_detection_tool
+shutdown -h now
+bash top
+bashtop
