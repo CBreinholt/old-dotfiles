@@ -1,13 +1,16 @@
 #!/bin/bash
 
 SRC=("bin" "boot" "etc" "home" "lib" "lib64" "lost+found" "opt" "root" "sbin" "srv" "usr" "var")
-DEST="$(echo "${1:-$PWD}/system_backup" | sed 's/[^a-zA-z]*$/\//')"
+DEST="$(echo "${1:-$PWD}" | sed 's/\W*$//')/${2:-system_backup}/"
 
 echo "==>  Starting system backup to $DEST"
 for dir in "${SRC[@]}"; do
-    [[ -r "/$dir"  &&  -s "/$dir" ]] && \
-        $(mkdir -p $DEST$dir && echo "==>  Backing up /$dir to $DEST$dir" || echo "ERROR: /$dir does not exist!") && \
-        $(rsync -anq "/$dir" "$DEST$dir")
+    if [[ -r "/$dir"  &&  -s "/$dir" ]]; then
+        mkdir -p $DEST$dir && echo "==>  Backing up /$dir to $DEST$dir"
+        rsync -axHAXS --numeric-ids --info=progress2 "/$dir" "$DEST$dir"
+    else
+        echo "ERROR: /$dir does not exist!"
+    fi
 done
 
 #mkdir -p $DEST
