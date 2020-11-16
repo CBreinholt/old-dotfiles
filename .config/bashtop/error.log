@@ -488,8 +488,6 @@
 /usr/bin/bashtop: line 929: net_history_upload: bad array subscript
 /usr/bin/bashtop: line 929: net_history_upload: bad array subscript
 /usr/bin/bashtop: line 929: net_history_upload: bad array subscript
-/usr/bin/bashtop: line 929: net_history_upload: bad array subscript
-/usr/bin/bashtop: line 929: net_history_upload: bad array subscript
  
 New instance of bashtop version: 0.8.15 Pid: 1309
  
@@ -500,3 +498,5 @@ New instance of bashtop version: 0.8.15 Pid: 24006
 New instance of bashtop version: 0.8.15 Pid: 54419
  
 New instance of bashtop version: 0.8.15 Pid: 1898
+ 
+New instance of bashtop version: 0.8.15 Pid: 2294
