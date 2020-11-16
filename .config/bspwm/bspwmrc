@@ -12,13 +12,16 @@
 iscmd conf_display && conf_display
 
 # Set the workspaces per monitor.
-if [ "$(bspc query -M | wc -l)" -eq 2 ]; then
-	bspc monitor "eDP1" -d 1 2 3 4 5
-	bspc monitor "HDMI2" -d 6 7 8 9 0
-    bspc config borderless_monocle false
-else
-	bspc monitor -d 1 2 3 4 5 6 7 8 9 0
-fi
+bspc monitor -d 1 2
+
+#if [ "$(bspc query -M | wc -l)" -eq 2 ]; then
+	#bspc monitor "eDP-1" -d 1 2 3 4 5
+	#bspc monitor "DP-1" -d 1 2 3 4 5
+	#bspc monitor "HDMI2" -d 6 7 8 9 0
+    #bspc config borderless_monocle false
+#else
+	#bspc monitor -d 1 2 3 4 5 6 7 8 9 0
+#fi
 
 
 #####====---Visual Options---====#####
@@ -30,13 +33,14 @@ bspc config ignore_ewmh_focus false
 bspc config single_monocle false
 bspc config pointer_modifier shift
 bspc config pointer_follows_monitor true
-bspc config focus_follows_pointer true
-bspc config borderless_monocle true
+bspc config focus_follows_pointer false
+bspc config borderless_monocle false
 bspc config gapless_monocle true
 bspc config remove_disabled_monitors true
 bspc config remove_unplugged_monitors true
-bspc config top_padding 22
+bspc config top_padding 0
 bspc config top_monocle_padding 0
+bspc config bottom_padding 22
 bspc config bottom_monocle_padding 0
 bspc config left_monocle_padding 0
 bspc config right_monocle_padding 0
