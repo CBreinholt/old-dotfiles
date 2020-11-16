@@ -2,14 +2,14 @@
 #include "/home/chris/.config/themes/nord.Xresources"
 
 !! Xorg settings
-Xft.dpi: 		        120
+Xft.dpi: 		        96
 Xft.rgba:		        rgb
 Xft.antialias:	 	    true
 Xft.hinting: 		    true
 Xft.hintstyle: 		    hintfull
 
 !! URxvt settings
-URxvt*font:  			        xft:SauceCodePro Nerd Font:pixelsize=18
+URxvt*font:  			        xft:SauceCodePro Nerd Font:pixelsize=12
 URxvt*scrollBar:                false
 URxvt*mouseWheelScrollPage: 	false
 URxvt*cursorBlink: 		        false
@@ -18,11 +18,11 @@ URxvt*utf8:			            true
 URxvt*locale: 			        true
 URxvt*iso14755:                 false
 URxvt*iso14755_52:              false
-URxvt*depth:                    32
+URxvt*depth:                    24
 URxvt*internalBorder: 		    12
 URxvt*letterSpace:		        0
 
-! URxvt keybindings and escape codes
+!! URxvt keybindings and escape codes
 URxvt.keysym.Shift-Control-V:     eval:paste_clipboard
 URxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
 URxvt.keysym.Control-Left:        \033[1;5D

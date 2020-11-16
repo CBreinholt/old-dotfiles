@@ -1,16 +1,21 @@
-#!/bin/bash
+#!/bin/sh
 #
 # display_conf --- Xrandr settings for my laptop/external display(s)
 #
 
 # Check if external is there, if not just use laptop display
-if [ -n "$(xrandr --query | grep 'HDMI2 disconnected')" ]; then
+#if [ -n "$(xrandr --query | grep 'HDMI2 disconnected')" ]; then
+if [ -n "$(xrandr --query | grep 'DP-1 disconnected')" ]; then
     xrandr \
-        --output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 --gamma 1:1:1 \
-        --output HDMI2 --off
+        --output "eDP-1" --mode 1920x1080 --auto --primary \
+        --output "DP-1" --off
+        #--output eDP1 --mode 1920x1080 --scale 1x1 --pos 0x0 --gamma 1:1:1 \
+        #--output HDMI2 --off
 else
     xrandr \
-        --output eDP1 --mode 1920x1080 --scale 1.00x1.00 --pos 0x0 --gamma 0.80:0.79:0.77 \
-        --output HDMI2 --mode 1360x768 --scale 1.30x1.30 --right-of eDP1
+        --output "eDP-1" --off \
+        --output "DP-1" --mode 1920x1080 --auto --primary
+        #--output eDP1 --mode 1920x1080 --scale 1.00x1.00 --pos 0x0 --gamma 0.80:0.79:0.77 \
+        #--output HDMI2 --mode 1360x768 --scale 1.30x1.30 --right-of eDP1
         #--output HDMI2 --mode 1360x768 --scale-from 1920x1080 --pos 1920x0
 fi

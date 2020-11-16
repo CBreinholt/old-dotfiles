@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# system_backup.sh
+# Uses rsync to make a complete backup of the current root directory
 
 SRC=("bin" "boot" "etc" "home" "lib" "lib64" "lost+found" "opt" "root" "sbin" "srv" "usr" "var")
 DEST="$(echo "${1:-$PWD}" | sed 's/\W*$//')/${2:-system_backup}/"
@@ -12,14 +15,3 @@ for dir in "${SRC[@]}"; do
         echo "ERROR: /$dir does not exist!"
     fi
 done
-
-#mkdir -p $DEST
-#rsync -anq --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/swapfile","/boot/*","/home/*","/lost+found"} \
-    #/ $DEST
-    #--info=progress2 / $DEST
-
-#echo "==>  Saving / to $DEST/boot"
-#rsync -aHAXS --info=progress2 /boot $DEST/boot
-
-#echo "==>  Saving / to $DEST/home"
-#rsync -aHAXS --info=progress2 /home $DEST/home

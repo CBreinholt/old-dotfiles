@@ -27,13 +27,13 @@
 !!!!!!!!!!!!!!!!!
 
 ! Clear affected keys
-clear lock
+!clear lock
 !clear mod3
 !clear mod4
 
 ! Swap caps lock and escape
-keycode 66 = Escape
-keycode 9 = Caps_Lock
+!keycode 66 = Escape
+!keycode 9 = Caps_Lock
 
 ! Right Alt as right Hyper
 !keycode 108 = Hyper_R
