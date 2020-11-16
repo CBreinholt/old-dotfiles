@@ -8,10 +8,10 @@
     export PATH="${PATH}:$HOME/.local/bin/"
 
 # Default programs
-export BROWSER="chromium"
-export EDITOR="vim"
+export BROWSER="brave"
+export EDITOR="nvim"
 export TERMINAL="alacritty"
-export READER="zathura"
+#export READER="zathura"
 
 # Common Xorg files
 export XAUTHORITY="${XDG_CONFIG_HOME:-$HOME/.config}/xorg/xauthority"
@@ -22,8 +22,8 @@ export BASHDIR="${XDG_CONFIG_HOME:-$HOME/.config}/bash"
 export ZDOTDIR="${XDG_CONFIG_HOME:-$HOME/.config}/zsh"
 export INPUTRC="${XDG_CONFIG_HOME:-$HOME/.config}/inputrc"
 export WGETRC="${XDG_CONFIG_HOME:-$HOME/.config}/wget/wgetrc"
-export LESSHISTFILE="-"
 export PASSWORD_STORE_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/password-store"
+export LESSHISTFILE="-"
 
 # Export XDG environmental variables from '~/.config/user-dirs.dirs'
 eval "$(sed 's/^[^#].*/export &/g;t;d' ~/.config/user-dirs.dirs)"

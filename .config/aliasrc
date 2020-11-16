@@ -7,6 +7,9 @@
 # Use neovim for vim if present.
 command -v nvim > /dev/null && alias vim="nvim -d"
 
+# For opening a browser window
+alias brave='/usr/bin/brave > /dev/null 2>&1 & disown'
+
 # cd into the previous working directory by omitting `cd`.
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -44,7 +47,7 @@ cd() {
 	fi
 }
 
-# Back up a file. Usage "backupthis <filename>"
+# Back up a file. Usage "backupfile <filename>"
 backupfile() {
 	cp -riv $1 ${1}-$(date +%Y%m%d%H%M).backup;
 }
