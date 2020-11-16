@@ -113,7 +113,7 @@ font:
     bold_italic:
         family: SauceCodePro Nerd Font
         style: Bold Italic
-    size: 11.0
+    size: 9.0
 
     # Offset is the extra space around each character. `offset.y` can be thought of
     # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -132,7 +132,7 @@ font:
     # effect.
     use_thin_strokes: true
 
-    scale_with_dpi: true
+    scale_with_dpi: false
 
     # If `true`, bold text is drawn using the bright color variants.
     draw_bold_text_with_bright_colors: true
@@ -187,7 +187,8 @@ colors:
 #   - Linear
 #
 # Specifying a `duration` of `0` will disable the visual bell.
-visual_bell:
+#visual_bell:
+bell:
     animation: EaseOutExpo
     duration: 0
     #color: '0xffffff'
@@ -205,7 +206,7 @@ selection:
     save_to_clipboard: true
 
 # Allow terminal applications to change Alacritty's window title.
-dynamic_title: true
+window.dynamic_title: true
 
 cursor:
     # Cursor style
