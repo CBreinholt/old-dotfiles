@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-src="$HOME/dev/bin/*"
+src="$HOME/dev/archive/scripts/sh/*"
 rm $HOME/.local/bin/*
 for file in $src; do
 	dest="$HOME/.local/bin/$(echo $file | sed 's/.*\///g' | sed 's/\.sh//g')"

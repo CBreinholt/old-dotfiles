@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #
 # Remap keyboard. Called in xinit during Xorg server start up
 
