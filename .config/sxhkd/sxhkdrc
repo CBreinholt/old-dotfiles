@@ -31,24 +31,29 @@ super + {_,shift +} w
 #################
 
 # Focus or Swap with the node in the given direction
-super + {_,alt +} {h,j,k,l}
-    bspc node -{f,s} {west,south,north,east}
+#super + {_,alt +}{h,j,k,l} + {_,shift}
+super + {_,alt +,alt+shift + }{h,j,k,l}
+    bspc node {-f,-s,_} {west,south,north,east}
 
 # Focus or Send to the given desktop
 super + {_,alt +} {0-9} + {_,shift}
     bspc {desktop -f,node -d} {0-9} {_,--follow}
 
-# Focus or Swap to the next/prev desktop on focused monitor
+# Focus/Swap to/with the next/prev desktop on focused monitor
 super + {_,alt +} bracket{left,right} + {_,shift}
     bspc desktop -f {_,-s} {prev,next}.local {-f last,--follow}
 
-# Focus the prev focused node or desktop
-super + {Tab,grave}
-    bspc {node,desktop} -f last
+# Focus or Swap to the next/prev desktop on focused monitor
+#super + {_,alt +} bracket{left,right} + {_,shift}
+    #bspc desktop -{f,s} {prev,next}.local -f last {_,--follow}
 
 # Focus the node for the given path jump
 super + {a,s,z,x}
     bspc node -f @{parent,brother,first,second}
+
+# Focus the prev focused node or desktop
+alt + {Tab,grave}
+    bspc {node,desktop} -f last
 
 
 ################
