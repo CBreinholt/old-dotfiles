@@ -7,9 +7,18 @@ if ! filereadable(expand('$HOME/.config/nvim/autoload/plug.vim'))
     autocmd VimEnter * PlugInstall
 endif
 
+"#######################################################
+" Polyglot vim configuration
+"#######################################################
+"let g:polyglot_disabled=['markdown']
+"#######################################################
+" Apparently this needs to come before the plugin itself
+"#######################################################
+
 " Plugin list:
 call plug#begin('~/.config/nvim/plugged')
 Plug 'arcticicestudio/nord-vim'
+Plug 'joshdick/onedark.vim'
 Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'tpope/vim-surround'
@@ -22,6 +31,10 @@ Plug 'rhysd/vim-grammarous'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'dense-analysis/ale'
 Plug 'airblade/vim-gitgutter'
+Plug 'vim-syntastic/syntastic'
+Plug 'sheerun/vim-polyglot'
+Plug 'ap/vim-css-color'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 call plug#end()
 
 " Some basics:
@@ -107,10 +120,24 @@ let g:airline#extensions#hunks#non_zero_only = 0
 let g:airline#extensions#hunks#hunk_symbols = ['+', '~', '-']
 let g:airline#extensions#ale#enabled=1
 let g:airline#extensions#wordcount#filetypes = ['text']
-"let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 1
+
+"set laststatus=2
+"let g:lightline = {
+      "\ 'colorscheme': 'onedark',
+      "\ 'active': {
+      "\   'left': [ [ 'mode', 'paste' ], [ 'filename' ], [ 'bufferline' ] ],
+      "\ },
+      "\ 'component': {
+      "\   'readonly': '%{&readonly?"":""}',
+      "\'bufferline': '%{bufferline#refresh_status()}%{g:bufferline_status_info.before . g:bufferline_status_info.current . g:bufferline_status_info.after}',
+      "\ },
+      "\ 'separator':    { 'left': '', 'right': '' },
+      "\ 'subseparator': { 'left': '', 'right': '' },
+"\ }
 
 " Colorscheme options:
-"let g:lightline = { 'colorscheme': 'nord' }
+let g:lightline = { 'colorscheme': 'nord' }
 let g:nord_uniform_status_lines = 1
 let g:nord_cursor_line_number_background = 1
 let g:nord_bold = 1
