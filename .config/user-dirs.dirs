@@ -4,13 +4,14 @@
 # Format is XDG_xxx_DIR="$HOME/yyy", where yyy is a shell-escaped
 # homedir-relative path, or XDG_xxx_DIR="/yyy", where /yyy is an
 # absolute path. No other format is supported.
-#
-XDG_DESKTOP_DIR="$HOME/"
-XDG_DOCUMENTS_DIR="$HOME/doc"
-XDG_DOWNLOAD_DIR="$HOME/doc/downloads"
-XDG_MUSIC_DIR="$HOME/doc/music"
-XDG_PHOTOS_DIR="$HOME/doc/photos"
-XDG_VIDEOS_DIR="$HOME/doc/videos"
+# 
 XDG_CONFIG_HOME="$HOME/.config"
 XDG_CACHE_HOME="$HOME/.cache"
 XDG_DATA_HOME="$HOME/.local/share"
+XDG_DESKTOP_DIR="$HOME/"
+XDG_DOCUMENTS_DIR="$HOME/"
+XDG_DOWNLOAD_DIR="$HOME/"
+XDG_MUSIC_DIR="$HOME/"
+XDG_PHOTOS_DIR="$HOME/docs/photos"
+XDG_VIDEOS_DIR="$HOME/"
+XDG_PICTURES_DIR="$HOME/"

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # ~/.config/aliasrc
 #
@@ -16,7 +16,7 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 
 # Verbosity and settings that you pretty much just always are going to want.
-alias cp="cp -iv"
+alias cp="cp -v"
 alias mv="mv -iv"
 alias rm="rm -iv"
 alias mkdir="mkdir -pv"
@@ -45,11 +45,6 @@ cd() {
 	else
 		builtin cd ~ && ls -pvA --color=auto --group-directories-first
 	fi
-}
-
-# Back up a file. Usage "backupfile <filename>"
-backupfile() {
-	cp -riv $1 ${1}-$(date +%Y%m%d%H%M).backup;
 }
 
 # Colourise man pages
