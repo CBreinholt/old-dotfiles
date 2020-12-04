@@ -1,5 +1,3 @@
-./setup.py
-python pip install python2
 python -pip
 python --pip
 python pip
@@ -1999,4 +1997,6 @@ pkill X
 pkill Xorg
 clear
 lsa
+exit
+brave
 exit
