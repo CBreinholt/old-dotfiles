@@ -1,2004 +1,2002 @@
-exit
-exit
-exit
-exit
-xrandr --properties
-xrandr --scale 1.0x1.0
-xrandr --output DP-1 --scale 1.0x1.0
-xrandr --properties
-xrandr --output DP-1 --properties
-xrandr --output DP-1 --prop
-xrandr --output DP-1
-xrandr --prop
-xrandr --prop --output DP-1
-xrandr --prop --output eDP-1
-xrandr --prop eDP-1
-xrandr --prop
-xrandr --output DP-1 --scale 1
-xrandr --output DP-1 --scale 0.5x0.5
-xrandr --output DP-1 --scale 1x1
-xrandr
-xrandr --output DP-1 --primary
-xrandr
-xrandr --output DP-1 --primary --preferred
-xrandr
-xrandr --output DP-1 --primary --preferred --size --auto
-xrandr --output DP-1 --primary --preferred --size
-xrandr --output DP-1 --primary --preferred --mode 1920x1080
-xrandr --output DP-1 --primary --preferred --mode 1920x1080 --crtc RGB_Wide_Gamut_Fixed_Point
-xrandr --output DP-1 --primary --preferred --mode 1920x1080 RGB_Wide_Gamut_Fixed_Point
-xrandr --help
-xrandr --output DP-1 RGB_Wide_Gamut_Fixed_Point
-xrandr --output DP-1 --set scaling\ mode Full\ aspect
-xrandr --output DP-1 --set scaling\ mode Full
-xrandr --output DP-1 --set scaling\ mode Full RGB_Wide_Gamut_Fixed_Point
-xrandr --output DP-1 --set Backlight 1
-sudo pacman -S autorandr
-autorandr
-autorandr --help
-audorandr --config
-autorandr --config
-autorandr
-autorandr --help
-autorandr --debug
-autorandr --config --debug
-autorandr --debug
-autorandr -r dual
-autorandr -r default
-autorandr
-autorandr --current
-autorandr --help
-autorandr -d
-autorandr -d super
-autorandr --current
-autorandr -s super
-autorandr --current
-autorandr -d super
-autorandr --current
-autorandr --current
-autorandr -d super
-autorandr --help
-autorandr --config
-xrandr --output DP-1 --crtc 1
-autorandr --config
-xrandr
-autorandr
-man autorandr
-man xrandr
-xrandr --output DP-1 --primary --auto --gamma 0.7
-xrandr --output DP-1 --primary --auto --gamma 0.8
-xrandr --output DP-1 --primary --auto
-xrandr --output DP-1 --primary --auto --gamma 1
-xrandr --output DP-1 --primary --auto --gamma 1.2
-xrandr --output DP-1 --primary --auto --gamma 1.4
-xrandr --output DP-1 --primary --auto --gamma 1
-xrandr --output DP-1 --primary --auto --gamma 0.6
-xrandr --output DP-1 --primary --auto --gamma 0.7
-xrandr --output DP-1 --primary --auto --gamma 0.9
-xrandr --output DP-1 --primary --auto --gamma 0.8
-xrandr --output DP-1 --primary --auto --gamma 0.8:0.8:0.8
-xrandr --output DP-1 --primary --auto --gamma 1
-xrandr --output DP-1 --primary --auto --gamma 0.6
-xrandr --output DP-1 --primary --auto --gamma 0.5
-xrandr --output DP-1 --primary --auto --gamma 0.6
-xrandr --output DP-1 --primary --auto --gamma 0.7
-xrandr --output DP-1 --primary --auto --gamma 0.88
-xrandr --output DP-1 --primary --auto --gamma 0.8
-xrandr --output DP-1 --primary --auto --gamma 0.9
-xrandr --output DP-1 --primary --auto --gamma 1
-xrandr --output DP-1 --primary --auto --gamma 7
-xrandr --output DP-1 --primary --auto --gamma 0.7
-xrandr --output DP-1 --primary --auto --gamma 2
-xrandr --output DP-1 --primary --auto --gamma 1
-xrandr --output DP-1 --primary --auto --gamma 1.5
-xrandr --output DP-1 --primary --auto --gamma 1
-xrandr --output DP-1 --primary --auto --gamma 0.5
-xrandr --output DP-1 --primary --auto --gamma 0.6
-xrandr --output DP-1 --primary --auto --gamma 1:1:0.5
-xrandr --output DP-1 --primary --auto --gamma 1:1:0.7
-xrandr --output DP-1 --primary --auto --gamma 1:0.7:0.7
-xrandr --output DP-1 --primary --auto --gamma 0.7:0.7:0.7
-xrandr --output DP-1 --primary --auto --gamma 0.7:0.7:0.8
-xrandr --output DP-1 --primary --auto --gamma 0.7:0.7:0.75
-xrandr --output DP-1 --primary --auto --gamma 0.7:0.7:0.7
-xrandr --output DP-1 --primary --auto --gamma 0.7:0.7:0.7 1
-xrandr --output DP-1 --primary --auto --gamma 0.7:0.7:0.7:1
-xrandr --output DP-1 --primary --auto --gamma 0.7:0.7:0.7 --set Backlight 1
-xrandr --output DP-1 --primary --auto --gamma 0.7:0.7:0.7 --set Backlight=1
-xrandr --output DP-1 --primary --auto --gamma 0.7:0.7:0.7 --set Backlight 1.0
-xrandr --output DP-1 --primary --auto --gamma 0.7:0.7:0.7 --set Backlight
-xrandr --output DP-1 --primary --auto --gamma 0.7:0.7:0.7
-xrandr --output DP-1 --primary --auto --gamma 0.7:0.70.75
-xrandr --output DP-1 --primary --auto --gamma 0.7:0.7:0.75
-xrandr --output DP-1 --primary --auto --gamma 0.7:0.7:0.7
-xrandr --output DP-1 --primary --auto --gamma 0.7:0.7:0.8
-xrandr --output DP-1 --primary --auto --gamma 1.0:1.0:1.2
-xrandr --output DP-1 --primary --auto --gamma 1.0:1.0:1.1
-xrandr --output DP-1 --primary --auto --gamma 1.0:1.0:1.2
-xrandr --output DP-1 --primary --auto --gamma 0.9:0.9:1.0
-xrandr --output DP-1 --primary --auto --gamma 0.8:0.8:1.0
-xrandr --output DP-1 --primary --auto --gamma 0.8:0.8:1.2
-xrandr --output DP-1 --primary --auto --gamma 0.8:0.8:1.1
-xrandr --output DP-1 --primary --auto --gamma 0.8:0.8:1.0
-xrandr --output DP-1 --primary --auto --gamma 0.85:0.85:1.0
-xrandr --output DP-1 --primary --auto --gamma 0.85:0.85:1.2
-xrandr --output DP-1 --primary --auto --gamma 0.80:0.80:1.2
-xrandr --output DP-1 --primary --auto --gamma 0.90:0.90:1.2
-xrandr --output DP-1 --primary --auto --gamma 0.90:0.90:1.0
-xrandr --output DP-1 --primary --auto --gamma 1.0:1.0:1.0
-exit
-autorandr
-autorandr -d clone-largest super
-exit
-xrandr
-vim dev/bin/conf_display.sh
-loadbin
-conf_display
-autorandr
-pkill Xorg
-autorandr
-xrandr --output eDP-1 --auto
-pkill Xorg
-lsa
-lsa
-lsa
-exit
-top
-exit
-xz --help
-bsdtar --help
-echo hello | bsdtar -xf- -C test
-echo hello | bsdtar -xf- -C ~
-echo hello | bsdtar -xf- -C ~/
-echo hello.zip | bsdtar -xf- -C ~/
-lsa
-rm hello hello.zip
+./setup.py
+python pip install python2
+python -pip
+python --pip
+python pip
+python3
+python
 clear
+sudo pacman -Syu python2
+./setup.py
+cat README
+vim setup.py
+./setup.py --help
+python setup.py
+cd asoundconf-gtk
 lsa
-pkill sxhkd
-sxhkd
-pkill sxhkd
-vim .config/bspwm/bspwmrc
-exit
-lsa
-lsa .config
-du
-du -sh
-du -sh /*
-sudo du -sh /*
-sudo du -sh /dev/shm
-mount --help
-sudo du -sh *
-sudo du -sh *.*
-sudo du -sh ~/.*
-df
-df /home/chris
-df /home/chris/
-clear
-df -h
-df -h
-df -h
-df -h
-cd .cache/yay/brave-bin/
-vim .SRCINFO
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-df -h
-sudo mount -t tmpfs tmpfs /tmp -o defaults,size=6G,remount
-df -h
-df -h
-df -h
-df -h
-df -h
-sudo mount -t tmpfs tmpfs /tmp -o defaults,size=12G,remount
-df -h
-df -h
-df -h
-df -h
-df -h
-sudo mount -t tmpfs tmpfs /tmp -o defaults,size=14G,remount
-df -h
-df -h
-cd ~
-df -h
-df -h
-sudo mount -t tmpfs tmpfs /tmp -o defaults,size=1G,remount
-df -h
-df -h
-df -h
-df -h
-sxhkd
-sxhkd &
-sxhkd &&
-clear
-df -h
-df -h
-df -h
-df -h
-df -h
-cd .cache
-cd BraveSoftware
-lsa
-cd Brave-Browser
-lsa
-cd Default
-lsa
-cd ~/.cache/yay
-cd brave-bin
-cd src
-cd opt
-cd brave.com
-cd brave
-cd resources
-cd brave_extension
-cd ../../..
+./asoundconf-gtk
+./asoundconf-gtk
+./asoundconf-gtk
+cd ..
+./asoundconf
+./asoundconf set-default-card 1
+python setup.py
+python setup.py --help
+python setup.py build
+lsla
+vim asoundconf
+vim asoundconf-gtk/asoundconf-gtk
+python setup.py build
+python setup.py
+python setup.py build
+python setup.py install
+sudo python setup.py build
+cd asoundconf-gtk
+python asoundconf-gtk
+cd ..
+python2 setup.py build
+cd asoundconf-gtk
+vim asoundconf-gtk/asoundconf-gtk
+cd ..
+vim asoundconf-gtk/asoundconf-gtk
+asound
+vim asoundconf-gtk/asoundconf-gtk
+lsla
+lsla asoundconf-gtk
+python asoundconf
+./asoundconf
+./asoundconf list-all
+./setup.py build
+vim setup.py
+lsla
+vim asoundconf_common.py
+vim asoundconf_common.py
+cd build
+lsla lib
 cd ..
 cd ..
-cd etc
-cd cron.daily
-vim brave-browser
-cd ..
-cd ..
-vim brave-bin.sh
-lsa ~
-lsa ~/.config/
-lsa ~/.config/configstore
-lsa
-cd usr
-lsa
-cd share
-cd appdata
-cd ..
-cd applications
-cd ..
-cd doc
-cd brave-browser
-cd ..
-cd ..
-cd gnome-control-center
-cd default-apps
-cd ../..
-cd man
-cd ..
-cd menu
-cd ..
-cd ..
-cd bin
-vim brave-browser-stable
-cd ..
-cd share
-cd ../..
-cd opt
-cd ../brave
-cd resources
-cd ../locales
-cd ..
-cd ..
-vim debian-binary
-cd ..
-vim brave-bin.sh
-cd pkg
-cd brave-bin
-vim .PKGINFO
-vim .MTREE
-vim .BUILDINFO
-cd usr
-cd bin
-./brave
-cd ..
+rm -rf asoundconf
+git clone https://bitbucket.org/stativ/asoundconf.git
+cd asoundconf
+sudo python setup.py build
+touch asoundconf-gtk/__init__.py
+sudo python setup.py build
+./asoundconf
+./asoundconf list-all
+./asoundconf is-active
+./asoundconf set-pulseaudio
+./asoundconf unset-pulseaudio
+./asoundconf reset-default-card
+./asoundconf get
+./asoundconf get default-card
+./asoundconf get default
+sudo python setup.py install
+asoundconf
+lsla
+./asoundconf_common.py
+sudo ./asoundconf_common.py
+chmod +x asoundconf_common.py
+./asoundconf_common.py
+lsla
+python setup.py install
+sudo python setup.py install
+lsla
+./setup.py
+./setup.py --help
+cd build
 cd lib
-cd brave-bin
-cd resources
+./asoundconf_common.py
+chmod +x asoundconf_common.py
+sudo chmod +x asoundconf_common.py
+./asoundconf_common.py
+lsla
+python asoundconf_common.py
+cd asoundconf-gtk
+vim __init__.py
 cd ..
-./brave
+cd ..
+..
+cd ..
+rm -rd asoundconf
+rm -rf asoundconf
+git clone https://bitbucket.org/stativ/asoundconf.git
+lsla
+rm -rf asoundconf
+sudorm -rf asoundconf
+sudo rm -rf asoundconf
+git clone https://bitbucket.org/stativ/asoundconf.git
+cd asoundconf
+cd asoundconf-gtk
+python
+vim asoundconf-gtk
+cp asoundconf-gtk asoundconf-gtk.py
+python
+mv asoundconf-gtk.py asoundconf_gtk.py
+python
+python2
+vim asoundconf_gtk
+vim asoundconf-gtk
+vim asoundconf_gtk.py
+python2
+python2 pip install pygtk
+pip install pygtk
+lsla
+rm *.p*
+lsla
+cd ..
+cd asoundconf-gtk
+./asoundconf-gtk
+cd ..
+python3 -m pip list
+python2 -m pip list
+pip --version
+python2 -m pip lsit
+python2 -m pip list
+lsla
+python2 setup.py build
+lsla
+vim asoundconf-gtk/__init__.py
+..
+sudo rm -rf asoundconf
+git clone https://bitbucket.org/stativ/asoundconf.git
+cd asoundconf
+pipenv run python setup.py
+pipenv run python setup.py build
+lsla
+touch asoundconf-gtk/__init__.py
+vim asoundconf-gtk/__init__.py
+pipenv run python setup.py build
+pipenv
+pipenv run
+pipenv run -h
+pipenv run --clear
+pipenv run --two setup.py build
+pipenv --rm
+pipenv run --two setup.py build
+pipenv run setup.py build
+pipenv --rm
+pipenv run setup.py build
+pipenv run python setup.py build
+pipenv run python setup.py isntall
+pipenv run python setup.py install
+pipenv
+pipenv check
+pipenv install -e .
+pipenv install -e .
+virtualenv
+virtualenv --version
+virtualenv --help
 lsa
+lsla
+./asoundconf
+./asoundconf list-all
+./asoundconf list
+./asoundconf is-active
+./asoundconf set-default-card Hea
+./asoundconf list
+./asoundconf
+./asoundconf is-active
+./asoundconf --gelp
+lsla
+./setup.py
+./setup.py build
+./setup.py install
+python2 --user ./setup.py install
+python2 -h
+python2 setup.py build
+python2 setup.py install
+sudo python2 setup.py install
+asoundconf-gtk
 cd ..
-cd ..
-cd share
-cd applications
-cd ../pixmaps
-cd ../..
-cd ..
-cd ..
-cd ..
-vim PKGBUILD
-cd ~
 clear
-vim .config/bspwm/bspwmrc
-vim .xinitrc
-vim .config/xorg/xprofile
-unclutter
-sudo pacman -S unclutter
-vim .config/xorg/xprofile
-remap
-sudo pacman -S xcape
-remap
-unclutter
-vim .config/xorg/xprofile
-pkill Xorg
-autorandr
-vim dev/bin/conf_display.sh
-loadbin
-clear
-lsa
-sudo pacman -Syyy
-clear
-lsa
-sudo pacman -Syu
-sudo pacman -S polybar
-sudo pacman -S brave
-sudo pacman -S brave-browser
-yay
-pacman -S yay
-sudo pacman -S yay
-sudo pacman -S lsa
-lsa
-ls
-clear
-ls
-git clone https://aur.archlinux.org/brave-bin.git
-lsa
-ls
-cd brave-bin
-vim brave-bin.sh
-cd ~
-lsl
-clear
-ls
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-yay
-yay -Syyy
-yay -Syu
-yay brave
-yay brave-bin
-yay brave-bin
-bsdtar
-sudo pacman -S bsdtar
-sudo pacman -S bsdiff
-sudo pacman -S tar
-sudo pacman -S bsd-tar
-yay -S brave-bin
-sudo yay -S brave-bin
-yay
-yay --hellp
-yay --help
-sudo yay -SG brave-bin
-yay -SG brave-bin
-yay -G brave-bin
-yay -S brave-bin
-su root
-su root
-lsa
-cd ..
-lsa
-cd yay
-cd ..
-rm -r yay
-rm -r yay
-rm -rf yay
-clear
-lsa
-rm -rf brave-bin
-clear
-yay -S brave-bin
-cd .cache/
-cd yay
-cd brave-bin
-makepkg -si
-sudo pacman -S unzip
-sudo pacman -S zstd
-makepkg -si
-ls
-cd ..
-cd ..
-cd yay
-yay -S brave-bin
-lsa
-cd brave-bin
-lsa
-./pre-commit
-lsa
-./.pre-commit
-lsa
-makepkg
-lsa
-cd src
-./brave-bin.sh
-sudo ./brave-bin.sh
-lsa
-cd brave
-brave
-./brave
-lsa
-cd ..
-cd ..
-makepkg
-cd ..
-lsa
-cd brave-bin
-cd src
-makepkg -s
-cd ..
-makepkg -s
-makepkg -i
-lsa
-cat .SRCINFO
-sudo pacman -S gtk
+lsla
+python2 -m pip install pygtk
+python2 --user -m pip install pygtk
+python2 -m pip --user install pygtk
+python2 -m --user pip install pygtk
+python2 --user -m pip install pygtk
+python2 -m pip install --user pygtk
+lsla .cache
+lsla .cache/pip
+lsla .cache/pip/selfcheck/241e69162522ccf5846a2f42ebc24b17464915a155679666b89a9f31
+sudo pacman -Qy 
+sudo pacman -QF 
+sudo pacman -F 
+sudo pacman -F gtk
+sudo pacman -F gtk3
+sudo pacman -Q gtk3
+sudo pacman -Q gtk
+sudo pacman -Qf gtk
+sudo pacman -Qs gtk
+sudo pacman -Fs gtk
+sudo pacman -F gtk
+sudo pacman -Fq gtk
+sudo pacman -Qs gtk
+sudo pacman -Qu gtk
+sudo pacman -Qs pip
+groups
+alsamixer
+sudo pacman -Q gtk3
 sudo pacman -S gtk3
-sudo pacman -S libxss
-sudo pacman -S nss
-sudo pacman -S alsa-lib
-ls
-lsa
-makepkg --help
-makepkg -C
-lsa
-./brave-bin.sh
-sudo ./brave-bin.sh
-sudo chmod +x brave-bin.sh
-./brave-bin.sh
-cd pkg
-lsa
-cd brave-bin
-cd usr
-cd bin
-brave
-./brave
-cd ..
-cd lib
-lsa
-cd brave-bin
-./brave
-lsa
-cd ..
-lsa
-cd ..
-lsa
-cd share
-cd pixmaps
-cd ../applications
-cat brave-browser.desktop
-lsa
-cd ..
-lsa
-cd ..
-cd bin
-./brave
-cd ..
-cd lib
-cd brave-bin
-./brave
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-cd brave-bin1.14.81.zip
-cd src
-./brave-bin.sh
-cd brave
-cd resources
-cd ..
-cd locales
-cd ..
-lsa
-cd ..
-cd opt
-cd brave.com
-cd brave
-./brave
-./brave-browser
-./chrome-sandbox
-cd resources
-cd brave_rewards
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-cd brave
-./brave
-cd ..
-cd ..
-./.pre-commit
-makepkg --help
-makepkg --packagelist
-makepkg -c
-sudo pacman -S bsdtar
-sudo pacman -S bsd-tar
-sudo pacman -S tar
-sudo pacman -S tarbsd
-sudo pacman -S targnu
-sudo pacman -S gnutar
-sudo pacman -S btar
-sudo pacman -S bstar
-sudo pacman -S bsd
-sudo pacman -S bsd-tar
-sudo pacman -S bsdtar
-sudo pacman -S tar
-brave
-bsdtar
-lsa
-cd ..
-lsa
-yay --help
-yay -c
-yay -c
-yay -Syu
-yay -Syy
-yay -Syu
-yay -Syu brave-bin
-yay -Syu brave-bin
-yay -Syu brave-bin -C
-yay -SC brave-bin
-yay -CS brave-bin
-tmpfs
-lsblk
-lsblk --help
-lsblk --help | more
-findmnt
-findmnt /tmp
-findmnt /tmp --help
-findmnt /tmp -l
-findmnt /tmp -o
-findmnt -o /tmp
-findmnt -o tmp
-findmnt -o
-findmnt -O
-findmnt tmp
-findmnt /tmp
-findfs
-findfs tmp
-findfs /tmp
-findfs /
-xz
-vim /etc/makepkg.conf
-vim /etc/makepkg.conf
-find / -xdev -printf '%h\n' | sort | uniq -c | sort -k 1 -n
-du
-du --inodes
-du --inodes -xS
-du --inodes -xS /
-du --inodes -xS /tmp
-du --inodes -xS /*
-du -sh
-du -sh /
-du -sh /*
-sudo du -sh /*
-mount
-sudo du --inodes -xS /
-sudo du --inodes -xS /*
-sudo du --inodes -xS /* | sort
-sudo du --inodes -xS /*
-sudo du --inodes -xS /
-sudo du --inodes -xS
-sudo du --inodes -xS | sort
-sort --help
-sudo du --inodes -xS | sort -h
-sudo du --inodes -xS /* | sort -h
-df
-df --help
-df -ih
-mount --help
-mount -t tmpfs tmpfs /tmp -o size=200M,mode=1777,remount
-sudo mount -t tmpfs tmpfs /tmp -o size=200M,mode=1777,remount
-df -ih
-sync
-df -ih
-du -h
-du -h /*
-du -h /* | sort n
-du -h /* | sort -n
-sudo du -h /* | sort -n
-sudo du -h /* | sort -nh
-sudo du -h /* | sort -h
-df -ih
-sudo mount -t tmpfs tmpfs /tmp -o size=500M,mode=1777,remount
-df -ih
-lsblk
-lsblk -a
-du
-du -i
-du --help
-du -ch /*
-du -ch /
-du -ch /tmp
-sudo mount -t tmpfs tmpfs /tmp -o size=500M,mode=1777,remount
-du -ch /tmp
-cd ~
-lsa
-sudo mount -t tmpfs tmpfs /tmp -o size=500M,mode=1777,remount
-lsa
-du -ch /tmp
-sudo du -ch /tmp
-yay -c
-yay -c
-yay --help
-yay -S
-yay -Sy
-yay -Syy
-yay -Syu
-yay -Syy
-yay -Syu
-yay -S brave-bin
-sudo nvim /etc/fstab
-sudo mount tmpfs tmpfs /tmp -o defaults,size=2G
-sudo mount tmpfs tmpfs /tmp -o defaults,size=2G,remount
-df -h /dev/shm
-df -h /tmp
-df -h /tmp
-sudo mount -t tmpfs tmpfs /tmp -o defaults,size=2G,remount
-df -h /tmp
-df -h /
-df -h /*
-df -h /
-df -h /dev
-df -h /dev/
-df -h /dev/*
-df -h
-yay -S brave-bin
-cd .cache/yay/brave-bin
-vim PKGBUILD
-vim brave-bin.sh
-vim .pre-commit
-vim .SRCINFO
-cd ..
-cd ..
-cd ..
-lsa
-mount -t tmpfs tmpfs /tmp -o defaults,size=2G,remount
-sudo mount -t tmpfs tmpfs /tmp -o defaults,size=2G,remount
+sudo pacman -S pygtk
+sudo pacman -S py-gtk
+sudo pacman -Q gtk
+sudo pacman -Q py
+sudo pacman -Q pypip
+sudo pacman -Q python3-pip
+sudo pacman -Q python-pip
+sudo pacman -Q python-pip
+sudo pacman -S python-pip
+python pip install 
+python -pip
+python -p
+python --pip
+python pypip
+pip
+pip search pygtk
+sudo pacman -S python2-pip
+lsla
+lsla
 clear
-lsa
-cd /tmp
-sudo pacman -S devtools
-sudo pacman -S libgnome-keyring-dev python-setuptools npm
-sudo pacman -S libgnome-keyring python-setuptools npm
-sudo pacman -S libgnome-keyring python-setuptools npm
-git clone git@github.com:brave/brave-browser.git
-sudo git clone git@github.com:brave/brave-browser.git
-cd ~
-sudo git clone git@github.com:brave/brave-browser.git
-sudo git clone git@https://github.com:brave/brave-browser.git
-sudo git clone https://github.com:brave/brave-browser.git
-sudo git clone https://github.com/brave/brave-browser.git
-ls
-rm -rf brave-browser
-lsa
-sudo rm -rf brave-browser
-lsa
-cd /tmp
-git clone https://github.com/brave/brave-browser.git
-lsa
-cd brave-browser
-npm install
-npm run init
-npm run init
-cd ~
-cp -r /tmp/brave-browser ~/
-lsa
-rm -rf .vpython* .ssh .npm brave-browser
-rm --help
-rm -rfI .vpython* .ssh .npm brave-browser
-rm -rIf .vpython* .ssh .npm brave-browser
-rm -rIf .vpython-root .ssh .npm brave-browser
-sudo rm -rIf .vpython-root .ssh .npm brave-browser
-lsa
-clear
-rm -rf /tmp/*
-git clone https://github.com/brave/brave-browser.git
-cd brave-browser
-npm install
-npm run init
-lsa
-xinit
-startx
-sudo pacman -Syy
-sudo pacman -Syu
-sudo pacman -S space
-sudo pacman -S spaceship
-sudo pacman -S bspwm
-sudo pacman -S sxhkd
-xinit /bin/bspwm
-vim dev/bin/cf.sh
-vim dev/bin/conf_display.sh
-vim .config/bspwm/bspwmrc
-sudo pacman -S autorandr
-xrandr
-xrandr --help
-xinit /bin/bspwm
-xinit /bin/bspwm
-xinit /bin/bspwm
-xinit /bin/bspwm
-xinit /bin/bspwm
-reboot
-exit
-clear
-vim .config/alacritty/alacritty.yml
-exit
-vim .config/alacritty/alacritty.yml
-exit
-lsa
-xrandr
-xrandr --output DP-1 --scale 1x1
-xrandr --output DP-1 --scale 0.75
-xrandr --output DP-1 --scale 1.25
-xrandr --output DP-1 --scale 1.25 --dpi 96
-clear
-xrandr --output DP-1 --scale 1.0 --dpi 96
-exit
-vim .config/alacritty/alacritty.yml
-clear
-exit
-top
-exit
-pkill Xorg
-vim .xinitrc
-startx
-shutdown -h now
-lsa
-top
-reboot
-shutdown
-shutdown -c
-shutdown -h now
-reboot
-reboot
-reboot
-reboot
-reboot
-reboot
-reboot
-reboot
-reboot
-reboot
-reboot
-reboot
-reboot
-reboot
-reboot
-lsa
-brave
-./brave
-exit
-csh
-cshel
-chsh
-$shell
-exit
-chsh /bin/bash
-chsh chris /bin/bash
-chsh --help
-chsh chris -s /bin/bash
-chsh chris -s /bin/bash
-pkill Xorg
-pacman -Syy
-sudo pacman -Syy
-sudo pacman -Syu
-yay -Syy
-yay -Syu
-yay -Syu
-yay -S brave-bin
-mount -t tmpfs tmpfs /tmp -o size=2000M,mode=1777,remount
-sudo!
-sudo !
-sudo mount -t tmpfs tmpfs /tmp -o size=2000M,mode=1777,remount
-yay -S brave-bin
-sudo pacman -S xz
-sudo pacman -S gzip
-lsa
-rm .vpython-root
-rm -rf .vpython-root
-rm -rf .vpython-root\
-
-sudo rm -rf .vpython-root
-sudo rm -rf .vpython_cipd_cache/
-lsa
-sudo rm -rf brave-browser .npm
-bsdtar
-sudo pacman -S bsdtar
-sudo pacman -S libarchive
-lsa
-cd .cache
-cd ..
-lsa
-cd .cache
-cd BraveSoftware
-cd Brave-Browser
-cd Default
-cd ..
-cd ..
-cd ..
-rm BraveSoftware
-rm -rf BraveSoftware
-cd ~
-yay --help
-yay -c
-yay -c
-yay
-sudo pacman -S base-devel
-sudo pacman -S base-devel --needed
-git clone https://aur.archlinux.org/brave-bin.git
-cd brave-bin
-makepkg -s
-less PKGBUILD
-vim PKGBUILD
-makepkg -s
-vim PKGBUILD
-makepkg -s
-vim PKGBUILD
-makepkg -s
-makepkg -c
-vim PKGBUILD
-makepkg -c
-vim PKGBUILD
-makepkg -c
-makepkg -c
-vim PKGBUILD
-makepkg -c
-lsa
-cd src
-cd ..
-cd pkg
-cd brave-bin
-less .PKGINFO
-less .MTREE
-less .BUILDINFO
-lsa
-cd usr
-cd bin
-cd brave
-cd ..
-cd lib
-lsa
-cd brave-bin
-./brave
-clear
-cd ~
+lsla
+python --version
+python2 --version
+python2 -m pip
+python2 -m pip list
 startx
 exit
-zstd --help
-zstd --help | grep -z
-zstd --help | grep "-z"
-zstd --help | grep z
-zstd
-zstd -z
-bsdtar -z
-bsdtar --help
-sudo pacman -S rsync
-lsa
-brave-bin
-lsa
-brave-bin.sh
-./brave-bin.sh
-cd src
-./brave-bin.sh
-cd brave
-./brave
-clear
-lsa
-cd ..
-lsa
-..
-vim .pre-commit
-vim .SRCINFO
-vim PKGBUILD
-t
-exit
-lsa /tmp
-lsa /tmp/makepkg
-lsa /tmp/makepkg/brave-bin
-lsa /tmp/makepkg/brave-bin/src
-exit
-sudo nvim /usr/bin/makepkg
-exit
-cd brave-bin
-make -si
-makepkg -si
-makepkg -si
-makepkg -si
-makepkg -si
-makepkg -si
-makepkg -si
-makepkg -si
-makepkg -si
-makepkg -si
-makepkg -si
-makepkg -si
-makepkg -si
-makepkg -si
-makepkg -si
-makepkg -si
-lsa
-makepkg -si PKGBUILD
-lsa
-cd src
-cd brave
-cd ..
-cd ..
-lsa
-cd pkg
-lsa
-cd brave-bin
-cat .BUILDINFO
-less .BUILDINFO
-less .PKGINFO
-less .MTREE
-..
-..
-makepkg -si
-makepkg -si
-makepkg -siCc
-lsa
-cd ..
-sudo rm -rf brave-bin
-lsa
-yay --help
-yay -s
-yay -w
-yay --sudo
-yay --noremovemake
-yay -Y --yay
-yay -Y
-yay -Syu
-yay -S brave-browser
-lsa
-git clone https://aur.archlinux.org/brave-bin
-lsa
-cd brave-bin
-makepkg -si
-makepkg -si
-lsa
-cd ..
-rm brave-bin
-rm -rf brave-bin
-yay --help
-yay -G
-yay -g
-cd /tmp
-git clone https://aur.archlinux.org/brave-bin
-cd brave-bin
-makepkg -si
-brave
-exit
-lsa
-git clone https://aur.archlinux.org/brave-bin.git
-lsa
-cd brave-bin
-sudo makepkg -sri
-makepkg -sri
-lsa
-cat .pre-commit
-lsa
-cat PKGBUILD
-makepkg -esri
-makepkg -sr
-makepkg -se
-makepkg -sCce
-makepkg -sCc --noextract
-makepkg -sCc --noarchive
-lsa
-cat brave-bin.sh
-chmod -x brave-bin.sh
-./brave-bin.sh
-sudo ./brave-bin.sh
-lsa
-sudo chmod +x brave-bin.sh
-lsa
-./brave-bin.sh
-cat PKGBUILD
-lsa
-cat .SRCINFO
-lsa
-tar -tf brave-bin-1.15.76.zip
-bsdtar -tf brave-bin-1.15.76.zip
-cat brave-bin.sh
-lsa
-makepkg --help
-makepkg --packagelist
-makepkg -f
-vim /etc/makepkg.conf
-sudo vim /etc/makepkg.conf
-vim
-sudo vim /etc/makepkg.conf
-sudo nvim /etc/makepkg.conf
-clear
-lsa
-cd ~
-yay --help
-yay -c
-clear
-brave
+dotfiles
 vim .profile
-open
-lsa
+vim .config/aliasrc
+dotfiles
+dotfiles
 dotfiles status
-lsa
-cd .config
-lsa
-lsl
-cd BraveSoftware
-lsa
-cd Brave-Browser
-..
-..
-rm -rf chromium
-lsa
-brave
-clear
-killall brave
-pkill brave
-top
+lsla .config/inputrc
+vim .config/inputrc
+.profile
+./.profile
+. .profile
+source .profile
+dotfiles
+vim .config/aliasrc
+source .profile
+dotfiles
+vim .config/aliasrc
+lsla dev/dotfiles
+vim .profile
+source .profile
+dotfiles
+dotfiles
+source .profile
+vim .profile
 exit
-exit
-brave
-brave &
-exit
-exit
-brave &&
-brave &
-exit
-exit
-brave&
-exit
-exit
-lsa
-lsl
+dotfiles
+dotfiles status
 lsla
-rm -rf .pki
+sudo cat .zprofile >> /etc/zprofile
+sudo -e /etc/zprofile
+sudo cat .zprofile >> /etc/zprofile
+sudo $(cat .zprofile >> /etc/zprofile)
+sudo $(cat .zprofile > /etc/zprofile)
+sudo -e $(cat .zprofile > /etc/zprofile)
+cat .zprofile >> /etc/zprofile
+sudo cat .zprofile >> /etc/zprofile
+su root
+sudo -e /etc/zprofile
+mv .zprofile .zprof
+exit
+ls -la
+echo $ZDOTDIR
+source .profile
+echo $ZDOTDIR
+sudo -e /etc/zsh/zprofile
+vim .profile
+sudo -e /etc/zsh/zprofile
+zsh
+sudo -e /etc/zsh/zshrc
+exit
+zsh
+lsla
+cat .zprof
+vim .config/zsh/.zshenv
+exit
+login
+.profile
+. .profile
+. ~/.profile
+login
+exit
+nvim .config/zsh/zshrc
+login
+exit
+nvim .config/zsh/zshrc
+source .profile
+nvim .config/zsh/zshrc
+login
+exit
+vim .config/zsh/zshrc
+vim .config/zsh/.zshenv
+login
+exit
+vim .config/zsh/.zshenv
+exit
+mv .zprof .zprofile
+login
+exit
+mv .zprofile .zprof
+sudo -e /etc/zsh/zprofile
+profile
+login
+exit
+exit
+sudo -e /etc/zsh/zprofile
+mv .zprof .zprofile
+exit
 lsa
-brave
-brave &
-exit
-exit
-/usr/bin/brave &
-clear
-top
-clear
-renice
-brave && disown
-brave & | disown
-brave & || disown
-brave&
-exit
-disown
-exit
-brave & && disown
-brave && disown
-exit
-exit
-exit
-exit
-./.profile
-clear
+rm .bash_history
 lsa
-./.profile
-clear
-./.profile
-clear
+mv .zprofile .zprof
+exit
+source .profile
+sudo -e /etc/zsh/zprofile
+exit
+sudo -e /etc/zsh/zprofile
+sudo -e /etc/zsh/zshenv
+su root
+nvim .config/zsh/.zshenv
+sudo -e /etc/zsh/zshenv
+sudo -e /etc/zsh/zshenv
+source .profile
+vim .profile
+vim .config/zsh/zshrc
+vim .config/zsh/.zshenv
+sudo -e /etc/zsh/zshenv
+exit
+lsla
+sudo -e /etc/zsh/zshenv
+sudo -e /etc/zsh/zshenv
+vim .config/zsh/zshrc
+vim .config/zsh/.zshenv
+exit
+source .profile
+source .profile
+source .profile
+sudo -e /etc/zsh/zshenv
+exit
+source .profile
+sudo -e /etc/zsh/zprofile
+\:wq
+sudo -e /etc/zsh/zshenv
+sudo mv /etc/zsh/zshenv /etc/zsh/.zshenv
+exit
+source .profile
+sudo cp /etc/zsh/zprofile /etc/zsh/zshenv
+sudo -e /etc/zsh/zshenv
+exit
+source .profile
+sudo -e /etc/zsh/zprofile
+sudo -e /etc/zsh/zshenv
+exit
+vim .config/zsh/zshrc
+exit
+source /etc/zsh/zprofile
+source .profile
+vim .config/zsh/.zshenv
+exit
+mv .zprof .zprofile
+exit
+source .profile
+sudo -e /etc/zsh/zprofile
+sudo -e /etc/zsh/zshenv
+exit
+source .profile
+sudo -e /etc/zsh/zshenv
+exit
+source .profile
+cat .config/zsh/.zshenv
+echo head -1 .config/zsh/.zshenv
+echo head -1 .config/zsh/.zshenv >> /etc/zsh/zshenv
+sudo echo head -1 .config/zsh/.zshenv >> /etc/zsh/zshenv
+sudo echo head -1 .config/zsh/.zshenv >> /etc/zsh/zshenv
+sudo $(echo head -1 .config/zsh/.zshenv >> /etc/zsh/zshenv)
+sudo head -1 .config/zsh/.zshenv >> /etc/zsh/zshenv
+su root
+exit
+lsla
+source .profile
+sudo -e /etc/zsh/zshenv
+exit
+source .profile
+vim .config/zsh/zshrc
+vim .config/zsh/.zshenv
+exit
+vim .config/zsh/zshrc
+vim .config/zsh/.zshenv
+vim .config/zsh/zshrc
+source .profile
+sudo -e /etc/zsh/zshenv
+sudo -e /etc/zsh/zprofile
 exit
 lsa
+lsla
+mv .zprofile .zpro
+exit
+lsa
+rm .zpro
+lsla
+cp /mnt/backups/11_19_2020/chris/chris/.zprofile .config/zsh/zprofile
+lsla
+vim .config/zsh/zprofile
+vim .profile
+clear
+lsla
+vim .config/zsh/.zshenv
+mv .config/zsh/.zshenv .config/zsh/zshenv
+exit
+vim .profile
+vim .config/zsh/zshenv
+vim .config/zsh/zprofile
+vim .config/zsh/zprofile
+mv .config/zsh/zprofile .config/zsh/.zprofile
+lsla .config/zsh
+exit
+lsla
+lsla .config/zsh
+vim .config/zsh/.zprofile
+sudo -e /etc/zsh/zshenv
+sudo -e /etc/zsh/zshenv
+exit
+source .profile
+sudo -e /etc/zsh/zshenv
+sudo rm -rf /etc/zsh/.zshenv
+sudo -e /etc/zsh/zprofile
+exit
+lsa
+lsla
+sudo -e /etc/zsh/zshenv
+exit
+source .profile
+lsa
+sudo -e /etc/zsh/zshenv
+exit
+.profile
+source .profile
+sudo vim /etc/zsh/zshenv
+sudo -e /etc/zsh/zshenv
+nvim .profile
+nvim .config/zsh/.zprofile
+nvim .config/zsh/zshenv
+nvim .config/zsh/zshrc
+exit
+source .profile
+sudo -e /etc/zsh/zshenv
+exit
+login
+source .profile
+exit
+source /etc/zsh/zshenv
+source .profile
+sudo -e /etc/zsh/zshenv
+exit
+lsa
+lsl
+env
+startx
+lsla .config/xorg
+rm .config/xorg/xauthority
+vim .config/xorg/xinitrc
+startx
+exit
+pkill Xorg
+pkill Xorg
+lsla
+sudo -e /etc/X11/xinit/xinitrc
+sudo -e /etc/X11/xinit/xserverrc
+sudo -e /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+sudo -e /etc/X11/xinit/xinitrc
+vim .profile
+sudo xinit
+lsla
+su root
+lsla
+lsla .cache
+lsla .local/share/xorg/Xorg.0.log
+cat .local/share/xorg/Xorg.0.log
+cat .local/share/xorg/Xorg.0.log | less
+vim .config/xorg/xprofile
+vim .config/xorg/xinitrc
+xinit
+startx
+pacman -S xterm
+sudo pacman -S xterm
+startx
+lsla
+vim .profile
+startx
+startx --help
+man startx
+man xinit
+vim .profile
+exit
+vim .profile
+exit
+echo "$XINITRC"
+xinit
+pkill Xorg
+lsla
+vim $XINITRC
+vim .config/xorg/xprofile
+startx
+man xinit
+man xterm
+startx $XINITRC
+lsla .local/bin
+conf_display
+vim ~/dev/archive/scripts/sh/conf_display.sh
+lsla .local/share
+lsla .local/share/xorg
+lsla .local/share/xorg/Xorg.0.log
+vim .local/share/xorg/Xorg.0.log
+less /etc/X11/xinit/xserverrc
+sudo mount /deb/sdb1 /mnt
+lsblk
+mount /dev/sdb1 /mnt
+sudo mount /dev/sdb1 /mnt
+lsblk
+vim /mnt/backups/11_19_2020/osiris/root/.local/share
+vim /mnt/backups/11_19_2020/osiris/etc/X11/xinit/xinitrc
+xinit /usr/bin/grub-customizer
+pkill Xorg
+pkill Xorg
+sudo pacman -Syy
+su root
+clear
+ln
+ln --help
+ln -sn .config/xorg/xinitrc .xinintrc
+startx
+ls
+lsla
+vim .xinintrc
+vim .config/xorg/xprofile
+vim .profile
+startx
+reboo
+reboot
+exit
+pkill -x X
+exit
+xinit
+xinit /usr/bin/grub-customizer
+exit
+lsla
 vim .config
-lsla .config
-rm -rf configstore
-lsa
-cd .config
-clear
-lsla
-rm -rf configstore dconf fontforge neofetch procps wget
-lsa
-vim mimeapp.list
-vim aliasrc
-exit
-clear
-exit
+vim .xinintrc
+xinit /usr/bin/grub-customizer
+pkill -x Xorg
+pkill -x Xorg
 pkill Xorg
-lsa
 startx
-exit
-exit
-brave
-exit
-exit
-exit
-brave
-exit
-exit
-brave
-adlskf
-exit
-brave
-exit
-exit
-jobs
-jobs
-job
-jobs --help
-jobs -h
-jobs
-brave
-exit
-jobs
-jobs 2
-job 2
-jobstates
-jobs
-jobs 2
-pkill 2
-clear
-exit
-exit
-exit
-brave
-exit
-brave
-exit
-brave
-exit
-brave
-exit
-brave
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-brave
-exit
-brave
-exit
-brave
-exit
-brave
-exit
-exit
-disown --help
-disown -h
-exit
-brave
-disown
-exit
-man disown
-exit
-ps
-jbos
-exit
-disown
-exit
-brave | disown
-exit
-brave | disown
-exit
-brave
-brave | disown
-exit
-brave & disown
-brave & disown
-brave & disown
-exit
-exit
-brave
-brave
-exit
-brave
-exit
-brave
-exit
-brave
-exit
-brave
-exit
-\
-bs
-jobs
-ps
-ps 1
-ps 1 &
-ps 1 bg
-bg 1
-lsa
-bg
-ps
-exit
-exit
-ps
-lsa
-jobs
-brave & disown
-brave &
-exit
-brave
-brave
-exit
-brave & | disown
-brave & || disown
-brave& disown
-exit
-brave& disown
-exit
-brave
-exit
-brave& disown
-exit
-brave
-exit
-brave
-exit
-exit
-brave
-exit
-lsa
-cd .cache
-rm brave-bin
-rm -rf brave-bin
-lsa
-cd BraveSoftware
-lsa
-Brave-Browser
-lsa
-Default
-lsa
-Cache
-lsa
-clear
-cd ~
-cd .cache
-cd yay
-exit
-polybar
-exit
-lsa /tmp
-lsa /tmp/brave-bin
-lsa .cache/yay/brave-bin
-cp /tmp/brave-bin .config/yay
-cp /tmp/brave-bin .config/yay -r
-lsa
-lsa
-cd .cache
-cd yay
-lsa
-cd brave-bin
-cd ~
-cp -r /tmp/brave-bin .cache/yay/brave-bin
-cp --help
-clear
-lsa
-exit
-vim .config/xorg/xinitrc
-vim .config/xorg/xprofile
-./.config/polybar/launch.sh
-./.config/polybar/launch.sh
-exit
-brave
-exit
-vim .profile
-cd .config
-cd yay
-lsa
 lsla
-cd ..
-vim inputrc
-vim aliasrc
-lsa
-vim  sxhkd/sxhkdrc
-exit
-brave
-clear
-cd .config/bspwm
-lsa
-vim bspwmrc
-exit
-clear
-pacman -S polybar
-sudo pacman -S polybar
-yay -S polybar
-polybar main &
-lsa .config/polybar
-./.config/polybar/launch.sh
-vim .config/polybar/launch.sh
-./.config/polybar/launch.sh
-\:q
-vim .config/polybar/config.ini
-pkill Xorg
-clear
+vim .xinintrc
+mv .xinintrc .xinitrc
 startx
-vim .config/xorg/xmodmap
-vim .config/xorg/xinitrc
-vim .config/xorg/xprofile
-clear
+pacman -Rns xf86-video fbdev
+pacman -Rns xf86-video-fbdev
+sudo pacman -Rns xf86-video-fbdev
 exit
 pkill Xorg
+pkill Xorg
+sudo pkill Xorg
+exit
+exit
+exit
+exit
+exit
 startx
 reboot
-vim .config/bspwm
-vim .config/bspwm/bspwmrc
-exit
-pkill Xorg
 startx
-reboot
-brave
-cat /home/chris
-cat /home/chris/sync.txt
-never brother early about scheme goat arctic unaware identify baby develop borrow hood luggage month razor better blast silver install welcome prepare dry affair
-exit
-exit
-brave
-exit
-brave
-exit
 clear
-lsa
+startx
+startx
 exit
 exit
-vim .config/bspwm/bspwmrc
-xrdb .config/xorg/xresources
-xdpyinfo
-xrdb .config/xorg/xresources
-xrdb .config/xorg/xresources
-xdpyinfo
-xdpyinfo | grep -B2
-xdpyinfo | grep -B2 resolution
-brave
-clear
-xrdb .config/xorg/xresources
+ls -la .config/xorg
+ls -la .config/xorg/xauthority-{c,l}
+rm .config/xorg/xauthority-{c,l}
+startx
 exit
+Xorg :0
+ls -la
+rm .xinitrc
+Xorg --help
+Xorg --help | less
+Xorg --help | less
+Xorg --help | more
+Xorg --help | less
+Xorg :0 -config
+Xorg :0 -config ./
+ls -la
 exit
-brave
-exit
-exit
-sudo vim /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
-sudo nvim /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
-sudo nvim /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
-exit
-exit
-vim .xinitrc
-vim .config/xorg/xprofile
-echo hello
-echo hello && echo world
-echo hello && disown
-echo hello & && disown
-echo hello &; && disown
-{echo hello &}; && disown
-{echo hello &} && disown
 jobs
-ps
-{echo hello &} && disown
-{echo hello &} && disown
-{echo hello &} && disown
+fg
+clear
+exit
+Xorg :0 -configure
+sudo Xorg :0 -configure
+ls -la
+exit
+pkill Xorg
+pkill Xorg
+killall Xorg
+pkill Xorg
+pkill Xorg
+ls -la
+startx
+ls -la
+pacman -S xorg-fonts
+sudo pacman -S xorg-fonts
+sudo Xorg :0 -configure
+sudo Xorg -:0 -configure
+sudo Xorg :1 -configure
+sudo Xorg :2 -configure
+sudo Xorg :- -configure
+sudo Xorg :0 -configure
+sudo Xorg 1:0 -configure
+sudo Xorg -configure
+ln --help
+man ln
+ln -s .config/xorg/xinitrc ./.xinit
+ls
+ls -la
+startx
+killall X
+killall Xorg
+startx
+ls -la
+xinit
+ls
+ls -la
+xinit
 vim .profile
-vim .config/xorg/xprofile
-vim .config/aliasrc
-vim .config/xorg/xresources
-exit
-clear
-clear
-xrefresh --help
-xrefresh -none
-exit
-xdpyinfo | grep -B2 resolution
-xrdb -query | grep dpi
-xset q
-xset q | grep -A 1 Pointer
-xset m 2/1 3
-xset q | grep -A 1 Pointer
-xset m 2/1 1
-xset q | grep -A 1 Pointer
-xset m 4/1 1
-xset q | grep -A 1 Pointer
-xset m 4/1 4
-xset m 4/1 4
-xset q | grep -A 1 Pointer
-xset m default
-xset q | grep -A 1 Pointer
-xset m 4/1 4
-xset m default
-xinput list
-xinput list-props 15
-xset m 0 0
-xset q | grep -A 1 Pointer
-xinput list
-nput --list-prop ZLY ZELOTES GAME MOUSE
-input --list-prop ZLY ZELOTES GAME MOUSE
-xinput --list-prop ZLY ZELOTES GAME MOUSE
-xinput --list-props ZLY ZELOTES GAME MOUSE
-xinput --list-props "ZLY ZELOTES GAME MOUSE"
-xinput list-props {1..50} 2>/dev/null | fgrep 'libinput Accel Profile Enabled ('
-xinput --set-prop <device id> 'libinput Accel Profile Enabled' 0, 1
-xinput --set-prop "ZLY ZELOTES GAME MOUSE" 'libinput Accel Profile Enabled' 0, 1
-xinput list-props {1..50} 2>/dev/null | fgrep 'libinput Accel Profile Enabled ('
-xinput list-props {1..50} 2>/dev/null | fgrep 'libinput Accel Profile Enabled ('
-vim /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
-vim /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
-xinput list-props {1..50} 2>/dev/null | fgrep 'libinput Accel Profile Enabled ('
-xinput list-props {1..50} 2>/dev/null | fgrep 'libinput Accel Profile Enabled ('
-xinput list-props {1..50} 2>/dev/null | fgrep 'libinput Accel Profile Enabled ('
-xinput list-props {1..50} 2>/dev/null | fgrep 'libinput Accel Profile Enabled ('
-pkill Xorg
-clear
-pkill --help
-pkill -U chris
 startx
+rm .xinit
 startx
-exit
-vim .config/sxhkd/sxhkdrc
-vim .config/xorg/xinitrc
-vim .config/xorg/xprofile
-vim .config/polybar/launch.sh
-vim .profile
-lsa
-lsla
-vim .xinitrc
-vim .config/xorg/xprofile
-pkill Xorg
-vim .config/bspwm/bspwmrc
-brave
-startx
-exit
-brave
-lsla
-cd .config
-lsla
-vim inputrc
-vim aliasrc
-vim polybar/launch.sh
-vim polybar/config.ini
-brave --help
-brave -h
-clear
-pkill Xorg
-vim dev/bin/conf_display.sh
-exit
-loadbin
-conf_display
-vim .config/bspwm
-vim .config/bspwm/bspwmrc
-pkill Xorg
-startx
-startx
-exit
-clear
-lsa
-exit
+man startx
+man xinit
+X :0
+X :1
+xrefresh
+xrefresh :0
+xrefresh -d :0
+xrefresh -d 0
+xrefresh -d
 xrdb .config/xorg/xresources
+xhost
+xhost :0
+xhost --help
+man xhost
+xinit
+killall X
+killall Xorg
+killall -x X
+pkill -x X
 exit
-clear
-lsa
-exit
-clear
-urxvt
-exit
-exit
-vim .config/xorg/xresources
-vim .config/bspwm/bspwmrc
-vim .config/polybar/config.ini
-exit
-xrdb .config/xorg/xresources
 pkill Xorg
-vim /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
-xinput list-props {1..50} 2>/dev/null | fgrep 'libinput Accel Profile Enabled ('
-exit
-vim .config/inputrc
-vim .config/xorg/xinitrc
-vim .config/bspwm/bspwmrc
-vim .config/polybar/launch.sh
-vim .config/xorg/xinitrc
-vim .config/xorg/xprofile
-vim .config/xorg/xprofile
-lsa
-./.xinitrc
-lsa
-rm sync.txt
-lsa
-vim .zprofile
-vim .profile
-exit
-vim .profile
-pkill Xorg
+ls -la
 startx
-startx
-reboot
-vim .profile
-vim .xinitrc
-vim .config/xorg/xprofile
-pkill Xorg
-startx
-vim .config/xorg/xprofile
-vim .config/xorg/xresources
-startx
-./.profile
-startx
-xrdb .config/xorg/xresources
-pkill Xorg
-startx
-vim .profile
-vim .xinitrc
-vim .config/xorg/xprofile
-startx
-exit
-exit
-vim .xinitrc
-vim .config/xorg/xprofile
-pkill Xorg
-exit
-clear
-exit
-vim dev/bin/conf_display.sh
-loadbin
-conf_display
-exit
-vim .config/bspwm/bspwmrc
-pkill Xorg
-vim .config/polybar/modules.ini
-exit
-vim .config/polybar/config.ini
-exit
-pkill Xorg
-exit
-vim .config/polybar
-vim .config/polybar/config.ini
-exit
-pkill Xorg
-vim .config/bspwm/bspwmrc
-exit
-iscmd conf_display
-iscmd conf_display && echo true
-iscmd conf_display && echo true || false
-iscmd csonf_display && echo true || false
-iscmd conf_display && echo true
-vim dev/bin/conf_display.sh
-loadbin
-conf_display
-exit
-vim .config/xorg/xresources
-vim .config/xorg/xprofile
-vim .config/xorg/xprofile
-vim .config/xorg/xinitrc
-vim .config/xorg/xprofile
-vim .config/bspwm/bspwmrc
-exit
-vim .config/polybar/launch.sh
-vim .config/polybar/colors.ini
-vim .config/polybar/colors_old
-vim .config/polybar/modules.ini
-pkill Xorg
+X
 exit
 xrandr
-exit
-xrandr
-exit
-vim .profile
-vim .config/xorg/xprofile
-vim .config/xorg/xresources
-vim .config/xorg/xinitrc
-vim dev/archive/scripts/sh/conf_display.sh
-vim dev/bin/remap.sh
-vim dev/bin/conf_display.sh
-vim dev/bin/loadbin.sh
-vim ~/.local/bin/conf_display
-loadbin
-vim .xinitrc
-vim .zprofile
-vim .config/bspwm/bspwmrc
-exit
+X
+X :0
 pkill Xorg
-xrandr
-vim .config/inputrc
-vim .config/aliasrc
-vim .config/bspwm/bspwmrc
-vim .config/bspwm/bspwmrc
-pkill Xorg
-startx
-exit
-vim .xinitrc
-vim .config/xorg/xmodmap
-vim .config/bspwm/bspwmrc
-pkill Xorg
-startx
-exit
-vim .xinitrc
-vim .config/xorg/xprofile
-pkill Xorg
-exit
-vim .config/xorg/xprofile
-vim .config/xorg/xinitrc
-vim .config/xorg/xresources
 pkill Xorg
 startx
 xinit
+ls -la
+ln -s .config/xorg/xinitrc ./.xinitrc
+startx
+lsla /usr/share/X11
+sudo startx
 exit
+startx
+ls -la .config/xorg
+rm .config/xorg/xauthority-{c,l}
+ls -la .config/xorg
+sudo chown chris:chris .config/xorg/xauthority
+ls -la .config/xorg
+sudo chmod 755 /home/chris
+sudo chmod 755 /home/chris -R
+ls -la
+startx
+X :0 -configure
+sudo X :0 -configure
+sudo X :0 -configure
+sudo X -config /root/xorg/.conf.new
+xinit
+vim .config/bspwm/bspwmrc
+vim .config/sxhkd/sxhkdrc
+startx
+vim .config/sxhkd/sxhkdrc
+vim .config/bspwm/bspwmrc
+vim .profile
+exit
+startx
+startx
+rm .config/xorg/xauthority
+xinit
+lsa
+lsla
+lsla .local/share/xorg/Xorg.0.log
+lsa
+ls -la
+vim .xinitrc
+vim .config/xorg/xprofile
+vim .profile
+man startx
+man Xserver
+xsest
+xset
+xset fp default
+xset fp default
+xset :0 fp default
+reboot
+exit
+exit
+exit
+exit
+pkill Xorg
+exit
+lsa
+exit
+source .config/xorg/xprofile
+exit
+jobs
+pkill 2
+pkill X
+startx
+startx
+xinit
+vim .profile
+ls -la
+vim .xinitrc
+bspwm
+vim .config/xorg/xprofile
+xinit
+vim .config/bspwm/bspwmrc
+xinit
+sxhkd
+startx
+lsblk
+sudo mount /dev/sdb1 /mnt
+lsblk
+lsa /mnt
+lsa /etc/X11
+vim .xinitrc
+vim .config/bspwm/bspwmrc
+sudo startx
+vim .config/xorg/xprofile
+iscmd
+iscmd remap
+iscmd remap && echo true
+remap
+vim .profile
+vim .xinitrc
+xinit
+source
+source .config/xorg/xprofile
+xinit
+echo $XDG_CONFIG_HOME
+echo $XDG_CONFIG_DIR
+vim .config/user-dirs.dirs
+xdg-user-dirs-update
+ls
+echo $XDG_CONFIG_DIR
+exit
+echo $XDG_CONFIG_HOME
+xdg-user-dirs-update
+echo $XDG_CONFIG_HOME
+xdg-user-dirs-update
+sudo xdg-user-dirs-update
+echo $XDG_CONFIG_HOME
+exit
+lsblk
+vim /mnt/backups/11_19_2020/chris/chris/.config/user-dirs.dirs
+head 3 /mnt/backups/11_19_2020/chris/chris/.config/user-dirs.dirs
+head -3 /mnt/backups/11_19_2020/chris/chris/.config/user-dirs.dirs
+tail -3 /mnt/backups/11_19_2020/chris/chris/.config/user-dirs.dirs
+tail -3 /mnt/backups/11_19_2020/chris/chris/.config/user-dirs.dirs >> .config/user-dirs.dirs
+vim .config/user-dirs.dirs
+xdg-user-dirs-update
+echo $XDG_CONFIG_HOME
+exit
+pkill X
+echo $XDG_CONFIG_HOME
+vim .profile
+vim .xinitrc
+vim .config/xorg/xprofile
+vim .config/xorg/xinitrc
+vim .config/bspwm/bspwmrc
+startx
+exit
+pkill Xorg
+lsla
+exit
+lsa
+exit
+exit
+lsa
+exit
+lsa
+vim .profile
+vim .profile
+exit
+vim .profile
+exit
+lsa
+clear
+lsla
+vim .config/xorg/xresources
+xrdb $XRESOURCES
+xrefresh
+cp /mnt/backups/11_19_2020/chris/chris/.cache/fontconfig/* .cache/fontconfig/*
+cp /mnt/backups/11_19_2020/chris/chris/.cache/fontconfig/* .cache/fontconfig/
+exit
+vim /etc/fonts/fonts.conf
+vim /etc/fonts/conf.d/50-user.conf
+\:q
+lsa .config
+exit
+lsa .config/xorg
+lsla .config/xorg
+cd .config
+lsla
+xorg
+clear
+lsla
+rm xauthority*
+startx
+lsla
+chmod 644 xinitrc
+lsla
+chmod 751 xinitrc
+lsla
+cd ~
 vim .xinitrc
 vim .profile
-vim .config/xorg/xauthority
-vim .config/xorg/xinitrc
-vim .config/xorg/xprofile\
-vim .config/xorg/xprofile
+vim .profile
+ls
+lsla
+rm .xinitrc
+lsla
+startx
+lsla
+vim .profile
+lsla
+xinit
+sudo pacman -Syy
+sudo pacman -Syu
+startx
+ln -s .config/xorg/xinitrc .xinitrc
+ls
+lsla
+startx
+reboot
+exit
+exit
+exit
+lsblk
+vim .profile
+vim .config/alacritty/alacritty.yml
+exit
+exit
+xset dpi 96
+xset fp default
+xset
+xset -dpms
+xset q
+exit
+lsla
+vim .profile
+exit
+startx
+sudo pacman -S xf86-video-intel
+reboot
+exit
+exit
+conf_display
+xrandr
+vim dev/archive/scripts/sh/conf_display.sh
+vim dev/archive/scripts/sh/conf_display.sh
+loadbin
+conf_display
+exit
+exit
+lsa
+exit
+vim .profile
+exit
+lsa
+exit
+exit
+lsla
+vim .profile
+exit
+lsa
+vim .profile
 vim .config/xorg/xresources
-pkill Xorg
-startx
-vim dev/bin/remap.sh
-exit
-xrefresh
-vim /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
-mv /etc/X11/xorg.conf.d/50-mouse-acceleration.conf ~/.config/xorg
-sudo mv /etc/X11/xorg.conf.d/50-mouse-acceleration.conf ~/.config/xorg
-pkill Xorg
-startx
-startx
-exit
-xrefresh
-exit
-vim .config/xorg/xmodmap
+sudo pacman -S xterm
+xterm
+sudo pacman -S xorg-fonts
+xterm
+xterm
+vim .profile
+sudo pacman -S powerline
+fc-list : file
+xcape
+xset q
+vim .config/inputrc
+xlsfonts
+sudo pacman -S xorg-xlsfonts
+xlsfonts
+xlsfonts | grep sauce
+xlsfonts | grep s
+xlsfonts | grep S
+xlsfonts | grep sauce
+xlsfonts | grep code
+xlsfonts | grep --help
+xlsfonts | grep -i case
+xlsfonts | grep -i code
+xlsfonts | grep -i node
+xlsfonts | grep -i nerd
+xlsfonts | grep -i font
+xterm
+xrdb -query | grep dpi
+xrdb -display osiris:0
+xrdb -display :0
+xrdb -display :0 -help
+xrdb -display :0 -query
+xrdb -display :0 -query | grep dpi
+vim .config/xorg/xresources
+xrdb $XRESOURCES
+xrdb -display :0 -query | grep dpi
 vim .config/xorg/xresources
 xrdb $XRESOURCES
 exit
+exit
+vim .profile
+lsa
+lsla
+brave
+jobs
+fc-cache
+fc-list
+fc-scan
+fc-scan /
+fc-scan .local/share/fonts
+fc-scan .local/share/fonts/
+fc-cache
+fc-cache --help
+fc-cache -f
+xrefresh
+lsblk
+df -h
+vim /etc/fstab
+sudo mount /dev/sdb1 /mnt
+vim /mnt/backups/11_19_2020/osiris/etc/fstab
+tail -5 /mnt/backups/11_19_2020/osiris/etc/fstab
+tail -1 /mnt/backups/11_19_2020/osiris/etc/fstab
+tail -2 /mnt/backups/11_19_2020/osiris/etc/fstab
+sudo tail -2 /mnt/backups/11_19_2020/osiris/etc/fstab
+sudo tail -2 /mnt/backups/11_19_2020/osiris/etc/fstab >> /etc/fstab
+sudo sudo tail -2 /mnt/backups/11_19_2020/osiris/etc/fstab >> /etc/fstab
+sudo $(tail -2 /mnt/backups/11_19_2020/osiris/etc/fstab >> /etc/fstab)
+sudo (tail -2 /mnt/backups/11_19_2020/osiris/etc/fstab >> /etc/fstab)
+sudo -e $(tail -2 /mnt/backups/11_19_2020/osiris/etc/fstab >> /etc/fstab)
+sudo --help
+su root
+clear
+lsa
+sudo mount -o remount /tmp
+lsblk
+df -sh
+df -h
+cp -R
+cp --hlep
+cp --help
+cp -R /mnt/backups/11_19_2020/chris/chris/.config/BraveSoftware .config/BraveSoftware
+cp -R /mnt/backups/11_19_2020/chris/chris/.config/BraveSoftware .config/
+cp --help
+cp -Rf /mnt/backups/11_19_2020/chris/chris/.config/BraveSoftware .config/
+cp -R /mnt/backups/11_19_2020/chris/chris/.config/BraveSoftware .config/
+vim .config/aliasrc
+exit
+lsa
+vim .profile
+git
+cd /dev/shm && git clone https://aur.archlinux.org/brave-bin.git
+lsa
+cd brave-bin
+makepkg -si
+makepkg -si
+makepkg -s
+makepkg -i
+lsa
+cd ~
+brave
+lsa
+cd .config
+cd BraveSoftware
+cd Brave-Browser
+cd Default
+cd ..
+cd ~
+brave
+brave
+brave
+vim .config/xorg/50-mouse-acceleration.conf
+vim .config/xorg/.bk.50-mouse-acceleration.conf
+rm .config/xorg/.bk.50-mouse-acceleration.conf
+brave
+brave
+pkill brave
+brave
+brave
+exit
+lsa
+lsa
+exit
+lsa
+exit
+lsa
+exit
+lsa
+exit
+xterm
+exit
+lsa
+exit
+sudo pacman -S picom
+cd .config
+mkdir picom
+vim picom/picom.conf
+picom
+cd ~
+picom
+picom -b --config /home/chris/.config/picom/picom.conf &
+lsa
+picom -b --config /home/chris/.config/picom/picom.conf &
+vim .config/picom/picom.conf
+picom -b --config /home/chris/.config/picom/picom.conf &
 vim .config/bspwm/bspwmrc
-pkill Xorg
-vim .config/bspwm/bspwmrc
-exit
-bspc monitor ^1
-bspc monitor ^1 focus
-bspc monitor \^1.focused --focus
-bspc monitor focused.focused
-bspc query -m focused
-bspc query -m focused --names
-bspc query -m focused --names --m
-bspc query -m focused --names -m
-bspc query -m focused --names -m DP-1.focused
-bspc query -m 0x00600004.occupied
-bspc query -m 0x00600004.occupied -T
-bspc query -m 0x00600004
-bspc query -m 0x00600004 -T
-bspc query -d 0x00600007 -T
-bspc query -D --names
-bspc query -D --names
-exit
-pkill Xorg
-vim .config/bspwm/bspwmrc
-exit
-./.config/polybar/launch.sh
-pkill polybar
-./.config/polybar/launch.sh
-pkill polybar
-./.config/polybar/launch.sh
-pkill polybar
-./.config/polybar/launch.sh
-exit
-vim .config/polybar/config.ini
-exit
-pkill Xorg
-startx
-startx
-startx
-exit
-./.config/polybar/launch.sh
-vim .config/bspwm/bspwmrc
-exit
-pkill Xorg
-exit
-iscmd polybar
-iscmd polybar && ech otrue
-iscmd polybar && echo true
-vim .config/sxhkd/sxhkdrc
-vim .config/bspwm/bspwmrc
-vim .config/polybar/modules.ini
-pkill polybar
-./.config/polybar/launch.sh
-exit
-vim .config/bspwm/bspwmrc
-pkill polybar
-polybar main
-./.config/polybar/launch.sh
 vim .config/bspwm/bspwmrc
 vim .config/bspwm/bspwmrc
-vim .config/sxhkd/sxhkdrc
-vim .config/polybar/config.ini
-startx
-startx
-startx
+vim .config/bspwm/bspwmrc
+lsa
+vim .profile
+unset WGETRC
+picom -b --config /home/chris/.config/picom/picom.conf &
+picom -b --config /home/chris/.config/picom/picom.conf &
+lsa
+rm .wget-hsts
+lsa
+rm .wget-hsts
+lsa
+lsla
+rmdir Downloads
+lsa
+cd docs/photos/wallpapers
+wget https://external-preview.redd.it/WyF_2-Xf3boyBe9kSrOmXdMakqwwh3v4lgz1MoMCm0E.png?auto=webp&s=c450623496108d3067562c98dfd547597b7245c9
+lsa
+wget "https://external-preview.redd.it/WyF_2-Xf3boyBe9kSrOmXdMakqwwh3v4lgz1MoMCm0E.png?auto=webp\&s=c450623496108d3067562c98dfd547597b7245c9"
+lsa
+lsa
+lsla
+chmod -x *
+lsa
+lsla
+chmod 711 *
+lsa
+lsla
+chmod 744 *
+lsla
+chmod 644 *
+lsla
 exit
+exit
+exit
+lsa
+exit
+df -h | grep tmpfs
+df -h | grep tmpfs
+df -h | grep tmpfs
+df -h
+df -h
+df -h
+exit
+vim .config/polybar/config-onedark.ini
+df -h
+lsla /dev/shm
+sudo fc-cache
+exit
+sudo pacman -Qs adobe
+sudo pacman -S adobe-source-code-pro-fonts
+exit
+vim .config/polybar/config-onedark.ini
+df -h
+df -h
+df -h
+df -h
+df -h
+df -h
+df -h
+df -h
+df -h
+df -h
+df -h
+k
+df -h
+cd /usr/share/fonts
+rm -rf TTF/Sauce\ Code\ Pro\*
+lsa fonts
+lsa
+lsa TTF
+rm -rf TTF/Sauce\ Code\ Pro\*
+sudo rm -rf TTF/Sauce\ Code\ Pro\*
+lsa TTF
+sudo rm -rf TTF/Sauce*
+lsa TTF
+lsa TTF
+exit
+vim .config/alacritty/alacritty.yml
+xterm
+lsa
+cd .config
+cd themes
+lsa | grep nord
+vim one-dark.Xresources
+vim one-dark.Xresources
+cd ~
+vim .profile
 vim .xinitrc
 vim .config/xorg/xprofile
 vim .config/xorg/xresources
-lsa /etc/X11/xorg.conf.d
-lsa /etc/X11/xorg.conf.d
-pkill Xorg
-brave
-exit
-pkill polybar
-./.config/polybar/launch.sh
-exi6
-exit
-pkill polybar
-./.config/polybar/launch.sh
-vim .config/bspwm/bspwmrc
-pkill polybar
-exit
-vim .xinitrc
-vim .config/xorg/xprofile
-vim .config/bspwm/bspwmrc
-exit
-bspc wm --dump-state
-bspc monitor DP-1.focused
-bspc monitor DP-1.focused -T
-bspc monitor DP-1.focused -d
-bspc monitor DP-1.focused -d 1 2
-bspc monitor -o 
-bspc monitor -o 1 2
-bspc monitor -o 1 2 3
-bspc monitor -d 1 2 -o 1 12
-bspc monitor -d 1 2 -o 1 2
-bspc monitor -d 1 2 -o 1 2
-bspc monitor -d 1 2
-bspc wm -r
-exit
-exit
-bspc desktop
-bspc desktop -T
-bspc desktop
-bspc desktop -a
-bspc desktop -l
-bspc desktop -l e
-bspc desktop -l 1
-bspc monitor DP-1 -d 0 1
-bspc monitor DP-1 -d 1 2
-bspc monitor -d 4 5
-vim .config/polybar/config.ini
-vim .config/bspwm/bspwmrc
-xrandr
-autorandr
-conf_display
-autorandr
-autorandr --help
-autorandr --current
-autorandr -s super
-autorandr -s super --force
-autorandr
-autorandr -d super
-exit
-autorandr
-exit
-vim .config/xorg/xprofile
-exit
-vim .config/bspwm/bspwmrc
-exit
-vim .xinitrc
-vim .config/xorg/xprofile
-vim .config/xorg/xprofile
-vim .config/bspwm/bspwmrc
-exit
+xrdb $XRESOURCES
+vim $XRESOURCES
+xrdb $XRESOURCES
 vim .config/bspwm/bspwmrc
 vim .config/bspwm/bspwmrc
 vim .config/xorg/xinitrc
 vim .config/xorg/xprofile
-xinit
-vim /etc/X11/xinit/xinitrc
-startx
-startx
-startx
-startx
-startx
-startx
-startx
-startx
-startx
-reboot
-startx
+vim .config/xorg/xprofile
+vim .config/xorg/xprofile
+sudo pacman -S feh
+lsa
+lsa docs
+lsa docs/photos
+lsa docs/photos/wallpapers
+cd .config/picom
+curl http://github.com/zSucrilhos/dotfiles/blob/Lyra/one_dark/.config/picom/compton.conf-glx_blur_backend
+lsa
+curl https://github.com/zSucrilhos/dotfiles/blob/Lyra/one_dark/.config/picom/compton.conf-glx_blur_backend
+lsa
+sudo pacman -S wget
+man wget
+wget https://github.com/zSucrilhos/dotfiles/blob/Lyra/one_dark/.config/picom/compton.conf-glx_blur_backend
+wget https://github.com/zSucrilhos/dotfiles/blob/Lyra/one_dark/.config/picom/compton.conf-glx_blur_backend
+$WGETRC
+unset WGETRC
+wget https://github.com/zSucrilhos/dotfiles/blob/Lyra/one_dark/.config/picom/compton.conf-glx_blur_backend
+lsa
+wget https://github.com/zSucrilhos/dotfiles/blob/Lyra/one_dark/.config/picom/compton.conf-mine-bkp
+wget https://github.com/zSucrilhos/dotfiles/blob/Lyra/one_dark/.config/picom/compton.conf.example
+wget https://github.com/zSucrilhos/dotfiles/blob/Lyra/one_dark/.config/picom/picom.conf
+lsa
+mv picom.conf picom.conf-1
+mv picom.conf.1 picom.conf
+lsa
+vim picom.conf
+lsa
+vim picom.conf
+vim compton.conf.example
+vim compton.conf-glx_blur_backend
+vim compton.conf-mine-bkp
+mv picom.conf picom.conf.1
+mv picom.conf-1 picom.conf
+vim ../nvim
+cd ../nvim/
+mkdir colors
+cd colors
+vim nord.vim
+cd ..
+vim init.vim
+vim init.vim
+vim init.vim
+vim init.vim
+vim init.vim
+lsa
+rm -rf colors
+lsa
+vim init.vim
+lsa
+lsa plugged
+cd plugged/nord-vim
+lsa colors
+vim colors/nord.vim
+vim colors/nord.vim
+cd ../onedark.vim
+cd colors
+vim onedark.vim
+vim onedark.vim
+cd ..
+cd ..
+rm -rf onedark.vim nord-vim
+cd ..
+mkdir colors
+cd colors
+lsa
+vim nord.vim
+vim nord.vim
+vim nord.vim
+cd ..
+cd autoload
+mkdir lightline
+cd lightline
+mkdir colorscheme
+cd colorscheme
+vim nord.vim
+vim onedark.vim
+vim onedark.vim
+vim onedark.vim
+cd ...
+...
+..
+vim init.vim
+vim init.vim
+vim init.vim
+vim init.vim
+vim init.vim
+vim init.vim
+cd ~/.config/bspwm
+cd ~
+vim .config/bspwm/bspwmrc
+r
+vim .config/bspwm/bspwmrc
+clear
+lsla
+rm .fehbg
+lsa
+lsla
+man feh
+vim .config/bspwm/bspwmrc
+lsla
+rm .fehbg
+man feh
+vim .config/bspwm/bspwmrc
+lsla
+vim .config/picom/picom.conf
+vim .config/picom/picom.conf
+vim .config/polybar/config-onedark
+vim .config/polybar/config-onedark.ini
+vim .config/polybar/config-onedark.ini
+.config/polybar/launch.sh
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark.ini main &
+pkill polybar
+cd .config/polybar
+rm *_old
+lsa
+chmod 644 *.ini
+lsla
+vim config-onedark
+vim config.ini
+polybar -c ~/.config/polybar/config.ini main &
+vim config.ini
+vim colors.ini
+pkill polybar
+polybar -c ~/.config/polybar/config.ini main &
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark.ini main &
+]
+alsa
+alsactl
+alsactl --help
+alsactl init
+alsactl --help
+pkill polybar
+alsactl --help
+unset ALSA_CARD
+alsactl -b kill
+alsactl -b init
+alsactl init
+polybar -c ~/.config/polybar/config-onedark.ini main &
+pkill polybar
+cat config-onedark | grep font-0
+cat config-onedark | grep font-
+cat config-onedark | grep Sauce
+cat config-onedark | grep Sauce >> config-onedark.ini
+polybar -c ~/.config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark main &
+polybar -c ~/.config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark.ini main &
+pkill polybar
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark.ini main &
+\:q
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark main &
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark main &
+pkill polybar
+polybar -c ~/.config/polybar/config-onedark.ini main &
+pkill polybar
+vim config-onedark.ini
+vim config-onedark.ini
+exit
+xev
+xhost
+xprop
+vim .config/polybar/config-onedark
+vim .config/polybar/config-onedark
+vim .config/polybar/config-onedark
+vim .config/polybar/config-onedark
+vim .config/polybar/config-onedark.ini
+vim .config/polybar/config-onedark.ini
+xbacklight
+xbacklight --help
+xbacklight -get
+vim .config/polybar/config-onedark
+vim .config/polybar/config-onedark
+vim .config/polybar/config-onedark.ini
+xbacklight -set 50
+xbacklight -set=50
+xbacklight -set 50
+vim .config/polybar/config-onedark.ini
+sudo pacman -S noto-fonts
+cd /etc
+cd fonts
+cd conf.avail
+rm *-noto*
+sudo rm *-noto*
+ls
+cd ~
+lsla
+sudo pacman -S noto-fonts
+sudo rm /etc/fonts/conf.d/*-noto*
+sudo pacman -S noto-fonts
+vim .config/polybar/config-onedark.ini
+vim .config/polybar/config-onedark.ini
+vim .config/polybar/config-onedark.ini
+fc-scan
+fc-scan .local/share/fonts
+fc-cache
+sudo pacman -S xorg-misc
+sudo pacman -Q xorg-misc
+sudo pacman -Q xorg-
+sudo pacman -Qs xorg-
+sudo pacman -Qs xorg-misc
+sudo pacman -Qs xorg-font
+sudo pacman -S xorg-font-util
+sudo pacman -S xorg-fonts-encodings
+sudo pacman -S xorg-fonts-alias-misc
+sudo pacman -S xorg-fonts-misc
+xterm
+fc-cache
+fc-scan
+fc-scan /etc/fotns
+fc-scan /etc/fonts
+fc-cache
+xterm
+sudo pacman -S xorg-fonts-alias-75dpi
+sudo pacman -S xorg-fonts-alias-100dpi
+sudo pacman -S xorg-fonts-*
+sudo pacman -S xorg-fonts-encodings
+cd /dev/shm
+git clone https://aur.archlinux.org/nerd-fonts-source-code-pro.git
+cd nerd-fonts-source-code-pro
+makepkg -s
+lsa
+vim nerd-fonts-source-code-pro.install
+makepkg -i
+[200~îƒ§‚
+îƒ§‚
+npm
+npm -l
+npm -l | grep version
+npm version
+npm install git://github.com/adobe-fonts/source-code-pro.git#release
+sudo fc-cache
+lsa
+cd ..
+git clone https://aur.archlinux.org/ttf-webhostinghub-glyphs.git
+cd ttf-webhostinghub-glyphs
+makepkg -si
+sudo fc-cache
+cd ..
+git clone https://aur.archlinux.org/nerd-fonts-complete-mono-glyphs.git
+cd nerd-fonts-complete-mono-glyphs
+makepkg -si
+cd ..
+git clone --depth 1 https://aur.archlinux.org/nerd-fonts-complete-mono-glyphs.git
+rm -rf nerd-fonts-complete-mono-glyphs
+git clone --depth 1 https://aur.archlinux.org/nerd-fonts-complete-mono-glyphs.git
+cd nerd-fonts-complete-mono-glyphs
+lsa
+makepkg -s
+makepkg -i
+cd ..
+makepkg --help
+cd nerd-fonts-source-code-pro
+cd ..
+cd nerd-fonts-complete-mono-glyphs
+makepkg -i
+makepkg -i
+lsa
+cd ..
+cd ~
+lsa
+sudo rm -rf .npm
+lsa
+sudo fc-cache
+pkill brave
 brave
-\
-ot
-reboot
-reboot
-reboot
-sudo pacman -Syy
-sudo pacman -Syu
-shutdown -r now
-sudo pacman -Syy
-sudo pacman -Syu
-sudo shutdown -h now
-reboot
-shutdown -h now
+vim .config/polybar/config-onedark
+sudo fc-scan .local/share/fonts
+sudo fc-cache
+fc-cache --help
+fc-cache -f
+fc-cache -fv
+sudo fc-cache -fv
+pkill brave
+brave
+mv docs/Sauce* .local/share/fonts/NerdFonts/
+sudo fc-cache
+sudo fc-cache -fv
+cp .local/share/fonts/NerdFonts /usr/share/fonts/
+cp -r .local/share/fonts/NerdFonts /usr/share/fonts/
+sudo cp -r .local/share/fonts/NerdFonts /usr/share/fonts/
+sudo fc-cache -v
+sudo fc-cache -fv
+exit
+cp -R /mnt/backups/11_19_2020/chris/chris/.config/BraveSoftware .config/
+cp -R /mnt/backups/11_19_2020/chris/chris/.config/BraveSoftware .config/
+cd /dev/shm
+ls
+git clone https://aur.archlinux.org/polybar.git
+cd polybar
+makepkg -s
+makepkg -i
+df -h | grep tmpfs
+vim .config/bspwm/bspwmrc
+time
+timedatectl
+timedatectl --help
+timedatectl set-ntp true
+timedatectl set-ntp true
+brave
+startx
+startx
 reboot
 exit
-brave & 
+exit
+vim .config/polybar/config-bspwm.ini
+vim .config/polybar/config-bspwm.ini
+vim .config/polybar/config-bspwm.ini
+exit
+brave
+vim .config/polybar/config-onedark.ini
+pacman -Qs utf
+pacman -Qs power
+pacman -Qs font
+vim .config/alacritty/alacritty.yml
+fc-list
+fc-list | grep sauce
+fc-list | grep Sauce
+cd /usr/share/fonts
+lsa OTF
+lsa NerdFonts
+cp NerdFonts/* TFF/
+cp NerdFonts/* TTF/
+sudo cp NerdFonts/* TTF/
+sudo cp -v NerdFonts/* TTF/
+sudo rm -rf NerdFonts
+lsa
+fc-cache
+fc-scan
+fc-scan -b
+fc-scan .
+sudo fc-cache
+sudo fc-cache -fv
+FC_DEBUG=4 pango-view --font="FontAwesome" -t "â®·" | grep family:
+FC_DEBUG=4 pango-view --font="FontAwesome" -t "P" | grep family:
+cd /dev/shm
+lsa
+pacman -Qy xdg
+pacman -Qq xdg
+pacman -Qs xdg
+pacman -Qq xdg
+pacman -Q xdg
+pacman --help
+pacman -Q --help
+pacman -D
+pacman -D --help
+pacman -F --help
+pacman -Q --help
+pacman -Qi xdg
+pacman -Ql xdg
+pacman -Qsl xdg
+pacman -Qs xdg
+pacman -S --help
+pacman -Ss xdg
+pacman -Ss glyph
+pacman -Ss ttf-nerd
+pacman -Ss ttf
+pacman -Ss ttf-nerd
+pacman -Ss ttf-nerd-fonts
+pacman -S ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono
+sudo pacman -S ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono
+sudo pacman -S ttf-nerd-fonts-symbols
+sudo pacman -S ttf-nerd-fonts-symbols-mono\
+sudo pacman -S ttf-nerd-fonts-symbols-mono
+sudo fc-cache -fv
+sudo fc-cache -fv /home/chris/.local/share/fonts
+mv ~/.local/share/fonts ~/docs
+sudo fc-cache -fv
+sudo fc-cache ~/.local
+sudo fc-cache ~/.local -fv
+sudo fc-cache /usr/share/fonts
+sudo fc-cache /usr/share/fonts -fv
+pkill brave
+brave
+sudo pacman -S ttf-nerd-fonts-symbols
+sudo pacman -S ttf-nerd-fonts-symbols
+pacman -Ss glyph
+lsa
+cd ~
+lsa
+lsla .cache
+lsla .cache/fontconfig
+rm .cache/fontconfig/*
+rm .cache/fontconfig/*
+sudo fc-cache -fv
+lsla .cache
+lsla .cache/fontconfig
+pkill polybar
+pkill brave
+brave
+vim .config/xorg/xresources
+pacman -Ss glyph
+pacman -Ss xbm
+cd /dev/shm
+git clone https://github.com/stark/siji && cd siji
+./install.sh -d /home/chris/.local/share/fonts
+xset fp rehash
+xset +fp /home/chris/.local/share/fonts
+xset fp rehash
+sudo pacman -S xorg-xfd
+view
+view --help
+view -h
+view
+lsa
+./view
+./view.sh
+lsa
+cd ~/.local
+cd share
+cd fonts
+mv ~/docs/fonts/NerdFonts ~/.local/share/fonts/
+cd ~
+vim .xinitrc
+vim .config/xorg/xinitrc
+vim .config/xorg/xprofile
+source .config/xorg/xprofile
 jobs
+fg
+jobs
+sudo fc-cache .local/share/fonts -fv
+view 
+view .config/polybar/config-onedark.ini
+vim .config/alacritty/alacritty.yml
+jobs
+fg
+rm .config/configstore
+rm .config/configstore -rf
+ .config
+lsla .config
+cd ..
+lsla .config
+lsla .config/fontforge
+rm -rf .config/fontforge
+vim .config/polybar/config-onedark.ini
+vim .config/polybar/config-onedark.ini
+vim .config/polybar/config-onedark.ini
+vim .config/polybar/config-onedark.ini
+vim .config/polybar/config-onedark.ini
+vim .config/polybar/config-onedark.ini
+vim .config/polybar/config-onedark.ini
+pacman -Ss term
+pacman -Ss termsym
+pacman -Ss termsyn
+pacman -Ss term
+pacman -Ss term-syn
+pacman -Ss syn
+vim .config/polybar/config-bspwm.ini
+vim .config/polybar/config-bspwm.ini
+vim .config/polybar/config-bspwm.ini
+vim .config/polybar/config-onedark.ini
+vim .config/polybar/config-onedark.ini
+vim .config/polybar/config-bspwm.ini
+fg
+cat .config/polybar/config-bspwm.ini
+clear
+vim .config/polybar/config-bspwm.ini
+cat .config/polybar/config-bspwm.ini
+head -20 .config/polybar/config-bspwm.ini
+head -40 .config/polybar/config-bspwm.ini
+clear
 exit
-brave
 exit
+vim .config/polybar/config-onedark.ini
+vim .config/polybar/config-onedark.ini
 exit
-top
-htop
+ls la
+lsla
 exit
-mkdir ~/dev/archive/university
+nvim
 exit
-lsa
-cd .config
-mkdir dotnet
-lsa /usr/share/dotnet
-lsa /usr/share/dotnet/shared/Microsoft.NETCore.App
-dotnet
-dotnet --list-sdks
-dotnet --list-runtimes
-dotnet --info
-lsa
-lsla dotnet
-rmdir dotnet
-exit
+startx
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-bspwm.ini main &
+polybar -c .config/polybar/config-bspwm.ini main &
+polybar -c .config/polybar/config-bspwm.ini top &
+pkill polybar
+polybar -c .config/polybar/config-bspwm.ini top &
+pkill polybar
+polybar -c .config/polybar/config-bspwm.ini top &
+pkill polybar
+polybar -c .config/polybar/config-bspwm.ini top &
+pkill polybar
+polybar -c .config/polybar/config-bspwm.ini top &
+pkill polybar
+polybar -c .config/polybar/config-bspwm.ini top &
+pkill polybar
+polybar -c .config/polybar/config-bspwm.ini top &
+pkill polybar
+polybar -c .config/polybar/config-bspwm.ini top &
+pkill polybar
+polybar -c .config/polybar/config-bspwm.ini top &
+pkill polybar
+polybar -c .config/polybar/config-bspwm.ini top &
+pkill polybar
+polybar -c .config/polybar/config-bspwm.ini top &
+pkill polybar
+polybar -c .config/polybar/config-bspwm.ini top &
+pkill polybar
+polybar -c .config/polybar/config-bspwm.ini top &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+\:q
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+alsactl --help
+sudo systemctl enable alsa-restore.service
+sudo systemctl disable alsa-restore.service
+sudo systemctl start alsa-restore.service
+polybar -c .config/polybar/config-onedark.ini main &
+sudo systemctl start alsa-restore.service
+pkill polybar
+alsactl store
+alsactl --help
+alsactl rdaemon -b
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+alsactl init -d
+alsactl init -b
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+alsactl --help
+alsactl kill rescan
+alsactl kill quit
+alsactl init
+alsactl store
+alsactl restore
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+alsactl daemon -b
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+\
+bs
+jobs
+pkill polybar
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+pkill polybar
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
+polybar -c .config/polybar/config-onedark.ini main &
+polybar -c .config/polybar/config-onedark.ini main &
+pkill polybar
+polybar -c .config/polybar/config-onedark.ini main &
 vim .config/bspwm/bspwmrc
-exit
-vim .config/polybar/config.ini
-exit
-htop
-htop
-htop
-exit
-lsla
-cd .dotnet
-cd ..
-clear
-cd dev/archive
-cd university
-cd ..
-cd scripts
-mkdir csharp
-cd csharp
-dotnet --help
-dotnet new hello_world
-lsa
-ls
-ls -la
-dotnet new console
-ls
-dotnet run
-vim csharp.csproj
-lsla
-lsla obj
-lsla bin
-vim obj/project.assets.json
-vim obj/csharp.csproj.nuget.g.targets
-vim obj/csharp.csproj.nuget.g.props
-tnet run
-dotnet run
-vim Program.cs
-dotnet run
-exit
-sudo pacman -S dotnet-runtime
-lsa
-lsla
-cd .config
-lsla
-ls
-ls -la
-lsla
-cd ~
-lsla
-cd .local
-lsa
-lsla
-cd ..
-clear
-lsa
-lsla
-clear
-lsla
-dotnet
-dotnet --list-sdks
-dotnet --info
-dotnet --help
-dotnet --list-runtimes
-lsa
-lsa
-cd /home
-lsa
-cd chris
-cd doc
-cd uvu
-cd CS-2450
-cd ..
-cd ..
-cd ..
-cd dev
-working
-lsa
-cd ..
-cd archive
-scripts
-lsa
-cd ..
-cd ..
-lsa
-clear
-cd ~
-lsblk
-sudo mount /dev/nvme0n1p3 /mnt
-lsa /mnt
-lsa /mnt/Users
-lsa /mnt/Users/Chris
-lsa /mnt/Users/Chris/Desktop/UVU/CS-3260/Lesson_01/Lab_01
-lsa /mnt/Users/Chris/Desktop/UVU/CS-3260/Lesson_01/
-cp -r /mnt/Users/Chris/Desktop/UVU/CS-3260/Lesson_01/Lab_01 ~/dev/archive/university/
-lsla ~/dev/archive/university
-lsla ~/dev/archive/university/Lab_01
-umount /mnt
-sudo umount /mnt
-clear
-lsblk
-clear
-lsla dev/archive/university/Lab_01
-cd dev/archive/university/Lab_01
-lsa
-dotnet readArgs.cs
-export
-export | grep DOTNET
-export DOTNET_ROOT=/opt/dotnet
-export | grep DOTNET
-dotnet readArgs.cs
-dotnet run
-dotnet --list-sdks
-dotnet --list-runtimes
-dotnet --build readArgs.cs
-dotnet
-dotnet run
-dotnet build
-dotnet build readArgs.cs
-dotnet --help
-dotnet run readArgs.exe
-dotnet run readArgs.cs
-lsa
-dotnet publish -c 
-dotnet publish -c --selfcontained
-dotnet publish -c --self-contained
-dotnet publish -c readArgs.cs
-dotnet
-dotnet run
-lsa
-cp ~/dev/archive/scripts/csharp/csharp.csproj 
-cp ~/dev/archive/scripts/csharp/csharp.csproj .
-ls
-dotnet run
-dotnet
-dotnet build
-dotnet run
-dotnet run hello world
-lsa
-vim readArgs.cs
-exit
-htop
-exit
+vim .config/polybar/launch.sh
+vim .config/nvim/init.vim
+vim .config/nvim/init.vim
+vim .config/alacritty/alacritty.yml
+rm .config/nvim/colors -rf
+vim .config/alacritty/alacritty.yml
+vim .config/nvim/init.vim
+vim .config/nvim/init.vim
+vim .config/xorg/xprofile
+vim .config/xorg/xinitrc
+vim .config/bspwm/
 vim .config/bspwm/bspwmrc
+vim .config/alacritty/alacritty.yml
+vim .config/bspwm/bspwmrc
+vim .config/picom/picom.conf
+nvim
+lsa
+ls -la
+vim .profile
+vim $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+xrdb $XRESOURCES
+lsla docs/photos/wallpapers/
+exit
+startx
+exit
+sudo wpa_cli interface
+sudo wpa_cli interface wlp2s0
+sudo wpa_cli interface wlp2s0 -h
+exit
+networkctl status
+sudo systemctl start systemd-networkd
+networkctl status
+networkctl
+networkctl list
+networkctl up wlp2s0
+sudo networkctl up wlp2s0
+networkctl list
+networkctl up wlp2s0
+networkctl list
+nmcli radio wifi on
+nmcli
+nmcli radio wifi off
+nmcli radio wifi off
+nmcli status
+nmcli
+nmcli device show
+nmcli radio wifi on 
+nmcli
+nmcli device wifi list
+nmcli device wifi connect CBreiny
+nmcli device wifi connect CBreiny password sep2018Q466WEGJ9R!
+nmcli
+ip a
+timedatectl set-ntp 0
+timedatectl set-ntp 0
+timedatectl set-ntp 1
+exit
+exit
+man wpa_cli
+lsla
+dotfiles status
+clear
+dotfiles status
+clear
+lsla .config
+vim .profile
+vim .config/xorg/xinitrc
+vim .config/xorg/xprofile
+vim .profile
+mv .config/xorg .config/X11
+exit
+dotfiles status
+exit
+networkctl list
+NetworkManager
+sudo NetworkManager
+systemctl
+wpa_cli ap_scan
+sudo wpa_cli ap_scan
+wpa_cli help
+sudo wpa_cli
+sudo wpa_cli
+su
+su
+man nmcli
+exit
+htop
+pkill X
+pkill X
+exit
+sudo pacman -Syy
+ipconfig
+ifconfig
+ip
+ip a
+networkctl
+networkctl --help
+networkctl lst
+networkctl list
+systemctl list
+systemctl
+NetworkManager
+NetworkManager --help
+NetworkManager --help-all
+NetworkManager --help-nm
+startx
+lsa
+rm .xinitrc
+lsa
+startx
+startx .config/X11/xinitrc
+pkill Xorg
+startx .config/X11/xinitrc
+lsla .config/X11
+reboot
+pkill X
+pkill Xorg
+clear
+lsa
 exit
