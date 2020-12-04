@@ -7,4 +7,6 @@ xrdb $XRESOURCES                        # Load Xresources
 xsetroot -cursor_name left_ptr &        # Set the mouse cursor
 unclutter &                             # Remove mouse when idle
 iscmd remap && remap                    # Remaps the keyboard
-iscmd conf_display && conf_display      # Configure Xserver for monitors
+xset +fp /home/chris/.local/share/fonts # Add to font path
+xset fp rehash                          # Rehash font dir
+#iscmd conf_display && conf_display      # Configure Xserver for monitors
