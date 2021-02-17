@@ -35,6 +35,8 @@ Plug 'vim-syntastic/syntastic'
 Plug 'sheerun/vim-polyglot'
 Plug 'ap/vim-css-color'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'mxw/vim-jsx'
+Plug 'pangloss/vim-javascript'
 call plug#end()
 
 " Some basics:
