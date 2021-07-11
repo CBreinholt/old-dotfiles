@@ -8,14 +8,11 @@
 
 #####====---Essentials---====#####
 
-# Kill all running applications before starting
-killall -9 sxhkd picom polybar
-
 # Determine the XrandR settings
 iscmd conf_display && conf_display
 
 # Set the workspaces per monitor.
-bspc monitor -d 1 2 3 4 5
+bspc monitor "DP1" -d 1 2 3 4 5
 
 #if [ "$(bspc query -M | wc -l)" -eq 2 ]; then
 	#bspc monitor "eDP-1" -d 1 2 3 4 5
@@ -32,8 +29,9 @@ bspc monitor -d 1 2 3 4 5
 bspc config initial_polarity second_child
 bspc config pointer_action1 move
 bspc config pointer_action2 resize_side
+bspc config pointer_action2 resize_corner
 bspc config ignore_ewmh_focus false
-bspc config single_monocle false
+bspc config single_monocle true
 bspc config pointer_modifier shift
 bspc config pointer_follows_monitor true
 bspc config focus_follows_pointer false
@@ -55,16 +53,14 @@ bspc config normal_border_color "#2E3440"
 bspc config focused_border_color "#5c6370"
 bspc config presel_feedback_color "#98c379"
 
-#####====---Mouse bindings---====#####
-
-#   Set mouse 1 to move floating windows
-bspc config pointer_action1 move
-#   Mouse 2 button resizes the window by side
-bspc config pointer_action2 resize_side
-#   Mouse 3 button (right mouse) resize by corner
-bspc config pointer_action2 resize_corner
 
 #####====---Autostart---====#####
+
+# Kill all running applications before starting
+killall -9 sxhkd picom polybar
+
+# Remap the custom keyboard layout
+iscmd remap && remap
 
 # The hotkey daemon that handles all custom key bindings.
 iscmd sxhkd && sxhkd -c $XDG_CONFIG_HOME/sxhkd/sxhkdrc &
