@@ -1,2 +1,2 @@
 # dotfiles
-Config files for my Arch Linux workflow
+Config files for my development workflow on Arch Linux.
