@@ -1,2 +1,3 @@
-# dotfiles
-Config files for my development workflow on Arch Linux.
+# old-dotfiles
+My old onfig files for a development workflow on Arch Linux.
+I no longer use this set up.
